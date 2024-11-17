@@ -205,29 +205,34 @@
   };
 </script>
 
-<div class="md:gap-4 lg:gap-x-16 fade-in" id="animateMe">
+<div class="md:gap-4 lg:gap-x-16 fade-in bg-white dark:bg-gray-300" id="animateMe">
   <div class="bg-white dark:bg-gray-300">
     {{ $frontBundle := .Site.Params.frontBundle | default "berita" | lower }}
-    <h2 class="text-2xl font-bold mt-5 text-center mb-5 text-green-700">{{ $frontBundle | title }}</h2>
+    <h2 class="text-2xl font-bold text-center py-5 text-green-700">{{ $frontBundle | title }}</h2>
     
     <!-- Swiper Berita Section -->
     <div class="swiper swiper-berita min-h-72 mx-auto gap-4 mb-8 px-5">
       <div class="swiper-wrapper">
-        {{ range first 3 (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle) }}
+        {{ range (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle) }}
         <div class="swiper-slide rounded-lg w-full h-full">
           {{- partial "blog-card.html" . -}}
         </div>
         {{ end }}
       </div>
-      <div class="swiper-button-next"></div>
-      <div class="swiper-button-prev"></div>
-      <div class="swiper-pagination"></div>
+      <!-- Custom classes for Swiper Berita buttons and pagination -->
+      <div class="swiper-berita-button-next absolute right-0 bg-gradient-to-l from-white dark:from-gray-300 to-transparent">
+        <i class="fas fa-chevron-right"></i> <!-- Font Awesome icon -->
+      </div>
+      <div class="swiper-berita-button-prev absolute left-0 bg-gradient-to-r from-white dark:from-gray-300 to-transparent">
+        <i class="fas fa-chevron-left"></i> <!-- Font Awesome icon -->
+      </div>
+      <div class="swiper-berita-pagination"></div>
     </div>
 
   </div>
 
   {{ if gt (len (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle)) 6 }}
-  <div class="text-center mb-8 mt-4">
+  <div class="text-center pb-9 mt-4">
     <a class='px-8 py-5 rounded-2xl transition-colors {{ default "bg-defaultColor" .Site.Params.ascentColor }} text-gray-100 hover:text-gray-800 dark:bg-gray-900 dark:text-white' href="{{ lower (replace $frontBundle " " "-") | absLangURL }}" lang="{{ .Lang }}">
       {{ i18n "morePosts" }}
       <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -238,6 +243,67 @@
   {{ end }}
 </div>
 
+<style>
+/* Styles for Swiper navigation buttons */
+/* Styles for Swiper navigation buttons */
+.swiper-berita-button-next,
+.swiper-berita-button-prev {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 120px; /* Adjust width for button size */
+  height: 100vh; /* Adjust height for button size */
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  z-index: 10;
+  border: none; /* Remove default border */
+  font-size: 24px; /* Adjust font size as needed */
+}
+
+.swiper-berita-button-next i{
+  right: 50px;
+}
+
+.swiper-berita-button-prev i {
+  left: 50px;
+}
+
+/* Optional: Add a hover effect for buttons */
+/* .swiper-berita-button-next:hover,
+.swiper-berita-button-prev:hover {
+  background-color: rgba(0, 128, 0, 1);
+} */
+
+.swiper-berita-button-next i,
+.swiper-berita-button-prev i {
+  font-size: 48px; /* Set size for the icons */
+}
+
+/* Styles for Swiper pagination */
+.swiper-berita-pagination {
+  display: flex;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.swiper-berita-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: rgba(0, 128, 0, 0.5); /* Transparent green bullets */
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.swiper-berita-pagination-bullet-active {
+  background-color: rgba(0, 128, 0, 1); /* Solid green for active bullet */
+}
+
+</style>
+
 <!-- Initialize Swiper for Berita Section -->
 <script>
   document.addEventListener('DOMContentLoaded', (event) => {
@@ -245,18 +311,25 @@
       slidesPerView: 3,
       spaceBetween: 20,
       loop: true,
+      autoplay: {
+        delay: 3000,
+        disableOnInteraction: false,
+      },
+      speed: 1000,
       navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
+        nextEl: ".swiper-berita-button-next",
+        prevEl: ".swiper-berita-button-prev",
       },
       pagination: {
-        el: ".swiper-pagination",
+        el: ".swiper-berita-pagination",
         clickable: true,
+        bulletClass: "swiper-berita-pagination-bullet",
+        bulletActiveClass: "swiper-berita-pagination-bullet-active",
       },
       breakpoints: {
         640: { slidesPerView: 1 },
         768: { slidesPerView: 2 },
-        1024: { slidesPerView: 3 }
+        1024: { slidesPerView: 3 },
       }
     });
   });
@@ -310,8 +383,8 @@
   <!-- Agenda Section -->
 {{ $agenda := .Site.Params.agenda }}
 {{ if $agenda }}
-<div class="w-full max-w-full p-4 border border-gray-300 shadow rounded-2xl mb-6 pb-6" style="background-color: #50B069;">
-  <h2 class="text-2xl font-bold mt-6 text-center text-white dark:text-white mb-4" id="animateMe">Agenda</h2>
+<div class="w-full max-w-full p-4 pt-6 pt-6 border border-gray-300 shadow rounded-2xl pb-6" style="background-color: #50B069;">
+  <h2 class="text-2xl font-bold mt-6 text-center text-white dark:text-white pb-4" id="animateMe">Agenda</h2>
     <div class="marquee-container" style="overflow: hidden; white-space: nowrap;">
         <div class="marquee-content" style="display: inline-flex; animation: marquee 30s linear infinite;">
             {{ range $agenda }}
