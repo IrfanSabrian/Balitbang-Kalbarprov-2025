@@ -1,25 +1,37 @@
 {{ $accent := .Site.Params.ascentColor }}
-  <div class='grid-item h-full p-2 rounded-lg shadow-md hover:{{ default "bg-defaultColor" $accent  }} dark:hover:bg-gray-800 ease-in-out px-4 py-2 m-0' style="width: auto;">
-    {{ if .Params.eurl }}
-    <a href="{{ .Params.eurl }}">
-    {{ else }}
-    <a href="{{ .RelPermalink }}">
-    {{ end }}
-    {{ if .Params.thumbnail }}
-    <div class="relative border-solid">
-      <img src="{{ .Params.thumbnail }}" alt="{{ .Params.title }}" class="rounded-lg shadow-sm w-full h-52 object-contain" />
-      {{ if not (or (or .Site.Params.hideMeta .Params.hideMeta) false) }}
-      {{ if strings.Contains .RelPermalink "/berita/" }}
-      <div class="absolute top-4 right-4 rounded shadow bg-white text-gray-900 dark:bg-gray-900 dark:text-black text-sm px-2 py-0.5" style="background-color: white;">
-        {{ partial "date.html" (dict "date" .Date "language" $.Page.Language "format" "short") }}
-      </div>
-      {{ end }}
-      {{ end }}
-    </div>
-    {{ end }}
-    <div class="my-2 text-l font-normal overflow-ellipsis overflow-hidden hover:text-gray-100 dark:hover:text-gray-100 dark:text-black" style="font-size: 0.9rem;">{{ .Params.title }}</div>
-    {{/*  <div class="">{{ .Params.description }}</div>  */}}
+<div class='grid-item h-full p-2 rounded-lg shadow-md bg-green-700 hover:bg-green-700 hover:opacity-80 dark:hover:bg-green-700 dark:opacity-80 ease-in-out px-4 py-2 m-0 text-white flex flex-col relative' style="width: 400px; height: 400px;">
+  {{ if .Params.eurl }}
+  <a href="{{ .Params.eurl }}">
+  {{ else }}
+  <a href="{{ .RelPermalink }}">
+  {{ end }}
+  
+  {{ if .Params.thumbnail }}
+  <div class="relative border-solid">
+    <img src="{{ .Params.thumbnail }}" alt="{{ .Params.title }}" class="rounded-lg shadow-sm w-full h-auto max-h-52 object-contain" />
+  </div>
+  {{ end }}
+  
+  <!-- Judul Artikel -->
+  <div class="my-2 text-l font-normal overflow-ellipsis overflow-hidden hover:text-gray-100 dark:hover:text-gray-100" style="font-size: 1rem; text-align: left; overflow: hidden; display: flex; justify-content: center; align-items: center;" >{{ .Params.title }}</div>
+
+  <!-- Garis dengan margin tambahan -->
+  
+  <hr class="border-t-2 border-white my-4 absolute bottom-7 left-4 right-4">
+  <!-- Informasi Penulis dan Tanggal selalu di bawah -->
+  <div class="flex justify-between items-center text-sm absolute bottom-4 left-4 right-4">
+    <!-- Icon Font Awesome untuk penulis -->
+    <span class="flex items-center italic text-gray-200">
+      <i class="fas fa-user mr-2"></i> {{ .Params.author }}
+    </span>
+    
+    <!-- Icon Calendar dan Tanggal -->
+    <span class="flex items-center italic text-gray-200">
+      <i class="fas fa-calendar mr-2"></i> {{ .Date.Format "Jan 2, 2006" }}
+    </span>
+  </div>
   </a>
+
   {{ if not (or (or .Site.Params.hideOtherLanguages .Params.hideOtherLanguages) false) }}
     {{ if .IsTranslated -}}
       <div style="font-style: italic;font-size: smaller;">
@@ -31,7 +43,7 @@
       </div>
     {{- end }}
   {{ end }}
-  </div>
+</div>
 
 <!--  <style>
         .grid-container {
