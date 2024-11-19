@@ -161,7 +161,7 @@
 .swiper-berita-pagination-bullet {
   width: 12px; /* Size of pagination bullet */
   height: 12px; /* Size of pagination bullet */
-  border: 2px solid rgba(0, 128, 0, 0.5);
+  border: 2px solid #0284C7;
   border-radius: 50%; /* Make bullets circular */
   margin: 0 5px; /* Space between bullets */
   cursor: pointer; /* Pointer cursor on hover */
@@ -170,12 +170,13 @@
 
 /* Active bullet style */
 .swiper-berita-pagination-bullet-active {
-  background-color: rgba(0, 128, 0, 1); /* Active bullet (solid green) */
+  background-color: #0284C7; /* Active bullet (solid green) */
 }
 
 /* Optional: Hover effect for bullets */
 .swiper-berita-pagination-bullet:hover {
-  background-color: rgba(0, 128, 0, 0.4); /* Slightly darker green when hovered */
+  background-color: #0284C7; /* Slightly darker green when hovered */
+  opacity: 0.2;
 }
 
 
@@ -200,7 +201,8 @@
         src="sliders/{{ .url }}"
         alt="Slider Image"
         style="
-          width: 100%; opacity: 0.6;
+          width: 100%; opacity: 0.7;
+          filter: blur(2px);
           z-index: -1;
         "
       />
@@ -280,7 +282,7 @@
 <div class="md:gap-4 lg:gap-x-16 fade-in" id="animateMe">
   <div class="bg-white dark:bg-gray-300">
     {{ $frontBundle := .Site.Params.frontBundle | default "berita" | lower }}
-    <h2 class="text-2xl font-bold py-5 text-center text-green-500">{{ $frontBundle | title }}</h2>
+    <h2 class="text-2xl font-bold py-5 text-center text-sky-800">{{ $frontBundle | title }}</h2>
     
     <!-- Swiper Berita Section -->
     <div class="swiper swiper-berita min-h-72 mx-auto"> <!-- mx-auto to center Swiper -->
