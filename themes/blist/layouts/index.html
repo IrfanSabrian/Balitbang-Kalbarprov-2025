@@ -70,6 +70,17 @@
       transform: translate(-50%, -50%); /* Posisi akhir (pusat) */
     }
   }
+  .swiper-berita {
+  width: 100%;
+  max-width: 1450px; /* Adjust as needed */
+  margin: 0 auto; /* Center the Swiper horizontally */
+}
+
+.swiper-slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
   .animated-text {
     position: absolute;
@@ -127,12 +138,12 @@
 
 .swiper-berita-button-next i {
   color: black;
-  right: 5px;
+  right: 0px;
 }
 
 .swiper-berita-button-prev i {
   color: black;
-  left: 5px;
+  left: 0px;
 }
 
 .swiper-berita-button-next i,
@@ -272,8 +283,8 @@
     <h2 class="text-2xl font-bold py-5 text-center text-green-500">{{ $frontBundle | title }}</h2>
     
     <!-- Swiper Berita Section -->
-    <div class="swiper swiper-berita min-h-72 ">
-      <div class="swiper-wrapper pb-8 ">
+    <div class="swiper swiper-berita min-h-72 mx-auto"> <!-- mx-auto to center Swiper -->
+      <div class="swiper-wrapper pb-8">
         {{ range (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle) }}
         <div class="swiper-slide rounded-lg w-full h-full">
           {{- partial "blog-card.html" . -}}
@@ -300,7 +311,6 @@
     </a>
   </div>
   {{ end }}
-
 </div>
 
 <!-- Initialize Swiper for Berita Section -->
