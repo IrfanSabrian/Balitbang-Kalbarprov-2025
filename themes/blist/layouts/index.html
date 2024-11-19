@@ -19,11 +19,18 @@
 
   /* CSS styling for Swiper */
   .swiper-slide img {
-      display: block;
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
+    margin: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
   }
+  .blog-card .content {
+  width: 100%;
+  max-width: 800px; /* Tentukan lebar maksimum */
+  margin: 0 auto;
+}
+
       /* Style the pagination bullets to make them rectangular */
   .swiper-pagination-bullet {
     width: 30px; /* Set width of the rectangular bullets */
@@ -110,47 +117,6 @@
     transform: scale(1.1);
   }
 
-  /* Styles for Swiper navigation buttons */
-.swiper-berita-button-next,
-.swiper-berita-button-prev {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  width: 20vh; /* Adjust width for button size */
-  height: 100vh; /* Adjust height for button size */
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  z-index: 10;
-  border: none; /* Remove default border */
-  font-size: 24px; /* Adjust font size as needed */
-}
-
-.swiper-berita-button-next {
-  right: 0px;
-}
-
-.swiper-berita-button-prev {
-  left: 0px;
-}
-
-.swiper-berita-button-next i {
-  color: black;
-  right: 0px;
-}
-
-.swiper-berita-button-prev i {
-  color: black;
-  left: 0px;
-}
-
-.swiper-berita-button-next i,
-.swiper-berita-button-prev i {
-  font-size: 48px; /* Set size for the icons */
-}
-
 /* Styles for Swiper Pagination */
 .swiper-berita-pagination {
   display: flex;
@@ -168,12 +134,10 @@
   transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
 
-/* Active bullet style */
 .swiper-berita-pagination-bullet-active {
   background-color: #0284C7; /* Active bullet (solid green) */
 }
 
-/* Optional: Hover effect for bullets */
 .swiper-berita-pagination-bullet:hover {
   background-color: #0284C7; /* Slightly darker green when hovered */
   opacity: 0.2;
@@ -181,7 +145,7 @@
 
 
 </style>
-<!-- Swiper -->
+<!-- Swiper Background -->
 
 {{ $runningText := .Site.Params.running_text }}
 {{ if $runningText }}
@@ -217,7 +181,7 @@
 
 
 {{ end }}
-  <!-- Initialize Swiper -->
+  <!-- Background Swiper -->
 <script>
   document.addEventListener('DOMContentLoaded', (event) => {
     var swiper = new Swiper(".mySwiper", {
@@ -279,13 +243,14 @@
   };
 </script>
 
-<div class="md:gap-4 lg:gap-x-16 fade-in" id="animateMe">
-  <div class="bg-white dark:bg-gray-300">
+<div class="wrapper fade-in" id="animateMe">
+  <!-- Berita Section -->
+  <div class="berita bg-sky-800 bg-opacity-10 border m-3 rounded-xl dark:bg-gray-300">
     {{ $frontBundle := .Site.Params.frontBundle | default "berita" | lower }}
     <h2 class="text-2xl font-bold py-5 text-center text-sky-800">{{ $frontBundle | title }}</h2>
     
     <!-- Swiper Berita Section -->
-    <div class="swiper swiper-berita min-h-72 mx-auto"> <!-- mx-auto to center Swiper -->
+    <div class="swiper swiper-berita min-h-72 mx-auto">
       <div class="swiper-wrapper pb-8">
         {{ range (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle) }}
         <div class="swiper-slide rounded-lg w-full h-full">
@@ -293,205 +258,151 @@
         </div>
         {{ end }}
       </div>
-      <!-- Custom classes for Swiper Berita buttons and pagination -->
-      <div class="swiper-berita-button-next bg-gradient-to-l from-white dark:from-gray-300 to-transparent">
-        <i class="fas fa-chevron-right"></i> <!-- Font Awesome icon -->
-      </div>
-      <div class="swiper-berita-button-prev bg-gradient-to-r from-white dark:from-gray-300 to-transparent">
-        <i class="fas fa-chevron-left"></i> <!-- Font Awesome icon -->
-      </div>
     </div>
     <div class="swiper-berita-pagination"></div>
+    {{ if gt (len (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle)) 6 }}
+    <div class="text-center py-10">
+      <a class='px-8 py-5 rounded-2xl transition-colors {{ default "bg-green-500" .Site.Params.ascentColor }} text-gray-100 hover:text-gray-800' href="{{ lower (replace $frontBundle " " "-") | absLangURL }}" lang="{{ .Lang }}">
+        {{ i18n "morePosts" }}
+        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6l6 6-6 6" />
+        </svg>
+      </a>
+    </div>
+    {{ end }}
   </div>
-  {{ if gt (len (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle)) 6 }}
-  <div class="text-center bg-white dark:bg-gray-300 py-10">
-    <a class='px-8 py-5 rounded-2xl transition-colors {{ default "bg-green-500" .Site.Params.ascentColor }} text-gray-100 hover:text-gray-800' href="{{ lower (replace $frontBundle " " "-") | absLangURL }}" lang="{{ .Lang }}">
-      {{ i18n "morePosts" }}
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6l6 6-6 6" />
-      </svg>
-    </a>
-  </div>
-  {{ end }}
-</div>
+
 
 <!-- Initialize Swiper for Berita Section -->
 <script>
-  document.addEventListener('DOMContentLoaded', (event) => {
+document.addEventListener('DOMContentLoaded', (event) => {
     var beritaSwiper = new Swiper(".swiper-berita", {
-      slidesPerView: 3,
-      spaceBetween: 20,
-      loop: true,
-      autoplay: {
-        delay: 3000,
-        disableOnInteraction: false,
-      },
-      speed: 1000,
-      navigation: {
-        nextEl: ".swiper-berita-button-next",
-        prevEl: ".swiper-berita-button-prev",
-      },
-      pagination: {
-        el: ".swiper-berita-pagination",
-        clickable: true,
-        bulletClass: "swiper-berita-pagination-bullet",
-        bulletActiveClass: "swiper-berita-pagination-bullet-active",
-      },
-      breakpoints: {
-        640: { slidesPerView: 1 },
-        768: { slidesPerView: 2 },
-        1024: { slidesPerView: 3 },
-      }
+        slidesPerView: 1.2, // Pastikan hanya slide di tengah terlihat penuh, sisanya sebagian
+        spaceBetween: 30, // Jarak antar slide
+        centeredSlides: true, // Slide di tengah akan menjadi fokus
+        loop: true,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        speed: 1000,
+        pagination: {
+            el: ".swiper-berita-pagination",
+            clickable: true,
+            bulletClass: "swiper-berita-pagination-bullet",
+            bulletActiveClass: "swiper-berita-pagination-bullet-active",
+        },
+        breakpoints: {
+            640: {
+                slidesPerView: 1.1, // Slide lebih besar di layar kecil
+            },
+            768: {
+                slidesPerView: 1.2, // Slide lebih besar di tablet
+                spaceBetween: 25,
+            },
+            1024: {
+                slidesPerView: 1.5, // Slide lebih besar di layar desktop
+                spaceBetween: 30,
+            },
+        }
     });
-  });
+});
+
 </script>
 
-
-<!--<div class="grid md:grid-cols-1 gap-4 lg:gap-x-16">
-    <div>
-      {{ $frontBundle := .Site.Params.frontBundle | default "berita" }}
-      <h2 class="text-2xl font-bold mt-6 text-center">{{ $frontBundle | title }}</h2>
-      <div class="container p-6 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-8">
-        {{ range first 6 (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle)  }}
-          {{- partial "blog-card.html" . -}}
-        {{ end }}
-      </div>
-
-      {{ if gt (len (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle)) 6 }}
-      <div class="text-center mb-8">
-        <a class="px-8 py-3 rounded transition-colors {{ .Site.Params.ascentColor | default "bg-pink-50" }}
-          text-gray-500 hover:text-gray-800 dark:bg-gray-900 dark:text-gray-400 dark:hover:text-white"
-          href="{{ (index (.Site.Menus.main) 0).URL | absLangURL }}" lang="{{ .Lang }}">
-          {{ i18n "morePosts" }}
-        </a>
-      </div>
-      {{ end }}
-    </div>-->
-
-<!--<div>
-      {{ $frontBundle2 := .Site.Params.frontBundle2 | default "gallery" }}
-      <h2 class="text-2xl font-bold mt-6 text-center dark:text-black">{{ $frontBundle2 | title }}</h2>
-      <div class="container p-6 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-1 lg:gap-1">
-        {{ range first 6 (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle2)  }}
-          {{- partial "blog-card.html" . -}}
-        {{ end }}
-      </div>
-    </div>
-
-
-    {{ if gt (len (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle2)) 6 }}
-      <div class="text-center mb-8">
-        <!--<a class="px-8 py-3 rounded transition-colors {{ .Site.Params.ascentColor | default "bg-pink-50" }}
-          text-gray-500 hover:text-gray-800 dark:bg-gray-900 dark:text-gray-400 dark:hover:text-white"
-          href="{{ (index (.Site.Menus.main) 0).URL | absLangURL }}" lang="{{ .Lang }}">
-          {{ i18n "morePosts" }}
-        </a>
-      </div>
-    {{ end }}
-  </div>-->
-
-
-  <!-- Agenda Section -->
-{{ $agenda := .Site.Params.agenda }}
-{{ if $agenda }}
-<div class="w-full max-w-full p-4 border border-gray-300 shadow rounded-2xl pb-6 pb-6 bg-green-500">
-  <h2 class="text-2xl font-bold pt-6 text-center text-white dark:text-white mb-4" id="animateMe">Agenda</h2>
-    <div class="marquee-container" style="overflow: hidden; white-space: nowrap;">
-        <div class="marquee-content" style="display: inline-flex; animation: marquee 30s linear infinite;">
-            {{ range $agenda }}
-            <div class="agenda-item flex-grow dark:bg-gray-900 bg-white rounded-lg flex mx-4" style="background-color: white; width: 450px; overflow: hidden; box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);">
-                <div class="flex-none p-6 rounded-l-lg h-full flex flex-col justify-center items-center" style="background-color: #2F9292; text-align: center; width: 150px;">
-                    <h2 class="font-bold text-white text-7xl" data-day="{{ .hari }}">Loading...</h2>
-                    <h3 class="text-2xl text-white">{{ .hari }}</h3>
+ <!-- Agenda Section -->
+  {{ $agenda := .Site.Params.agenda }}
+  {{ if $agenda }}
+  <div class="agenda w-full max-w-full m-3 border shadow rounded-xl bg-sky-800 bg-opacity-10 dark:bg-gray-300">
+    <h2 class="text-2xl font-bold pt-6 text-center text-sky-800 mb-4" id="animateMe">Agenda</h2>
+    <div class="marquee-container" style="height: 480px; overflow: hidden; position: relative;">
+      <div class="marquee-content px-3" style="display: flex; flex-direction: column; animation: marquee-vertical 25s linear infinite;">
+        {{ range $agenda }}
+        <div class="agenda-item flex-grow pr-2 bg-white rounded-lg flex mb-4">
+          <div class="flex-none p-4 rounded-l-lg flex flex-col justify-center items-center" style="background-color: #2F9292; text-align: center; width: 150px;">
+            <h2 class="font-bold text-white text-6xl" data-day="{{ .hari }}">Loading...</h2>
+            <h3 class="text-3xl text-white">{{ .hari }}</h3>
+          </div>
+            <div class="ml-4 flex-grow flex flex-col" style="overflow: hidden; font-size: 1em;">
+              <h3 class="font-bold mt-2" style="font-size: 0.9em;">{{ .judul }}</h3>
+              <div class="mt-auto">
+                <hr style="border-top: 1px solid black; margin: 8px 0;">
+                <div class="flex items-center mt-2 mb-2">
+                  <div class="flex-none w-3 h-3 mr-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-full h-full">
+                      <path d="M21 10c0 6-9 13-9 13S3 16 3 10a9 9 0 1 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                  </div>
+                  <p style="font-size: 0.85em;">{{ .lokasi }}</p>
                 </div>
-                <div class="ml-4 flex-grow" style="max-width: calc(450px - 100px); overflow: hidden;">
-                    <h3 class="font-bold mt-2" style="font-size: 15px; line-height: 1.5; min-height: 4.5em; display: flex; flex-direction: column; justify-content: center; white-space: normal; word-break: break-word; overflow-wrap: break-word; max-width: 100%;">{{ .judul }}</h3>
-                    <hr style="border-top: 1px solid black; margin-top: 8px; margin-bottom: 8px; width: 100%;">
-                    <div class="flex items-center mt-4 mb-2" style="white-space: normal; word-break: break-word; overflow-wrap: break-word; max-width: 100%;">
-                        <div class="flex-none w-6 h-6 mr-2">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-full h-full">
-                                <path d="M21 10c0 6-9 13-9 13S3 16 3 10a9 9 0 1 1 18 0z"></path>
-                                <circle cx="12" cy="10" r="3"></circle>
-                            </svg>
-                        </div>
-                        <p style="white-space: normal; word-break: break-word; overflow-wrap: break-word; max-width: calc(450px - 100px - 2rem);">{{ .lokasi }}</p>
-                    </div>
-                    <p style="text-align: right; margin-top: 8px; margin-right: 8px; color: #989292;">{{ .jamMulai }} - {{ .jamSelesai }}</p>
-                </div>
+                <p style="text-align: right; font-size: 0.85em;">{{ .jamMulai }} - {{ .jamSelesai }}</p>
+              </div>
             </div>
-            {{ end }}
         </div>
-    </div>
-</div>
-
-{{ end }}
-
-
-
-
-<div class="bg-white dark:bg-gray-300 md:gap-4 lg:gap-x-16 fade-in" id="animateMe">
-  {{ $frontBundle2 := .Site.Params.frontBundle2 | default "gallery" | lower }}
-  <div class="scroll-container pb-5">
-    <h2 class="text-2xl font-bold mt-5 text-center text-green-700">{{ $frontBundle2 | title }}</h2>
-    <div class="scroll-content animation fade-in h-96 mb-5" id="animateMe2">
-      {{ range first 9 (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle2) }}
-      <div class="rounded-lg h-full mb-2">
-        <div class="content hover transition duration-500 ease-in-out h-full">{{- partial "blog-card.html" . -}}</div>
+        {{ end }}
       </div>
-      {{ end }}
     </div>
-  </div>
-</div>
-
-<div class="md:gap-4 lg:gap-x-16 fade-in" id="animateMe">
-  <div class="bg-white dark:bg-gray-300">
-    {{ $frontBundle := .Site.Params.frontBundle | default "berita" }}
-    <h2 class="text-2xl font-bold mt-5 text-center mb-5 text-green-700">{{ $frontBundle | title }}</h2>
-    <div class="min-h-72 mx-auto gap-4 mb-8 px-5">
-      {{ range first 6 (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle)  }}
-      <div class="rounded-lg w-full h-full">
-        {{- partial "blog-card.html" . -}}
-      </div>
-      {{ end }}
-    </div>
-  </div>
-  {{ if gt (len (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle)) 6 }}
-  <div class="text-center mb-8 mt-4">
-    <a class='px-8 py-3 rounded transition-colors {{ default "bg-defaultColor" .Site.Params.ascentColor }} text-gray-100 hover:text-gray-800 dark:bg-gray-900 dark:text-gray-400 dark:hover:text-white' href="{{ lower (replace $frontBundle " " "-") | absLangURL }}" lang="{{ .Lang }}">
-      {{ i18n "morePosts" }}
-    </a>
   </div>
   {{ end }}
 </div>
 
-<div class="bg-white dark:bg-gray-300 md:gap-4 lg:gap-x-16 fade-in" id="animateMe">
-  {{ $frontBundle2 := .Site.Params.frontBundle2 | default "gallery" }}
-  <div class="scroll-container pb-5">
-    <h2 class="text-2xl font-bold mt-5 text-center text-green-700">{{ $frontBundle2 | title }}</h2>
-    <div class="scroll-content animation fade-in h-96 mb-5" id="animateMe2">
-      {{ range first 9 (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle2) }}
-      <div class="rounded-lg h-full mb-2">
-        <div class="content hover transition duration-500 ease-in-out h-full">{{- partial "blog-card.html" . -}}</div>
-      </div>
-      {{ end }}
-    </div>
-  </div>
-</div>
 
 <style>
-@keyframes marquee {
-    from { transform: translateX(100%); }
-    to { transform: translateX(-100%); }
+@keyframes marquee-vertical {
+  from {
+    transform: translateY(70%);
+  }
+  to {
+    transform: translateY(-100%);
+  }
 }
 
 .marquee-container {
-    overflow: hidden;
-    white-space: nowrap;
-    width: 100%;
+  height: 450px; /* Tinggi untuk menampilkan 3 agenda */
+  overflow: hidden;
+  position: relative;
 }
 
+.agenda-item {
+  height: 150px; /* Tinggi masing-masing item */
+}
 
+/* Wrapper untuk Berita dan Agenda */
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 11px;
+  margin: 16px;
+}
+
+.berita {
+  flex: 0 0 66%; /* 70% untuk Berita */
+  max-width: 66%;
+}
+
+.agenda {
+  flex: 0 0 30%; /* 30% untuk Agenda */
+  max-width: 30%;
+}
+
+.marquee-container {
+  height: 450px;
+  overflow: hidden;
+  position: relative;
+}
+
+.marquee-content {
+  display: flex;
+  height: 900px;
+  flex-direction: column;
+}
+
+.agenda-item {
+  height: 150px;
+}
 </style>
+
 
 <script>
   function getCurrentDate(day) {
@@ -519,6 +430,7 @@
   });
 </script>
 
-  {{- partial "intro.html" . -}}
+
+{{- partial "intro.html" . -}}
 {{ end }}
 

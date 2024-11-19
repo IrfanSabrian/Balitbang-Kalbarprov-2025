@@ -1,33 +1,77 @@
-<div class='grid-item h-full rounded-lg shadow-md relative text-white flex flex-col' style="width: 400px; height: 400px; background-image: url('{{ .Params.thumbnail }}'); background-size: cover; background-position: center;">
+{{ $accent := .Site.Params.ascentColor }}
+<div class="grid-item relative text-white rounded-lg shadow-md bg-cover bg-center overflow-hidden" 
+     style="width: 700px; height: 400px; background-image: url('{{ .Params.thumbnail }}');">
+  <!-- Link ke halaman atau URL -->
   {{ if .Params.eurl }}
-  <a href="{{ .Params.eurl }}" class="absolute inset-0">
+  <a href="{{ .Params.eurl }}" class="absolute inset-0 group">
   {{ else }}
-  <a href="{{ .RelPermalink }}" class="absolute inset-0">
+  <a href="{{ .RelPermalink }}" class="absolute inset-0 group">
   {{ end }}
-  
-  <!-- Overlay Transparan untuk Membuat Teks Terlihat -->
-  <div class="absolute inset-0 bg-black bg-opacity-50"></div>
-  
-  <!-- Kontainer Judul -->
-  <div class="absolute inset-x-0 bottom-0 flex flex-row justify-between items-center p-4">
-    <!-- Bagian Judul (70%) -->
-    <div class="w-7/10">
-      <div class="text-xl font-bold overflow-hidden text-ellipsis">{{ .Params.title }}</div>
-      <div class="flex items-center text-sm mt-2 text-gray-200">
-        <i class="fas fa-calendar mr-2"></i>{{ .Date.Format "Jan 2, 2006" }}
+
+    <!-- Zoom efek pada hover -->
+    <div class="absolute inset-0 bg-cover bg-center transition-transform duration-300 group-hover:scale-110" 
+         style="background-image: url('{{ .Params.thumbnail }}');">
+      <div class="absolute inset-0 bg-black opacity-50"></div>
+    </div>
+
+    <!-- Kontainer teks di kiri bawah -->
+    <div class="absolute bottom-2 left-4 right-4 flex flex-col rounded-lg z-10 p-4">
+      
+      <!-- Kontainer utama untuk teks dan tombol -->
+      <div class="flex items-center">
+        
+        <!-- Kolom kiri: Judul dan Tanggal -->
+        <div class="flex-1">
+          <!-- Judul -->
+          <span class="text-base font-bold block">
+            {{ .Params.title }}
+          </span>
+          <!-- Tanggal -->
+          <span class="text-sm text-gray-200 italic block mt-1">
+            <i class="fas fa-calendar mr-2"></i> {{ .Date.Format "Jan 2, 2006" }}
+          </span>
+        </div>
+        
+        <!-- Kolom kanan: Tombol -->
+        <div class="ml-6">
+          <button class="text-sm bg-green-600 hover:bg-green-500 text-white py-1 px-3 rounded">
+            <i class="fas fa-external-link-alt mr-1"></i> Selengkapnya
+          </button>
+        </div>
       </div>
     </div>
-    
-    <!-- Bagian Lihat Selengkapnya (30%) -->
-    <div class="w-3/10 text-right">
-      <button class="bg-green-600 hover:bg-green-700 text-white py-2 px-4 rounded">
-        Lihat Selengkapnya
-      </button>
-    </div>
-  </div>
-  
   </a>
 </div>
+
+<style>
+  .grid-item .group:hover .group-hover\:scale-110 {
+    transform: scale(1.1); /* Efek zoom */
+  }
+
+  .grid-item .group-hover\:scale-110 {
+    transition: transform 0.5s ease; /* Halus */
+  }
+
+  .grid-item .group-hover\:opacity-60 {
+    opacity: 0.6;
+    transition: opacity 0.3s ease;
+  }
+
+  /* CSS tambahan untuk teks yang panjang */
+  .grid-item .text-xl {
+    white-space: normal; /* Teks tidak terpotong */
+    word-wrap: break-word; /* Memastikan teks terbungkus */
+  }
+
+  .grid-item .group:hover .text-base {
+    color: #0284c7; /* sky-800 */
+    transition: color 0.3s ease; /* Efek transisi halus */
+  }
+
+  .grid-item .group .text-base {
+    transition: color 0.3s ease; /* Tambahkan transisi ke warna awal */
+  }
+</style>
 
 <!--  <style>
         .grid-container {
