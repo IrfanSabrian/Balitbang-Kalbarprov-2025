@@ -122,8 +122,8 @@
 }
 
 .swiper-berita-pagination-bullet {
-  width: 12px; /* Size of pagination bullet */
-  height: 12px; /* Size of pagination bullet */
+  width: 12px;
+  aspect-ratio: 1/1; 
   border: 2px solid #0284C7;
   border-radius: 50%; /* Make bullets circular */
   margin: 0 5px; /* Space between bullets */
@@ -140,30 +140,39 @@
   opacity: 0.2;
 }
 
-/* Styles for Swiper Pagination */
-.swiper-flyers-pagination {
+.swiper-flyers-button-next,
+.swiper-flyers-button-prev {
+  position: absolute;
+  top: 50%; /* Posisikan di tengah vertikal */
+  transform: translateY(-50%); /* Pastikan tombol berada tepat di tengah */
+  z-index: 10; /* Pastikan tombol berada di atas konten lain */
+  cursor: pointer;
+  color: #0079B8;
+  height: 110%; /* Tinggi tombol */
+  width: 80px;
   display: flex;
-  justify-content: center; /* Center pagination bullets */
-  padding-top: 10px; /* Space between slides and pagination */
+  align-items: center;
+  justify-content: center;
 }
 
-.swiper-flyers-pagination-bullet {
-  width: 12px; /* Size of pagination bullet */
-  height: 12px; /* Size of pagination bullet */
-  border: 2px solid #0284C7;
-  border-radius: 50%; /* Make bullets circular */
-  margin: 0 5px; /* Space between bullets */
-  cursor: pointer; /* Pointer cursor on hover */
-  transition: background-color 0.3s; /* Smooth transition for hover effect */
+.swiper-flyers-button-next span,
+.swiper-flyers-button-prev span {
+  font-size: 5em; /* Ukuran ikon chevron */
 }
 
-.swiper-flyers-pagination-bullet-active {
-  background-color: #0284C7; 
+.swiper-flyers-button-next {
+  background: linear-gradient(to left, white, rgba(255, 255, 255, 0));  
+  right: 0px; 
 }
 
-.swiper-flyers-pagination-bullet:hover {
-  background-color: #0284C7;
-  opacity: 0.2;
+.swiper-flyers-button-prev {  
+  background: linear-gradient(to right, white, rgba(255, 255, 255, 0));  
+  left: 0px; 
+}
+
+.swiper-flyers-button-next:hover,
+.swiper-flyers-button-prev:hover {
+  color: black;
 }
 
 </style>
@@ -463,16 +472,19 @@ document.addEventListener('DOMContentLoaded', (event) => {
         <div class="swiper-wrapper pb-4">
         {{ range (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle2) }}
           <div class="swiper-slide h-32 md:h-48 lg:h-64">
-          {{- partial "blog-card-home-flyers.html" . -}}
+            {{- partial "blog-card-home-flyers.html" . -}}
+          </div>
+          {{ end }}
         </div>
-        {{ end }}
-      </div>
-
-      <!-- Navigation buttons -->
-      <div class="swiper-flyers-button-next"></div>
-      <div class="swiper-flyers-button-prev"></div>
-        <!-- Pagination -->
-      <div class="swiper-flyers-pagination pb-4"></div>
+        <!-- Swiper next button with chevron-right -->
+        <div class="swiper-flyers-button-next">
+          <span class="material-icons">chevron_right</span>
+        </div>
+  
+        <!-- Swiper previous button with chevron-left -->
+        <div class="swiper-flyers-button-prev">
+          <span class="material-icons">chevron_left</span>
+        </div>
     </div>
   </div>
 </div>
@@ -480,40 +492,69 @@ document.addEventListener('DOMContentLoaded', (event) => {
 <script>
 document.addEventListener('DOMContentLoaded', (event) => {
     var flyersSwiper = new Swiper(".swiper-flyers", {
-        slidesPerView: 3, // Pastikan hanya slide di tengah terlihat penuh, sisanya sebagian
-        spaceBetween: 10, // Jarak antar slide
-        slidesPerGroup: 3,
-        centeredSlides: true, // Slide di tengah akan menjadi fokus
-        loop: true,
-        autoplay: {
-            delay: 5000,
-            disableOnInteraction: false,
+    slidesPerView: 3,
+    spaceBetween: 10,
+    slidesPerGroup: 3,
+    centeredSlides: true,
+    loop: true,
+    autoplay: {
+        delay: 5000,
+        disableOnInteraction: false,
+    },
+    speed: 1000,
+    navigation: {
+        nextEl: ".swiper-flyers-button-next",
+        prevEl: ".swiper-flyers-button-prev",
+    },
+    breakpoints: {
+        360: {
+            slidesPerView: 1,
+            spaceBetween: 5,
+            slidesPerGroup: 1,
         },
-        speed: 1000,
-        pagination: {
-            el: ".swiper-flyers-pagination",
-            clickable: true,
-            bulletClass: "swiper-flyers-pagination-bullet",
-            bulletActiveClass: "swiper-flyers-pagination-bullet-active",
+        480: {
+            slidesPerView: 1,
+            spaceBetween: 5,
+            slidesPerGroup: 1,
         },
-        breakpoints: {
-            640: {
-                slidesPerView: 2.1, // Slide lebih besar di layar kecil
-                spaceBetween: 20,
-            },
-            768: {
-                slidesPerView: 2.2, // Slide lebih besar di tablet
-                spaceBetween: 35,
-            },
-            1024: {
-                slidesPerView: 3.5, // Slide lebih besar di layar desktop
-                spaceBetween: 10,
-            },
-        }
-    });
+        640: {
+            slidesPerView: 1,
+            spaceBetween: 5,
+            slidesPerGroup: 1,
+        },
+        768: {
+            slidesPerView: 1.2,
+            spaceBetween: 35,
+            slidesPerGroup: 1,
+        },
+        960: {
+            slidesPerView: 2.2,
+            spaceBetween: 35,
+            slidesPerGroup: 1,
+        },
+        1024: {
+            slidesPerView: 2,
+            slidesPerGroup: 1,
+            spaceBetween: 10,
+            slidesPerGroup: 1,
+        },
+        1200: {
+            slidesPerView: 3,
+            spaceBetween: 15,
+            slidesPerGroup: 2,
+        },
+        1440: {
+            slidesPerView: 4,
+            spaceBetween: 20,
+            slidesPerGroup: 3,
+        },
+    },
 });
 
+});
 </script>
+
+
 
 {{- partial "intro.html" . -}}
 {{ end }}
