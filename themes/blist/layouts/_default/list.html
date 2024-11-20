@@ -7,7 +7,7 @@
     {{ range $paginator.Pages }}
 
       {{ if eq $type "article" }}
-        {{ partial "blog-card.html" . }}
+        {{ partial "blog-card-2.html" . }}
       {{ else if eq $type "kegiatan" }}
         {{ partial "kegiatan.html" . }}
       {{ else if eq $type "page" }}
@@ -15,7 +15,7 @@
       {{ else if eq $type "gallery" }}
         {{ partial "gallery.html" . }}
       {{ else if eq $type "externalUrl" }}
-        {{ partial "blog-card.html" . }}
+        {{ partial "blog-card-2.html" . }}
       {{ else }}
         <!-- Tambahkan kondisi tipe konten lain jika diperlukan -->
         Tidak terdeteksi

@@ -1,5 +1,5 @@
 <header
-  class='flex flex-wrap justify-between items-center mx-auto sticky top-0 z-50 w-full {{ default "bg-defaultColor" .Site.Params.ascentColor }} dark:bg-gray-900'
+  class='flex flex-wrap justify-between items-center mx-auto sticky top-0 z-50 w-full {{ default "bg-defaultColor" .Site.Params.ascentColor }} dark:bg-gray-800'
 >
   <style>
     ul.mobile-menu li a {
@@ -83,7 +83,7 @@
     <ul
       id="mobile-menu"
       class=' text-gray-100  mobile-menu  absolute z-10 pb-6 md:p-0 top-full w-full md:w-auto md:relative hidden md:flex md:flex-row flex-auto place-self-end text-pretty flex-col place-content-end md:items-center gap-4 lg:gap-2
-    {{ default "bg-defaultColor" $accent }} dark:bg-gray-900
+    {{ default "bg-defaultColor" $accent }} dark:bg-gray-800
      mr-8 my-auto'
     >
       <li class="my-4"><a href='{{ absURL "/" }}'>Beranda</a></li>
@@ -108,7 +108,7 @@
           </svg>
         </span>
         <div
-          class='language-dropdown w-screen md:w-52 absolute top-3/4 mt-2 flex-col gap-4 md:gap-2 {{ default "bg-defaultColor" $accent }} dark:bg-gray-900 z-10 hidden'
+          class='language-dropdown w-screen md:w-52 absolute top-3/4 mt-2 flex-col gap-4 md:gap-2 {{ default "bg-defaultColor" $accent }} dark:bg-gray-800 z-10 hidden'
           style="
             border-radius: 8px;
             border-color: white;
@@ -164,7 +164,7 @@
           </svg>
         </span>
         <div
-          class='language-dropdown absolute top-full mt-2 left-0 flex-col gap-2 {{ default "bg-defaultColor" .Site.Params.ascentColor }} dark:bg-gray-900 dark:text-white z-10 hidden'
+          class='language-dropdown absolute top-full mt-2 left-0 flex-col gap-2 {{ default "bg-defaultColor" .Site.Params.ascentColor }} dark:bg-gray-800 dark:text-white z-10 hidden'
         >
           {{ range .Site.Languages }} {{ if not (eq .Lang $.Site.Language.Lang)
           }}

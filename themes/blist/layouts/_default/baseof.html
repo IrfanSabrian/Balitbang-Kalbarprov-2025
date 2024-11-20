@@ -43,12 +43,65 @@
     </style>
     <span id="loadmodaldisabilitas"></span>
 
+
+    <div id="modalFlayers" class="hidden fixed inset-0 z-50 flex items-center justify-center bg-black bg-opacity-80">
+      <img id="modalImage" class="max-w-100vh max-h-100vh" alt="Flyer Image" />
+    </div>
+
+    <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const modal = document.getElementById('modalFlayers');
+      const modalImage = document.getElementById('modalImage');
+
+      // Buka modal saat card diklik
+      document.querySelectorAll('[data-modal]').forEach(card => {
+        card.addEventListener('click', () => {
+          const imageSrc = card.getAttribute('data-modal');
+          modalImage.src = imageSrc;
+          modal.classList.remove('hidden');
+        });
+      });
+
+      // Tutup modal saat area di luar gambar diklik
+      modal.addEventListener('click', (e) => {
+        if (e.target === modal) {
+          modal.classList.add('hidden');
+          modalImage.src = ''; // Bersihkan gambar dari modal
+        }
+      });
+    });
+    </script>
+
+    <style>
+    #modalFlayers {
+      display: none; /* Default hidden */
+    }
+
+    #modalFlayers:not(.hidden) {
+      display: flex; /* Show when class is removed */
+      align-items: flex-start; /* Posisi awal dari atas */
+      justify-content: center; /* Tetap di tengah secara horizontal */
+      padding-top: 10%; /* Tambahkan ruang di atas untuk menurunkan modal */
+    }
+
+    #modalImage {
+      max-width: 100%; /* Maksimal lebar 90% dari viewport */
+      max-height: 90%; /* Maksimal tinggi 80% dari viewport */
+      object-fit: contain; /* Gambar tidak terpotong */
+      transition: transform 0.3s ease-in-out; /* Animasi saat hover */
+    }
+
+    #modalImage:hover {
+      transform: scale(1.2); /* Sedikit perbesar saat hover */
+    }
+    </style>
+
     <!--<script src="https://cdn.userway.org/widget.js" data-account="CSZCGXYV5z"></script>-->
     <div id="loading-screen" class="fixed inset-0 bg-white opacity-100 z-50 flex justify-center items-center">
       <div class="loader ease-linear rounded-full border-4 border-t-4 border-gray-200 h-12 w-12 mb-4"></div>
     </div>
     {{- partial "header.html" . -}}
-    <main class="flex-1 main-content " style="background-color:white; min-height: 61vh;">
+    <main class="flex-1 main-content bg-white dark:bg-gray-600 " style="min-height: 61vh;">
     {{- block "main" . }}{{- end }}
     </main>
     {{- partial "footer.html" . -}}

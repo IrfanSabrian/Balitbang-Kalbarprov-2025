@@ -29,7 +29,7 @@
   width: 100%;
   max-width: 800px; /* Tentukan lebar maksimum */
   margin: 0 auto;
-}
+  }
 
       /* Style the pagination bullets to make them rectangular */
   .swiper-pagination-bullet {
@@ -67,21 +67,17 @@
     font-size: 30px; /* Mengubah ukuran ikon panah */
   }
 
-    @keyframes fadeInMove {
-    from {
-      opacity: 0;
-      transform: translate(-50%, -100%); /* Bergerak dari atas */
-    }
-    to {
-      opacity: 1;
-      transform: translate(-50%, -50%); /* Posisi akhir (pusat) */
-    }
+  @keyframes fadeInMove {
+  from {
+    opacity: 0;
+    transform: translate(-50%, -100%); /* Bergerak dari atas */
   }
-  .swiper-berita {
-  width: 100%;
-  max-width: 1450px; /* Adjust as needed */
-  margin: 0 auto; /* Center the Swiper horizontally */
-}
+  to {
+    opacity: 1;
+    transform: translate(-50%, -50%); /* Posisi akhir (pusat) */
+  }
+  }
+
 
 .swiper-slide {
   display: flex;
@@ -118,6 +114,7 @@
   }
 
 /* Styles for Swiper Pagination */
+
 .swiper-berita-pagination {
   display: flex;
   justify-content: center; /* Center pagination bullets */
@@ -135,14 +132,39 @@
 }
 
 .swiper-berita-pagination-bullet-active {
-  background-color: #0284C7; /* Active bullet (solid green) */
+  background-color: #0284C7; 
 }
 
 .swiper-berita-pagination-bullet:hover {
-  background-color: #0284C7; /* Slightly darker green when hovered */
+  background-color: #0284C7;
   opacity: 0.2;
 }
 
+/* Styles for Swiper Pagination */
+.swiper-flyers-pagination {
+  display: flex;
+  justify-content: center; /* Center pagination bullets */
+  padding-top: 10px; /* Space between slides and pagination */
+}
+
+.swiper-flyers-pagination-bullet {
+  width: 12px; /* Size of pagination bullet */
+  height: 12px; /* Size of pagination bullet */
+  border: 2px solid #0284C7;
+  border-radius: 50%; /* Make bullets circular */
+  margin: 0 5px; /* Space between bullets */
+  cursor: pointer; /* Pointer cursor on hover */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.swiper-flyers-pagination-bullet-active {
+  background-color: #0284C7; 
+}
+
+.swiper-flyers-pagination-bullet:hover {
+  background-color: #0284C7;
+  opacity: 0.2;
+}
 
 </style>
 <!-- Swiper Background -->
@@ -245,19 +267,20 @@
 
 <div class="wrapper fade-in" id="animateMe">
   <!-- Berita Section -->
-  <div class="berita bg-sky-800 bg-opacity-10 border m-3 rounded-xl dark:bg-gray-300">
+  <div class="berita bg-sky-800 bg-opacity-10 border m-3 rounded-xl dark:bg-gray-400">
     {{ $frontBundle := .Site.Params.frontBundle | default "berita" | lower }}
-    <h2 class="text-2xl font-bold py-5 text-center text-sky-800">{{ $frontBundle | title }}</h2>
+    <h2 class="text-2xl font-bold py-5 text-center text-sky-800 ">{{ $frontBundle | title }}</h2>
     
     <!-- Swiper Berita Section -->
     <div class="swiper swiper-berita min-h-72 mx-auto">
-      <div class="swiper-wrapper pb-8">
+      <div class="swiper-wrapper pb-4">
         {{ range (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle) }}
-        <div class="swiper-slide rounded-lg w-full h-full">
-          {{- partial "blog-card.html" . -}}
+        <div class="swiper-slide rounded-lg">
+          {{- partial "blog-card-home-berita.html" . -}}
         </div>
         {{ end }}
       </div>
+
     </div>
     <div class="swiper-berita-pagination"></div>
     {{ if gt (len (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle)) 6 }}
@@ -313,7 +336,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
  <!-- Agenda Section -->
   {{ $agenda := .Site.Params.agenda }}
   {{ if $agenda }}
-  <div class="agenda w-full max-w-full m-3 border shadow rounded-xl bg-sky-800 bg-opacity-10 dark:bg-gray-300">
+  <div class="agenda w-full max-w-full m-3 border shadow rounded-xl bg-sky-800 bg-opacity-10 dark:bg-gray-400">
     <h2 class="text-2xl font-bold pt-6 text-center text-sky-800 mb-4" id="animateMe">Agenda</h2>
     <div class="marquee-container" style="height: 480px; overflow: hidden; position: relative;">
       <div class="marquee-content px-3" style="display: flex; flex-direction: column; animation: marquee-vertical 25s linear infinite;">
@@ -351,7 +374,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 <style>
 @keyframes marquee-vertical {
   from {
-    transform: translateY(70%);
+    transform: translateY(50%);
   }
   to {
     transform: translateY(-100%);
@@ -373,7 +396,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
   display: flex;
   flex-wrap: wrap;
   gap: 11px;
-  margin: 16px;
 }
 
 .berita {
@@ -430,6 +452,68 @@ document.addEventListener('DOMContentLoaded', (event) => {
   });
 </script>
 
+<div class="fade-in" id="animateMe">
+  <!-- Flyers Section -->
+  <div class="flyers bg-white m-3 dark:bg-gray-400 px-9">
+    {{ $frontBundle2 := .Site.Params.frontBundle2 | default "Flyers" | lower }}
+    <h2 class="text-2xl font-bold py-5 text-center text-sky-800">{{ $frontBundle2 | title }}</h2>
+
+    <!-- Swiper Flyers Section -->
+      <div class="swiper swiper-flyers min-h-72 mx-auto">
+        <div class="swiper-wrapper pb-4">
+        {{ range (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle2) }}
+          <div class="swiper-slide h-32 md:h-48 lg:h-64">
+          {{- partial "blog-card-home-flyers.html" . -}}
+        </div>
+        {{ end }}
+      </div>
+
+      <!-- Navigation buttons -->
+      <div class="swiper-flyers-button-next"></div>
+      <div class="swiper-flyers-button-prev"></div>
+        <!-- Pagination -->
+      <div class="swiper-flyers-pagination pb-4"></div>
+    </div>
+  </div>
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', (event) => {
+    var flyersSwiper = new Swiper(".swiper-flyers", {
+        slidesPerView: 3, // Pastikan hanya slide di tengah terlihat penuh, sisanya sebagian
+        spaceBetween: 10, // Jarak antar slide
+        slidesPerGroup: 3,
+        centeredSlides: true, // Slide di tengah akan menjadi fokus
+        loop: true,
+        autoplay: {
+            delay: 5000,
+            disableOnInteraction: false,
+        },
+        speed: 1000,
+        pagination: {
+            el: ".swiper-flyers-pagination",
+            clickable: true,
+            bulletClass: "swiper-flyers-pagination-bullet",
+            bulletActiveClass: "swiper-flyers-pagination-bullet-active",
+        },
+        breakpoints: {
+            640: {
+                slidesPerView: 2.1, // Slide lebih besar di layar kecil
+                spaceBetween: 20,
+            },
+            768: {
+                slidesPerView: 2.2, // Slide lebih besar di tablet
+                spaceBetween: 35,
+            },
+            1024: {
+                slidesPerView: 3.5, // Slide lebih besar di layar desktop
+                spaceBetween: 10,
+            },
+        }
+    });
+});
+
+</script>
 
 {{- partial "intro.html" . -}}
 {{ end }}

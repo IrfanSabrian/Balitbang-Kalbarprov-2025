@@ -1,5 +1,5 @@
 <footer
-  class='p-6 mx-auto flex items-center justify-between w-full relative bottom-0 {{ default "bg-defaultColor" .Site.Params.ascentColor }} text-white dark:bg-gray-900'
+  class='p-6 mx-auto flex items-center justify-between w-full relative bottom-0 {{ default "bg-defaultColor" .Site.Params.ascentColor }} text-white dark:bg-gray-800'
 >
 
   <div class="justify-between items-left w-full mt-6 px-4">
@@ -313,7 +313,7 @@
     </svg>
   </div>
 </footer>
-<div class="w-full flex flex-col items-center bg-sky-900 dark:bg-gray-800 py-4">
+<div class="w-full flex flex-col items-center bg-sky-900 dark:bg-gray-700 py-4">
   <span class="relative" style="font-size: 1rem; color: #fff">
     {{ if (isset .Site.Params "copyright") }} {{ .Site.Params.copyright |
     safeHTML }} {{ else }} {{ dateFormat "2006" now }} © {{ .Site.Title }} {{
