@@ -30,6 +30,7 @@ favicon = "/favicon.svg"
 ascentColor = "bg-sky-800"
 frontBundle = "Berita"
 frontBundle2 = "Flyers"
+frontBundle3 = "Gallery Kegiatan"
 hideMeta = false
 hideOtherLanguages = false
 toc = true
@@ -264,11 +265,7 @@ weight = 7
 
 
 
-[[languages.id.menu.main]]
-identifier = 'aplikasi'
-name = "Aplikasi"
-url = "/aplikasi"
-weight = 8
+
 
 
 
@@ -928,39 +925,14 @@ weight = 1
 
 
 
-[[languages.id.menu.main]]
-identifier = 'aplikasi balitbang'
-name = "Aplikasi Balitbang"
-parent = "aplikasi"
-url = "https://litbang.kalbarprov.go.id/aplikasi-balitbang/aplikasi-balitbang"
-weight = 1
 
 
 
-[[languages.id.menu.main]]
-identifier = 'aplikasi data kalbar'
-name = "Aplikasi Data Kalbar"
-parent = "aplikasi"
-url = "https://litbang.kalbarprov.go.id/aplikasi-data-kalbar/aplikasi-data-kalbar"
-weight = 3
 
 
 
-[[languages.id.menu.main]]
-identifier = 'link web terkait'
-name = "Link Web Terkait"
-parent = "aplikasi"
-url = "https://litbang.kalbarprov.go.id/link-web-terkait/link-web-terkait"
-weight = 4
 
 
-
-[[languages.id.menu.main]]
-identifier = 'aplikasi spbe'
-name = "Aplikasi SPBE"
-parent = "aplikasi"
-url = "https://litbang.kalbarprov.go.id/aplikasi-spbe/aplikasi-spbe"
-weight = 2
 
 
 [[params.homepage.social.icons]]

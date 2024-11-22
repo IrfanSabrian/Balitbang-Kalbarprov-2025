@@ -9,11 +9,11 @@
       {{ if eq $type "article" }}
         {{ partial "blog-card-2.html" . }}
       {{ else if eq $type "kegiatan" }}
-        {{ partial "kegiatan.html" . }}
+        {{ partial "blog-card-2.html" . }}
       {{ else if eq $type "page" }}
         {{ partial "blog-card-2.html" . }}
       {{ else if eq $type "gallery" }}
-        {{ partial "gallery.html" . }}
+        {{ partial "blog-card-2.html" . }}
       {{ else if eq $type "externalUrl" }}
         {{ partial "blog-card-2.html" . }}
       {{ else }}

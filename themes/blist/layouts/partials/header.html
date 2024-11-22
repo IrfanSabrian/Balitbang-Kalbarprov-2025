@@ -9,7 +9,7 @@
     }
 
     ul.mobile-menu li a:hover {
-      color: #064e3b;
+      color: black;
       border-radius: 8px;
     }
 
@@ -25,7 +25,7 @@
     }
 
     ul.mobile-menu li .language-dropdown a:hover {
-      color: #064e3b;
+      color: black;
     }
 
     .dark ul.mobile-menu li .language-dropdown a:hover {
@@ -86,11 +86,10 @@
     {{ default "bg-defaultColor" $accent }} dark:bg-gray-800
      mr-8 my-auto'
     >
-      <li class="my-4"><a href='{{ absURL "/" }}'>Beranda</a></li>
       {{ range .Site.Menus.main }} {{ $menuURL := .URL }} {{ $menuName := .Name
       }} {{ $menuHasChildren := .HasChildren }} {{ if $menuHasChildren }}
       <li class="relative cursor-pointer my-2 px-4 md:px-1">
-        <span class="language-switcher flex items-center gap-2">
+        <span class="language-switcher flex items-center justify-center gap-2">
           <a>{{ $menuName }}</a>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -234,22 +233,8 @@
       {{ end }}
     </ul>
   </div>
-
-  <!-- Uncomment the sections below if needed -->
-  <!--
-  {{ if .Site.Params.enableSearch }}
-    <li class="grid place-items-center">
-      <span class="open-search inline-block cursor-pointer">
-        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-          <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-          <circle cx="10" cy="10" r="7" />
-          <line x1="21" y1="21" x2="15" y2="15" />
-        </svg>
-      </span>
-    </li>
-    {{ end }}
-  -->
-
+  
+  
   <script>
     $(document).ready(function () {
       $("#mobile-menu li").click(function () {
@@ -259,3 +244,17 @@
     });
   </script>
 </header>
+    <!-- Uncomment the sections below if needed -->
+    <!--
+    {{ if .Site.Params.enableSearch }}
+      <li class="grid place-items-center">
+        <span class="open-search inline-block cursor-pointer">
+          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <circle cx="10" cy="10" r="7" />
+            <line x1="21" y1="21" x2="15" y2="15" />
+          </svg>
+        </span>
+      </li>
+      {{ end }}
+    -->
