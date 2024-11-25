@@ -418,7 +418,7 @@ document.addEventListener('DOMContentLoaded', () => {
         direction: 'vertical', // Geser vertikal
         slidesPerView: 2, 
         spaceBetween: 20, // Jarak antar slide
-        loop: true, // Aktifkan perulangan
+        loop: false,
         autoplay: {
             delay: 4000, // Waktu antar pergeseran slide
             disableOnInteraction: false,
@@ -435,23 +435,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 </div>
 
-
 <style>
-@keyframes marquee-vertical {
-  from {
-    transform: translateY(50%);
-  }
-  to {
-    transform: translateY(-100%);
-  }
-}
-
-.marquee-container {
-  height: 450px; /* Tinggi untuk menampilkan 3 agenda */
-  overflow: hidden;
-  position: relative;
-}
-
 .agenda-item {
   height: 150px; /* Tinggi masing-masing item */
 }
@@ -492,6 +476,18 @@ document.addEventListener('DOMContentLoaded', () => {
     max-width: 95%;
   }
   .agenda {
+    flex: 0 0 90%; /* Ambil seluruh lebar */
+    padding-right: 12px;
+    padding-bottom: 24px;
+    max-width: 90%;
+    justify-content: center;
+  }
+  .gallery {
+    flex: 0 0 95%; /* Ambil seluruh lebar */
+    padding-right: 12px;
+    max-width: 95%;
+  }
+  .video {
     flex: 0 0 90%; /* Ambil seluruh lebar */
     padding-right: 12px;
     padding-bottom: 24px;
@@ -563,7 +559,6 @@ document.addEventListener('DOMContentLoaded', () => {
         <div class="swiper-flyers-button-next">
           <span class="material-icons">chevron_right</span>
         </div>
-  
         <!-- Swiper previous button with chevron-left -->
         <div class="swiper-flyers-button-prev">
           <span class="material-icons">chevron_left</span>
@@ -579,7 +574,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     spaceBetween: 10,
     slidesPerGroup: 3,
     centeredSlides: true,
-    loop: true,
+    loop: false,
     autoplay: {
         delay: 5000,
         disableOnInteraction: false,
@@ -638,41 +633,23 @@ document.addEventListener('DOMContentLoaded', (event) => {
 </script>
 
 <div class="wrapper fade-in" id="animateMe">
-<!-- Gallery Kegiatan Section -->
-<div class="gallery-kegiatan bg-sky-800 bg-opacity-10 border my-3 mx-2 rounded-xl dark:bg-gray-400">
-  {{ $frontBundle := .Site.Params.frontBundle3 | default "gallery-kegiatan" | lower }}
-  <h2 class="text-2xl font-bold py-5 text-center text-sky-800 ">{{ $frontBundle | title }}</h2>
-  
-  <!-- Swiper Gallery Kegiatan Section -->
-  <div class="swiper swiper-gallery-kegiatan min-h-72 mx-auto">
-    <div class="swiper-wrapper pb-4">
-      {{ range (where .Site.RegularPages.ByDate.Reverse "tittle" $frontBundle) }}
-      <div class="swiper-slide rounded-lg">
-        {{- partial "blog-card-home-gallery.html" . -}}
-      </div>
-      {{ end }}
-    </div>
-  </div>
-  <div class="swiper-gallery-kegiatan-pagination"></div>
-  {{ if gt (len (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle)) 6 }}
-  <div class="text-center py-10">
-    <a class='px-8 py-5 rounded-2xl transition-colors {{ default "bg-green-500" .Site.Params.ascentColor }} text-gray-100 hover:text-gray-800' href="{{ lower (replace $frontBundle " " "-") | absLangURL }}" lang="{{ .Lang }}">
-      {{ i18n "morePosts" }}
-      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6l6 6-6 6" />
-      </svg>
-    </a>
-  </div>
-  {{ end }}
-</div>
+<!-- Gallery Section -->
+<div class="gallery bg-sky-800 border my-3 mx-2 shadow rounded-xl dark:bg-gray-400">
+  {{ $frontBundle3 := .Site.Params.frontBundle3 | default "gallery kegiatan" | lower }}
+  <h2 class="text-2xl font-bold py-5 text-center text-white">Gallery Kegiatan</h2>
 
+</div>
 
 <!-- video Section -->
 <div class="video bg-sky-800 border my-3 mx-2 shadow rounded-xl dark:bg-gray-400">
+  {{ $frontBundle4 := .Site.Params.frontBundle4 | default "Video" | lower }}
+  <h2 class="text-2xl font-bold py-5 text-center text-white">Video</h2>
 
 </div>
 
 </div>
+
+
 {{- partial "intro.html" . -}}
 {{ end }}
 

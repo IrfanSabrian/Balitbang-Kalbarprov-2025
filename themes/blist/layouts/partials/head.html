@@ -102,4 +102,124 @@
           });
       });
   </script>
+
+<!-- Modal -->
+<div
+  id="flyerModal"
+  class="hidden fixed inset-0 z-50 justify-center items-center bg-black bg-opacity-50 overflow-auto"
+>
+  <div class="relative bg-white w-11/12 md:w-8/12 p-6 overflow-auto rounded-lg max-h-[80vh]">
+    <!-- Close button -->
+    <button
+      id="closeModal"
+      class="absolute top-2 right-2 text-gray-400 p-4 text-3xl"
+    >
+      <i class="fas fa-times"></i>
+    </button>
+
+    <!-- Title -->
+    <h2 id="modalTitle" class="text-xl font-semibold text-center mb-4"></h2>
+
+    <!-- Modal Body with Images -->
+    <div id="modalBody" class="flex flex-col space-y-4 max-h-[70vh] overflow-y-auto">
+      <!-- Gambar-gambar dari konten -->
+    </div>
+  </div>
+</div>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+  const modal = document.getElementById("flyerModal");
+  const modalTitle = document.getElementById("modalTitle");
+  const modalBody = document.getElementById("modalBody");
+  const closeModal = document.getElementById("closeModal");
+
+  const hideModal = () => {
+    modal.classList.add("hidden");
+    modal.classList.remove("flex");
+    modalBody.innerHTML = ""; // Clear modal content when closed
+    document.body.style.overflow = ''; // Kembalikan scroll halaman
+  };
+
+  closeModal.addEventListener("click", hideModal);
+
+  modal.addEventListener("click", (e) => {
+    if (e.target === modal) {
+      hideModal();
+    }
+  });
+
+  // Membuka modal saat flyer diklik
+  document.querySelectorAll("[data-modal]").forEach((flyer) => {
+    flyer.addEventListener("click", async () => {
+      const title = flyer.querySelector(".text-base")?.textContent || "Untitled";
+
+      // Fetch Markdown content
+      const contentUrl = flyer.getAttribute("data-modal");
+      const response = await fetch(contentUrl);
+      const markdown = await response.text();
+
+      // Extract <img> tags from Markdown content (ignoring thumbnail)
+      const imgTags = markdown.match(/<p><img [^>]*src="([^"]*)"[^>]*>/g) || [];
+      const imgSrcs = imgTags.map((tag) => {
+        const match = tag.match(/src="([^"]*)"/);
+        return match ? match[1] : null;
+      });
+
+      // Populate modal (Only images from <p><img> tag)
+      modalTitle.textContent = title;
+      modalBody.innerHTML = imgSrcs
+        .map(
+          (src) =>
+            `<img class="w-full rounded-lg shadow-sm" src="${src}" alt="${title}" />`
+        )
+        .join("");
+
+      // Show modal
+      modal.classList.remove("hidden");
+      modal.classList.add("flex");
+
+      // Disable body scroll when modal is open
+      document.body.style.overflow = 'hidden';
+    });
+  });
+});
+
+</script>
+
+  <style>
+/* Modal Container */
+#flyerModal {
+  transition: opacity 0.3s ease;
+  z-index: 53;
+}
+
+/* Menyembunyikan modal ketika tidak aktif */
+#flyerModal.hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+/* Membatasi ukuran modal dan menambahkan jarak 5% atas dan bawah */
+#flyerModal .bg-white {
+  max-height: 90vh; /* Mengatur agar modal tidak lebih besar dari 90% dari viewport */
+  overflow: hidden; /* Pastikan konten lainnya tidak meluap */
+  display: flex;
+  flex-direction: column;
+}
+
+/* Body modal dengan scroll */
+#modalBody {
+  overflow-y: auto; /* Mengaktifkan scroll hanya pada body modal */
+  max-height: 90vh; /* Membatasi tinggi body modal */
+}
+
+/* Gambar di dalam modal */
+#modalBody img {
+  max-width: 100%;
+  margin-bottom: 1rem;
+}
+
+  </style>
+
 </head>

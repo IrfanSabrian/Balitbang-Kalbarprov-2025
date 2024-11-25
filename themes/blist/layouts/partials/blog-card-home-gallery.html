@@ -1,31 +1,55 @@
 {{ $accent := .Site.Params.accentColor }}
-<div
-  class="group relative overflow-hidden rounded-lg shadow-md transition duration-500 ease-in-out cursor-pointer"
-  style="width: auto; height: 55vh;"
-  data-modal="{{ .Params.thumbnail }}"
->
+<div class="blog-card relative text-white rounded-lg shadow-md overflow-hidden">
 
-    {{ if .Params.thumbnail }}
-    <!-- Gambar -->
-    <img
-      src="{{ .Params.thumbnail }}"
-      alt="{{ .Params.title }}"
-      class="rounded-lg shadow-sm w-full h-52 object-cover transform group-hover:scale-105 transition duration-500 ease-in-out"
-    />
-    <!-- Overlay saat hover -->
-    <div
-      class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out flex flex-col justify-center items-center text-white"
-    >
-      <!-- Nama -->
-      <div class="text-base font-semibold mb-2 p-8 text-center">{{ .Params.title }}</div>
-      <!-- Tanggal -->
-      {{ if not (or (or .Site.Params.hideMeta .Params.hideMeta) false) }}
-      <div class="text-sm flex items-center">
-        <i class="fas fa-calendar-alt mr-2"></i>
-        {{ partial "date.html" (dict "date" .Date "language" $.Page.Language
-        "format" "short") }}
+  <!-- Link ke halaman atau URL -->
+  {{ if .Params.eurl }}
+  <a href="{{ .Params.eurl }}" class="absolute inset-0">
+  {{ else }}
+  <a href="{{ .RelPermalink }}" class="absolute inset-0">
+  {{ end }}
+
+    <!-- Thumbnail -->
+    <div class="thumbnail absolute inset-0 bg-cover bg-center" 
+         style="background-image: url('{{ .Params.thumbnail }}');"></div>
+
+    <!-- Kontainer teks, hanya muncul saat hover -->
+    <div class="text-container absolute inset-0 flex flex-col justify-end z-10 p-3">
+      
+      <!-- Judul -->
+      <div>
+        <span class="text-sm font-bold block">
+          {{ .Params.title }}
+        </span>
       </div>
-      {{ end }}
+
+      <!-- Tanggal -->
+      <div class="mt-2">
+        <span class="text-xs text-gray-200 italic">
+          <i class="fas fa-calendar mr-2"></i> {{ .Date.Format "2 Jan 2006" }}
+        </span>
+      </div>
+      
     </div>
-    {{ end }}
+  </a>
 </div>
+
+<style>
+  .blog-card {  
+    width: 300px;
+    height: 175px; 
+  }
+  .blog-card:hover .thumbnail {
+    transform: scale(1.1);
+    filter: brightness(75%);
+    transition: transform 0.5s ease, filter 0.5s ease;
+  }
+
+  .blog-card:hover .text-container {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+  }
+
+  .text-container {
+    opacity: 0; /* Tersembunyi secara default */
+  }
+</style>
