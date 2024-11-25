@@ -1,5 +1,5 @@
 {{ $accent := .Site.Params.ascentColor }}
-<div class="grid-item blog-card relative text-white rounded-lg shadow-md overflow-hidden" 
+<div class="grid-item blog-card-berita relative text-white rounded-lg shadow-md overflow-hidden" 
      style="background-image: url('{{ .Params.thumbnail }}');">
 
   <!-- Link ke halaman atau URL -->
@@ -44,7 +44,7 @@
 
 
 <style>
-  .blog-card {
+  .blog-card-berita {
     width: 700px;
     height: 400px;
     background-size: cover;
@@ -80,80 +80,14 @@
 
 
   @media (max-width: 768px) {
-    .blog-card {
+    .blog-card-berita {
       width: 100%; /* Sesuaikan dengan container */
       height: auto; /* Biarkan tinggi menyesuaikan */
       aspect-ratio: 16 / 9; /* Menjaga rasio aspek */
     }
-    .blog-card .text-base {
+    .blog-card-berita .text-base {
       font-size: 0.8rem; /* Ukuran lebih kecil (14px) untuk layar kecil */
     }
   }
 
 </style>
-
-<!--  <style>
-        .grid-container {
-            display: grid;
-            grid-template-columns: repeat(5, 1fr); /* Mengatur 5 kolom dengan lebar yang sama */
-            gap: 10px; /* Jarak antara kolom */
-            animation: scrollGrid 10s linear infinite; /* Animasi bergulir selama 10 detik */
-        }
-
-        .grid-item {
-            background-color: #f0f0f0;
-            padding: 20px;
-            text-align: center;
-        }
-
-        @keyframes scrollGrid {
-            0% {
-                transform: translateX(0);
-            }
-            100% {
-                transform: translateX(-100%); /* Bergulir ke kiri sejauh 100% */
-            }
-        }
-      </style> -->
-
-
-  <!-- <div class="container-fluid">
-  <a href="{{ .RelPermalink }}">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8">
-          <div class="row">
-            <div class="col-lg-6">
-              <div class="position-relative mb-3">
-                {{ if .Params.thumbnail }}
-                  <img class="img-fluid w-100" src="{{ .Params.thumbnail }}" alt="{{ .Params.title }}" style="object-fit: cover;">
-                {{ end }}
-                {{ if not (or (or .Site.Params.hideMeta .Params.hideMeta) false) }}
-                  <div class="bg-white border border-top-0 p-4">
-                    <div class="mb-2">
-                      <a class="badge badge-primary text-uppercase font-weight-semi-bold p-2 mr-2"></a>
-                      <a class="text-body" href=""><small>{{ .Date.Format "January 2, 2006" }}</small></a>
-                    </div>
-                    <a class="h4 d-block mb-3 text-secondary text-uppercase font-weight-bold" href="{{ .RelPermalink }}">{{ .Params.title }}</a>
-                    <div>{{ .Params.description }}</div>
-                  </div>
-                {{ end }}
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </a>
-  {{ if not (or (or .Site.Params.hideOtherLanguages .Params.hideOtherLanguages) false) }}
-    {{ if .IsTranslated }}
-      <div style="font-style: italic;font-size: smaller;">
-        {{ $sortedTranslations := sort .Translations "Site.Language.Weight" }}
-        {{ $links := apply $sortedTranslations "partial" "translation_link.html" "." }}
-        {{ $cleanLinks := apply $links "chomp" "." }}
-        {{ $linksOutput := delimit $cleanLinks (i18n "translationsSeparator") }}
-        {{ i18n "translationsLabel" }}{{ $linksOutput }}
-      </div>
-    {{ end }}
-  {{ end }}
-</div>-->

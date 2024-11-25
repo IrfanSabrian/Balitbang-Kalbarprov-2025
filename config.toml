@@ -1,5 +1,4 @@
 
-
 baseurl = ""
 metaDataFormat = "yaml"
 title = "Balitbang Provinsi Kalbar"
@@ -30,7 +29,8 @@ favicon = "/favicon.svg"
 ascentColor = "bg-sky-800"
 frontBundle = "Berita"
 frontBundle2 = "Flyers"
-frontBundle3 = "Gallery Kegiatan"
+frontBundle3 = "Gallery-Kegiatan"
+frontBundle4 = "Video"
 hideMeta = false
 hideOtherLanguages = false
 toc = true

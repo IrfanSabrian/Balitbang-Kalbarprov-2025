@@ -25,11 +25,6 @@
     height: 100%;
     object-fit: cover;
   }
-  .blog-card .content {
-  width: 100%;
-  max-width: 800px; /* Tentukan lebar maksimum */
-  margin: 0 auto;
-  }
 
       /* Style the pagination bullets to make them rectangular */
   .swiper-pagination-bullet {
@@ -636,18 +631,114 @@ document.addEventListener('DOMContentLoaded', (event) => {
 <!-- Gallery Section -->
 <div class="gallery bg-sky-800 border my-3 mx-2 shadow rounded-xl dark:bg-gray-400">
   {{ $frontBundle3 := .Site.Params.frontBundle3 | default "gallery kegiatan" | lower }}
-  <h2 class="text-2xl font-bold py-5 text-center text-white">Gallery Kegiatan</h2>
+  <h2 class="text-2xl font-bold py-5 text-center text-white">{{ $frontBundle3 | title }}</h2>
 
+  <!-- Swiper Gallery Section -->
+  <div class="swiper swiper-gallery min-h-72 mx-auto">
+    <div class="swiper-wrapper pb-4">
+      {{ range (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle3) }}
+        <div class="swiper-slide h-32 md:h-48 lg:h-64">
+          {{- partial "blog-card-gallery-video.html" . -}}
+        </div>
+      {{ end }}
+    </div>
+    <!-- Swiper navigation buttons -->
+    <div class="swiper-gallery-button-next">
+      <span class="material-icons">chevron_right</span>
+    </div>
+    <div class="swiper-gallery-button-prev">
+      <span class="material-icons">chevron_left</span>
+    </div>
+  </div>
 </div>
 
-<!-- video Section -->
-<div class="video bg-sky-800 border my-3 mx-2 shadow rounded-xl dark:bg-gray-400">
-  {{ $frontBundle4 := .Site.Params.frontBundle4 | default "Video" | lower }}
-  <h2 class="text-2xl font-bold py-5 text-center text-white">Video</h2>
 
+  <!-- Video Section -->
+  <div class="video bg-sky-800 border my-3 mx-2 shadow rounded-xl dark:bg-gray-400">
+    {{ $frontBundle4 := .Site.Params.frontBundle4 | default "Video" | lower }}
+    <h2 class="text-2xl font-bold py-5 text-center text-white">{{ $frontBundle4 | title }}</h2>
+
+    <!-- Swiper Video Section -->
+    <div class="swiper swiper-video min-h-72 mx-auto">
+      <div class="swiper-wrapper pb-4">
+        {{ range (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle4) }}
+          <div class="swiper-slide h-32 md:h-48 lg:h-64">
+            {{- partial "blog-card-gallery-video.html" . -}}
+          </div>
+        {{ end }}
+      </div>
+      <!-- Swiper navigation buttons -->
+      <div class="swiper-video-button-next">
+        <span class="material-icons">chevron_right</span>
+      </div>
+      <div class="swiper-video-button-prev">
+        <span class="material-icons">chevron_left</span>
+      </div>
+    </div>
+  </div>
 </div>
 
-</div>
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    // Swiper for Gallery Section
+    new Swiper(".swiper-gallery", {
+      slidesPerView: 2, // Tampilkan 2 slide per baris
+      spaceBetween: 20, // Jarak antar slide
+      grid: {
+        rows: 2, // 2 baris
+        fill: "row", // Urutan pengisian baris
+      },
+      navigation: {
+        nextEl: ".swiper-gallery-button-next",
+        prevEl: ".swiper-gallery-button-prev",
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 1, // Pada layar kecil, 1 slide per baris
+          grid: {
+            rows: 1, // 1 baris saja
+          },
+        },
+        1024: {
+          slidesPerView: 2,
+          grid: {
+            rows: 2, // 2 baris pada layar besar
+          },
+        },
+      },
+    });
+
+    // Swiper for Video Section (jika diperlukan)
+    new Swiper(".swiper-video", {
+      slidesPerView: 2,
+      spaceBetween: 20,
+      grid: {
+        rows: 2,
+        fill: "row",
+      },
+      navigation: {
+        nextEl: ".swiper-video-button-next",
+        prevEl: ".swiper-video-button-prev",
+      },
+      breakpoints: {
+        640: {
+          slidesPerView: 1,
+          grid: {
+            rows: 1,
+          },
+        },
+        1024: {
+          slidesPerView: 2,
+          grid: {
+            rows: 2,
+          },
+        },
+      },
+    });
+  });
+</script>
+
+
 
 
 {{- partial "intro.html" . -}}
