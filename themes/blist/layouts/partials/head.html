@@ -127,7 +127,7 @@
 </div>
 
 <script>
-document.addEventListener("DOMContentLoaded", function () {
+  document.addEventListener("DOMContentLoaded", function () {
   const modal = document.getElementById("modal");
   const modalTitle = modal.querySelector(".modal-title");
   const modalBody = modal.querySelector(".modal-body");
@@ -151,27 +151,17 @@ document.addEventListener("DOMContentLoaded", function () {
   // Open modal dynamically
   document.querySelectorAll("[data-modal]").forEach((trigger) => {
     trigger.addEventListener("click", async () => {
-      const title = trigger.getAttribute("data-title") || "Judul Tidak Ditemukan";
+      const title = trigger.getAttribute("data-title") || "Untitled";
       const contentUrl = trigger.getAttribute("data-modal");
 
       // Fetch content (if URL is provided)
       let content = "";
       if (contentUrl) {
-        try {
-          const response = await fetch(contentUrl);
-          if (!response.ok) throw new Error("Failed to fetch content");
-          content = await response.text();
-        } catch (error) {
-          console.error("Error fetching content:", error);
-          modalBody.innerHTML = "<p class='text-red-500'>Konten gagal dimuat.</p>";
-          modalTitle.textContent = title;
-          modal.classList.remove("hidden");
-          modal.classList.add("flex");
-          return;
-        }
+        const response = await fetch(contentUrl);
+        content = await response.text();
       }
 
-      // Extract <p><img> tags from content
+      // Extract <img> tags from content
       const imgTags = content.match(/<p><img [^>]*src="([^"]*)"[^>]*>/g) || [];
       const imgSrcs = imgTags.map((tag) => {
         const match = tag.match(/src="([^"]*)"/);
@@ -180,14 +170,12 @@ document.addEventListener("DOMContentLoaded", function () {
 
       // Populate modal
       modalTitle.textContent = title;
-      modalBody.innerHTML = imgSrcs.length
-        ? imgSrcs
-            .map(
-              (src) =>
-                `<img class="w-full rounded-lg shadow-sm" src="${src}" alt="${title}" />`
-            )
-            .join("")
-        : "<p class='text-gray-500'>Tidak ada gambar ditemukan.</p>";
+      modalBody.innerHTML = imgSrcs
+        .map(
+          (src) =>
+            `<img class="w-full rounded-lg shadow-sm" src="${src}" alt="${title}" />`
+        )
+        .join("");
 
       // Show modal
       modal.classList.remove("hidden");
@@ -196,8 +184,8 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 });
-</script>
 
+</script>
 
 <style>
   /* Universal Modal Container */

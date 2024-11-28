@@ -31,6 +31,7 @@ frontBundle = "Berita"
 frontBundle2 = "Flyers"
 frontBundle3 = "Gallery-Kegiatan"
 frontBundle4 = "Video"
+frontBundle5 = "Link-Terkait"
 hideMeta = false
 hideOtherLanguages = false
 toc = true
