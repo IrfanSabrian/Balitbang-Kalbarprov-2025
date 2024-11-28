@@ -631,14 +631,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
 <!-- Gallery Section -->
 <div class="gallery bg-sky-800 border my-3 mx-2 shadow rounded-xl dark:bg-gray-400">
   {{ $frontBundle3 := .Site.Params.frontBundle3 | default "gallery kegiatan" | lower }}
-  <h2 class="text-2xl font-bold py-5 text-center text-white">{{ $frontBundle3 | title }}</h2>
+  <h2 class="text-2xl font-bold py-5 text-center text-white">Gallery Kegiatan</h2>
 
   <!-- Swiper Gallery Section -->
   <div class="swiper swiper-gallery min-h-72 mx-auto">
     <div class="swiper-wrapper pb-4">
       {{ range (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle3) }}
         <div class="swiper-slide h-32 md:h-48 lg:h-64">
-          {{- partial "blog-card-gallery-video.html" . -}}
+          {{- partial "blog-card-home-gallery.html" . -}}
         </div>
       {{ end }}
     </div>
@@ -663,7 +663,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
       <div class="swiper-wrapper pb-4">
         {{ range (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle4) }}
           <div class="swiper-slide h-32 md:h-48 lg:h-64">
-            {{- partial "blog-card-gallery-video.html" . -}}
+            {{- partial "blog-card-home-video.html" . -}}
           </div>
         {{ end }}
       </div>

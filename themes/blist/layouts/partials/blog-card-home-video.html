@@ -1,0 +1,57 @@
+{{ $accent := .Site.Params.accentColor }}
+<div
+  class="blog-card-home-video relative text-white rounded-lg shadow-md overflow-hidden cursor-pointer"
+  data-modal="{{ .RelPermalink }}"
+  data-title="{{ .Params.title }}"
+  data-video-url="{{ .Params.urlVideo }}"
+>
+
+  <!-- Thumbnail -->
+  {{ if .Params.thumbnail }}
+  <div
+    class="thumbnail absolute inset-0 bg-cover bg-center"
+    style="background-image: url('{{ .Params.thumbnail }}');"
+  ></div>
+  {{ end }}
+
+  <!-- Kontainer teks, hanya muncul saat hover -->
+  <div class="text-container absolute inset-0 flex flex-col justify-end z-10 p-3">
+    <!-- Judul -->
+    <div>
+      <span class="text-sm font-bold block">
+        {{ .Params.title }}
+      </span>
+    </div>
+
+    <!-- Tanggal -->
+    {{ if not (or (or .Site.Params.hideMeta .Params.hideMeta) false) }}
+    <div class="mt-2">
+      <span class="text-xs text-gray-200 italic">
+        <i class="fas fa-calendar mr-2"></i> {{ .Date.Format "2 Jan 2006" }}
+      </span>
+    </div>
+    {{ end }}
+  </div>
+</div>
+
+<style>
+  .blog-card-home-video {
+    width: 300px;
+    height: 175px;
+  }
+
+  .blog-card-home-video:hover .thumbnail {
+    transform: scale(1.1);
+    filter: brightness(75%);
+    transition: transform 0.5s ease, filter 0.5s ease;
+  }
+
+  .blog-card-home-video:hover .text-container {
+    opacity: 1;
+    transition: opacity 0.5s ease;
+  }
+
+  .text-container {
+    opacity: 0; /* Tersembunyi secara default */
+  }
+</style>
