@@ -1,6 +1,6 @@
 {{ $accent := .Site.Params.ascentColor }}
-<div class="grid-item blog-card-link relative text-white rounded-lg shadow-md overflow-hidden p-4" 
-     style="width: 25vw; height: 200px;"> <!-- Meninggikan kotak lebih lagi -->
+<div class="grid-item blog-card-aplikasi relative text-white rounded-lg shadow-md overflow-hidden p-4" 
+     style="width: 28vw; height: 200px;"> <!-- Meninggikan kotak lebih lagi -->
 
   <!-- Link ke halaman atau URL -->
   {{ if .Params.eurl }}
@@ -21,7 +21,7 @@
 </div>
 
 <style>
-  .blog-card-link {
+  .blog-card-aplikasi {
     background-size: cover;
     background-position: center;
   }
@@ -60,7 +60,7 @@
   }
 
   @media (max-width: 768px) {
-    .blog-card-link {
+    .blog-card-aplikasi {
       width: 100%; /* Sesuaikan dengan container */
       height: auto; /* Biarkan tinggi menyesuaikan */
       aspect-ratio: 16 / 9; /* Menjaga rasio aspek */

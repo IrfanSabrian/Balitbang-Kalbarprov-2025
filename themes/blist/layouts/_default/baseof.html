@@ -139,7 +139,7 @@
         background: #156689;
       }
       .toolbar-disabilitas .groupcontenttoolbar {
-        transform: translateX(-300px);
+        transform: translateX(-378px);
         transition: transform 0.6s;
       }
       .toolbar-disabilitas.show-toolbar .groupcontenttoolbar {
@@ -155,7 +155,6 @@
         border: 4px solid #156689;
         box-shadow: 0 10px 10px rgb(0 0 0 / 0.2);
         background-color: #fff;
-        width: 300px;
         word-break: break-all;
         overflow: hidden;
         border-radius: 13px;
@@ -181,13 +180,13 @@
         border-radius: 0 0 20px 20px;
       }
       .bodytools {
-          display: grid; /* Mengubah menjadi grid */
-          grid-template-columns: repeat(3, 1fr); /* Membuat 3 kolom dengan ukuran yang sama */
-          gap: 2px; /* Jarak antar elemen dalam grid */
-          width: 100%; /* Memastikan lebar penuh */
-          margin-bottom: 10px; /* Jarak bawah */
-          left: 0; /* Tetap sesuai kebutuhan */
-          height: max-content; /* Tinggi menyesuaikan konten */
+          display: grid; 
+          grid-template-columns: repeat(3, 1fr); 
+          gap: 2px; 
+          width: 100%; 
+          margin-bottom: 10px; 
+          left: 0; 
+          height: max-content;
       }
 
       .subtitletools
@@ -208,9 +207,9 @@
       }
 
       .subtitletoolsactive svg {
-          width: 1em;    /* Menetapkan lebar ikon */
-          height: 1em;   /* Menetapkan tinggi ikon */
-          fill: currentColor; /* Agar warna ikon mengikuti warna teks (grey) */
+          width: 1em;    
+          height: 1em;   
+          fill: currentColor; 
       }
 
       .subtitletools:hover {
@@ -225,32 +224,28 @@
       }
       .flexrowdata {
           display: flex;
-          flex-direction: column; /* Ubah arah flex ke kolom agar teks berada di bawah */
-          align-items: center; /* Pusatkan elemen secara horizontal */
+          flex-direction: column; 
+          align-items: center; 
           text-align: center;
           height: auto;
           width: auto;
       }
-      .flexrowdata i {
-        margin-left: 2px;
-      }
+
       .flexrowdata span {
-          border-radius: 50%; /* Membuat elemen berbentuk lingkaran */
-          width: 48px;
-          aspect-ratio: 1/1;
+          border-radius: 50%; 
           padding: 10px;
           background-color: #156689;
           color: white;
           display: block;
           align-items: center;
-          text-align: center; /* Tambahkan jarak antara ikon dan teks */
+          text-align: center; 
           justify-content: center;
       }
 
       .aksestexttools {
           font-size: 10px;
           color: #333;
-          text-align: center; /* Pusatkan teks di bawah ikon */
+          text-align: center; 
           font-weight: 700;
       }
 
@@ -260,12 +255,12 @@
       
 
       .toolbar-disabilitas svg {
-        width: 24px; /* Ukuran ikon */
+        width: 24px; 
         height: 24px;
-        fill: white; /* Warna ikon */
+        fill: white; 
       }
-      #webspeach i {
-        font-size: 24px; /* Ganti dengan ukuran yang diinginkan */
+      .fa-file-audio {
+          font-size: 24px; 
       }
       body .uwy.userway_p1 .userway_buttons_wrapper {
         top: 11%;
@@ -277,14 +272,60 @@
       }
       @media only screen and (max-width: 900px) {
         .toolbar-disabilitas {
-          top: 60%;
+          top: 20%;
           left: 0;
           z-index: 999;
-          height: 1px;
-          width: -180px;
+          height: auto;
+          width: 70%;
           text-align: center;
           background: 0 0 !important;
         }
+        #groupcekmenu {
+          max-width: 100%;
+          padding: 5px;
+          font-size: 12px;
+        }
+        .contenttoolbar_disabilitas {
+          max-height: 500px;
+          padding: 10px;
+          font-size: 10px;
+          width: 80%;
+        }
+        .subtitletools {
+          font-size: 8px !important; /* Perkecil font */
+          padding-left: 5px;
+        }
+        .toolbar-disabilitas .groupcontenttoolbar {
+          transform: translateX(-80%);
+          transition: transform 0.6s;
+        }
+        .titletools {
+          font-size: 11px; /* Sesuaikan ukuran font untuk layar kecil */
+          width: 150px; /* Sesuaikan lebar untuk layar kecil */
+          height: 25px; /* Sesuaikan tinggi untuk proporsi yang lebih baik */
+          margin-top: 0; /* Hilangkan margin atas dan bawah */
+        }
+        .fa-file-audio {
+          font-size: 24px; 
+        }
+        .aksestexttools {
+          font-size: 10px;
+        }
+      }
+
+      /* Style untuk scrollbar */
+      ::-webkit-scrollbar {
+        width: 12px;
+      }
+
+      ::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+
+      ::-webkit-scrollbar-thumb {
+        background-color: #156689; /* Warna sky-800 */
+        border-radius: 20px;
+        border: 3px solid #f1f1f1;
       }
     </style>
     <span id="loadmodaldisabilitas"></span>
