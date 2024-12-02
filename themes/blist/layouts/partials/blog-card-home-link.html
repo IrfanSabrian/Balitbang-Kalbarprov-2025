@@ -19,7 +19,7 @@
       <div class="eurl-overlay-link" style="padding: 10px;"> <!-- Tambahkan padding pada eurl -->
         <span class="eurl-text-link">{{ .Params.eurl }}</span> <!-- Tampilkan eurl saat hover -->
       </div>
-      <div class="sky-overlay-link"></div> <!-- Tambahkan overlay sky-800 -->
+      <div class="green-overlay-link"></div> <!-- Tambahkan overlay green-800 -->
     </div>
     
   </a>
@@ -72,10 +72,10 @@
     max-width: 100%; /* Batasi lebar teks agar tidak keluar dari kotak */
   }
 
-  .sky-overlay-link {
+  .green-overlay-link {
     position: absolute;
     inset: 0;
-    background-color: rgba(59, 130, 246, 0.6); /* Warna sky-800 dengan transparansi */
+    background-color: rgba(59, 130, 246, 0.6); /* Warna green-800 dengan transparansi */
     opacity: 0;
     transition: opacity 0.3s ease;
     z-index: -1; /* Pastikan berada di bawah eurl */
@@ -93,8 +93,8 @@
     opacity: 1; /* Tampilkan eurl saat hover */
   }
 
-  .thumbnail-container-link:hover .sky-overlay-link {
-    opacity: 1; /* Tampilkan overlay sky-800 saat hover */
+  .thumbnail-container-link:hover .green-overlay-link {
+    opacity: 1; /* Tampilkan overlay green-800 saat hover */
   }
 
   .thumbnail-container-link:hover {
