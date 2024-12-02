@@ -1,6 +1,6 @@
 {{ $accent := .Site.Params.ascentColor }}
 <div class="grid-item blog-card-aplikasi relative text-white rounded-lg shadow-md overflow-hidden p-4" 
-     style="width: 28vw; height: 200px;"> <!-- Meninggikan kotak lebih lagi -->
+     style="width: 25vw; height: 200px;"> <!-- Meninggikan kotak lebih lagi -->
 
   <!-- Link ke halaman atau URL -->
   {{ if .Params.eurl }}
@@ -10,10 +10,10 @@
   {{ end }}
 
     <!-- Background tetap satu thumbnail dengan padding dan di tengah -->
-    <div class="thumbnail-container" 
+    <div class="thumbnail-container-aplikasi" 
          style="background-image: url('{{ .Params.thumbnail }}'); padding: 20px; background-size: contain; background-repeat: no-repeat; background-position: center;">
-      <div class="overlay">
-        <span class="eurl-text">{{ .Params.eurl }}</span> <!-- Tampilkan eurl saat hover dengan padding -->
+      <div class="overlay-aplikasi">
+        <span class="eurl-text-aplikasi">{{ .Params.eurl }}</span> <!-- Tampilkan eurl saat hover dengan padding -->
       </div>
     </div>
     
@@ -26,13 +26,13 @@
     background-position: center;
   }
 
-  .thumbnail-container {
+  .thumbnail-container-aplikasi {
     position: absolute;
     inset: 0;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease;
   }
 
-  .overlay {
+  .overlay-aplikasi {
     position: absolute;
     inset: 0;
     display: flex;
@@ -41,22 +41,30 @@
     opacity: 0;
     transition: opacity 0.3s ease;
     background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px; /* Tambahkan padding agar teks tidak keluar dari kotak */
+    box-sizing: border-box; /* Pastikan padding tidak menambah ukuran elemen */
   }
 
-  .eurl-text {
+  .eurl-text-aplikasi {
     color: white;
     font-size: 1.125rem;
     font-weight: bold;
-    padding: 10px;
+    padding: 15px;
     display: none;
+    word-wrap: break-word; /* Memastikan teks panjang terbungkus */
+    max-width: 100%; /* Batasi lebar teks agar tidak keluar dari kotak */
   }
 
-  .thumbnail-container:hover .overlay {
+  .thumbnail-container-aplikasi:hover .overlay-aplikasi {
     opacity: 1;
   }
 
-  .thumbnail-container:hover .eurl-text {
+  .thumbnail-container-aplikasi:hover .eurl-text-aplikasi {
     display: block;
+  }
+
+  .thumbnail-container-aplikasi:hover {
+    transform: scale(1.15); /* Perkecil sedikit saat hover */
   }
 
   @media (max-width: 768px) {

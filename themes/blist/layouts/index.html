@@ -793,52 +793,97 @@ document.addEventListener('DOMContentLoaded', (event) => {
 </script>
 
 <div class="fade-in" id="animateMe">
-  <!-- Link Terkait Section -->
-  <h2 class="text-2xl font-bold py-5 text-center text-sky-800">Link Web Terkait</h2>
-  <hr class="border-t-4 border-sky-800 w-1/3 mx-auto mt-1">
-  <div class="link-terkait bg-sky-800 bg-opacity-20 my-3 dark:bg-gray-400 p-6 rounded-xl w-full">
-    {{ $frontBundle5 := .Site.Params.frontBundle5 | default "Link Terkait" | lower }}
-
-    <!-- Swiper Link Terkait Section -->
-    <div class="swiper swiper-link-terkait min-h-72 mx-auto">
-      <div class="swiper-wrapper pb-4">
-        {{ range (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle5) }}
-          <div class="swiper-slide h-32 md:h-48 lg:h-64">
-            {{- partial "blog-card-home-link.html" . -}}
+  <!-- Aplikasi Section -->
+  <div class="grid grid-cols-1 gap-6 justify-center items-center max-w-screen-xl mx-auto"> <!-- Mengubah grid menjadi satu kolom -->
+    <div class="text-center">
+      <h2 class="text-xl font-bold py-3 text-sky-800">Aplikasi Balitbang</h2> <!-- Memperkecil font -->
+      <hr class="border-t-4 border-sky-800 w-2/3 mt-1 mx-auto"> <!-- Memperpendek hr -->
+      <div class="aplikasi my-3 dark:bg-gray-400 p-6 rounded-xl w-full mx-auto relative"> <!-- Menghapus kotak biru -->
+        {{ $frontBundle6 := .Site.Params.frontBundle6 | default "Aplikasi-Balitbang" | lower }}
+        <!-- Swiper Aplikasi Balitbang Section -->
+        <div class="swiper swiper-aplikasi h-60 mx-auto"> <!-- Mengurangi tinggi swiper -->
+          <div class="swiper-wrapper pb-4">
+            {{ range (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle6) }}
+              <div class="swiper-slide h-auto">
+                {{- partial "blog-card-home-aplikasi.html" . -}}
+              </div>
+            {{ end }}
           </div>
-        {{ end }}
+          <!-- Swiper pagination -->
+          <div class="swiper-pagination-aplikasi absolute top-0 right-0"></div> <!-- Memindahkan pagination ke kanan -->
+        </div>
       </div>
-      <!-- Swiper pagination -->
-      <div class="swiper-pagination-link-terkait"></div>
+    </div>
+    <div class="text-center">
+      <h2 class="text-xl font-bold py-3 text-sky-800">Aplikasi SPBE</h2> <!-- Memperkecil font -->
+      <hr class="border-t-4 border-sky-800 w-2/3 mt-1 mx-auto"> <!-- Memperpendek hr -->
+      <div class="aplikasi my-3 dark:bg-gray-400 p-6 rounded-xl w-full mx-auto relative"> <!-- Menghapus kotak biru -->
+        {{ $frontBundle7 := .Site.Params.frontBundle7 | default "Aplikasi-SPBE" | lower }}
+        <!-- Swiper Aplikasi SPBE Section -->
+        <div class="swiper swiper-aplikasi h-60 mx-auto"> <!-- Mengurangi tinggi swiper -->
+          <div class="swiper-wrapper pb-4">
+            {{ range (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle7) }}
+              <div class="swiper-slide h-auto">
+                {{- partial "blog-card-home-aplikasi.html" . -}}
+              </div>
+            {{ end }}
+          </div>
+          <!-- Swiper pagination -->
+          <div class="swiper-pagination-aplikasi absolute top-0 right-0"></div> <!-- Memindahkan pagination ke kanan -->
+        </div>
+      </div>
+    </div>
+    <div class="text-center">
+      <h2 class="text-xl font-bold py-3 text-sky-800">Aplikasi Data Kalbar</h2> <!-- Memperkecil font -->
+      <hr class="border-t-4 border-sky-800 w-2/3 mt-1 mx-auto"> <!-- Memperpendek hr -->
+      <div class="aplikasi my-3 dark:bg-gray-400 p-6 rounded-xl w-full mx-auto relative"> <!-- Menghapus kotak biru -->
+        {{ $frontBundle8 := .Site.Params.frontBundle8 | default "Aplikasi-Data-Kalbar" | lower }}
+        <!-- Swiper Aplikasi Data Kalbar Section -->
+        <div class="swiper swiper-aplikasi h-60 mx-auto"> <!-- Mengurangi tinggi swiper -->
+          <div class="swiper-wrapper pb-4">
+            {{ range (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle8) }}
+              <div class="swiper-slide h-auto">
+                {{- partial "blog-card-home-aplikasi.html" . -}}
+              </div>
+            {{ end }}
+          </div>
+          <!-- Swiper pagination -->
+          <div class="swiper-pagination-aplikasi absolute top-0 right-0"></div> <!-- Memindahkan pagination ke kanan -->
+        </div>
+      </div>
     </div>
   </div>
 </div>
 
 <style>
-  .swiper-pagination-link-terkait {
+  .swiper-pagination-aplikasi {
     display: flex;
+    flex-direction: column; /* Mengatur pagination menjadi vertikal */
     justify-content: center;
-    gap: 20px; /* Menambahkan jarak antar pagination */
+    gap: 5px; /* Mengurangi jarak antar pagination */
+    z-index: 10; /* Menempatkan pagination di atas blog card */
+    right: 0px; /* Menambahkan jarak ke kanan dari swiper */
   }
-  .swiper-pagination-link-terkait .swiper-pagination-bullet {
-    width: 20px;
-    height: 20px;
+  .swiper-pagination-aplikasi .swiper-pagination-bullet {
+    width: 15px; /* Memperbesar sedikit ukuran pagination */
+    height: 15px; /* Memperbesar sedikit ukuran pagination */
     opacity: 1;
-    border: 2px solid white; /* Mengubah warna border menjadi putih */
+    border: 1px solid #156689; /* Mengubah warna border menjadi sky-800 */
     border-radius: 50%;
     background-color: transparent; /* Mengubah warna background menjadi transparan */
   }
-  .swiper-pagination-link-terkait .swiper-pagination-bullet-active {
-    background-color: white; /* Warna putih untuk yang aktif */
+  .swiper-pagination-aplikasi .swiper-pagination-bullet-active {
+    background-color: #156689; /* Warna sky-800 untuk yang aktif */
   }
 </style>
 
 <script>
 document.addEventListener('DOMContentLoaded', (event) => {
-    var linkTerkaitSwiper = new Swiper(".swiper-link-terkait", {
-    slidesPerView: 4,
+    var aplikasiSwiper = new Swiper(".swiper-aplikasi", {
+    direction: 'vertical', // Mengubah arah slide menjadi vertikal
+    slidesPerView: 1,
     spaceBetween: 10,
-    slidesPerGroup: 4,
+    slidesPerGroup: 1,
     loop: true,
     autoplay: {
         delay: 5000,
@@ -846,13 +891,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
     },
     speed: 1000,
     pagination: {
-        el: ".swiper-pagination-link-terkait",
+        el: ".swiper-pagination-aplikasi",
         clickable: true,
     },
 });
 });
 </script>
-
 
 {{- partial "intro.html" . -}}
 {{ end }}
