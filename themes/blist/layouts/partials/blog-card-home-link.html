@@ -9,12 +9,17 @@
   <a href="{{ .RelPermalink }}" class="absolute inset-0">
   {{ end }}
 
-    <!-- Background tetap satu thumbnail dengan padding dan di tengah -->
-    <div class="thumbnail-container" 
-         style="background-image: url('{{ .Params.thumbnail }}'); padding: 20px; background-size: contain; background-repeat: no-repeat; background-position: center;">
-      <div class="overlay">
-        <span class="eurl-text">{{ .Params.eurl }}</span> <!-- Tampilkan eurl saat hover dengan padding -->
+    <!-- Background dengan thumbnail, logo, dan overlay gelap -->
+    <div class="thumbnail-container-link" 
+         style="background-image: url('{{ .Params.thumbnail }}'); padding: 20px; background-size: cover; background-repeat: no-repeat; background-position: center;">
+      <div class="logo-overlay-link" 
+           style="background-image: url('{{ .Params.logo }}'); background-size: 60% auto; background-repeat: no-repeat; background-position: center;">
+        <div class="dark-overlay-link"></div>
       </div>
+      <div class="eurl-overlay-link" style="padding: 10px;"> <!-- Tambahkan padding pada eurl -->
+        <span class="eurl-text-link">{{ .Params.eurl }}</span> <!-- Tampilkan eurl saat hover -->
+      </div>
+      <div class="sky-overlay-link"></div> <!-- Tambahkan overlay sky-800 -->
     </div>
     
   </a>
@@ -26,13 +31,29 @@
     background-position: center;
   }
 
-  .thumbnail-container {
+  .thumbnail-container-link {
     position: absolute;
     inset: 0;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease, background-image 0.3s ease;
   }
 
-  .overlay {
+  .logo-overlay-link {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.2); /* Kurangi kegelapan di atas logo */
+    transition: opacity 0.3s ease;
+  }
+
+  .dark-overlay-link {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(0, 0, 0, 0.2); /* Kurangi kegelapan di atas thumbnail */
+  }
+
+  .eurl-overlay-link {
     position: absolute;
     inset: 0;
     display: flex;
@@ -40,23 +61,45 @@
     justify-content: center;
     opacity: 0;
     transition: opacity 0.3s ease;
-    background-color: rgba(0, 0, 0, 0.5);
   }
 
-  .eurl-text {
+  .eurl-text-link {
     color: white;
     font-size: 1.125rem;
     font-weight: bold;
     padding: 10px;
-    display: none;
+    word-wrap: break-word; /* Memastikan teks panjang terbungkus */
+    max-width: 100%; /* Batasi lebar teks agar tidak keluar dari kotak */
   }
 
-  .thumbnail-container:hover .overlay {
-    opacity: 1;
+  .sky-overlay-link {
+    position: absolute;
+    inset: 0;
+    background-color: rgba(59, 130, 246, 0.6); /* Warna sky-800 dengan transparansi */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    z-index: -1; /* Pastikan berada di bawah eurl */
   }
 
-  .thumbnail-container:hover .eurl-text {
-    display: block;
+  .thumbnail-container-link:hover .logo-overlay-link {
+    opacity: 0; /* Hilangkan logo saat hover */
+  }
+
+  .thumbnail-container-link:hover .dark-overlay-link {
+    display: none; /* Hilangkan overlay gelap saat hover */
+  }
+
+  .thumbnail-container-link:hover .eurl-overlay-link {
+    opacity: 1; /* Tampilkan eurl saat hover */
+  }
+
+  .thumbnail-container-link:hover .sky-overlay-link {
+    opacity: 1; /* Tampilkan overlay sky-800 saat hover */
+  }
+
+  .thumbnail-container-link:hover {
+    transform: scale(1.10); /* Perkecil sedikit saat hover */
+    background-image: url('{{ .Params.thumbnail }}'); /* Tetap gunakan thumbnail sebagai background */
   }
 
   @media (max-width: 768px) {

@@ -1,5 +1,5 @@
 {{ $accent := .Site.Params.ascentColor }}
-<div class="grid-item blog-card-aplikasi relative text-white rounded-lg shadow-md overflow-hidden p-4" 
+<div class="grid-item blog-card-aplikasi relative text-white rounded-lg shadow-lg overflow-hidden p-4" 
      style="width: 25vw; height: 200px;"> <!-- Meninggikan kotak lebih lagi -->
 
   <!-- Link ke halaman atau URL -->
@@ -11,7 +11,7 @@
 
     <!-- Background tetap satu thumbnail dengan padding dan di tengah -->
     <div class="thumbnail-container-aplikasi" 
-         style="background-image: url('{{ .Params.thumbnail }}'); padding: 20px; background-size: contain; background-repeat: no-repeat; background-position: center;">
+         style="background-image: url('{{ .Params.thumbnail }}'); padding: 20px; background-size: 60% auto; background-repeat: no-repeat; background-position: center;">
       <div class="overlay-aplikasi">
         <span class="eurl-text-aplikasi">{{ .Params.eurl }}</span> <!-- Tampilkan eurl saat hover dengan padding -->
       </div>
