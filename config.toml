@@ -120,7 +120,7 @@ weight = 2
 identifier = 'sejarah'
 name = "Sejarah"
 parent = "profil badan"
-url = "https://litbang.kalbarprov.go.id/page/sejarah"
+url = "/page/sejarah"
 weight = 1
 
 
@@ -391,7 +391,7 @@ weight = 6
 identifier = 'saq'
 name = "SAQ"
 parent = "informasi"
-url = "https://litbang.kalbarprov.go.id/saq/frequently-ask-question-faq/"
+url = "/saq/frequently-ask-question-faq/"
 weight = 3
 
 
@@ -402,7 +402,7 @@ weight = 3
 identifier = 'jalur evakuasi'
 name = "Jalur Evakuasi"
 parent = "informasi"
-url = "https://litbang.kalbarprov.go.id/jalur-evakuasi/denah-dan-jalur-evakausi"
+url = "/jalur-evakuasi/denah-dan-jalur-evakausi"
 weight = 6
 
 
@@ -449,7 +449,7 @@ weight = 5
 identifier = 'jurnal'
 name = "Jurnal"
 parent = "publikasi"
-url = "https://litbang.kalbarprov.go.id/jurnal/jurnal-borneo-akcaya"
+url = "/jurnal/jurnal-borneo-akcaya"
 weight = 3
 
 
@@ -498,7 +498,7 @@ weight = 6
 identifier = 'template'
 name = "Template"
 parent = "publikasi"
-url = "https://litbang.kalbarprov.go.id/template/template"
+url = "/template/template"
 weight = 5
 
 
@@ -509,7 +509,7 @@ weight = 5
 identifier = 'permohonan online'
 name = "Permohonan Online"
 parent = "ppid"
-url = "https://litbang.kalbarprov.go.id/permohonan-online/permohonan-online-ppid/"
+url = "/permohonan-online/permohonan-online-ppid/"
 weight = 6
 
 
@@ -518,7 +518,7 @@ weight = 6
 identifier = 'formulir ppid'
 name = "Formulir PPID"
 parent = "ppid"
-url = "https://litbang.kalbarprov.go.id/formulir-ppid/formulir-ppid/"
+url = "/formulir-ppid/formulir-ppid/"
 weight = 8
 
 
@@ -539,7 +539,7 @@ weight = 8
 identifier = 'laporan ppid'
 name = "Laporan PPID"
 parent = "ppid"
-url = "https://litbang.kalbarprov.go.id/laporan-ppid/laporan-ppid/"
+url = "/laporan-ppid/laporan-ppid/"
 weight = 7
 
 
@@ -564,7 +564,7 @@ weight = 7
 identifier = 'daftar informasi'
 name = "Daftar Informasi"
 parent = "ppid"
-url = "https://litbang.kalbarprov.go.id/daftar-informasi/daftar-informasi/"
+url = "/daftar-informasi/daftar-informasi/"
 weight = 5
 
 
@@ -617,7 +617,7 @@ weight = 5
 identifier = 'sop ppid'
 name = "SOP PPID"
 parent = "ppid"
-url = "https://litbang.kalbarprov.go.id/sop-ppid/sop-ppid"
+url = "/sop-ppid/sop-ppid"
 weight = 3
 
 
@@ -658,7 +658,7 @@ weight = 3
 identifier = 'standar pelayanan'
 name = "Standar Pelayanan"
 parent = "pelayanan"
-url = "https://litbang.kalbarprov.go.id/standar-pelayanan/standar-pelayanan"
+url = "/standar-pelayanan/standar-pelayanan"
 weight = 2
 
 
@@ -667,7 +667,7 @@ weight = 2
 identifier = 'program kerja'
 name = "Program Kerja"
 parent = "profil"
-url = "https://litbang.kalbarprov.go.id/program-kerja/program-kerja-balitbang"
+url = "/program-kerja/program-kerja-balitbang"
 weight = 3
 
 
@@ -676,7 +676,7 @@ weight = 3
 identifier = 'profil pegawai'
 name = "Profil Pegawai"
 parent = "profil"
-url = "https://litbang.kalbarprov.go.id/profil-pegawai/profil-pegawai-balitbang"
+url = "/profil-pegawai/profil-pegawai-balitbang"
 weight = 4
 
 
@@ -685,7 +685,7 @@ weight = 4
 identifier = 'matrik kegiatan'
 name = "Matrik Kegiatan"
 parent = "informasi"
-url = "https://litbang.kalbarprov.go.id/matrik-kegiatan/matrik-kegiatan"
+url = "/matrik-kegiatan/matrik-kegiatan"
 weight = 4
 
 
@@ -694,7 +694,7 @@ weight = 4
 identifier = 'program riset'
 name = "Program Riset"
 parent = "riset"
-url = "https://litbang.kalbarprov.go.id/program-riset/program-riset"
+url = "/program-riset/program-riset"
 weight = 1
 
 
@@ -709,7 +709,7 @@ weight = 1
 identifier = 'hasil kelitbangan'
 name = "Hasil Kelitbangan"
 parent = "riset"
-url = "https://litbang.kalbarprov.go.id/hasil-kelitbangan/hasil-kelitbangan"
+url = "/hasil-kelitbangan/hasil-kelitbangan"
 weight = 3
 
 
@@ -718,7 +718,7 @@ weight = 3
 identifier = 'litbangjirap'
 name = "Litbangjirap"
 parent = "riset"
-url = "https://litbang.kalbarprov.go.id/litbangjirap/litbangjirap"
+url = "/litbangjirap/litbangjirap"
 weight = 2
 
 
@@ -727,7 +727,7 @@ weight = 2
 identifier = 'pengumuman'
 name = "Pengumuman"
 parent = "informasi"
-url = "https://litbang.kalbarprov.go.id/pengumuman/pengumuman"
+url = "/pengumuman/pengumuman"
 weight = 2
 
 
@@ -736,7 +736,7 @@ weight = 2
 identifier = 'kerjasama kelitbangan'
 name = "Kerjasama Kelitbangan"
 parent = "dokumen"
-url = "https://litbang.kalbarprov.go.id/kerjasama-kelitbangan/kerjasama-kelitbangan"
+url = "/kerjasama-kelitbangan/kerjasama-kelitbangan"
 weight = 6
 
 
@@ -745,7 +745,7 @@ weight = 6
 identifier = 'unit kerja'
 name = "Unit Kerja"
 parent = "profil"
-url = "https://litbang.kalbarprov.go.id/unit-kerja/unit-kerja"
+url = "/unit-kerja/unit-kerja"
 weight = 2
 
 
@@ -754,7 +754,7 @@ weight = 2
 identifier = 'profil badan'
 name = "Profil Badan"
 parent = "profil"
-url = "https://litbang.kalbarprov.go.id/profil-badan/profil-badan"
+url = "/profil-badan"
 weight = 1
 
 
@@ -763,7 +763,7 @@ weight = 1
 identifier = 'penghargaan'
 name = "Penghargaan"
 parent = "informasi"
-url = "https://litbang.kalbarprov.go.id/penghargaan/penghargaan"
+url = "/penghargaan/penghargaan"
 weight = 5
 
 
@@ -772,7 +772,7 @@ weight = 5
 identifier = 'renja monev'
 name = "Renja Monev"
 parent = "dokumen"
-url = "https://litbang.kalbarprov.go.id/renja-monev/renja-monev"
+url = "/renja-monev/renja-monev"
 weight = 1
 
 
@@ -781,7 +781,7 @@ weight = 1
 identifier = 'sop kelembagaan'
 name = "SOP Kelembagaan"
 parent = "dokumen"
-url = "https://litbang.kalbarprov.go.id/sop-kelembagaan/sop-kelembagaan"
+url = "/sop-kelembagaan/sop-kelembagaan"
 weight = 2
 
 
@@ -790,7 +790,7 @@ weight = 2
 identifier = 'peraturan kelitbangan'
 name = "Peraturan Kelitbangan"
 parent = "dokumen"
-url = "https://litbang.kalbarprov.go.id/peraturan-kelitbangan/peraturan-kelitbangan"
+url = "/peraturan-kelitbangan/peraturan-kelitbangan"
 weight = 3
 
 
@@ -801,7 +801,7 @@ weight = 3
 identifier = 'aparatur'
 name = "Aparatur"
 parent = "dokumen"
-url = "https://litbang.kalbarprov.go.id/aparatur/aparatur"
+url = "/aparatur/aparatur"
 weight = 5
 
 
@@ -810,7 +810,7 @@ weight = 5
 identifier = 'profil layanan'
 name = "Profil Layanan"
 parent = "pelayanan"
-url = "https://litbang.kalbarprov.go.id/profil-layanan/profil-layanan"
+url = "/profil-layanan/profil-layanan"
 weight = 1
 
 
@@ -819,7 +819,7 @@ weight = 1
 identifier = 'pengelolaan pengaduan'
 name = "Pengelolaan Pengaduan"
 parent = "pelayanan"
-url = "https://litbang.kalbarprov.go.id/pengelolaan-pengaduan/pengelolaan-pengaduan"
+url = "/pengelolaan-pengaduan/pengelolaan-pengaduan"
 weight = 4
 
 
@@ -828,7 +828,7 @@ weight = 4
 identifier = 'laporan skm'
 name = "Laporan SKM"
 parent = "pelayanan"
-url = "https://litbang.kalbarprov.go.id/laporan-skm/laporan-skm"
+url = "/laporan-skm/laporan-skm"
 weight = 7
 
 
@@ -837,7 +837,7 @@ weight = 7
 identifier = 'profil ppid'
 name = "Profil PPID"
 parent = "ppid"
-url = "https://litbang.kalbarprov.go.id/profil-ppid/profil-ppid"
+url = "/profil-ppid/profil-ppid"
 weight = 1
 
 
@@ -846,7 +846,7 @@ weight = 1
 identifier = 'regulasi ppid'
 name = "Regulasi PPID"
 parent = "ppid"
-url = "https://litbang.kalbarprov.go.id/regulasi-ppid/regulasi-ppid"
+url = "/regulasi-ppid/regulasi-ppid"
 weight = 2
 
 
@@ -855,7 +855,7 @@ weight = 2
 identifier = 'tata cara'
 name = "Tata Cara"
 parent = "ppid"
-url = "https://litbang.kalbarprov.go.id/tata-cara/tata-cara"
+url = "/tata-cara/tata-cara"
 weight = 4
 
 
@@ -874,7 +874,7 @@ weight = 4
 identifier = 'jumlah permohonan informasi'
 name = "Jumlah Permohonan Informasi"
 parent = "ppid"
-url = "https://litbang.kalbarprov.go.id/jumlah-permohonan-informasi/jumlah-permohonan-informasi"
+url = "/jumlah-permohonan-informasi/jumlah-permohonan-informasi"
 weight = 9
 
 
@@ -883,7 +883,7 @@ weight = 9
 identifier = 'keuangan dan aset'
 name = "Keuangan dan Aset"
 parent = "dokumen"
-url = "https://litbang.kalbarprov.go.id/keuangan-dan-aset/keuangan-dan-aset"
+url = "/keuangan-dan-aset/keuangan-dan-aset"
 weight = 4
 
 
@@ -907,7 +907,7 @@ weight = 8
 identifier = 'google scholar lityasa'
 name = "Google Scholar Lityasa"
 parent = "publikasi"
-url = "https://litbang.kalbarprov.go.id/google-scholar-lityasa/google-scholar-lityasa"
+url = "/google-scholar-lityasa/google-scholar-lityasa"
 weight = 7
 
 
@@ -920,7 +920,7 @@ weight = 7
 identifier = 'kontak'
 name = "Kontak"
 parent = "informasi"
-url = "https://litbang.kalbarprov.go.id/kontak/kontak"
+url = "/kontak/kontak"
 weight = 1
 
 
@@ -997,6 +997,21 @@ hari = "Kamis"
 text = "Selamat Datang di Website Resmi Badan Penelitian dan Pengembangan Provinsi Kalimantan Barat"
 
 
+
+
+[[params.sliders.images]]
+url = "Slide Web Utama Balitbang.png"
+extension = "png"
+
+
+[[params.sliders.images]]
+url = "Slider HKI 2024.png"
+extension = "png"
+
+
+[[params.sliders.images]]
+url = "Slider HUT Kota Pontianak 2024.png"
+extension = "png"
 
 
 

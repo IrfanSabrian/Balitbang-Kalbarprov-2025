@@ -324,6 +324,33 @@
         border-radius: 20px;
         border: 3px solid #f1f1f1;
       }
+
+      /* Style untuk icon media sosial */
+      .social-icons {
+        position: fixed;
+        top: 50%;
+        right: 0;
+        transform: translateY(-50%);
+        background-color: white;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        padding: 10px;
+        z-index: 1000;
+      }
+
+      .social-icons a {
+        display: block;
+        margin: 10px 0;
+        color: #2f855a;
+        font-size: 24px;
+        transition: transform 0.3s, color 0.3s;
+        text-align: center;
+      }
+
+      .social-icons a:hover {
+        transform: scale(1.2);
+        color: #1c6a4a;
+      }
     </style>
     <span id="loadmodaldisabilitas"></span>
 
@@ -344,6 +371,23 @@
       {{- block "main" . }}{{- end }}
     </main>
     {{- partial "footer.html" . -}}
+    <div class="social-icons">
+      <a href="https://www.facebook.com/litbangkalbar" target="_blank" rel="noopener" aria-label="Facebook">
+        <i class="fab fa-facebook"></i>
+      </a>
+      <a href="https://www.instagram.com/balitbang_kalbar/" target="_blank" rel="noopener" aria-label="Instagram">
+        <i class="fab fa-instagram"></i>
+      </a>
+      <a href="https://www.youtube.com/@balitbangkalbar" target="_blank" rel="noopener" aria-label="YouTube">
+        <i class="fab fa-youtube"></i>
+      </a>
+      <a href="https://www.tiktok.com/@balitbang_kalbar" target="_blank" rel="noopener" aria-label="TikTok">
+        <i class="fab fa-tiktok"></i>
+      </a>
+      <a href="https://x.com/Umparlitbang?t=XRUF21w1Gaqdxp0TmpgRbA&amp;s=09" target="_blank" rel="noopener" aria-label="Twitter">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </div>
   </body>
   <script src='{{"js/loadmodaldisabilitas.js" | relURL}}'></script>
 </html>

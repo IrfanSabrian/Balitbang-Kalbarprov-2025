@@ -78,6 +78,17 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  position: relative; /* Tambahkan posisi relatif untuk overlay */
+}
+
+.swiper-slide .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Overlay hitam dengan opacity 40% */
+  z-index: 1; /* Pastikan overlay berada di atas gambar slider */
 }
 
   .animated-text {
@@ -87,7 +98,7 @@
     transform: translate(-50%, -50%);
     font-size: 3vw;
     font-family: 'Marcellus', serif;
-    z-index: 3;
+    z-index: 2; /* Pastikan teks berada di atas overlay */
     text-align: center;
     width: 80%;
     color: white;
@@ -200,6 +211,28 @@
   color: black;
 }
 
+.toggle-button {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  z-index: 11; /* Pastikan tombol berada di atas pagination */
+  background-color: #16A34A;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1em; /* Ukuran ikon font */
+}
+
+.toggle-button .fa-ban {
+  position: absolute;
+  font-size: 1.5em; /* Perbesar ukuran ikon ban */
+}
+
 </style>
 <!-- Swiper Background -->
 
@@ -209,30 +242,33 @@
 {{ $sliderImages := .Site.Params.sliders.images }}
 
 {{ if len $sliderImages }}
-<div class="swiper mySwiper" style="background-color: black; height: 43vw;">
+<div class="swiper mySwiper" style="height: 42.5vw;">
   <div class="swiper-wrapper">
-    <p class="font-semibold animated-text">
-      {{ range $runningText }}{{ .text }} {{ end }}
-    </p>
-    
     {{ range $sliderImages }}
-    <div class="swiper-slide" style="background-color: black">
+    <div class="swiper-slide">
+      <div class="overlay"></div> <!-- Tambahkan overlay hitam -->
       <img
         src="sliders/{{ .url }}"
         alt="Slider Image"
         style="
-          width: 100%; opacity: 0.7;
-          filter: blur(2px);
+          width: 100%;
           z-index: -1;
         "
       />
     </div>
     {{ end }}
+    <p class="font-semibold animated-text">
+      {{ range $runningText }}{{ .text }} {{ end }}
+    </p>
     {{ end }}
   </div>
   <div class="swiper-button-next"></div>
   <div class="swiper-button-prev"></div>
   <div class="swiper-pagination"></div>
+  <button class="toggle-button" onclick="toggleOverlay()">
+    <i class="fas fa-font"></i>
+    <i class="fas fa-ban"></i>
+  </button>
 </div>
 
 
@@ -275,6 +311,20 @@
       },
     });
   });
+
+  function toggleOverlay() {
+    const overlays = document.querySelectorAll('.overlay');
+    const animatedTexts = document.querySelectorAll('.animated-text');
+    const banIcon = document.querySelector('.toggle-button .fa-ban');
+    
+    overlays.forEach((overlay) => {
+      overlay.style.display = overlay.style.display === 'none' ? 'block' : 'none';
+    });
+    animatedTexts.forEach((text) => {
+      text.style.display = text.style.display === 'none' ? 'block' : 'none';
+    });
+    banIcon.style.display = banIcon.style.display === 'none' ? 'inline' : 'none';
+  }
 </script>
 
 <script>
@@ -308,7 +358,7 @@
     <!-- Swiper Berita Section -->
     <div class="swiper swiper-berita min-h-72 mx-auto">
       <div class="swiper-wrapper pb-4">
-        {{ range (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle) }}
+        {{ range first 10 (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle) }}
         <div class="swiper-slide rounded-lg">
           {{- partial "blog-card-home-berita.html" . -}}
         </div>
@@ -316,7 +366,7 @@
       </div>
     </div>
     <div class="swiper-berita-pagination"></div>
-    {{ if gt (len (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle)) 6 }}
+    {{ if gt (len (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle)) 10 }}
     <div class="text-center py-10">
       <a class='px-8 py-5 rounded-2xl transition-colors {{ default "bg-green-500" .Site.Params.ascentColor }} text-gray-100 hover:text-gray-800' href="{{ lower (replace $frontBundle " " "-") | absLangURL }}" lang="{{ .Lang }}">
         {{ i18n "morePosts" }}
@@ -327,7 +377,6 @@
     </div>
     {{ end }}
   </div>
-
 
 <!-- Initialize Swiper for Berita Section -->
 <script>
@@ -373,7 +422,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
   <h2 class="text-2xl font-bold pt-6 text-center text-green-800 mb-4" id="animateMe">Agenda</h2>
   <div class="swiper-container pl-2" style="display: flex; align-items: center; position: relative;">
   <!-- Swiper Agenda Section -->
-  <div class="swiper swiper-agenda p-5" style="height: 480px; width: 90%; margin-left: 1px; overflow: hidden; ">
+  <div class="swiper swiper-agenda p-5" style="height: 480px; width: 90%; margin-left: 1px; overflow: hidden; pointer-events: none;">
     <div class="swiper-wrapper">
       {{ range $agenda }}
       <div class="swiper-slide agenda-item flex-grow pr-2 bg-white rounded-lg flex mb-4">
@@ -886,7 +935,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
     slidesPerGroup: 1,
     loop: true,
     autoplay: {
-        delay: 5000,
+        delay: 3000,
         disableOnInteraction: false,
     },
     speed: 1000,
