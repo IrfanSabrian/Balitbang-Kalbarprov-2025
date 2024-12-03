@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Link Web Terkait on Balitbang Provinsi Kalbar</title>
+    <link>//localhost:1313/link-terkait/</link>
+    <description>Recent content in Link Web Terkait on Balitbang Provinsi Kalbar</description>
+    <generator>Hugo</generator>
+    <language>id</language>
+    <atom:link href="//localhost:1313/link-terkait/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>BRIN</title>
+      <link>//localhost:1313/link-terkait/brin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/link-terkait/brin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>CSIRT</title>
+      <link>//localhost:1313/link-terkait/csirt/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/link-terkait/csirt/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>KEMENDAGRI</title>
+      <link>//localhost:1313/link-terkait/kemendagri/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/link-terkait/kemendagri/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Komisi Informasi Kalbar</title>
+      <link>//localhost:1313/link-terkait/komisi-informasi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/link-terkait/komisi-informasi/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PEMPROV KALBAR</title>
+      <link>//localhost:1313/link-terkait/pemprov-kalbar/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/link-terkait/pemprov-kalbar/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>PEMPROV KALBAR</title>
+      <link>//localhost:1313/link-terkait/ppid/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/link-terkait/ppid/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SARIVA</title>
+      <link>//localhost:1313/link-terkait/sariva/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/link-terkait/sariva/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SIPPN</title>
+      <link>//localhost:1313/link-terkait/sippn/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/link-terkait/sippn/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

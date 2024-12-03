@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Aplikasi SPBE on Balitbang Provinsi Kalbar</title>
+    <link>//localhost:1313/aplikasi-spbe/</link>
+    <description>Recent content in Aplikasi SPBE on Balitbang Provinsi Kalbar</description>
+    <generator>Hugo</generator>
+    <language>id</language>
+    <atom:link href="//localhost:1313/aplikasi-spbe/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>LAPOR</title>
+      <link>//localhost:1313/aplikasi-spbe/lapor/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/aplikasi-spbe/lapor/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>LPSE</title>
+      <link>//localhost:1313/aplikasi-spbe/lpse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/aplikasi-spbe/lpse/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SELARASIN</title>
+      <link>//localhost:1313/aplikasi-spbe/selarasin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/aplikasi-spbe/selarasin/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SIPD</title>
+      <link>//localhost:1313/aplikasi-spbe/sipd/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/aplikasi-spbe/sipd/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>SRIKANDI</title>
+      <link>//localhost:1313/aplikasi-spbe/srikandi/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>//localhost:1313/aplikasi-spbe/srikandi/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

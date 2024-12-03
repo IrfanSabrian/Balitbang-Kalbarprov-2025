@@ -1,6 +1,6 @@
 {{ $accent := .Site.Params.ascentColor }}
 <div class="grid-item blog-card-aplikasi relative text-white rounded-lg shadow-lg overflow-hidden p-4" 
-     style="width: 25vw; height: 200px;"> <!-- Meninggikan kotak lebih lagi -->
+     style="width: 25vw; height: 200px; background-color: rgba(128, 128, 128, 0.1);"> <!-- Meninggikan kotak lebih lagi -->
 
   <!-- Link ke halaman atau URL -->
   {{ if .Params.eurl }}
@@ -24,6 +24,7 @@
   .blog-card-aplikasi {
     background-size: cover;
     background-position: center;
+    background-color: rgba(128, 128, 128, 0.2); /* Ubah warna latar menjadi abu-abu dengan opacity 20% */
   }
 
   .thumbnail-container-aplikasi {

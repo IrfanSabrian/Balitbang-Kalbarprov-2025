@@ -2,37 +2,30 @@
 <div class="grid-item blog-card-berita relative text-white rounded-lg shadow-md overflow-hidden" 
      style="background-image: url('{{ .Params.thumbnail }}');">
 
-  <!-- Link ke halaman atau URL -->
   {{ if .Params.eurl }}
   <a href="{{ .Params.eurl }}" class="absolute inset-0 group">
   {{ else }}
   <a href="{{ .RelPermalink }}" class="absolute inset-0 group">
   {{ end }}
 
-    <!-- Zoom efek pada hover -->
     <div class="absolute inset-0 bg-cover bg-center transition-transform duration-300 group-hover:scale-110" 
          style="background-image: url('{{ .Params.thumbnail }}');">
       <div class="absolute inset-0 bg-black opacity-50"></div>
     </div>
 
-    <!-- Kontainer teks dan tombol di bawah -->
     <div class="absolute bottom-2 left-4 right-4 flex flex-col z-10 p-4">
       
-      <!-- Kolom atas: Judul -->
       <div class="mb-2">
         <span class="text-base font-bold block">
           {{ .Params.title }}
         </span>
       </div>
 
-      <!-- Kolom bawah: Tanggal dan Tombol -->
       <div class="flex items-center justify-between w-full">
-        <!-- Tanggal -->
         <span class="text-sm text-gray-200 italic">
           <i class="fas fa-calendar mr-2"></i> {{ .Date.Format "2 Jan 2006" }}
         </span>
 
-        <!-- Tombol -->
         <button class="text-sm bg-green-600 hover:bg-green-500 text-white py-1 px-3 rounded">
           <i class="fas fa-external-link-alt m-1"></i> Selengkapnya
         </button>
@@ -51,11 +44,11 @@
     background-position: center;
   }
   .grid-item .group:hover .group-hover\:scale-110 {
-    transform: scale(1.1); /* Efek zoom */
+    transform: scale(1.1);
   }
 
   .grid-item .group-hover\:scale-110 {
-    transition: transform 0.5s ease; /* Halus */
+    transition: transform 0.5s ease;
   }
 
   .grid-item .group-hover\:opacity-60 {
@@ -63,30 +56,28 @@
     transition: opacity 0.3s ease;
   }
 
-  /* CSS tambahan untuk teks yang panjang */
   .grid-item .text-xl {
-    white-space: normal; /* Teks tidak terpotong */
-    word-wrap: break-word; /* Memastikan teks terbungkus */
+    white-space: normal;
+    word-wrap: break-word;
   }
 
   .grid-item .group:hover .text-base {
-    color: #0284c7; /* green-800 */
-    transition: color 0.3s ease; /* Efek transisi halus */
+    color: #0284c7;
+    transition: color 0.3s ease;
   }
 
   .grid-item .group .text-base {
-    transition: color 0.3s ease; /* Tambahkan transisi ke warna awal */
+    transition: color 0.3s ease;
   }
-
 
   @media (max-width: 768px) {
     .blog-card-berita {
-      width: 100%; /* Sesuaikan dengan container */
-      height: auto; /* Biarkan tinggi menyesuaikan */
-      aspect-ratio: 16 / 9; /* Menjaga rasio aspek */
+      width: 100%;
+      height: auto;
+      aspect-ratio: 16 / 9;
     }
     .blog-card-berita .text-base {
-      font-size: 0.8rem; /* Ukuran lebih kecil (14px) untuk layar kecil */
+      font-size: 0.8rem;
     }
   }
 
