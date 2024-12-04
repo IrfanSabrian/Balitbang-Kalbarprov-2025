@@ -313,6 +313,18 @@
         },
       },
     });
+
+    // Atur agar overlay, teks, dan ikon ban tidak muncul di awal
+    const overlays = document.querySelectorAll('.overlay');
+    const animatedTexts = document.querySelectorAll('.animated-text');
+    const banIcon = document.querySelector('.toggle-button .fa-ban');
+    overlays.forEach((overlay) => {
+      overlay.style.display = 'none';
+    });
+    animatedTexts.forEach((text) => {
+      text.style.display = 'none';
+    });
+    banIcon.style.display = 'none';
   });
 
   function toggleOverlay() {

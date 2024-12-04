@@ -1,0 +1,73 @@
+{{ define "main" }}
+
+  <h1 class="container text-center mb-4 mt-2 px-6 pt-6 mx-auto text-3xl font-bold text-green-800">{{ .Title }}</h1>
+  <div class="container mx-auto px-6">
+    <div class="w-28 h-1 bg-green-800 mx-auto mb-8"></div>
+  </div>
+  {{ $type := .Type }}
+  {{ $paginator := .Paginate .Pages.ByDate.Reverse 16 }}
+  <div class="container p-6 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8">
+    {{ range $paginator.Pages }}
+    
+<a href="{{ .Params.urlVideo }}" target="_blank" class="group relative overflow-hidden rounded-lg shadow-md transition duration-500 ease-in-out cursor-pointer"
+  style="width: auto; height: 55vh;"
+  data-title="{{ .Params.title }}"
+>
+  {{ if .Params.thumbnail }}
+  <!-- Gambar -->
+  <img
+    src="{{ .Params.thumbnail }}"
+    alt="{{ .Params.title | default "Tidak Ada Judul" }}"
+    class="rounded-lg shadow-sm w-full h-full object-cover transform group-hover:scale-105 transition duration-500 ease-in-out"
+  />
+  <!-- Overlay saat hover -->
+  <div
+    class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out flex flex-col justify-center items-center text-white"
+  >
+    <!-- Nama -->
+    <div class="text-base font-semibold mb-2 p-8 text-center">
+      {{ .Params.title | default "Tidak Ada Judul" }}
+    </div>
+    <!-- link -->
+    <div class="text-base font-semibold mb-2 p-8 text-center">
+      {{ .Params.urlVideo | default "Tidak Ada link" }}
+    </div>
+    <!-- Tanggal -->
+    {{ if not (or (or .Site.Params.hideMeta .Params.hideMeta) false) }}
+    <div class="text-sm flex items-center">
+      <i class="fas fa-calendar-alt mr-2"></i>
+      {{ partial "date.html" (dict "date" .Date "language" $.Page.Language "format" "short") }}
+    </div>
+    {{ end }}
+  </div>
+  {{ end }}
+</a>
+
+    {{ end }}
+  </div>
+
+  <div class="flex justify-center space-x-2 my-8">
+    {{ if $paginator.HasPrev }}
+    <a href="{{ $paginator.Prev.URL }}" class="px-4 py-2 bg-green-800 text-white rounded-lg hover:bg-green-900 transition-colors">
+      <i class="fas fa-chevron-left"></i>
+    </a>
+    {{ end }}
+    
+    {{ range $paginator.Pagers }}
+      {{ if eq . $paginator }}
+      <span class="px-4 py-2 bg-green-800 text-white rounded-lg">{{ .PageNumber }}</span>
+      {{ else }}
+      <a href="{{ .URL }}" class="px-4 py-2 bg-gray-200 text-gray-700 rounded-lg hover:bg-gray-300 transition-colors">
+        {{ .PageNumber }}
+      </a>
+      {{ end }}
+    {{ end }}
+
+    {{ if $paginator.HasNext }}
+    <a href="{{ $paginator.Next.URL }}" class="px-4 py-2 bg-green-800 text-white rounded-lg hover:bg-green-900 transition-colors">
+      <i class="fas fa-chevron-right"></i>
+    </a>
+    {{ end }}
+  </div>
+
+{{ end }}

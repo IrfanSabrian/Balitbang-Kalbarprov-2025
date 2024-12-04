@@ -754,7 +754,7 @@ weight = 2
 identifier = 'profil badan'
 name = "Profil Badan"
 parent = "profil"
-url = "/profil-badan"
+url = "/profil-badan/profil-badan"
 weight = 1
 
 
