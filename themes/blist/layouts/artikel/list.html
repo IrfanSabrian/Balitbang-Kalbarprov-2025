@@ -8,41 +8,7 @@
   {{ $paginator := .Paginate .Pages.ByDate.Reverse 12 }}
   <div class="container p-6 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4 lg:gap-8">
     {{ range $paginator.Pages }}
-<div class="relative group">
-  {{ if .Params.thumbnail }}
-    <a href="{{ .Permalink }}" class="block relative w-full h-64">
-      <div class="absolute inset-0 bg-black opacity-50 transition-opacity group-hover:opacity-70 rounded-lg"></div>
-      <img src="{{ .Params.thumbnail }}" class="w-full h-full object-cover rounded-lg" alt="{{ .Title }}" />
-    </a>
-    <div class="absolute bottom-0 left-0 right-0 p-4">
-      <a href="{{ .Permalink }}" class="text-white text-xl font-bold hover:text-gray-200 transition-colors" style="font-family: 'Poppins', sans-serif;">
-        {{ .Title }}
-      </a>
-      <div class="flex items-center text-gray-300 text-sm mt-2" style="font-family: 'Poppins', sans-serif;">
-        <div>
-          <i class="fas fa-calendar-alt mr-2"></i>
-          {{ partial "date.html" (dict "date" .Date "language" $.Page.Language "format" "long") }}
-        </div>
-      </div>
-    </div>
-  {{ else }}
-    <a href="{{ .Permalink }}" class="block relative w-full h-64 bg-gray-200 rounded-lg">
-      <div class="absolute inset-0 bg-black opacity-50 transition-opacity group-hover:opacity-70 rounded-lg"></div>
-    </a>
-    <div class="absolute bottom-0 left-0 right-0 p-4">
-      <a href="{{ .Permalink }}" class="text-white text-xl font-bold hover:text-gray-200 transition-colors" style="font-family: 'Poppins', sans-serif;">
-        {{ .Title }}
-      </a>
-      <div class="flex items-center text-gray-300 text-sm mt-2" style="font-family: 'Poppins', sans-serif;">
-        <div>
-          <i class="fas fa-calendar-alt mr-2"></i>
-          {{ partial "date.html" (dict "date" .Date "language" $.Page.Language "format" "long") }}
-        </div>
-      </div>
-    </div>
-  {{ end }}
-</div>
-
+    {{- partial "blog-card-home-berita.html" . -}}
     {{ end }}
   </div>
 

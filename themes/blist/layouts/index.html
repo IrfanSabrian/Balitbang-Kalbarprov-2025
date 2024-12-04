@@ -89,6 +89,7 @@
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4); /* Overlay hitam dengan opacity 40% */
   z-index: 1; /* Pastikan overlay berada di atas gambar slider */
+  display: none; /* Overlay tidak aktif di awal */
 }
 
   .animated-text {
@@ -105,6 +106,7 @@
     animation: fadeInMove 2s ease-in-out; /* Memperkenalkan animasi */
     opacity: 0; /* Memastikan teks tidak terlihat sebelum animasi dimulai */
     animation-fill-mode: forwards; /* Memastikan animasi tetap di akhir posisi */
+    display: none; /* Running teks tidak aktif di awal */
   }
 
   .container {
@@ -231,6 +233,7 @@
 .toggle-button .fa-ban {
   position: absolute;
   font-size: 1.5em; /* Perbesar ukuran ikon ban */
+  display: none; /* Ikon ban tidak aktif di awal */
 }
 
 </style>
