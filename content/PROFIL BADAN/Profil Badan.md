@@ -3,28 +3,66 @@ author: sekret.bppkb
 title: "Profil Badan"
 date: 2024-08-01 05:22:45
 ---
-<p style="margin: 0cm; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><a href="https://litbang.kalbarprov.go.id/master-profil-badan/sejarah-balitbang"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Sejarah Balitbang</span></span></a></span></p>
+<div style="display: flex; flex-wrap: wrap; gap: 30px; width: 100%; margin-top: 40px;">
 
-<p style="margin: 0cm; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
+  <div style="flex: 1 1 calc(33.333% - 20px); box-sizing: border-box; padding: 10px; border: 1px solid #2f855a; background-color: #2f855a; border-radius: 15px; height: 150px; margin-bottom: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <i class="fas fa-history text-white" style="margin-bottom: 5px; font-size: 40px;"></i>
+      <span style="font-size: 12pt; font-family: 'Poppins', sans-serif; color: #fff;">Sejarah Balitbang</span>
+    <button onclick="window.location.href='https://litbang.kalbarprov.go.id/master-profil-badan/sejarah-balitbang'" style="margin-top: 10px; padding: 5px 10px; background-color: transparent; color: #fff; border: 1px solid #fff; border-radius: 15px; font-size: 10pt; cursor: pointer;" onmouseover="this.style.backgroundColor='#fff'; this.style.color='#2f855a';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#fff';">Lihat Detail <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></button>
+  </div>
 
-<p style="margin: 0cm; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><a href="https://litbang.kalbarprov.go.id/master-profil-badan/visi-misi"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Visi Misi</span></span></a></span></p>
+  <div style="flex: 1 1 calc(33.333% - 20px); box-sizing: border-box; padding: 10px; border: 1px solid #2f855a; background-color: #2f855a; border-radius: 15px; height: 150px; margin-bottom: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <i class="fas fa-bullseye text-white" style="margin-bottom: 5px; font-size: 40px;"></i>
+      <span style="font-size: 12pt; font-family: 'Poppins', sans-serif; color: #fff;">Visi Misi</span>
+    <button onclick="window.location.href='https://litbang.kalbarprov.go.id/master-profil-badan/visi-misi'" style="margin-top: 10px; padding: 5px 10px; background-color: transparent; color: #fff; border: 1px solid #fff; border-radius: 15px; font-size: 10pt; cursor: pointer;" onmouseover="this.style.backgroundColor='#fff'; this.style.color='#2f855a';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#fff';">Lihat Detail <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></button>
+  </div>
 
-<p style="margin: 0cm; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
+  <div style="flex: 1 1 calc(33.333% - 20px); box-sizing: border-box; padding: 10px; border: 1px solid #2f855a; background-color: #2f855a; border-radius: 15px; height: 150px; margin-bottom: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <i class="fas fa-tasks text-white" style="margin-bottom: 5px; font-size: 40px;"></i>
+      <span style="font-size: 12pt; font-family: 'Poppins', sans-serif; color: #fff;">Tugas dan Fungsi</span>
+    <button onclick="window.location.href='https://litbang.kalbarprov.go.id/master-profil-badan/tugas-dan-fungsi'" style="margin-top: 10px; padding: 5px 10px; background-color: transparent; color: #fff; border: 1px solid #fff; border-radius: 15px; font-size: 10pt; cursor: pointer;" onmouseover="this.style.backgroundColor='#fff'; this.style.color='#2f855a';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#fff';">Lihat Detail <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></button>
+  </div>
 
-<p style="margin: 0cm; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><a href="https://litbang.kalbarprov.go.id/master-profil-badan/tugas-dan-fungsi"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Tugas dan Fungsi</span></span></a></span></p>
+  <div style="flex: 1 1 calc(33.333% - 20px); box-sizing: border-box; padding: 10px; border: 1px solid #2f855a; background-color: #2f855a; border-radius: 15px; height: 150px; margin-bottom: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <i class="fas fa-map-signs text-white" style="margin-bottom: 5px; font-size: 40px;"></i>
+      <span style="font-size: 12pt; font-family: 'Poppins', sans-serif; color: #fff;">Target Kebijakan</span>
+    <button onclick="window.location.href='https://litbang.kalbarprov.go.id/master-profil-badan/tujuan-sasaran-dan-arah-kebijakan'" style="margin-top: 10px; padding: 5px 10px; background-color: transparent; color: #fff; border: 1px solid #fff; border-radius: 15px; font-size: 10pt; cursor: pointer;" onmouseover="this.style.backgroundColor='#fff'; this.style.color='#2f855a';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#fff';">Lihat Detail <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></button>
+  </div>
 
-<p style="margin: 0cm; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
+  <div style="flex: 1 1 calc(33.333% - 20px); box-sizing: border-box; padding: 10px; border: 1px solid #2f855a; background-color: #2f855a; border-radius: 15px; height: 150px; margin-bottom: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <i class="fas fa-sitemap text-white" style="margin-bottom: 5px; font-size: 40px;"></i>
+      <span style="font-size: 12pt; font-family: 'Poppins', sans-serif; color: #fff;">Struktur Organisasi</span>
+    <button onclick="window.location.href='https://drive.google.com/file/d/1msHOVTruZ9I3BSVfuYBaXRdk1cdxxccE/view?usp=sharing'" style="margin-top: 10px; padding: 5px 10px; background-color: transparent; color: #fff; border: 1px solid #fff; border-radius: 15px; font-size: 10pt; cursor: pointer;" onmouseover="this.style.backgroundColor='#fff'; this.style.color='#2f855a';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#fff';">Lihat Detail <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></button>
+  </div>
 
-<p style="margin: 0cm; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><a href="https://litbang.kalbarprov.go.id/master-profil-badan/tujuan-sasaran-dan-arah-kebijakan"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Tujuan, Sasaran, dan Arah Kebijakan</span></span></a></span></p>
+  <div style="flex: 1 1 calc(33.333% - 20px); box-sizing: border-box; padding: 10px; border: 1px solid #2f855a; background-color: #2f855a; border-radius: 15px; height: 150px; margin-bottom: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <i class="fas fa-user-tie text-white" style="margin-bottom: 5px; font-size: 40px;"></i>
+      <span style="font-size: 12pt; font-family: 'Poppins', sans-serif; color: #fff;">Sejarah Kepala Badan</span>
+    <button onclick="window.location.href='https://litbang.kalbarprov.go.id/master-profil-badan/sejarah-kepala-badan'" style="margin-top: 10px; padding: 5px 10px; background-color: transparent; color: #fff; border: 1px solid #fff; border-radius: 15px; font-size: 10pt; cursor: pointer;" onmouseover="this.style.backgroundColor='#fff'; this.style.color='#2f855a';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#fff';">Lihat Detail <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></button>
+  </div>
 
-<p style="margin: 0cm; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
+<style>
+@media (max-width: 1024px) { 
+  div[style*="display: flex; flex-wrap: wrap;"] > div {
+    flex: 1 1 100%; 
+    margin-bottom: 20px;
+  }
+}
 
-<p style="margin: 0cm; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><a href="https://drive.google.com/file/d/1msHOVTruZ9I3BSVfuYBaXRdk1cdxxccE/view?usp=sharing"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Struktur Organisasi</span></span></a></span></p>
+@media (max-width: 768px) { 
+  div[style*="display: flex; flex-wrap: wrap;"] {
+    flex-direction: column; 
+    align-items: center; 
+  }
 
-<p style="margin: 0cm; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
+  div[style*="display: flex; flex-wrap: wrap;"] > div {
+    flex: none; 
+    width: calc(70% - 30px); 
+    height: 150px; 
+    max-width: calc(70% - 30px);
+    margin-bottom: 20px;
+  }
+}
+</style>
 
-<p style="margin: 0cm; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><a href="https://litbang.kalbarprov.go.id/master-profil-badan/sejarah-kepala-badan"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Sejarah Kepala Badan</span></span></a></span></p>
-
-<p style="margin: 0cm; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
-
-<p style="margin: 0cm; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
+</div>

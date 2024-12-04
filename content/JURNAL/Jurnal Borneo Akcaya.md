@@ -3,36 +3,165 @@ author: sekret.bppkb
 title: "Jurnal Borneo Akcaya"
 date: 2024-08-01 03:53:49
 ---
-<p style="margin: 0cm; line-height: 1.1;"><span style="font-family: 'Segoe UI', sans-serif; font-size: 10pt;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Jurnal Borneo Akcaya Tahun 2019 :</span></span></span></p>
-
-<p style="margin: 0cm; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Jil. 5 No. 1 Tahun 2019,&nbsp; </span></span><a href="https://drive.google.com/file/d/1DMNE0ODUjM5nYJX1T-ZK1V08SvvwJEO_/view?usp=sharing"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">klik disini &gt;&gt;&gt;</span></span></a></span></p>
-
-<p style="margin: 0cm; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Jil. 5 No. 2 Tahun 2019,&nbsp; </span></span><a href="https://drive.google.com/file/d/1LKseL0hu8Nqi9HGevqmt05GEiPFbmE4g/view?usp=sharing"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">klik disini &gt;&gt;&gt;</span></span></a></span></p>
-
-<p style="margin: 0cm; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
-
-<p style="margin: 0cm; line-height: 1.1;"><span style="font-family: arial, helvetica, sans-serif; color: black; font-size: 10pt;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Jurnal Borneo Akcaya Tahun 2020 :</span></span></span></p>
-
-<p style="margin: 0cm; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px; line-height: 1.1;"><span style="font-family: arial, helvetica, sans-serif; color: black; font-size: 10pt;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Jil. 6 No.2 Tahun 2020,&nbsp; </span></span><a href="https://drive.google.com/file/d/1MQrE28gLsJU3nVn3wZ5PkkTwBKpp63Br/view?usp=sharing"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">klik disini &gt;&gt;&gt;</span></span></a></span></p>
-
-<p style="margin: 0cm; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
-
-<p style="margin: 0cm; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px; line-height: 1.1;"><span style="font-family: arial, helvetica, sans-serif; color: black; font-size: 10pt;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Jurnal Borneo Akcaya Tahun 2021 :</span></span></span></p>
-
-<p style="margin: 0cm; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px; line-height: 1.1;"><span style="font-family: arial, helvetica, sans-serif; color: black; font-size: 10pt;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Jil. 7 No.1 Tahun 2021,&nbsp; </span></span><a href="https://drive.google.com/file/d/1VzCm6h0bc06BUhFsoeB8bkZNmwAYKsOg/view?usp=sharing"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">klik disini &gt;&gt;&gt;</span></span></a></span></p>
-
-<p style="margin: 0cm; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px; line-height: 1.1;"><span style="font-family: arial, helvetica, sans-serif; color: black; font-size: 10pt;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Jil. 7 No.2 Tahun 2021,&nbsp; </span></span><a href="https://drive.google.com/file/d/1GOq2pr5eBnkG2X_pDay8JgNRKudzq613/view?usp=sharing"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">klik disini &gt;&gt;&gt;</span></span></a></span></p>
-
-<p style="margin: 0cm; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
-
-<p style="margin: 0cm; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px; line-height: 1.1;"><span style="font-family: arial, helvetica, sans-serif; color: black; font-size: 10pt;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Jurnal Borneo Akcaya Tahun 2022 :</span></span></span></p>
-
-<p style="margin: 0cm; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px; line-height: 1.1;"><span style="font-family: arial, helvetica, sans-serif; color: black; font-size: 10pt;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Jil. 8 No.1 Tahun 2022,&nbsp; </span></span><a href="https://drive.google.com/file/d/1KanOwed1OBe-pAIU4T7E4A4xvnl2wfxf/view?usp=sharing"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">klik disini &gt;&gt;&gt;</span></span></a></span></p>
-
-<p style="margin: 0cm; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px; line-height: 1.1;"><span style="font-family: arial, helvetica, sans-serif; color: black; font-size: 10pt;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Jil. 8 No.2 Tahun 2022,&nbsp; </span></span><a href="https://drive.google.com/file/d/1qfZypsP04nJH9wCuhzA7Ec7df8ZCTFEb/view?usp=sharing"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">klik disini &gt;&gt;&gt;</span></span></a></span></p>
-
-<p style="margin: 0cm; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
-
-<p style="margin: 0cm; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px; line-height: 1.1;"><span style="font-family: arial, helvetica, sans-serif; color: black; font-size: 10pt;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Jurnal Borneo Akcaya Tahun 2023 :</span></span></span></p>
-
-<p style="margin: 0cm; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px; line-height: 1.1;"><span style="font-family: arial, helvetica, sans-serif; color: black; font-size: 10pt;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Jil. 9 No.2 Tahun 2022,&nbsp; </span></span><a href="https://drive.google.com/file/d/1pxQh-OWsvh--VA-kNIf_-jAXjfn1JbSS/view?usp=sharing"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">klik disini &gt;&gt;&gt;</span></span></a></span></p>
+<div class="flex flex-wrap justify-around">
+    <div class="w-64 bg-white border border-gray-300 rounded-lg overflow-hidden shadow-lg m-2 flex flex-col">
+        <div class="flex items-center justify-center w-full h-48 bg-gray-200">
+            <i class="fas fa-file-pdf fa-5x text-red-600"></i>
+        </div>
+        <div class="p-4 bg-green-600 text-white flex-grow">
+            <p class="text-lg font-semibold">
+                Jil. 5 No. 1
+            </p>
+            <div class="flex items-center mt-2">
+                <i class="fas fa-file-alt mr-2"></i>
+                <span class="text-xs">Jurnal Borneo Akcaya Tahun 2019</span>
+            </div>
+        </div>
+        <a class="block p-4 bg-green-700 text-white text-center hover:bg-green-800 mt-auto no-underline" href="https://drive.google.com/file/d/1DMNE0ODUjM5nYJX1T-ZK1V08SvvwJEO_/view?usp=sharing" target="_blank" style="text-decoration: none;">
+            <span class="text-sm font-semibold text-white">
+                Lihat Selengkapnya
+                <i class="fas fa-arrow-right"></i>
+            </span>
+        </a>
+    </div>
+    <div class="w-64 bg-white border border-gray-300 rounded-lg overflow-hidden shadow-lg m-2 flex flex-col">
+        <div class="flex items-center justify-center w-full h-48 bg-gray-200">
+            <i class="fas fa-file-pdf fa-5x text-red-600"></i>
+        </div>
+        <div class="p-4 bg-green-600 text-white flex-grow">
+            <p class="text-lg font-semibold">
+                Jil. 5 No. 2
+            </p>
+            <div class="flex items-center mt-2">
+                <i class="fas fa-file-alt mr-2"></i>
+                <span class="text-xs">Jurnal Borneo Akcaya Tahun 2019</span>
+            </div>
+        </div>
+        <a class="block p-4 bg-green-700 text-white text-center hover:bg-green-800 mt-auto no-underline" href="https://drive.google.com/file/d/1LKseL0hu8Nqi9HGevqmt05GEiPFbmE4g/view?usp=sharing" target="_blank" style="text-decoration: none;">
+            <span class="text-sm font-semibold text-white">
+                Lihat Selengkapnya
+                <i class="fas fa-arrow-right"></i>
+            </span>
+        </a>
+    </div>
+    <div class="w-64 bg-white border border-gray-300 rounded-lg overflow-hidden shadow-lg m-2 flex flex-col">
+        <div class="flex items-center justify-center w-full h-48 bg-gray-200">
+            <i class="fas fa-file-pdf fa-5x text-red-600"></i>
+        </div>
+        <div class="p-4 bg-green-600 text-white flex-grow">
+            <p class="text-lg font-semibold">
+                Jil. 6 No. 2
+            </p>
+            <div class="flex items-center mt-2">
+                <i class="fas fa-file-alt mr-2"></i>
+                <span class="text-xs">Jurnal Borneo Akcaya Tahun 2020</span>
+            </div>
+        </div>
+        <a class="block p-4 bg-green-700 text-white text-center hover:bg-green-800 mt-auto no-underline" href="https://drive.google.com/file/d/1MQrE28gLsJU3nVn3wZ5PkkTwBKpp63Br/view?usp=sharing" target="_blank" style="text-decoration: none;">
+            <span class="text-sm font-semibold text-white">
+                Lihat Selengkapnya
+                <i class="fas fa-arrow-right"></i>
+            </span>
+        </a>
+    </div>
+    <div class="w-64 bg-white border border-gray-300 rounded-lg overflow-hidden shadow-lg m-2 flex flex-col">
+        <div class="flex items-center justify-center w-full h-48 bg-gray-200">
+            <i class="fas fa-file-pdf fa-5x text-red-600"></i>
+        </div>
+        <div class="p-4 bg-green-600 text-white flex-grow">
+            <p class="text-lg font-semibold">
+                Jil. 7 No. 1
+            </p>
+            <div class="flex items-center mt-2">
+                <i class="fas fa-file-alt mr-2"></i>
+                <span class="text-xs">Jurnal Borneo Akcaya Tahun 2021</span>
+            </div>
+        </div>
+        <a class="block p-4 bg-green-700 text-white text-center hover:bg-green-800 mt-auto no-underline" href="https://drive.google.com/file/d/1VzCm6h0bc06BUhFsoeB8bkZNmwAYKsOg/view?usp=sharing" target="_blank" style="text-decoration: none;">
+            <span class="text-sm font-semibold text-white">
+                Lihat Selengkapnya
+                <i class="fas fa-arrow-right"></i>
+            </span>
+        </a>
+    </div>
+    <div class="w-64 bg-white border border-gray-300 rounded-lg overflow-hidden shadow-lg m-2 flex flex-col">
+        <div class="flex items-center justify-center w-full h-48 bg-gray-200">
+            <i class="fas fa-file-pdf fa-5x text-red-600"></i>
+        </div>
+        <div class="p-4 bg-green-600 text-white flex-grow">
+            <p class="text-lg font-semibold">
+                Jil. 7 No. 2
+            </p>
+            <div class="flex items-center mt-2">
+                <i class="fas fa-file-alt mr-2"></i>
+                <span class="text-xs">Jurnal Borneo Akcaya Tahun 2021</span>
+            </div>
+        </div>
+        <a class="block p-4 bg-green-700 text-white text-center hover:bg-green-800 mt-auto no-underline" href="https://drive.google.com/file/d/1GOq2pr5eBnkG2X_pDay8JgNRKudzq613/view?usp=sharing" target="_blank" style="text-decoration: none;">
+            <span class="text-sm font-semibold text-white">
+                Lihat Selengkapnya
+                <i class="fas fa-arrow-right"></i>
+            </span>
+        </a>
+    </div>
+    <div class="w-64 bg-white border border-gray-300 rounded-lg overflow-hidden shadow-lg m-2 flex flex-col">
+        <div class="flex items-center justify-center w-full h-48 bg-gray-200">
+            <i class="fas fa-file-pdf fa-5x text-red-600"></i>
+        </div>
+        <div class="p-4 bg-green-600 text-white flex-grow">
+            <p class="text-lg font-semibold">
+                Jil. 8 No. 1
+            </p>
+            <div class="flex items-center mt-2">
+                <i class="fas fa-file-alt mr-2"></i>
+                <span class="text-xs">Jurnal Borneo Akcaya Tahun 2022</span>
+            </div>
+        </div>
+        <a class="block p-4 bg-green-700 text-white text-center hover:bg-green-800 mt-auto no-underline" href="https://drive.google.com/file/d/1KanOwed1OBe-pAIU4T7E4A4xvnl2wfxf/view?usp=sharing" target="_blank" style="text-decoration: none;">
+            <span class="text-sm font-semibold text-white">
+                Lihat Selengkapnya
+                <i class="fas fa-arrow-right"></i>
+            </span>
+        </a>
+    </div>
+    <div class="w-64 bg-white border border-gray-300 rounded-lg overflow-hidden shadow-lg m-2 flex flex-col">
+        <div class="flex items-center justify-center w-full h-48 bg-gray-200">
+            <i class="fas fa-file-pdf fa-5x text-red-600"></i>
+        </div>
+        <div class="p-4 bg-green-600 text-white flex-grow">
+            <p class="text-lg font-semibold">
+                Jil. 8 No. 2
+            </p>
+            <div class="flex items-center mt-2">
+                <i class="fas fa-file-alt mr-2"></i>
+                <span class="text-xs">Jurnal Borneo Akcaya Tahun 2022</span>
+            </div>
+        </div>
+        <a class="block p-4 bg-green-700 text-white text-center hover:bg-green-800 mt-auto no-underline" href="https://drive.google.com/file/d/1qfZypsP04nJH9wCuhzA7Ec7df8ZCTFEb/view?usp=sharing" target="_blank" style="text-decoration: none;">
+            <span class="text-sm font-semibold text-white">
+                Lihat Selengkapnya
+                <i class="fas fa-arrow-right"></i>
+            </span>
+        </a>
+    </div>
+    <div class="w-64 bg-white border border-gray-300 rounded-lg overflow-hidden shadow-lg m-2 flex flex-col">
+        <div class="flex items-center justify-center w-full h-48 bg-gray-200">
+            <i class="fas fa-file-pdf fa-5x text-red-600"></i>
+        </div>
+        <div class="p-4 bg-green-600 text-white flex-grow">
+            <p class="text-lg font-semibold">
+                Jil. 9 No. 2
+            </p>
+            <div class="flex items-center mt-2">
+                <i class="fas fa-file-alt mr-2"></i>
+                <span class="text-xs">Jurnal Borneo Akcaya Tahun 2023</span>
+            </div>
+        </div>
+        <a class="block p-4 bg-green-700 text-white text-center hover:bg-green-800 mt-auto no-underline" href="https://drive.google.com/file/d/1pxQh-OWsvh--VA-kNIf_-jAXjfn1JbSS/view?usp=sharing" target="_blank" style="text-decoration: none;">
+            <span class="text-sm font-semibold text-white">
+                Lihat Selengkapnya
+                <i class="fas fa-arrow-right"></i>
+            </span>
+        </a>
+    </div>
+</div>

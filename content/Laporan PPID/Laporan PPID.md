@@ -3,28 +3,101 @@ author: sekret.bppkb
 title: "Laporan PPID"
 date: 2024-08-01 05:39:22
 ---
-<p style="margin: 0cm; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><strong><span style="color: black; font-weight: normal;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Laporan PPID Pelaksana Balitbang Tahun 2019,&nbsp; </span></span></span></span></span></span><a href="https://drive.google.com/file/d/1vR6u0jaLN2HT-pZDZnOw4EzQnXSedE0N/view?usp=sharing"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">klik disini &gt;&gt;&gt;</span></span></span></span></span></span></a></span></strong></span></p>
-
-<p style="margin: 0cm; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
-
-<p style="margin: 0cm; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><strong><span style="color: black; font-weight: normal;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Laporan PPID Pelaksana Balitbang Tahun 2020,&nbsp; </span></span></span></span></span></span><a href="https://drive.google.com/file/d/1nBrVN1gUBXEfet6SyTeLZlrIm2TPENnh/view?usp=sharing"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">klik disini &gt;&gt;&gt;</span></span></span></span></span></span></a></span></strong></span></p>
-
-<p style="margin: 0cm; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
-
-<p style="margin: 0cm; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><strong><span style="color: black; font-weight: normal;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Laporan PPID Pelaksana Balitbang Tahun 2021,&nbsp; </span></span></span></span></span></span><a href="https://drive.google.com/file/d/1qD5rJJFHmfvEiDo5dgQmsom8BkF4SFBq/view?usp=sharing"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">klik disini &gt;&gt;&gt;</span></span></span></span></span></span></a></span></strong></span></p>
-
-<p style="margin: 0cm; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
-
-<p style="margin: 0cm; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><strong><span style="color: black; font-weight: normal;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Laporan PPID Pelaksana Balitbang Tahun 2022,&nbsp; </span></span></span></span></span></span><a href="https://drive.google.com/file/d/1ClCuOJzLymTT-5zWXKO1z68Cyi2tkIJb/view?usp=sharing"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">klik disini &gt;&gt;&gt;</span></span></span></span></span></span></a></span></strong></span></p>
-
-<p style="margin: 0cm; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
-
-<p style="margin: 0cm; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><strong><span style="color: black; font-weight: normal;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Laporan PPID Pelaksana Balitbang Tahun 2023,&nbsp; </span></span></span></span></span></span><a href="https://drive.google.com/file/d/1XWp8HehoSH5TrBVtGvq99Sh9VBsSX32e/view?usp=sharing"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">klik disini &gt;&gt;&gt;&nbsp;</span></span></span></span></span></span></a></span></strong></span></p>
-
-<p style="margin: 0cm; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
-
-<p style="margin: 0cm; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><strong><span style="color: black; font-weight: normal;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Tanda Terima Penyampaian Laporan PPID 2023, </span></span><a href="https://drive.google.com/file/d/1FF7wtnYzo08AsPXKXORHEF6K_9SE1w5E/view?usp=sharing"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">klik disini &gt;&gt;&gt;</span></span></a></span></strong></span></p>
-
-<p style="margin: 0cm; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
-
-<p style="margin: 0cm; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
+<div class="flex flex-wrap justify-around">
+    <div class="w-64 bg-white border border-gray-300 rounded-lg overflow-hidden shadow-lg m-2 flex flex-col">
+        <div class="flex items-center justify-center w-full h-48 bg-gray-200">
+            <i class="fas fa-file-pdf fa-5x text-red-600"></i>
+        </div>
+        <div class="p-4 bg-green-600 text-white flex-grow">
+            <p class="text-lg font-semibold">
+                Laporan PPID Pelaksana Balitbang Tahun 2019
+            </p>
+        </div>
+        <a class="block p-4 bg-green-700 text-white text-center hover:bg-green-800 mt-auto no-underline" href="https://drive.google.com/file/d/1vR6u0jaLN2HT-pZDZnOw4EzQnXSedE0N/view?usp=sharing" target="_blank" style="text-decoration: none;">
+            <span class="text-sm font-semibold text-white">
+                Lihat Selengkapnya
+                <i class="fas fa-arrow-right"></i>
+            </span>
+        </a>
+    </div>
+    <div class="w-64 bg-white border border-gray-300 rounded-lg overflow-hidden shadow-lg m-2 flex flex-col">
+        <div class="flex items-center justify-center w-full h-48 bg-gray-200">
+            <i class="fas fa-file-pdf fa-5x text-red-600"></i>
+        </div>
+        <div class="p-4 bg-green-600 text-white flex-grow">
+            <p class="text-lg font-semibold">
+                Laporan PPID Pelaksana Balitbang Tahun 2020
+            </p>
+        </div>
+        <a class="block p-4 bg-green-700 text-white text-center hover:bg-green-800 mt-auto no-underline" href="https://drive.google.com/file/d/1nBrVN1gUBXEfet6SyTeLZlrIm2TPENnh/view?usp=sharing" target="_blank" style="text-decoration: none;">
+            <span class="text-sm font-semibold text-white">
+                Lihat Selengkapnya
+                <i class="fas fa-arrow-right"></i>
+            </span>
+        </a>
+    </div>
+    <div class="w-64 bg-white border border-gray-300 rounded-lg overflow-hidden shadow-lg m-2 flex flex-col">
+        <div class="flex items-center justify-center w-full h-48 bg-gray-200">
+            <i class="fas fa-file-pdf fa-5x text-red-600"></i>
+        </div>
+        <div class="p-4 bg-green-600 text-white flex-grow">
+            <p class="text-lg font-semibold">
+                Laporan PPID Pelaksana Balitbang Tahun 2021
+            </p>
+        </div>
+        <a class="block p-4 bg-green-700 text-white text-center hover:bg-green-800 mt-auto no-underline" href="https://drive.google.com/file/d/1qD5rJJFHmfvEiDo5dgQmsom8BkF4SFBq/view?usp=sharing" target="_blank" style="text-decoration: none;">
+            <span class="text-sm font-semibold text-white">
+                Lihat Selengkapnya
+                <i class="fas fa-arrow-right"></i>
+            </span>
+        </a>
+    </div>
+    <div class="w-64 bg-white border border-gray-300 rounded-lg overflow-hidden shadow-lg m-2 flex flex-col">
+        <div class="flex items-center justify-center w-full h-48 bg-gray-200">
+            <i class="fas fa-file-pdf fa-5x text-red-600"></i>
+        </div>
+        <div class="p-4 bg-green-600 text-white flex-grow">
+            <p class="text-lg font-semibold">
+                Laporan PPID Pelaksana Balitbang Tahun 2022
+            </p>
+        </div>
+        <a class="block p-4 bg-green-700 text-white text-center hover:bg-green-800 mt-auto no-underline" href="https://drive.google.com/file/d/1ClCuOJzLymTT-5zWXKO1z68Cyi2tkIJb/view?usp=sharing" target="_blank" style="text-decoration: none;">
+            <span class="text-sm font-semibold text-white">
+                Lihat Selengkapnya
+                <i class="fas fa-arrow-right"></i>
+            </span>
+        </a>
+    </div>
+    <div class="w-64 bg-white border border-gray-300 rounded-lg overflow-hidden shadow-lg m-2 flex flex-col">
+        <div class="flex items-center justify-center w-full h-48 bg-gray-200">
+            <i class="fas fa-file-pdf fa-5x text-red-600"></i>
+        </div>
+        <div class="p-4 bg-green-600 text-white flex-grow">
+            <p class="text-lg font-semibold">
+                Laporan PPID Pelaksana Balitbang Tahun 2023
+            </p>
+        </div>
+        <a class="block p-4 bg-green-700 text-white text-center hover:bg-green-800 mt-auto no-underline" href="https://drive.google.com/file/d/1XWp8HehoSH5TrBVtGvq99Sh9VBsSX32e/view?usp=sharing" target="_blank" style="text-decoration: none;">
+            <span class="text-sm font-semibold text-white">
+                Lihat Selengkapnya
+                <i class="fas fa-arrow-right"></i>
+            </span>
+        </a>
+    </div>
+    <div class="w-64 bg-white border border-gray-300 rounded-lg overflow-hidden shadow-lg m-2 flex flex-col">
+        <div class="flex items-center justify-center w-full h-48 bg-gray-200">
+            <i class="fas fa-file-pdf fa-5x text-red-600"></i>
+        </div>
+        <div class="p-4 bg-green-600 text-white flex-grow">
+            <p class="text-lg font-semibold">
+                Tanda Terima Penyampaian Laporan PPID 2023
+            </p>
+        </div>
+        <a class="block p-4 bg-green-700 text-white text-center hover:bg-green-800 mt-auto no-underline" href="https://drive.google.com/file/d/1FF7wtnYzo08AsPXKXORHEF6K_9SE1w5E/view?usp=sharing" target="_blank" style="text-decoration: none;">
+            <span class="text-sm font-semibold text-white">
+                Lihat Selengkapnya
+                <i class="fas fa-arrow-right"></i>
+            </span>
+        </a>
+    </div>
+</div>
