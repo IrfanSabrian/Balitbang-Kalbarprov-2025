@@ -73,7 +73,7 @@ date: 2024-08-01 01:41:35
   }
 </style>
 
-<div class="flex flex-wrap justify-start gap-12">
+<div class="flex flex-wrap justify-around gap-12">
   <div class="w-full sm:w-1/4 p-1 profile-container"> <!-- Mengurangi lebar padding -->
     <div class="profile-content">
       <img id="profile-pic-1" alt="Pramushinta Arum Pynanjung" class="profile-pic">
@@ -99,7 +99,7 @@ date: 2024-08-01 01:41:35
   </div>
 </div>
 
-<div class="flex flex-wrap justify-start gap-12">
+<div class="flex flex-wrap justify-around gap-12">
   <div class="w-full sm:w-1/4 p-1 profile-container"> <!-- Mengurangi lebar padding -->
     <div class="profile-content">
       <img id="profile-pic-4" alt="Edy Agustinus" class="profile-pic">
