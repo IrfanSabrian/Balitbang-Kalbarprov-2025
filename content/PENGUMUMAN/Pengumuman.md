@@ -4,18 +4,53 @@ title: "Pengumuman"
 date: 2024-08-01 01:52:36
 ---
 
-<p style="margin: 0cm; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><a href="/master-pengumuman/barcode-layanan"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Barcode Layanan</span></span></a></span></p>
+<script>
+    const items = [
+        {
+            title: "Barcode Layanan",
+            thumbnail: "/images/nz9zJ7nG9CYWmE2yjXWk.png",
+            date: "1 Agustus 2024"
+        },
+        {
+            title: "Call For Papers Journal",
+            thumbnail: "/images/nz9zJ7nG9CYWmE2yjXWk.png",
+            date: "1 Agustus 2024"
+        },
+        {
+            title: "Layanan HKI",
+            thumbnail: "/images/nz9zJ7nG9CYWmE2yjXWk.png",
+            date: "1 Agustus 2024"
+        },
+        {
+            title: "Layanan Pertek Izin Penelitian/Pendataan",
+            thumbnail: "/images/nz9zJ7nG9CYWmE2yjXWk.png",
+            date: "1 Agustus 2024"
+        }
+    ];
+</script>
 
-<p style="margin: 0cm; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
+<h1 class="container text-center mb-4 mt-2 px-6 pt-6 mx-auto text-3xl font-bold text-green-800">Pengumuman</h1>
+<div class="container mx-auto px-6">
+  <div class="w-28 h-1 bg-green-800 mx-auto mb-8"></div>
+</div>
 
-<p style="margin: 0cm; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><a href="/master-pengumuman/call-for-papers-jurnal"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Call For Papers Journal</span></span></a></span></p>
+<div class="container p-6 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8" id="announcement-list"></div>
 
-<p style="margin: 0cm; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
+<script>
+    const announcementContainer = document.getElementById('announcement-list');
 
-<p style="margin: 0cm; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><a href="/master-pengumuman/layanan-hki"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Layanan HKI</span></span></a></span></p>
-
-<p style="margin: 0cm; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
-
-<p style="margin: 0cm; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><a href="/master-pengumuman/layanan-penerbitan-pertek-izin-penelitian"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Layanan Pertek Izin Penelitian/Pendataan</span></span></a></span></p>
-
-<p style="margin: 0cm; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"></span></p>
+    items.forEach(item => {
+        const div = document.createElement('div');
+        div.className = 'group relative overflow-hidden rounded-lg shadow-md transition duration-500 ease-in-out cursor-pointer';
+        div.style.width = 'auto';
+        div.style.height = '55vh';
+        div.innerHTML = `
+            <img src="${item.thumbnail}" alt="${item.title}" class="rounded-lg shadow-sm w-full h-full object-cover transform group-hover:scale-105 transition duration-500 ease-in-out" />
+            <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out flex flex-col justify-center items-center text-white">
+                <div class="text-base font-semibold mb-2 p-8 text-center">${item.title}</div>
+                <div class="text-sm">${item.date}</div>
+            </div>
+        `;
+        announcementContainer.appendChild(div);
+    });
+</script>

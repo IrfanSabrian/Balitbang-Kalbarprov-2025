@@ -82,14 +82,14 @@ date: 2024-08-06 07:48:58
                     <div class="flex items-center justify-center w-full h-48 bg-gray-200">
                         <i class="fas fa-file-pdf fa-5x text-red-600"></i>
                     </div>
-                    <div class="p-4 bg-green-600 text-white flex-grow">
-                        <p class="text-lg font-semibold">${item.title}</p>
-                        <div class="flex items-center mt-2">
+                    <div class="p-4 bg-green-600 text-white flex-grow flex flex-col justify-between">
+                        <p class="text-base font-semibold">${item.title}</p>
+                        <div class="flex items-center mt-auto">
                             <i class="fas fa-file-alt mr-2"></i>
                             <span class="text-xs">${item.category}</span>
                         </div>
                     </div>
-                    <a class="block p-4 bg-green-700 text-white text-center hover:bg-green-800 mt-auto no-underline" href="${item.link}" target="_blank" style="text-decoration: none;">
+                    <a class="block p-4 bg-green-700 text-white text-center ${item.link ? 'hover:bg-green-800' : 'cursor-not-allowed'} mt-auto no-underline" href="${item.link}" target="_blank" style="text-decoration: none;" ${item.link ? '' : 'onclick="return false;"'}>
                         <span class="text-sm font-semibold text-white">
                             Lihat Selengkapnya
                             <i class="fas fa-arrow-right"></i>
@@ -153,57 +153,5 @@ date: 2024-08-06 07:48:58
         renderItems(filteredItems);
     });
 
-    renderItems(items);
-</script>
-
-<div class="flex justify-between items-center mb-4">
-    <div class="flex items-center border-2 border-green-500 rounded-lg p-2 ml-auto">
-        <i class="fas fa-search text-green-500 text-xl"></i>
-        <input type="text" placeholder="Cari" class="ml-2 text-green-500 text-xl outline-none" style="background: transparent; border: none;" id="searchInput">
-    </div>
-</div>
-
-<div class="flex flex-wrap justify-start gap-12" id="information-list"></div>
-
-<script>
-    const container = document.getElementById('information-list');
-
-    function renderItems(filteredItems) {
-        container.innerHTML = '';
-        if (filteredItems.length === 0) {
-            const noResultsDiv = document.createElement('div');
-            noResultsDiv.className = 'w-full text-center text-gray-500';
-            noResultsDiv.textContent = 'Tidak ada hasil yang cocok';
-            container.appendChild(noResultsDiv);
-        } else {
-            filteredItems.forEach(item => {
-                const div = document.createElement('div');
-                div.className = 'w-64 bg-white border border-gray-300 rounded-lg overflow-hidden shadow-lg m-2 flex flex-col';
-                div.innerHTML = `
-                    <div class="flex items-center justify-center w-full h-48 bg-gray-200">
-                        <i class="fas fa-file-pdf fa-5x text-red-600"></i>
-                    </div>
-                    <div class="p-4 bg-green-600 text-white flex-grow">
-                        <p class="text-lg font-semibold">${item.title}</p>
-                    </div>
-                    <a class="block p-4 bg-green-700 text-white text-center hover:bg-green-800 mt-auto no-underline" href="${item.link}" target="_blank" style="text-decoration: none;">
-                        <span class="text-sm font-semibold text-white">
-                            Lihat Selengkapnya
-                            <i class="fas fa-arrow-right"></i>
-                        </span>
-                    </a>
-                `;
-                container.appendChild(div);
-            });
-        }
-    }
-
-    document.getElementById('searchInput').addEventListener('input', function() {
-        const searchTerm = this.value.toLowerCase();
-        const filteredItems = items.filter(item => item.title.toLowerCase().includes(searchTerm));
-        renderItems(filteredItems);
-    });
-
-    // Render all items initially
     renderItems(items);
 </script>

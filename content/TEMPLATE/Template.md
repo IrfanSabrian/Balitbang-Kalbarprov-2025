@@ -137,14 +137,14 @@ function renderItems(filteredItems) {
                 <div class="flex items-center justify-center w-full h-48 bg-gray-200">
                     <i class="fas fa-file-pdf fa-5x text-red-600"></i>
                 </div>
-                <div class="p-4 bg-green-600 text-white flex-grow">
-                    <p class="text-lg font-semibold">${item.title}</p>
-                    <div class="flex items-center mt-2">
+                <div class="p-4 bg-green-600 text-white flex-grow flex flex-col justify-between">
+                    <p class="text-base font-semibold">${item.title}</p>
+                    <div class="flex items-center mt-auto">
                         <i class="fas fa-file-alt mr-2"></i>
                         <span class="text-xs">${item.category}</span>
                     </div>
                 </div>
-                <a class="block p-4 bg-green-700 text-white text-center hover:bg-green-800 mt-auto no-underline" href="${item.link}" target="_blank" style="text-decoration: none;">
+                <a class="block p-4 bg-green-700 text-white text-center ${item.link ? 'hover:bg-green-800' : 'cursor-not-allowed'} mt-auto no-underline" href="${item.link}" target="_blank" style="text-decoration: none;" ${item.link ? '' : 'onclick="return false;"'}>
                     <span class="text-sm font-semibold text-white">
                         Lihat Selengkapnya
                         <i class="fas fa-arrow-right"></i>
