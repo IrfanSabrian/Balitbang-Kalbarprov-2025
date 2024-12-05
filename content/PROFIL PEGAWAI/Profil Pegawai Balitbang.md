@@ -3,7 +3,8 @@ author: sekret.bppkb
 title: "Profil Pegawai Balitbang"
 date: 2024-08-01 01:30:42
 ---
-<div class="flex flex-wrap justify-around">
+
+<div class="flex flex-wrap justify-start gap-12">
     <div class="w-64 bg-white border border-gray-300 rounded-lg overflow-hidden shadow-lg m-2 flex flex-col">
         <div class="flex items-center justify-center w-full h-48 bg-gray-200">
             <i class="fas fa-file-pdf fa-5x text-red-600"></i>
