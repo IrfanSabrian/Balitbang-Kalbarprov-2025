@@ -7,57 +7,182 @@ date: 2024-08-01 03:35:13
 <script>
     const items = [
         {
-            title: "",
+            title: "Rekapitulasi Berdasarkan Agama 2024",
             category: "Jumlah Pegawai",
-            link: ""
+            link: "https://drive.google.com/file/d/1f-WKWV-53YyW7Z7h_zKveFkV3cDDDjfd/preview",
+            file: ""
         },
         {
-            title: "",
+            title: "Rekapitulasi Berdasarkan Eselon dan Jenis Kelamin 2024",
+            category: "Jumlah Pegawai",
+            link: "https://drive.google.com/file/d/1gta5XxIkgUmXo0uj1GISC7ZTVVdmCbos/preview",
+            file: ""
+        },
+        {
+            title: "Rekapitulasi Berdasarkan Gol.Ruang dan Jenis Kelamin 2024",
+            category: "Jumlah Pegawai",
+            link: "https://drive.google.com/file/d/1n-2qKPeOclFbgaDpmXQFZKfCTBv-u516/preview",
+            file: ""
+        },
+        {
+            title: "Rekapitulasi Berdasarkan Gol.Ruang dan Status Kepegawaian 2024",
+            category: "Jumlah Pegawai",
+            link: "https://drive.google.com/file/d/1_nV2ZRGzY9SgYK05eTJYlmosya4X_yI4/preview",
+            file: ""
+        },
+        {
+            title: "Rekapitulasi Berdasarkan Golongan 2024",
+            category: "Jumlah Pegawai",
+            link: "https://drive.google.com/file/d/1MZpE7OSvNzxBKbOAVPgcO6ED9XJKFJPE/preview",
+            file: ""
+        },
+        {
+            title: "Rekapitulasi Berdasarkan Jenis Jabatan 2024",
+            category: "Jumlah Pegawai",
+            link: "https://drive.google.com/file/d/1veJmu_FYLGwTIUXwBdVaY1FvVMFKfKY2/preview",
+            file: ""
+        },
+        {
+            title: "Rekapitulasi Berdasarkan Jenis Kelamin 2024",
+            category: "Jumlah Pegawai",
+            link: "https://drive.google.com/file/d/1zA6IMVen_BdbgY6A8VGvk5UDdox2JDIb/preview",
+            file: ""
+        },
+        {
+            title: "Rekapitulasi Berdasarkan Kelompok Jabatan Fungsional 2024",
+            category: "Jumlah Pegawai",
+            link: "https://drive.google.com/file/d/1R-RDnK__Y9M2US3-WdaCnBPR5jpgYZ9A/preview",
+            file: ""
+        },
+        {
+            title: "Rekapitulasi Berdasarkan Tingkat Pendidikan 2024",
+            category: "Jumlah Pegawai",
+            link: "https://drive.google.com/file/d/1jzjLx5xu-WTuWr_tGwI-wzWPzUApuh3q/preview",
+            file: ""
+        },
+        {
+            title: "Grafik Perkembangan ASN",
             category: "Grafik Pegawai",
-            link: ""
+            link: "https://drive.google.com/file/d/1BBvwQNQWVcWK4w-5GKlWOYPBjVoGC8ek/preview",
+            file: ""
         },
         {
-            title: "",
+            title: "Daftar Urut Kepangkatan (DUK) per Januari Tahun 2023",
             category: "Daftar Urut Kepangkatan",
-            link: ""
+            link: "https://drive.google.com/file/d/1xeK2p2Phu2YdK4RHcvA43O2QFxoiFWZN/preview",
+            file: ""
         },
         {
-            title: "",
+            title: "Daftar Urut Kepangkatan (DUK) per Maret Tahun 2023",
+            category: "Daftar Urut Kepangkatan",
+            link: "https://drive.google.com/file/d/1FV2B_XARiauSHuc6w7PxewdTkbDq4RHL/preview",
+            file: ""
+        },
+        {
+            title: "Daftar Urut Kepangkatan (DUK) per Oktober Tahun 2023",
+            category: "Daftar Urut Kepangkatan",
+            link: "https://drive.google.com/file/d/1kpu0dzPMy9QKczCy_Shmc04pBEe9uQ85/preview",
+            file: ""
+        },
+        {
+            title: "Daftar Urut Kepangkatan (DUK) per Januari Tahun 2024",
+            category: "Daftar Urut Kepangkatan",
+            link: "https://drive.google.com/file/d/1U8uf6OW4L2FfmSGpzksbWKyBkiAIhFqM/preview",
+            file: ""
+        },
+        {
+            title: "Kenaikan Pangkat",
             category: "Kenaikan Pangkat",
-            link: ""
+            link: "",
+            file: "/images/HwrHh82VSTL0MP6NiYMR.png"
         },
         {
-            title: "",
+            title: "Kenaikan Berkala",
             category: "Kenaikan Berkala",
-            link: ""
+            link: "",
+            file: "/images/IpE3ebDF6JdZ78HSZdXJ.jpg"
         },
         {
-            title: "",
+            title: "Batas Usia Pensiun",
             category: "Batas Usia Pensiun",
-            link: ""
+            link: "",
+            file: "/images/0Dknz8fChnb7WQEK28gR.png"
         },
         {
-            title: "",
+            title: "Laporan (LHKPN) Tahun 2022",
             category: "LHKPN / LHKASN",
-            link: ""
+            link: "https://drive.google.com/file/d/1HUkZaR14_UbKjum-KNbCkQP2xnKZ5BSx/preview",
+            file: ""
         },
         {
-            title: "",
+            title: "Laporan (LHKASN) Tahun 2022",
+            category: "LHKPN / LHKASN",
+            link: "https://drive.google.com/file/d/1lGPsmVeht94WmjA7d9MT-qLuGfLljs_F/preview",
+            file: ""
+        },
+        {
+            title: "Laporan (LHKPN) Eselon II Tahun 2023",
+            category: "LHKPN / LHKASN",
+            link: "https://drive.google.com/file/d/1Rop_OM1nHII3VtA3Mi4SdLOtMsSKupck/preview",
+            file: ""
+        },
+        {
+            title: "Laporan (LHKPN) Eselon III Tahun 2023",
+            category: "LHKPN / LHKASN",
+            link: "https://drive.google.com/file/d/1Bs7HHP305jMuerAtvBP8z4zxgr_pvgiV/preview",
+            file: ""
+        },
+        {
+            title: "Persentase Penyampaian (LHKPN) Tahun 2023",
+            category: "LHKPN / LHKASN",
+            link: "https://drive.google.com/file/d/1Bs7HHP305jMuerAtvBP8z4zxgr_pvgiV/preview",
+            file: ""
+        },
+        {
+            title: "Bezeting Jabatan ASN Balitbang 2024",
             category: "Peta Jabatan",
-            link: ""
+            link: "https://drive.google.com/file/d/1So-kTC4KhXaw9jQ9mLUnO9gZ-sZAKKjF/preview",
+            file: ""
+        },
+        {
+            title: "Bezeting Pegawai Balitbang 2024",
+            category: "Peta Jabatan",
+            link: "https://drive.google.com/file/d/1o_6B8Q45ruECl5WZ3B8hWycT61kVHAtj/preview",
+            file: ""
+        },
+        {
+            title: "Jenis Jabatan Fungsional Balitbang 2024",
+            category: "Peta Jabatan",
+            link: "https://drive.google.com/file/d/1RZ-qRh2_VyVugDgxGtE_xfn3RGGMY-5b/preview",
+            file: ""
+        },
+        {
+            title: "Jumlah Jabatan Fungsional Balitbang 2024",
+            category: "Peta Jabatan",
+            link: "https://drive.google.com/file/d/16khqcFnP1GKcFWRZ1Hun99cLoGm1uCVa/preview",
+            file: ""
+        },
+        {
+            title: "PNS Berdasarkan Gol.Ruang dan Status Kepegawaian 2024",
+            category: "Peta Jabatan",
+            link: "https://drive.google.com/file/d/1VmlBsXMrCL_xTXpssqWP9h12ieP0xoY7/preview",
+            file: ""
         }
     ];
 </script>
 
 <div class="flex justify-between items-center mb-4">
-    <div class="flex items-center border-2 border-green-500 rounded-lg p-2 ml-auto">
+    <div class="flex items-center border-2 border-green-500 rounded-lg p-2 ml-auto" style="flex-shrink: 0;">
         <i class="fas fa-search text-green-500 text-xl"></i>
-        <input type="text" placeholder="Cari" class="ml-2 text-green-500 text-xl outline-none" style="background: transparent; border: none;" id="searchInput">
+        <input type="text" placeholder="Cari" class="ml-2 text-green-500 text-xl outline-none" style="background: transparent; border: none; width: 150px;" id="searchInput">
         <div class="border-l-2 border-green-500 h-6 mx-4"></div>
-        <i class="fas fa-filter text-green-500 text-xl cursor-pointer" id="categoryDropdownToggle"></i>
+        <div class="flex items-center cursor-pointer" id="categoryDropdownToggle">
+            <i class="fas fa-filter text-green-500 text-xl"></i>
+            <span id="selectedFilter" class="ml-2 text-green-500 text-xl truncate" style="max-width: 100px; width: 100px;"></span>
+        </div>
     </div>
     <div class="relative">
-        <div id="categoryDropdown" class="absolute right-0 mt-2 w-48 bg-white border border-gray-300 rounded-lg shadow-lg hidden">
+        <div id="categoryDropdown" class="absolute right-0 mt-6 w-48 bg-white border border-gray-300 rounded-lg shadow-lg hidden" style="max-height: 200px; overflow-y: auto;">
             <div id="categoryList" class="list-none p-0 m-0"></div>
         </div>
     </div>
@@ -65,32 +190,63 @@ date: 2024-08-01 03:35:13
 
 <div class="flex flex-wrap justify-start gap-12" id="information-list"></div>
 
+<div class="flex justify-center mt-4" id="pagination"></div>
 <style>
 @media (max-width: 768px) {
     #information-list {
         justify-content: space-around;
     }
 }
+.pagination-button {
+    margin: 0 5px;
+    padding: 8px 12px;
+    border: 1px solid #2F855A;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    color: #2F855A;
+}
+.pagination-button:hover {
+    background-color: #2F855A;
+    color: white;
+}
+.pagination-button.active {
+    background-color: #2F855A;
+    color: white;
+}
+.pagination-ellipsis {
+    margin: 0 5px;
+    padding: 8px 12px;
+    color: #2F855A;
+}
 </style>
 
 <script>
     const container = document.getElementById('information-list');
+    const paginationContainer = document.getElementById('pagination');
     const categorySet = new Set();
+    const itemsPerPage = 12;
+    let currentPage = 1;
+    let selectedCategory = 'All';
 
     function renderItems(filteredItems) {
         container.innerHTML = '';
-        if (filteredItems.length === 0) {
+        const start = (currentPage - 1) * itemsPerPage;
+        const end = start + itemsPerPage;
+        const paginatedItems = filteredItems.slice(start, end);
+
+        if (paginatedItems.length === 0) {
             const noResultsDiv = document.createElement('div');
             noResultsDiv.className = 'w-full text-center text-gray-500';
             noResultsDiv.textContent = 'Tidak ada hasil yang cocok';
             container.appendChild(noResultsDiv);
         } else {
-            filteredItems.forEach(item => {
+            paginatedItems.forEach(item => {
                 const div = document.createElement('div');
                 div.className = 'w-64 bg-white border border-gray-300 rounded-lg overflow-hidden shadow-lg m-2 flex flex-col';
                 div.innerHTML = `
                     <div class="flex items-center justify-center w-full h-48 bg-gray-200">
-                        <i class="fas fa-file-pdf fa-5x text-red-600"></i>
+                        ${item.file ? `<i class="fas fa-image fa-5x text-red-600"></i>` : `<i class="fas fa-file-pdf fa-5x text-red-600"></i>`}
                     </div>
                     <div class="p-4 bg-green-600 text-white flex-grow flex flex-col justify-between">
                         <p class="text-base font-semibold">${item.title}</p>
@@ -99,16 +255,70 @@ date: 2024-08-01 03:35:13
                             <span class="text-xs">${item.category}</span>
                         </div>
                     </div>
-                    <a class="block p-4 bg-green-700 text-white text-center ${item.link ? 'hover:bg-green-800' : 'cursor-not-allowed'} mt-auto no-underline" href="${item.link}" target="_blank" style="text-decoration: none;" ${item.link ? '' : 'onclick="return false;"'}>
+                    <button class="block p-4 bg-green-700 text-white text-center hover:bg-green-800 mt-auto no-underline" onclick="${item.file ? `openImgModal('${item.file}')` : `openPdfModal('${item.link}')`}">
                         <span class="text-sm font-semibold text-white">
                             Lihat Selengkapnya
                             <i class="fas fa-arrow-right"></i>
                         </span>
-                    </a>
+                    </button>
                 `;
                 container.appendChild(div);
             });
         }
+        renderPagination(filteredItems.length);
+    }
+
+    function renderPagination(totalItems) {
+        paginationContainer.innerHTML = '';
+        const totalPages = Math.ceil(totalItems / itemsPerPage);
+        const maxPagesToShow = 6;
+        const halfMaxPagesToShow = Math.floor(maxPagesToShow / 2);
+
+        let startPage = Math.max(1, currentPage - halfMaxPagesToShow);
+        let endPage = Math.min(totalPages, currentPage + halfMaxPagesToShow);
+
+        if (currentPage <= halfMaxPagesToShow) {
+            endPage = Math.min(totalPages, maxPagesToShow);
+        } else if (currentPage + halfMaxPagesToShow >= totalPages) {
+            startPage = Math.max(1, totalPages - maxPagesToShow + 1);
+        }
+
+        if (startPage > 1) {
+            paginationContainer.appendChild(createPaginationButton(1));
+            if (startPage > 2) {
+                paginationContainer.appendChild(createEllipsis());
+            }
+        }
+
+        for (let i = startPage; i <= endPage; i++) {
+            paginationContainer.appendChild(createPaginationButton(i));
+        }
+
+        if (endPage < totalPages) {
+            if (endPage < totalPages - 1) {
+                paginationContainer.appendChild(createEllipsis());
+            }
+            paginationContainer.appendChild(createPaginationButton(totalPages));
+        }
+    }
+
+    function createPaginationButton(page) {
+        const button = document.createElement('button');
+        button.className = `pagination-button ${page === currentPage ? 'active' : ''}`;
+        button.textContent = page;
+        button.addEventListener('click', () => {
+            currentPage = page;
+            renderItems(items);
+            window.scrollTo(0, 0);
+        });
+        return button;
+    }
+
+    function createEllipsis() {
+        const ellipsis = document.createElement('span');
+        ellipsis.className = 'pagination-ellipsis';
+        ellipsis.textContent = '...';
+        return ellipsis;
     }
 
     items.forEach(item => {
@@ -116,11 +326,15 @@ date: 2024-08-01 03:35:13
     });
 
     const categoryList = document.getElementById('categoryList');
+    const selectedFilter = document.getElementById('selectedFilter');
 
     const allDiv = document.createElement('div');
     allDiv.className = 'pl-4 p-1 pt-2 hover:bg-gray-100 cursor-pointer text-sm';
     allDiv.textContent = 'All';
     allDiv.addEventListener('click', () => {
+        currentPage = 1;
+        selectedCategory = 'All';
+        selectedFilter.textContent = selectedCategory;
         renderItems(items);
         document.getElementById('categoryDropdown').classList.add('hidden');
         document.getElementById('categoryDropdownToggle').classList.remove('text-green-700');
@@ -133,6 +347,9 @@ date: 2024-08-01 03:35:13
         div.style.overflow = 'hidden';
         div.textContent = category;
         div.addEventListener('click', () => {
+            currentPage = 1;
+            selectedCategory = category;
+            selectedFilter.textContent = selectedCategory;
             const filteredItems = items.filter(item => item.category === category);
             renderItems(filteredItems);
             document.getElementById('categoryDropdown').classList.add('hidden');
@@ -158,10 +375,11 @@ date: 2024-08-01 03:35:13
     });
 
     document.getElementById('searchInput').addEventListener('input', function() {
+        currentPage = 1;
         const searchTerm = this.value.toLowerCase();
         const filteredItems = items.filter(item => item.title.toLowerCase().includes(searchTerm));
         renderItems(filteredItems);
     });
-
+    selectedFilter.textContent = selectedCategory;
     renderItems(items);
 </script>

@@ -335,7 +335,6 @@
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         padding: 10px;
-        z-index: 1000;
       }
 
       .social-icons a {
@@ -357,7 +356,7 @@
     <!--<script src="https://cdn.userway.org/widget.js" data-account="CSZCGXYV5z"></script>-->
     <div
       id="loading-screen"
-      class="fixed inset-0 bg-white opacity-100 z-50 flex justify-center items-center"
+      class="fixed inset-0 bg-white opacity-100 z-40 flex justify-center items-center"
     >
       <div
         class="loader ease-linear rounded-full border-4 border-t-4 border-gray-200 h-12 w-12 mb-4"
@@ -371,7 +370,7 @@
       {{- block "main" . }}{{- end }}
     </main>
     {{- partial "footer.html" . -}}
-    <div class="social-icons">
+    <div class="social-icons z-40">
       <a href="https://www.facebook.com/litbangkalbar" target="_blank" rel="noopener" aria-label="Facebook">
         <i class="fab fa-facebook"></i>
       </a>
@@ -388,6 +387,9 @@
         <i class="fab fa-twitter"></i>
       </a>
     </div>
+    <!-- Import Fancybox -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js"></script>
   </body>
   <script src='{{"js/loadmodaldisabilitas.js" | relURL}}'></script>
 </html>

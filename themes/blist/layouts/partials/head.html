@@ -232,4 +232,67 @@
 
 </style>
 
+    <!-- Img Modal with Fancybox -->
+    <a id="imgModal" data-fancybox="gallery" href="" style="display: none;"></a>
+
+    <script>
+        function openImgModal(file) {
+            const imgModal = document.getElementById('imgModal');
+            imgModal.href = file;
+            $.fancybox.open({
+                src: file,
+                type: 'image',
+                opts: {
+                    afterClose: function() {
+                        document.body.style.overflow = ''; // Restore scrolling outside the modal
+                    }
+                }
+            });
+            document.body.style.overflow = 'hidden'; // Disable scrolling outside the modal
+        }
+    </script>
+
+
+    <!-- PDF Modal -->
+    <div id="pdfModal" class="fixed inset-0 z-50 bg-black bg-opacity-75 flex items-center justify-center hidden transition-opacity duration-300 ease-in-out">
+        <button id="closeModal" class="absolute top-4 right-4 text-white text-3xl transition-transform duration-300 ease-in-out transform hover:scale-110">
+            <i class="fas fa-times"></i>
+        </button>
+        <iframe id="pdfViewer" class="w-6/12 h-full" frameborder="0" style="overflow: auto;"></iframe>
+    </div>
+
+    <script>
+        function openPdfModal(link) {
+            const pdfModal = document.getElementById('pdfModal');
+            const pdfViewer = document.getElementById('pdfViewer');
+            pdfViewer.src = link;
+            pdfModal.classList.remove('hidden');
+            pdfModal.style.opacity = '0';
+            setTimeout(() => {
+                pdfModal.style.opacity = '1';
+            }, 10);
+            document.body.style.overflow = 'hidden'; // Disable scrolling outside the modal
+        }
+
+        function closePdfModal() {
+            const pdfModal = document.getElementById('pdfModal');
+            const pdfViewer = document.getElementById('pdfViewer');
+            pdfModal.style.opacity = '0';
+            setTimeout(() => {
+                pdfViewer.src = '';
+                pdfModal.classList.add('hidden');
+                document.body.style.overflow = ''; // Restore scrolling outside the modal
+            }, 300);
+        }
+
+        document.getElementById('closeModal').addEventListener('click', closePdfModal);
+
+        document.getElementById('pdfModal').addEventListener('click', function(event) {
+            const pdfViewer = document.getElementById('pdfViewer');
+            if (!pdfViewer.contains(event.target)) {
+                closePdfModal();
+            }
+        });
+    </script>
+
 </head>

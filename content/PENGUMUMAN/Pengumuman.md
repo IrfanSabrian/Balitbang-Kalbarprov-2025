@@ -29,11 +29,6 @@ date: 2024-08-01 01:52:36
     ];
 </script>
 
-<h1 class="container text-center mb-4 mt-2 px-6 pt-6 mx-auto text-3xl font-bold text-green-800">Pengumuman</h1>
-<div class="container mx-auto px-6">
-  <div class="w-28 h-1 bg-green-800 mx-auto mb-8"></div>
-</div>
-
 <div class="container p-6 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8" id="announcement-list"></div>
 
 <script>
