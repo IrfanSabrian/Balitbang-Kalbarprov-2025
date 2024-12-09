@@ -1,171 +1,117 @@
 ---
 author: sekret.bppkb
-title: "Aparatur"
-date: 2024-08-01 03:35:13
+title: "Regulasi PPID"
+date: 2024-08-01 01:44:47
 ---
 
 <script>
     const items = [
         {
-            title: "Rekapitulasi Berdasarkan Agama 2024",
-            category: "Jumlah Pegawai",
-            link: "https://drive.google.com/file/d/1f-WKWV-53YyW7Z7h_zKveFkV3cDDDjfd/preview",
+            title: "Undang-Undang Nomor 14 Tahun 2008 tentang Keterbukaan Informasi Publik",
+            category: "Undang-Undang PPID",
+            link: "https://drive.google.com/file/d/1DX6uQJjdQQMvw2hSGHei4vM--XRxYQsT/preview",
             file: ""
         },
         {
-            title: "Rekapitulasi Berdasarkan Eselon dan Jenis Kelamin 2024",
-            category: "Jumlah Pegawai",
-            link: "https://drive.google.com/file/d/1gta5XxIkgUmXo0uj1GISC7ZTVVdmCbos/preview",
+            title: "Undang-Undang Nomor 25 Tahun 2009 tentang Pelayanan Publik",
+            category: "Undang-Undang PPID",
+            link: "https://drive.google.com/file/d/12-th1MRiYd9r0ppLb3peZj9amdweZ6Mw/preview",
             file: ""
         },
         {
-            title: "Rekapitulasi Berdasarkan Gol.Ruang dan Jenis Kelamin 2024",
-            category: "Jumlah Pegawai",
-            link: "https://drive.google.com/file/d/1n-2qKPeOclFbgaDpmXQFZKfCTBv-u516/preview",
+            title: "Peraturan Mendagri Nomor 35 Tahun 2010 tentang Pedoman Pengelolaan Pelayanan Informasi dan Dokumentasi",
+            category: "Peraturan PPID",
+            link: "https://drive.google.com/file/d/1JN23k8WmLVCb1A0zVEeSnI3QcB2xnjhW/preview",
             file: ""
         },
         {
-            title: "Rekapitulasi Berdasarkan Gol.Ruang dan Status Kepegawaian 2024",
-            category: "Jumlah Pegawai",
-            link: "https://drive.google.com/file/d/1_nV2ZRGzY9SgYK05eTJYlmosya4X_yI4/preview",
+            title: "Peraturan Mendagri Nomor 3 Tahun 2017 tentang Pedoman Pengelolaan Pelayanan Informasi dan Dokumentasi Kementerian Dalam Negeri dan Pemerintahan Daerah",
+            category: "Peraturan PPID",
+            link: "https://drive.google.com/file/d/1cd1VaFpJhgZMO-bEw1_TnM24pil8y0hA/preview",
             file: ""
         },
         {
-            title: "Rekapitulasi Berdasarkan Golongan 2024",
-            category: "Jumlah Pegawai",
-            link: "https://drive.google.com/file/d/1MZpE7OSvNzxBKbOAVPgcO6ED9XJKFJPE/preview",
+            title: "Peraturan Komisi Informasi Nomor 1 Tahun 2018 tentang Standar Layanan Informasi Publik Desa",
+            category: "Peraturan PPID",
+            link: "https://drive.google.com/file/d/1Dz6LAy2PdX-_5eXN-4Jd9jWVgmpNHeDa/preview",
             file: ""
         },
         {
-            title: "Rekapitulasi Berdasarkan Jenis Jabatan 2024",
-            category: "Jumlah Pegawai",
-            link: "https://drive.google.com/file/d/1veJmu_FYLGwTIUXwBdVaY1FvVMFKfKY2/preview",
+            title: "Peraturan Komisi Informasi Nomor 1 Tahun 2021 tentang Standar Layanan Informasi Publik",
+            category: "Peraturan PPID",
+            link: "https://drive.google.com/file/d/1b-wwPRQUm6izALCxICiuWbGdnM2N9JPf/preview",
             file: ""
         },
         {
-            title: "Rekapitulasi Berdasarkan Jenis Kelamin 2024",
-            category: "Jumlah Pegawai",
-            link: "https://drive.google.com/file/d/1zA6IMVen_BdbgY6A8VGvk5UDdox2JDIb/preview",
+            title: "Keputusan Gubernur Nomor 7 Tahun 2020 tentang Pembentukan Pengelola Layanan Informasi dan Dokumentasi di Lingkungan Pemerintah Provinsi Kalimantan Barat",
+            category: "Peraturan PPID",
+            link: "https://drive.google.com/file/d/1hm-L7US_pcThXTByVgy7ewifEFqVIFq_/preview",
             file: ""
         },
         {
-            title: "Rekapitulasi Berdasarkan Kelompok Jabatan Fungsional 2024",
-            category: "Jumlah Pegawai",
-            link: "https://drive.google.com/file/d/1R-RDnK__Y9M2US3-WdaCnBPR5jpgYZ9A/preview",
+            title: "Peraturan Komisi Informasi Nomor 1 Tahun 2013 tentang Prosedur Penyelesaian Sengketa Informasi Publik",
+            category: "Peraturan PPID",
+            link: "https://drive.google.com/file/d/1AoOAOA1uKQB_8LHkxHtK9jwBrbAcYKwY/preview",
             file: ""
         },
         {
-            title: "Rekapitulasi Berdasarkan Tingkat Pendidikan 2024",
-            category: "Jumlah Pegawai",
-            link: "https://drive.google.com/file/d/1jzjLx5xu-WTuWr_tGwI-wzWPzUApuh3q/preview",
+            title: "Peraturan Komisi Informasi Nomor 1 Tahun 2010 tentang Standar Layanan Informasi Publik",
+            category: "Peraturan PPID",
+            link: "https://drive.google.com/file/d/1QtqmCP75CikZKt6n-Gz1r0IfIcRA1R6o/preview",
             file: ""
         },
         {
-            title: "Grafik Perkembangan ASN",
-            category: "Grafik Pegawai",
-            link: "https://drive.google.com/file/d/1BBvwQNQWVcWK4w-5GKlWOYPBjVoGC8ek/preview",
+            title: "Peraturan Pemerintah No 61 Tahun 2010 tentang Penerapan UU No 14 Tahun 2008",
+            category: "Peraturan PPID",
+            link: "https://drive.google.com/file/d/1Pza5BCO4Jyh8vVbg-Gk_TvQnpQJCKqhR/preview",
             file: ""
         },
         {
-            title: "Daftar Urut Kepangkatan (DUK) per Januari Tahun 2023",
-            category: "Daftar Urut Kepangkatan",
-            link: "https://drive.google.com/file/d/1xeK2p2Phu2YdK4RHcvA43O2QFxoiFWZN/preview",
+            title: "SK Pembentukan PPID Pelaksana Balitbang 2023",
+            category: "Pembentukan PPID",
+            link: "https://drive.google.com/file/d/1B3pHIipw3kFra3NY-V1p19j4HFCBbIDj/preview",
             file: ""
         },
         {
-            title: "Daftar Urut Kepangkatan (DUK) per Maret Tahun 2023",
-            category: "Daftar Urut Kepangkatan",
-            link: "https://drive.google.com/file/d/1FV2B_XARiauSHuc6w7PxewdTkbDq4RHL/preview",
+            title: "Surat Tugas Pembantu Pengelola PPID 2023",
+            category: "Pembentukan PPID",
+            link: "https://drive.google.com/file/d/18C_KTb0sj8mgyg5NyK_uGJJA74qFd5vi/preview",
             file: ""
         },
         {
-            title: "Daftar Urut Kepangkatan (DUK) per Oktober Tahun 2023",
-            category: "Daftar Urut Kepangkatan",
-            link: "https://drive.google.com/file/d/1kpu0dzPMy9QKczCy_Shmc04pBEe9uQ85/preview",
+            title: "Tanda Terima Penyampaian Laporan PPID 2022",
+            category: "Pembentukan PPID",
+            link: "https://drive.google.com/file/d/19J6-u_6Z4uSJkpNf6a1RgAElhiOGGGdW/preview",
             file: ""
         },
         {
-            title: "Daftar Urut Kepangkatan (DUK) per Januari Tahun 2024",
-            category: "Daftar Urut Kepangkatan",
-            link: "https://drive.google.com/file/d/1U8uf6OW4L2FfmSGpzksbWKyBkiAIhFqM/preview",
+            title: "SK Pembentukan PPID Pelaksana Balitbang 2024",
+            category: "Pembentukan PPID",
+            link: "https://drive.google.com/file/d/1nq-3io9edjCjilyHlOXZcol7CdQtO_UE/preview",
             file: ""
         },
         {
-            title: "Kenaikan Pangkat",
-            category: "Kenaikan Pangkat",
-            link: "",
-            file: "/images/HwrHh82VSTL0MP6NiYMR.png"
-        },
-        {
-            title: "Kenaikan Berkala",
-            category: "Kenaikan Berkala",
-            link: "",
-            file: "/images/IpE3ebDF6JdZ78HSZdXJ.jpg"
-        },
-        {
-            title: "Batas Usia Pensiun",
-            category: "Batas Usia Pensiun",
-            link: "",
-            file: "/images/0Dknz8fChnb7WQEK28gR.png"
-        },
-        {
-            title: "Laporan (LHKPN) Tahun 2022",
-            category: "LHKPN / LHKASN",
-            link: "https://drive.google.com/file/d/1HUkZaR14_UbKjum-KNbCkQP2xnKZ5BSx/preview",
+            title: "Surat Tugas Pembantu Pengelola PPID 2024",
+            category: "Pembentukan PPID",
+            link: "https://drive.google.com/file/d/1wu0WZDOrdihr21T1KLI-2xRco4dZWzd-/preview",
             file: ""
         },
         {
-            title: "Laporan (LHKASN) Tahun 2022",
-            category: "LHKPN / LHKASN",
-            link: "https://drive.google.com/file/d/1lGPsmVeht94WmjA7d9MT-qLuGfLljs_F/preview",
+            title: "Surat Tugas Petugas Layanan Informasi 2024",
+            category: "Pembentukan PPID",
+            link: "https://drive.google.com/file/d/1orVBWKLZaT1SLdsPU_N6B8Drcm5xMxeh/preview",
             file: ""
         },
         {
-            title: "Laporan (LHKPN) Eselon II Tahun 2023",
-            category: "LHKPN / LHKASN",
-            link: "https://drive.google.com/file/d/1Rop_OM1nHII3VtA3Mi4SdLOtMsSKupck/preview",
+            title: "SK Pembinaan, Pengawasan, dan Monev Kebijakan Informasi Publik, 2024",
+            category: "Pembentukan PPID",
+            link: "https://drive.google.com/file/d/1QYaGxqsOel6TKIwswR7zRnZej3rAfatv/preview",
             file: ""
         },
         {
-            title: "Laporan (LHKPN) Eselon III Tahun 2023",
-            category: "LHKPN / LHKASN",
-            link: "https://drive.google.com/file/d/1Bs7HHP305jMuerAtvBP8z4zxgr_pvgiV/preview",
-            file: ""
-        },
-        {
-            title: "Persentase Penyampaian (LHKPN) Tahun 2023",
-            category: "LHKPN / LHKASN",
-            link: "https://drive.google.com/file/d/1Bs7HHP305jMuerAtvBP8z4zxgr_pvgiV/preview",
-            file: ""
-        },
-        {
-            title: "Bezeting Jabatan ASN Balitbang 2024",
-            category: "Peta Jabatan",
-            link: "https://drive.google.com/file/d/1So-kTC4KhXaw9jQ9mLUnO9gZ-sZAKKjF/preview",
-            file: ""
-        },
-        {
-            title: "Bezeting Pegawai Balitbang 2024",
-            category: "Peta Jabatan",
-            link: "https://drive.google.com/file/d/1o_6B8Q45ruECl5WZ3B8hWycT61kVHAtj/preview",
-            file: ""
-        },
-        {
-            title: "Jenis Jabatan Fungsional Balitbang 2024",
-            category: "Peta Jabatan",
-            link: "https://drive.google.com/file/d/1RZ-qRh2_VyVugDgxGtE_xfn3RGGMY-5b/preview",
-            file: ""
-        },
-        {
-            title: "Jumlah Jabatan Fungsional Balitbang 2024",
-            category: "Peta Jabatan",
-            link: "https://drive.google.com/file/d/16khqcFnP1GKcFWRZ1Hun99cLoGm1uCVa/preview",
-            file: ""
-        },
-        {
-            title: "PNS Berdasarkan Gol.Ruang dan Status Kepegawaian 2024",
-            category: "Peta Jabatan",
-            link: "https://drive.google.com/file/d/1VmlBsXMrCL_xTXpssqWP9h12ieP0xoY7/preview",
+            title: "SK Penetapan Daftar Informasi Kecualikan Tahu 2024",
+            category: "Pembentukan PPID",
+            link: "https://drive.google.com/file/d/1m1wFwIy9UPprMlq2K2pS6kYG6fZWuzWT/preview",
             file: ""
         }
     ];

@@ -26,7 +26,7 @@ enableSearch = true
 searchKeys = "["
 copyright = "Copyright © 2024"
 favicon = "/favicon.svg"
-ascentColor = "bg-green-800"
+ascentColor = "bg-customGreen"
 frontBundle = "Berita"
 frontBundle2 = "Flyers"
 frontBundle3 = "Gallery-Kegiatan"
@@ -997,6 +997,14 @@ hari = "Kamis"
 text = "Selamat Datang di Website Resmi Badan Penelitian dan Pengembangan Provinsi Kalimantan Barat"
 
 
+[[params.sliders.images]]
+url = "jembatan kapuas.png"
+extension = "png"
+
+
+[[params.sliders.images]]
+url = "rumah melayu.png"
+extension = "png"
 
 
 [[params.sliders.images]]
@@ -1013,16 +1021,6 @@ extension = "png"
 url = "Slider HUT Kota Pontianak 2024.png"
 extension = "png"
 
-
-
-[[params.sliders.images]]
-url = "jembatan kapuas.png"
-extension = "png"
-
-
-[[params.sliders.images]]
-url = "rumah melayu.png"
-extension = "png"
 
 
 [[params.sliders.images]]

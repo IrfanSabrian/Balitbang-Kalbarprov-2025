@@ -1,0 +1,75 @@
+---
+author: sekret.bppkb
+title: "Profil Layanan"
+date: 2024-08-01 01:33:18
+---
+
+<div style="display: flex; flex-wrap: wrap; gap: 30px; width: 100%; margin-top: 40px;">
+
+  <div style="flex: 1 1 calc(33.333% - 20px); box-sizing: border-box; padding: 10px; border: 1px solid #2f855a; background-color: #2f855a; border-radius: 15px; height: 150px; margin-bottom: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <i class="fas fa-file-alt text-white" style="margin-bottom: 5px; font-size: 40px;"></i>
+      <span style="font-size: 12pt; font-family: 'Poppins', sans-serif; color: #fff;">SK Pelayanan</span>
+    <button onclick="window.location.href='/master-profil-layanan/sk-pelayanan'" style="margin-top: 10px; padding: 5px 10px; background-color: transparent; color: #fff; border: 1px solid #fff; border-radius: 15px; font-size: 10pt; cursor: pointer;" onmouseover="this.style.backgroundColor='#fff'; this.style.color='#2f855a';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#fff';">Lihat Detail <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></button>
+  </div>
+
+  <div style="flex: 1 1 calc(33.333% - 20px); box-sizing: border-box; padding: 10px; border: 1px solid #2f855a; background-color: #2f855a; border-radius: 15px; height: 150px; margin-bottom: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <i class="fas fa-users text-white" style="margin-bottom: 5px; font-size: 40px;"></i>
+      <span style="font-size: 12pt; font-family: 'Poppins', sans-serif; color: #fff;">Tim Pengelola Layanan</span>
+    <button onclick="window.location.href='/master-profil-layanan/tim-pengelola-layanan'" style="margin-top: 10px; padding: 5px 10px; background-color: transparent; color: #fff; border: 1px solid #fff; border-radius: 15px; font-size: 10pt; cursor: pointer;" onmouseover="this.style.backgroundColor='#fff'; this.style.color='#2f855a';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#fff';">Lihat Detail <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></button>
+  </div>
+
+  <div style="flex: 1 1 calc(33.333% - 20px); box-sizing: border-box; padding: 10px; border: 1px solid #2f855a; background-color: #2f855a; border-radius: 15px; height: 150px; margin-bottom: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <i class="fas fa-bullseye text-white" style="margin-bottom: 5px; font-size: 40px;"></i>
+      <span style="font-size: 12pt; font-family: 'Poppins', sans-serif; color: #fff;">Visi Misi Layanan</span>
+    <button onclick="window.location.href='/master-profil-layanan/visi-misi-layanan'" style="margin-top: 10px; padding: 5px 10px; background-color: transparent; color: #fff; border: 1px solid #fff; border-radius: 15px; font-size: 10pt; cursor: pointer;" onmouseover="this.style.backgroundColor='#fff'; this.style.color='#2f855a';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#fff';">Lihat Detail <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></button>
+  </div>
+
+  <div style="flex: 1 1 calc(33.333% - 20px); box-sizing: border-box; padding: 10px; border: 1px solid #2f855a; background-color: #2f855a; border-radius: 15px; height: 150px; margin-bottom: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <i class="fas fa-file-signature text-white" style="margin-bottom: 5px; font-size: 40px;"></i>
+      <span style="font-size: 12pt; font-family: 'Poppins', sans-serif; color: #fff;">Maklumat Pelayanan</span>
+    <button onclick="window.location.href='/master-profil-layanan/maklumat-pelayanan'" style="margin-top: 10px; padding: 5px 10px; background-color: transparent; color: #fff; border: 1px solid #fff; border-radius: 15px; font-size: 10pt; cursor: pointer;" onmouseover="this.style.backgroundColor='#fff'; this.style.color='#2f855a';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#fff';">Lihat Detail <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></button>
+  </div>
+
+  <div style="flex: 1 1 calc(33.333% - 20px); box-sizing: border-box; padding: 10px; border: 1px solid #2f855a; background-color: #2f855a; border-radius: 15px; height: 150px; margin-bottom: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <i class="fas fa-calendar-alt text-white" style="margin-bottom: 5px; font-size: 40px;"></i>
+      <span style="font-size: 12pt; font-family: 'Poppins', sans-serif; color: #fff;">Motto dan Jadwal Layanan</span>
+    <button onclick="window.location.href='/master-profil-layanan/motto-dan-jadwal-layanan'" style="margin-top: 10px; padding: 5px 10px; background-color: transparent; color: #fff; border: 1px solid #fff; border-radius: 15px; font-size: 10pt; cursor: pointer;" onmouseover="this.style.backgroundColor='#fff'; this.style.color='#2f855a';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#fff';">Lihat Detail <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></button>
+  </div>
+
+  <div style="flex: 1 1 calc(33.333% - 20px); box-sizing: border-box; padding: 10px; border: 1px solid #2f855a; background-color: #2f855a; border-radius: 15px; height: 150px; margin-bottom: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <i class="fas fa-chart-line text-white" style="margin-bottom: 5px; font-size: 40px;"></i>
+      <span style="font-size: 12pt; font-family: 'Poppins', sans-serif; color: #fff;">Rekap Pelayanan</span>
+    <button onclick="window.location.href='/master-profil-layanan/rekap-pelayanan'" style="margin-top: 10px; padding: 5px 10px; background-color: transparent; color: #fff; border: 1px solid #fff; border-radius: 15px; font-size: 10pt; cursor: pointer;" onmouseover="this.style.backgroundColor='#fff'; this.style.color='#2f855a';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#fff';">Lihat Detail <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></button>
+  </div>
+
+  <div style="flex: 1 1 calc(33.333% - 20px); box-sizing: border-box; padding: 10px; border: 1px solid #2f855a; background-color: #2f855a; border-radius: 15px; height: 150px; margin-bottom: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+      <i class="fas fa-images text-white" style="margin-bottom: 5px; font-size: 40px;"></i>
+      <span style="font-size: 12pt; font-family: 'Poppins', sans-serif; color: #fff;">Galeri Pelayanan</span>
+    <button onclick="window.location.href='/master-profil-layanan/galeri-pelayanan'" style="margin-top: 10px; padding: 5px 10px; background-color: transparent; color: #fff; border: 1px solid #fff; border-radius: 15px; font-size: 10pt; cursor: pointer;" onmouseover="this.style.backgroundColor='#fff'; this.style.color='#2f855a';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#fff';">Lihat Detail <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></button>
+  </div>
+
+<style>
+@media (max-width: 1024px) { 
+  div[style*="display: flex; flex-wrap: wrap;"] > div {
+    flex: 1 1 100%; 
+    margin-bottom: 20px;
+  }
+}
+
+@media (max-width: 768px) { 
+  div[style*="display: flex; flex-wrap: wrap;"] {
+    flex-direction: column; 
+    align-items: center; 
+  }
+
+  div[style*="display: flex; flex-wrap: wrap;"] > div {
+    flex: none; 
+    width: calc(70% - 30px); 
+    height: 150px; 
+    max-width: calc(70% - 30px);
+    margin-bottom: 20px;
+  }
+}
+</style>
+
+</div>

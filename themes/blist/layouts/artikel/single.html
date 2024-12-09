@@ -38,7 +38,7 @@
               {{ end }}
             </div>
             {{ if not (or (or .Site.Params.hideMeta .Params.hideMeta) false) }}
-            <div class="absolute top-1 right-4 lg:right-8 rounded shadow bg-green-800 text-white px-2 py-0.5 text-xs lg:text-sm" style="font-family: 'Poppins', sans-serif;">
+            <div class="absolute top-1 right-4 lg:right-8 rounded shadow bg-customGreen text-white px-2 py-0.5 text-xs lg:text-sm" style="font-family: 'Poppins', sans-serif;">
               <i class="fas fa-calendar-alt"></i> {{ $datestr }}
             </div>
             {{ end }}
@@ -52,16 +52,16 @@
         <div class="mt-8 border-t pt-4">
           <h3 class="text-base lg:text-lg font-semibold mb-4" style="font-family: 'Poppins', sans-serif;">Bagikan {{ .Type | title }} Ini:</h3>
           <div class="flex flex-wrap gap-2 lg:gap-4">
-            <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink | absURL }}" target="_blank" class="text-sm lg:text-base bg-green-800 text-white px-3 py-1 lg:px-4 lg:py-2 rounded-lg hover:bg-green-900 transition-colors">
+            <a href="https://www.facebook.com/sharer/sharer.php?u={{ .Permalink | absURL }}" target="_blank" class="text-sm lg:text-base bg-customGreen text-white px-3 py-1 lg:px-4 lg:py-2 rounded-lg hover:bg-customDarkGreen transition-colors">
               <i class="fab fa-facebook-f mr-2"></i>Facebook
             </a>
-            <a href="https://twitter.com/intent/tweet?url={{ .Permalink | absURL }}&text={{ .Title }}" target="_blank" class="text-sm lg:text-base bg-green-800 text-white px-3 py-1 lg:px-4 lg:py-2 rounded-lg hover:bg-green-900 transition-colors">
+            <a href="https://twitter.com/intent/tweet?url={{ .Permalink | absURL }}&text={{ .Title }}" target="_blank" class="text-sm lg:text-base bg-customGreen text-white px-3 py-1 lg:px-4 lg:py-2 rounded-lg hover:bg-customDarkGreen transition-colors">
               <i class="fab fa-twitter mr-2"></i>Twitter
             </a>
-            <a href="https://wa.me/?text={{ .Title }}%20{{ .Permalink | absURL }}" target="_blank" class="text-sm lg:text-base bg-green-800 text-white px-3 py-1 lg:px-4 lg:py-2 rounded-lg hover:bg-green-900 transition-colors">
+            <a href="https://wa.me/?text={{ .Title }}%20{{ .Permalink | absURL }}" target="_blank" class="text-sm lg:text-base bg-customGreen text-white px-3 py-1 lg:px-4 lg:py-2 rounded-lg hover:bg-customDarkGreen transition-colors">
               <i class="fab fa-whatsapp mr-2"></i>WhatsApp
             </a>
-            <a href="https://telegram.me/share/url?url={{ .Permalink | absURL }}&text={{ .Title }}" target="_blank" class="text-sm lg:text-base bg-green-800 text-white px-3 py-1 lg:px-4 lg:py-2 rounded-lg hover:bg-green-900 transition-colors">
+            <a href="https://telegram.me/share/url?url={{ .Permalink | absURL }}&text={{ .Title }}" target="_blank" class="text-sm lg:text-base bg-customGreen text-white px-3 py-1 lg:px-4 lg:py-2 rounded-lg hover:bg-customDarkGreen transition-colors">
               <i class="fab fa-telegram mr-2"></i>Telegram
             </a>
           </div>
@@ -83,7 +83,7 @@
                 <img src="{{ .Params.thumbnail }}" class="w-full h-32 lg:h-40 object-cover rounded-lg" alt="{{ .Title }}" />
               </div>
               {{ end }}
-              <div class="text-sm lg:text-base hover:text-green-800 mb-1" style="font-family: 'Poppins', sans-serif;">
+              <div class="text-sm lg:text-base hover:text-customGreen mb-1" style="font-family: 'Poppins', sans-serif;">
                 {{ .Title }}
               </div>
               <div class="text-xs lg:text-sm text-gray-500 flex items-center justify-end mt-2 lg:mt-3" style="font-family: 'Poppins', sans-serif;">

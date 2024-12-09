@@ -69,7 +69,7 @@
     <i class="fas fa-arrow-up h-8 w-8 text-black dark:text-black flex justify-center items-center" style="font-size: 1.75rem"></i>
   </div>
 </footer>
-<div class="w-full flex flex-col items-center bg-green-900 dark:bg-gray-700 py-4">
+<div class="w-full flex flex-col items-center bg-customDarkGreen dark:bg-gray-700 py-4">
   <span class="relative" style="font-size: 1rem; color: #fff">
     {{ if (isset .Site.Params "copyright") }} {{ .Site.Params.copyright | safeHTML }} {{ else }} {{ dateFormat "2006" now }} © {{ .Site.Title }} {{ end }}
   </span>

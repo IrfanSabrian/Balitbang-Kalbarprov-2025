@@ -90,7 +90,7 @@
   filter: blur(10px);
   background-color: rgba(0, 0, 0, 0.6); /* Overlay hitam dengan opacity 40% */
   z-index: 1; /* Pastikan overlay berada di atas gambar slider */
-  display: none; /* Overlay tidak aktif di awal */
+  display: block; /* Overlay aktif di awal */
 }
 
   .animated-text {
@@ -107,7 +107,7 @@
     animation: fadeInMove 2s ease-in-out; /* Memperkenalkan animasi */
     opacity: 0; /* Memastikan teks tidak terlihat sebelum animasi dimulai */
     animation-fill-mode: forwards; /* Memastikan animasi tetap di akhir posisi */
-    display: none; /* Running teks tidak aktif di awal */
+    display: block; /* Running teks aktif di awal */
   }
 
   .container {
@@ -234,7 +234,7 @@
 .toggle-button .fa-ban {
   position: absolute;
   font-size: 1.5em; /* Perbesar ukuran ikon ban */
-  display: none; /* Ikon ban tidak aktif di awal */
+  display: inline; /* Ikon ban aktif di awal */
 }
 
 </style>
@@ -315,17 +315,17 @@
       },
     });
 
-    // Atur agar overlay, teks, dan ikon ban tidak muncul di awal
+    // Atur agar overlay, teks, dan ikon ban muncul di awal
     const overlays = document.querySelectorAll('.overlay');
     const animatedTexts = document.querySelectorAll('.animated-text');
     const banIcon = document.querySelector('.toggle-button .fa-ban');
     overlays.forEach((overlay) => {
-      overlay.style.display = 'none';
+      overlay.style.display = 'block';
     });
     animatedTexts.forEach((text) => {
-      text.style.display = 'none';
+      text.style.display = 'block';
     });
-    banIcon.style.display = 'none';
+    banIcon.style.display = 'inline';
   });
 
   function toggleOverlay() {
@@ -367,9 +367,9 @@
 
 <div class="wrapper fade-in" id="animateMe">
   <!-- Berita Section -->
-  <div class="berita bg-green-800 bg-opacity-10 border my-3 mx-2 rounded-xl dark:bg-gray-400">
+  <div class="berita bg-customGreen bg-opacity-10 border my-3 mx-2 rounded-xl dark:bg-gray-400">
     {{ $frontBundle := .Site.Params.frontBundle | default "berita" | lower }}
-    <h2 class="text-2xl font-bold py-5 text-center text-green-800 ">{{ $frontBundle | title }}</h2>
+    <h2 class="text-2xl font-bold py-5 text-center text-customGreen ">{{ $frontBundle | title }}</h2>
     
     <!-- Swiper Berita Section -->
     <div class="swiper swiper-berita min-h-72 mx-auto">
@@ -384,7 +384,7 @@
     <div class="swiper-berita-pagination"></div>
     {{ if gt (len (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle)) 10 }}
     <div class="text-center py-10">
-      <a class='px-8 py-5 rounded-2xl transition-colors {{ default "bg-green-500" .Site.Params.ascentColor }} text-gray-100 hover:text-gray-800' href="{{ lower (replace $frontBundle " " "-") | absLangURL }}" lang="{{ .Lang }}">
+      <a class='px-8 py-5 rounded-2xl transition-colors {{ default "bg-customGreen" .Site.Params.ascentColor }} text-gray-100 hover:text-gray-800' href="{{ lower (replace $frontBundle " " "-") | absLangURL }}" lang="{{ .Lang }}">
         {{ i18n "morePosts" }}
         <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 inline-block ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6l6 6-6 6" />
@@ -434,8 +434,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
 <!-- Agenda Section -->
 {{ $agenda := .Site.Params.agenda }}
 {{ if $agenda }}
-<div class="agenda w-full max-w-full my-3 mx-2 border shadow rounded-xl bg-green-800 bg-opacity-10 dark:bg-gray-400">
-  <h2 class="text-2xl font-bold pt-6 text-center text-green-800 mb-4" id="animateMe">Agenda</h2>
+<div class="agenda w-full max-w-full my-3 mx-2 border shadow rounded-xl bg-customGreen bg-opacity-10 dark:bg-gray-400">
+  <h2 class="text-2xl font-bold pt-6 text-center text-customGreen mb-4" id="animateMe">Agenda</h2>
   <div class="swiper-container pl-2" style="display: flex; align-items: center; position: relative;">
   <!-- Swiper Agenda Section -->
   <div class="swiper swiper-agenda p-5" style="height: 480px; width: 90%; margin-left: 1px; overflow: hidden; pointer-events: none;">
@@ -611,7 +611,7 @@ document.addEventListener('DOMContentLoaded', () => {
   <!-- Flyers Section -->
   <div class="flyers bg-white m-3 dark:bg-gray-400">
     {{ $frontBundle2 := .Site.Params.frontBundle2 | default "Flyers" | lower }}
-    <h2 class="text-2xl font-bold py-5 text-center text-green-800">{{ $frontBundle2 | title }}</h2>
+    <h2 class="text-2xl font-bold py-5 text-center text-customGreen">{{ $frontBundle2 | title }}</h2>
 
     <!-- Swiper Flyers Section -->
       <div class="swiper swiper-flyers min-h-72 mx-auto">
@@ -701,7 +701,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 <div class="wrapper fade-in" id="animateMe">
 <!-- Gallery Section -->
-<div class="gallery bg-green-800 border my-3 mx-5 shadow rounded-xl dark:bg-gray-400">
+<div class="gallery bg-customGreen border my-3 mx-5 shadow rounded-xl dark:bg-gray-400">
   {{ $frontBundle3 := .Site.Params.frontBundle3 | default "gallery kegiatan" | lower }}
   <h2 class="text-2xl font-bold py-5 text-center text-white">Gallery Kegiatan</h2>
 
@@ -719,7 +719,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 
   <!-- Video Section -->
-  <div class="video bg-green-800 border my-3 mx-5 shadow rounded-xl dark:bg-gray-400">
+  <div class="video bg-customGreen border my-3 mx-5 shadow rounded-xl dark:bg-gray-400">
     {{ $frontBundle4 := .Site.Params.frontBundle4 | default "Video" | lower }}
     <h2 class="text-2xl font-bold py-5 text-center text-white">{{ $frontBundle4 | title }}</h2>
 
@@ -798,9 +798,9 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 <div class="fade-in" id="animateMe">
   <!-- Link Terkait Section -->
-  <h2 class="text-2xl font-bold py-5 text-center text-green-800">Link Web Terkait</h2>
-  <hr class="border-t-4 border-green-800 w-1/3 mx-auto mt-1">
-  <div class="link-terkait bg-green-800 bg-opacity-20 my-3 dark:bg-gray-400 p-6 rounded-xl w-full">
+  <h2 class="text-2xl font-bold py-5 text-center text-customGreen">Link Web Terkait</h2>
+  <hr class="border-t-4 border-customGreen w-1/3 mx-auto mt-1">
+  <div class="link-terkait bg-customGreen bg-opacity-20 my-3 dark:bg-gray-400 p-6 rounded-xl w-full">
     {{ $frontBundle5 := .Site.Params.frontBundle5 | default "Link Terkait" | lower }}
 
     <!-- Swiper Link Terkait Section -->
@@ -861,8 +861,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
   <!-- Aplikasi Section -->
   <div class="grid grid-cols-1 gap-6 justify-center items-center max-w-screen-xl mx-auto"> <!-- Mengubah grid menjadi satu kolom -->
     <div class="text-center">
-      <h2 class="text-xl font-bold py-3 text-green-800">Aplikasi Balitbang</h2> <!-- Memperkecil font -->
-      <hr class="border-t-4 border-green-800 w-2/3 mt-1 mx-auto"> <!-- Memperpendek hr -->
+      <h2 class="text-xl font-bold py-3 text-customGreen">Aplikasi Balitbang</h2> <!-- Memperkecil font -->
+      <hr class="border-t-4 border-customGreen w-2/3 mt-1 mx-auto"> <!-- Memperpendek hr -->
       <div class="aplikasi my-3 dark:bg-gray-400 p-6 rounded-xl w-full mx-auto relative"> <!-- Menghapus kotak biru -->
         {{ $frontBundle6 := .Site.Params.frontBundle6 | default "Aplikasi-Balitbang" | lower }}
         <!-- Swiper Aplikasi Balitbang Section -->
@@ -880,8 +880,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
       </div>
     </div>
     <div class="text-center">
-      <h2 class="text-xl font-bold py-3 text-green-800">Aplikasi SPBE</h2> <!-- Memperkecil font -->
-      <hr class="border-t-4 border-green-800 w-2/3 mt-1 mx-auto"> <!-- Memperpendek hr -->
+      <h2 class="text-xl font-bold py-3 text-customGreen">Aplikasi SPBE</h2> <!-- Memperkecil font -->
+      <hr class="border-t-4 border-customGreen w-2/3 mt-1 mx-auto"> <!-- Memperpendek hr -->
       <div class="aplikasi my-3 dark:bg-gray-400 p-6 rounded-xl w-full mx-auto relative"> <!-- Menghapus kotak biru -->
         {{ $frontBundle7 := .Site.Params.frontBundle7 | default "Aplikasi-SPBE" | lower }}
         <!-- Swiper Aplikasi SPBE Section -->
@@ -899,8 +899,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
       </div>
     </div>
     <div class="text-center">
-      <h2 class="text-xl font-bold py-3 text-green-800">Aplikasi Data Kalbar</h2> <!-- Memperkecil font -->
-      <hr class="border-t-4 border-green-800 w-2/3 mt-1 mx-auto"> <!-- Memperpendek hr -->
+      <h2 class="text-xl font-bold py-3 text-customGreen">Aplikasi Data Kalbar</h2> <!-- Memperkecil font -->
+      <hr class="border-t-4 border-customGreen w-2/3 mt-1 mx-auto"> <!-- Memperpendek hr -->
       <div class="aplikasi my-3 dark:bg-gray-400 p-6 rounded-xl w-full mx-auto relative"> <!-- Menghapus kotak biru -->
         {{ $frontBundle8 := .Site.Params.frontBundle8 | default "Aplikasi-Data-Kalbar" | lower }}
         <!-- Swiper Aplikasi Data Kalbar Section -->
@@ -933,12 +933,12 @@ document.addEventListener('DOMContentLoaded', (event) => {
     width: 15px; /* Memperbesar sedikit ukuran pagination */
     height: 15px; /* Memperbesar sedikit ukuran pagination */
     opacity: 1;
-    border: 2px solid #2f855a; /* Mengubah warna border menjadi green-800 */
+    border: 2px solid #2f855a; /* Mengubah warna border menjadi customGreen */
     border-radius: 50%;
     background-color: transparent; /* Mengubah warna background menjadi transparan */
   }
   .swiper-pagination-aplikasi .swiper-pagination-bullet-active {
-    background-color: #2f855a; /* Warna green-800 untuk yang aktif */
+    background-color: #2f855a; /* Warna customGreen untuk yang aktif */
   }
 </style>
 

@@ -19,7 +19,7 @@
       <div class="eurl-overlay-link" style="padding: 10px;"> <!-- Tambahkan padding pada eurl -->
         <span class="eurl-text-link">{{ .Params.eurl }}</span> <!-- Tampilkan eurl saat hover -->
       </div>
-      <div class="green-overlay-link"></div> <!-- Tambahkan overlay green-800 -->
+      <div class="green-overlay-link"></div> <!-- Tambahkan overlay 03a055 -->
     </div>
     
   </a>
@@ -75,7 +75,7 @@
   .green-overlay-link {
     position: absolute;
     inset: 0;
-    background-color: rgba(47, 133, 90, 0.6); /* Warna green-800 dengan transparansi */
+    background-color: #03a055; /* Warna green-800 dengan transparansi */
     opacity: 0;
     transition: opacity 0.3s ease;
     z-index: -1; /* Pastikan berada di bawah eurl */
@@ -94,7 +94,7 @@
   }
 
   .thumbnail-container-link:hover .green-overlay-link {
-    opacity: 1; /* Tampilkan overlay green-800 saat hover */
+    opacity: 1; /* Tampilkan overlay 03a055 saat hover */
   }
 
   .thumbnail-container-link:hover {

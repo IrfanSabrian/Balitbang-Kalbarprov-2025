@@ -1,171 +1,81 @@
 ---
 author: sekret.bppkb
-title: "Aparatur"
-date: 2024-08-01 03:35:13
+title: "Laporan SKM"
+date: 2024-08-01 03:32:20
 ---
 
 <script>
     const items = [
         {
-            title: "Rekapitulasi Berdasarkan Agama 2024",
-            category: "Jumlah Pegawai",
-            link: "https://drive.google.com/file/d/1f-WKWV-53YyW7Z7h_zKveFkV3cDDDjfd/preview",
+            title: "Laporan Survei IKM Tahun 2022 Triwulan III",
+            category: "Laporan Survey IKM",
+            link: "https://drive.google.com/file/d/114dG95Fc2KWmcoM4Xrt_bMGoK86QNDTP/preview",
             file: ""
         },
         {
-            title: "Rekapitulasi Berdasarkan Eselon dan Jenis Kelamin 2024",
-            category: "Jumlah Pegawai",
-            link: "https://drive.google.com/file/d/1gta5XxIkgUmXo0uj1GISC7ZTVVdmCbos/preview",
+            title: "Laporan Survei IKM Tahun 2022 Triwulan IV",
+            category: "Laporan Survey IKM",
+            link: "https://drive.google.com/file/d/1M45a_aQRb4I3PCqHWfsdD4dcDTi6v3qN/preview",
             file: ""
         },
         {
-            title: "Rekapitulasi Berdasarkan Gol.Ruang dan Jenis Kelamin 2024",
-            category: "Jumlah Pegawai",
-            link: "https://drive.google.com/file/d/1n-2qKPeOclFbgaDpmXQFZKfCTBv-u516/preview",
+            title: "Laporan Survei IKM Tahun 2023 Triwulan IV",
+            category: "Laporan Survey IKM",
+            link: "https://drive.google.com/file/d/1mYclFJA2JT8qURqNkDRT-mYVg9fFfbzk/preview",
             file: ""
         },
         {
-            title: "Rekapitulasi Berdasarkan Gol.Ruang dan Status Kepegawaian 2024",
-            category: "Jumlah Pegawai",
-            link: "https://drive.google.com/file/d/1_nV2ZRGzY9SgYK05eTJYlmosya4X_yI4/preview",
+            title: "Laporan Survey IKM Tahun 2023 Lengkap",
+            category: "Laporan Survey IKM",
+            link: "https://drive.google.com/file/d/1mYclFJA2JT8qURqNkDRT-mYVg9fFfbzk/preview",
             file: ""
         },
         {
-            title: "Rekapitulasi Berdasarkan Golongan 2024",
-            category: "Jumlah Pegawai",
-            link: "https://drive.google.com/file/d/1MZpE7OSvNzxBKbOAVPgcO6ED9XJKFJPE/preview",
+            title: "Hasil Survey Tahun 2023 Triwulan I",
+            category: "Hasil Survey",
+            link: "https://drive.google.com/file/d/1DgJ81ceR7_zkDAH_BNs0kgASSzNR58IF/preview",
             file: ""
         },
         {
-            title: "Rekapitulasi Berdasarkan Jenis Jabatan 2024",
-            category: "Jumlah Pegawai",
-            link: "https://drive.google.com/file/d/1veJmu_FYLGwTIUXwBdVaY1FvVMFKfKY2/preview",
+            title: "Hasil Survey Tahun 2023 Triwulan II",
+            category: "Hasil Survey",
+            link: "https://drive.google.com/file/d/1K5NLRdFea5moc4Yw5Sz7mAcjHCzinXQv/preview",
             file: ""
         },
         {
-            title: "Rekapitulasi Berdasarkan Jenis Kelamin 2024",
-            category: "Jumlah Pegawai",
-            link: "https://drive.google.com/file/d/1zA6IMVen_BdbgY6A8VGvk5UDdox2JDIb/preview",
+            title: "Hasil Survey Tahun 2023 Triwulan III",
+            category: "Hasil Survey",
+            link: "https://drive.google.com/file/d/1_RWmPlwkgKGqyqRywFnhKq0KNX38eOCE/preview",
             file: ""
         },
         {
-            title: "Rekapitulasi Berdasarkan Kelompok Jabatan Fungsional 2024",
-            category: "Jumlah Pegawai",
-            link: "https://drive.google.com/file/d/1R-RDnK__Y9M2US3-WdaCnBPR5jpgYZ9A/preview",
+            title: "Hasil Survey Tahun 2023 Triwulan IV",
+            category: "Hasil Survey",
+            link: "https://drive.google.com/file/d/1du1AoI0xdUTxmWgVTRmDROYu0PL6kUDj/preview",
             file: ""
         },
         {
-            title: "Rekapitulasi Berdasarkan Tingkat Pendidikan 2024",
-            category: "Jumlah Pegawai",
-            link: "https://drive.google.com/file/d/1jzjLx5xu-WTuWr_tGwI-wzWPzUApuh3q/preview",
+            title: "Hasil Survey Tahun 2023 Triwulan I - IV",
+            category: "Hasil Survey",
+            link: "https://drive.google.com/file/d/1ApHW4uAb1nHgInJ2byIiFYEddLNOyM5B/preview",
             file: ""
         },
         {
-            title: "Grafik Perkembangan ASN",
-            category: "Grafik Pegawai",
-            link: "https://drive.google.com/file/d/1BBvwQNQWVcWK4w-5GKlWOYPBjVoGC8ek/preview",
+            title: "Hasil Survey Tahun 2024 Triwulan I",
+            category: "Hasil Survey",
+            link: "https://drive.google.com/file/d/12sSx5SmCwqARanPCMg3TGUR-TeXZqzc8/preview",
             file: ""
         },
         {
-            title: "Daftar Urut Kepangkatan (DUK) per Januari Tahun 2023",
-            category: "Daftar Urut Kepangkatan",
-            link: "https://drive.google.com/file/d/1xeK2p2Phu2YdK4RHcvA43O2QFxoiFWZN/preview",
+            title: "Hasil Survey Tahun 2024 Triwulan II",
+            category: "Hasil Survey",
+            link: "https://drive.google.com/file/d/1jBm4jiz-eM8_l7rKBI6Jafsa81Y4yPiK/preview",
             file: ""
         },
         {
-            title: "Daftar Urut Kepangkatan (DUK) per Maret Tahun 2023",
-            category: "Daftar Urut Kepangkatan",
-            link: "https://drive.google.com/file/d/1FV2B_XARiauSHuc6w7PxewdTkbDq4RHL/preview",
-            file: ""
-        },
-        {
-            title: "Daftar Urut Kepangkatan (DUK) per Oktober Tahun 2023",
-            category: "Daftar Urut Kepangkatan",
-            link: "https://drive.google.com/file/d/1kpu0dzPMy9QKczCy_Shmc04pBEe9uQ85/preview",
-            file: ""
-        },
-        {
-            title: "Daftar Urut Kepangkatan (DUK) per Januari Tahun 2024",
-            category: "Daftar Urut Kepangkatan",
-            link: "https://drive.google.com/file/d/1U8uf6OW4L2FfmSGpzksbWKyBkiAIhFqM/preview",
-            file: ""
-        },
-        {
-            title: "Kenaikan Pangkat",
-            category: "Kenaikan Pangkat",
-            link: "",
-            file: "/images/HwrHh82VSTL0MP6NiYMR.png"
-        },
-        {
-            title: "Kenaikan Berkala",
-            category: "Kenaikan Berkala",
-            link: "",
-            file: "/images/IpE3ebDF6JdZ78HSZdXJ.jpg"
-        },
-        {
-            title: "Batas Usia Pensiun",
-            category: "Batas Usia Pensiun",
-            link: "",
-            file: "/images/0Dknz8fChnb7WQEK28gR.png"
-        },
-        {
-            title: "Laporan (LHKPN) Tahun 2022",
-            category: "LHKPN / LHKASN",
-            link: "https://drive.google.com/file/d/1HUkZaR14_UbKjum-KNbCkQP2xnKZ5BSx/preview",
-            file: ""
-        },
-        {
-            title: "Laporan (LHKASN) Tahun 2022",
-            category: "LHKPN / LHKASN",
-            link: "https://drive.google.com/file/d/1lGPsmVeht94WmjA7d9MT-qLuGfLljs_F/preview",
-            file: ""
-        },
-        {
-            title: "Laporan (LHKPN) Eselon II Tahun 2023",
-            category: "LHKPN / LHKASN",
-            link: "https://drive.google.com/file/d/1Rop_OM1nHII3VtA3Mi4SdLOtMsSKupck/preview",
-            file: ""
-        },
-        {
-            title: "Laporan (LHKPN) Eselon III Tahun 2023",
-            category: "LHKPN / LHKASN",
-            link: "https://drive.google.com/file/d/1Bs7HHP305jMuerAtvBP8z4zxgr_pvgiV/preview",
-            file: ""
-        },
-        {
-            title: "Persentase Penyampaian (LHKPN) Tahun 2023",
-            category: "LHKPN / LHKASN",
-            link: "https://drive.google.com/file/d/1Bs7HHP305jMuerAtvBP8z4zxgr_pvgiV/preview",
-            file: ""
-        },
-        {
-            title: "Bezeting Jabatan ASN Balitbang 2024",
-            category: "Peta Jabatan",
-            link: "https://drive.google.com/file/d/1So-kTC4KhXaw9jQ9mLUnO9gZ-sZAKKjF/preview",
-            file: ""
-        },
-        {
-            title: "Bezeting Pegawai Balitbang 2024",
-            category: "Peta Jabatan",
-            link: "https://drive.google.com/file/d/1o_6B8Q45ruECl5WZ3B8hWycT61kVHAtj/preview",
-            file: ""
-        },
-        {
-            title: "Jenis Jabatan Fungsional Balitbang 2024",
-            category: "Peta Jabatan",
-            link: "https://drive.google.com/file/d/1RZ-qRh2_VyVugDgxGtE_xfn3RGGMY-5b/preview",
-            file: ""
-        },
-        {
-            title: "Jumlah Jabatan Fungsional Balitbang 2024",
-            category: "Peta Jabatan",
-            link: "https://drive.google.com/file/d/16khqcFnP1GKcFWRZ1Hun99cLoGm1uCVa/preview",
-            file: ""
-        },
-        {
-            title: "PNS Berdasarkan Gol.Ruang dan Status Kepegawaian 2024",
-            category: "Peta Jabatan",
-            link: "https://drive.google.com/file/d/1VmlBsXMrCL_xTXpssqWP9h12ieP0xoY7/preview",
+            title: "Hasil Survey Tahun 2024 Triwulan III",
+            category: "Hasil Survey",
+            link: "https://drive.google.com/file/d/1zg7ujhXekYE8ZqmWIgfs3DXeSICSDqp6/preview",
             file: ""
         }
     ];

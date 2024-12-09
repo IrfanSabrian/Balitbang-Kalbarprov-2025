@@ -1,171 +1,93 @@
 ---
 author: sekret.bppkb
-title: "Aparatur"
-date: 2024-08-01 03:35:13
+title: "Kerjasama Kelitbangan"
+date: 2024-08-01 02:17:33
 ---
 
 <script>
     const items = [
         {
-            title: "Rekapitulasi Berdasarkan Agama 2024",
-            category: "Jumlah Pegawai",
-            link: "https://drive.google.com/file/d/1f-WKWV-53YyW7Z7h_zKveFkV3cDDDjfd/preview",
+            title: "Kesepakatan Bersama Pemprov Kalbar dengan UMP Pontianak Tahun 2019",
+            category: "Nota Kesepakatan 2019",
+            link: "https://drive.google.com/file/d/1KQXZjWt0IjBKGLdb8UOFijMHKWTKk8Dg/preview",
             file: ""
         },
         {
-            title: "Rekapitulasi Berdasarkan Eselon dan Jenis Kelamin 2024",
-            category: "Jumlah Pegawai",
-            link: "https://drive.google.com/file/d/1gta5XxIkgUmXo0uj1GISC7ZTVVdmCbos/preview",
+            title: "Kesepakatan Bersama Pemprov Kalbar dengan UNTAN Pontianak Tahun 2019",
+            category: "Nota Kesepakatan 2019",
+            link: "https://drive.google.com/file/d/1vehChc7-TofoO1k8Faycx_2QExj0UxVu/preview",
             file: ""
         },
         {
-            title: "Rekapitulasi Berdasarkan Gol.Ruang dan Jenis Kelamin 2024",
-            category: "Jumlah Pegawai",
-            link: "https://drive.google.com/file/d/1n-2qKPeOclFbgaDpmXQFZKfCTBv-u516/preview",
+            title: "Kesepakatan Bersama Pemprov Kalbar dengan UPB Pontianak Tahun 2019",
+            category: "Nota Kesepakatan 2019",
+            link: "https://drive.google.com/file/d/1bgQB9CLuKaGKuxaKYZjQfucMQiuVQSaB/preview",
             file: ""
         },
         {
-            title: "Rekapitulasi Berdasarkan Gol.Ruang dan Status Kepegawaian 2024",
-            category: "Jumlah Pegawai",
-            link: "https://drive.google.com/file/d/1_nV2ZRGzY9SgYK05eTJYlmosya4X_yI4/preview",
+            title: "Nota Kesepakatan Pemprov Kalbar dengan BPTP Kalbar Tahun 2019",
+            category: "Nota Kesepakatan 2019",
+            link: "https://drive.google.com/file/d/1SzOwj5MdYwmHD1Bl5m9Zrt61m_GZTURr/preview",
             file: ""
         },
         {
-            title: "Rekapitulasi Berdasarkan Golongan 2024",
-            category: "Jumlah Pegawai",
-            link: "https://drive.google.com/file/d/1MZpE7OSvNzxBKbOAVPgcO6ED9XJKFJPE/preview",
+            title: "Nota Kesepakatan Pemprov Kalbar dengan Komisi Informasi Provinsi Tahun 2020",
+            category: "Nota Kesepakatan 2020",
+            link: "https://drive.google.com/file/d/1F_ShRn1zt605eZBa6SiK1wkKJbw7FkK3/preview",
             file: ""
         },
         {
-            title: "Rekapitulasi Berdasarkan Jenis Jabatan 2024",
-            category: "Jumlah Pegawai",
-            link: "https://drive.google.com/file/d/1veJmu_FYLGwTIUXwBdVaY1FvVMFKfKY2/preview",
+            title: "Perjanjian Kerjasama Balitbang dengan PSPIG Untan Pontianak Tahun 2020",
+            category: "Nota Kesepakatan 2020",
+            link: "https://drive.google.com/file/d/1fAmFztAE-oKVGVLfsM8_9u_0vWtyjX2H/preview",
             file: ""
         },
         {
-            title: "Rekapitulasi Berdasarkan Jenis Kelamin 2024",
-            category: "Jumlah Pegawai",
-            link: "https://drive.google.com/file/d/1zA6IMVen_BdbgY6A8VGvk5UDdox2JDIb/preview",
+            title: "Kesepakatan Bersama Pemprov Kalbar dengan IKIP PGRI Pontianak Tahun 2020",
+            category: "Nota Kesepakatan 2020",
+            link: "https://drive.google.com/file/d/1UsYKUZ1eZUUlA9NkucKlJAbrCxbWGblS/preview",
             file: ""
         },
         {
-            title: "Rekapitulasi Berdasarkan Kelompok Jabatan Fungsional 2024",
-            category: "Jumlah Pegawai",
-            link: "https://drive.google.com/file/d/1R-RDnK__Y9M2US3-WdaCnBPR5jpgYZ9A/preview",
+            title: "Nota Kesepahaman Antara Balitbang Provinsi Kalbar dan IKIP PGRI Pontianak Tahun 2021",
+            category: "Nota Kesepakatan 2021",
+            link: "https://drive.google.com/file/d/1UBiKTld4z41CSygjY4J32ZvRowxfTQXD/preview",
             file: ""
         },
         {
-            title: "Rekapitulasi Berdasarkan Tingkat Pendidikan 2024",
-            category: "Jumlah Pegawai",
-            link: "https://drive.google.com/file/d/1jzjLx5xu-WTuWr_tGwI-wzWPzUApuh3q/preview",
+            title: "Nota Kesepahaman Antara Balitbang Provinsi Kalbar dan LPPM Untan Kalbar Tahun 2021",
+            category: "Nota Kesepakatan 2021",
+            link: "https://drive.google.com/file/d/1HWFbX-0kBlvS-xNUr1WEb5S8ZPZaUkU_/preview",
             file: ""
         },
         {
-            title: "Grafik Perkembangan ASN",
-            category: "Grafik Pegawai",
-            link: "https://drive.google.com/file/d/1BBvwQNQWVcWK4w-5GKlWOYPBjVoGC8ek/preview",
+            title: "Nota Kesepahaman Antara Balitbang Provinsi Kalbar dan Universitas Muhammadiyah Pontianak Tahun 2021",
+            category: "Nota Kesepakatan 2021",
+            link: "https://drive.google.com/file/d/1oQIr0ygkS7G8pX64nIpYltOldWg4-1ff/preview",
             file: ""
         },
         {
-            title: "Daftar Urut Kepangkatan (DUK) per Januari Tahun 2023",
-            category: "Daftar Urut Kepangkatan",
-            link: "https://drive.google.com/file/d/1xeK2p2Phu2YdK4RHcvA43O2QFxoiFWZN/preview",
+            title: "Nota Kesepahaman Antara Balitbang Provinsi Kalbar dan Universitas Panca Bhakti Pontianak Tahun 2021",
+            category: "Nota Kesepakatan 2021",
+            link: "https://drive.google.com/file/d/1dCukvFRnmLZFE82ozm4bey5rw-Uk1FFC/preview",
             file: ""
         },
         {
-            title: "Daftar Urut Kepangkatan (DUK) per Maret Tahun 2023",
-            category: "Daftar Urut Kepangkatan",
-            link: "https://drive.google.com/file/d/1FV2B_XARiauSHuc6w7PxewdTkbDq4RHL/preview",
+            title: "Surat Perjanjian Kerjasama FKIP Universitas Tanjungpura dengan Balitbang Provinsi Kalimantan Barat Tahun 2021",
+            category: "Nota Kesepakatan 2021",
+            link: "https://drive.google.com/file/d/1gdFaLHrTwsXjbE_VvlxD621_ahTCf1U1/preview",
             file: ""
         },
         {
-            title: "Daftar Urut Kepangkatan (DUK) per Oktober Tahun 2023",
-            category: "Daftar Urut Kepangkatan",
-            link: "https://drive.google.com/file/d/1kpu0dzPMy9QKczCy_Shmc04pBEe9uQ85/preview",
-            file: ""
-        },
-        {
-            title: "Daftar Urut Kepangkatan (DUK) per Januari Tahun 2024",
-            category: "Daftar Urut Kepangkatan",
-            link: "https://drive.google.com/file/d/1U8uf6OW4L2FfmSGpzksbWKyBkiAIhFqM/preview",
-            file: ""
-        },
-        {
-            title: "Kenaikan Pangkat",
-            category: "Kenaikan Pangkat",
+            title: "",
+            category: "Nota Kesepakatan 2022",
             link: "",
-            file: "/images/HwrHh82VSTL0MP6NiYMR.png"
-        },
-        {
-            title: "Kenaikan Berkala",
-            category: "Kenaikan Berkala",
-            link: "",
-            file: "/images/IpE3ebDF6JdZ78HSZdXJ.jpg"
-        },
-        {
-            title: "Batas Usia Pensiun",
-            category: "Batas Usia Pensiun",
-            link: "",
-            file: "/images/0Dknz8fChnb7WQEK28gR.png"
-        },
-        {
-            title: "Laporan (LHKPN) Tahun 2022",
-            category: "LHKPN / LHKASN",
-            link: "https://drive.google.com/file/d/1HUkZaR14_UbKjum-KNbCkQP2xnKZ5BSx/preview",
             file: ""
         },
         {
-            title: "Laporan (LHKASN) Tahun 2022",
-            category: "LHKPN / LHKASN",
-            link: "https://drive.google.com/file/d/1lGPsmVeht94WmjA7d9MT-qLuGfLljs_F/preview",
-            file: ""
-        },
-        {
-            title: "Laporan (LHKPN) Eselon II Tahun 2023",
-            category: "LHKPN / LHKASN",
-            link: "https://drive.google.com/file/d/1Rop_OM1nHII3VtA3Mi4SdLOtMsSKupck/preview",
-            file: ""
-        },
-        {
-            title: "Laporan (LHKPN) Eselon III Tahun 2023",
-            category: "LHKPN / LHKASN",
-            link: "https://drive.google.com/file/d/1Bs7HHP305jMuerAtvBP8z4zxgr_pvgiV/preview",
-            file: ""
-        },
-        {
-            title: "Persentase Penyampaian (LHKPN) Tahun 2023",
-            category: "LHKPN / LHKASN",
-            link: "https://drive.google.com/file/d/1Bs7HHP305jMuerAtvBP8z4zxgr_pvgiV/preview",
-            file: ""
-        },
-        {
-            title: "Bezeting Jabatan ASN Balitbang 2024",
-            category: "Peta Jabatan",
-            link: "https://drive.google.com/file/d/1So-kTC4KhXaw9jQ9mLUnO9gZ-sZAKKjF/preview",
-            file: ""
-        },
-        {
-            title: "Bezeting Pegawai Balitbang 2024",
-            category: "Peta Jabatan",
-            link: "https://drive.google.com/file/d/1o_6B8Q45ruECl5WZ3B8hWycT61kVHAtj/preview",
-            file: ""
-        },
-        {
-            title: "Jenis Jabatan Fungsional Balitbang 2024",
-            category: "Peta Jabatan",
-            link: "https://drive.google.com/file/d/1RZ-qRh2_VyVugDgxGtE_xfn3RGGMY-5b/preview",
-            file: ""
-        },
-        {
-            title: "Jumlah Jabatan Fungsional Balitbang 2024",
-            category: "Peta Jabatan",
-            link: "https://drive.google.com/file/d/16khqcFnP1GKcFWRZ1Hun99cLoGm1uCVa/preview",
-            file: ""
-        },
-        {
-            title: "PNS Berdasarkan Gol.Ruang dan Status Kepegawaian 2024",
-            category: "Peta Jabatan",
-            link: "https://drive.google.com/file/d/1VmlBsXMrCL_xTXpssqWP9h12ieP0xoY7/preview",
+            title: "Perjanjian Kerjasama antara FKIP Universitas Tanjungpura dengan Balitbang Provinsi Kalbar",
+            category: "Nota Kesepakatan 2023",
+            link: "https://drive.google.com/file/d/1T1jYfopdn_BPoBuGGZw1b4Ci0I0yR6V2/preview",
             file: ""
         }
     ];

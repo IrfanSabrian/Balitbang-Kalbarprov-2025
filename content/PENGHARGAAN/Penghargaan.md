@@ -4,14 +4,47 @@ title: "Penghargaan"
 date: 2024-08-01 02:20:30
 ---
 
-<p style="margin: 0cm; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif; color: black;"><a href="/ms.-penghargaan/penghargaan-keterbukaan-informasi-publik"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Penghargaan Keterbukaan Informasi</span></span></a></span></p>
+<script>
+    const items = [
+        {
+            title: "Penghargaan Keterbukaan Informasi",
+            thumbnail: "/images/wAAWy9HpXPSqJAMZWiRy.png",
+            date: "1 Agustus 2024"
+        },
+        {
+            title: "Penghargaan Kerjasama",
+            thumbnail: "/images/jzQEFA6M7PVfxz28rkqF.png",
+            date: "1 Agustus 2024"
+        },
+        {
+            title: "Penghargaan Barang dan Jasa",
+            thumbnail: "/images/wW0VGcjJjTtQaTS3TL2B.png",
+            date: "1 Agustus 2024"
+        }
+    ];
+</script>
 
-<p style="margin: 0cm; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
+<div class="container p-6 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8" id="announcement-list"></div>
 
-<p style="margin: 0cm; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif; color: black;"><a href="/ms.-penghargaan/penghargaan-kerjasama"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Penghargaan Kerjasama</span></span></a></span></p>
+<script>
+    const announcementContainer = document.getElementById('announcement-list');
 
-<p style="margin: 0cm; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
-
-<p style="margin: 0cm; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif; color: black;"><a href="/ms.-penghargaan/penghargaan-barang-dan-jasa"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Penghargaan Barang dan Jasa</span></span></a></span></p>
-
-<p style="margin: 0cm; font-variant-ligatures: normal; font-variant-caps: normal; orphans: 2; text-align: start; widows: 2; -webkit-text-stroke-width: 0px; text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; word-spacing: 0px; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
+    items.forEach(item => {
+        const div = document.createElement('div');
+        div.className = 'group relative overflow-hidden rounded-lg shadow-md transition duration-500 ease-in-out cursor-pointer';
+        div.style.width = 'auto';
+        div.style.height = '55vh';
+        div.style.padding = '0'; 
+        div.style.margin = '0';  
+        div.innerHTML = `
+            <img src="${item.thumbnail}" alt="${item.title}" 
+                class="rounded-lg shadow-sm object-cover transform group-hover:scale-105 transition duration-500 ease-in-out h-full" 
+                style="width: 100%; height: 100%; margin: 0; padding: 0;"/>
+            <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out flex flex-col justify-center items-center text-white">
+                <div class="text-base font-semibold mb-2 p-8 text-center">${item.title}</div>
+                <div class="text-sm">${item.date}</div>
+            </div>
+        `;
+        announcementContainer.appendChild(div);
+    });
+</script>

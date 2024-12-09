@@ -20,11 +20,13 @@ module.exports = {
   theme: {
     extend: {
       backgroundColor: (theme) => ({
-        defaultColor: "#00aa47",
+        defaultColor: "#03a055",
       }),
       colors: {
-        cyan: colors.cyan, // Tambahkan ini untuk mengaktifkan warna cyan
+        cyan: colors.cyan,
         sky: colors.sky,
+        customGreen: "#03a055", 
+        customDarkGreen: "#026b2e",
       },
       typography: (theme) => ({
         DEFAULT: {

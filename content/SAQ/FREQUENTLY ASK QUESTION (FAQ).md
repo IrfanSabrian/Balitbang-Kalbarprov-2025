@@ -3,32 +3,43 @@ author: sekret.bppkb
 title: "FREQUENTLY ASK QUESTION (FAQ)"
 date: 2024-08-01 04:48:56
 ---
-<p class="MsoNormal" style="box-sizing: border-box; margin-block: 0.1em; margin: 0cm -16.5pt 0.0001pt 0cm; color: #666666; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 16px; background-color: #ffffff; text-align: justify; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
 
-<p class="MsoNormal" style="box-sizing: border-box; margin-block: 0.1em; margin: 0cm -16.5pt 0.0001pt 0cm; color: #666666; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 16px; background-color: #ffffff; text-align: justify; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><span style="box-sizing: border-box; font-weight: bolder;"><span style="box-sizing: border-box;">Apa Itu Inovasi Daerah?&nbsp;</span></span></span></p>
+<div style="display: flex; flex-wrap: wrap; gap: 20px;">
 
-<p class="MsoNormal" style="box-sizing: border-box; margin-block: 0.1em; margin: 0cm -16.5pt 0.0001pt 0cm; color: #666666; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 16px; background-color: #ffffff; text-align: justify; line-height: 1.1;"><span style="box-sizing: border-box; font-size: 10pt; font-family: arial, helvetica, sans-serif;">Inovasi Daerah adalah semua bentuk pembaharuan dalam penyelenggaraan Pemerintahan Daerah.</span></p>
+  <div style="flex: 1 1 calc(50% - 20px); margin-bottom: 20px; padding: 20px; border: 1px solid #2f855a; border-radius: 10px; background-color: #f9f9f9;">
+    <h3 style="color: #2f855a;" class="text-center">Apa Itu Inovasi Daerah?</h3>
+    <p style="color: #666666; font-family: 'Poppins', sans-serif; font-size: 16px; text-align: justify; line-height: 1.5;" class="text-center">Inovasi Daerah adalah semua bentuk pembaharuan dalam penyelenggaraan Pemerintahan Daerah.</p>
+  </div>
 
-<p class="MsoNormal" style="box-sizing: border-box; margin-block: 0.1em; margin: 0cm -16.5pt 0.0001pt 0cm; color: #666666; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 16px; background-color: #ffffff; text-align: justify; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
+  <div style="flex: 1 1 calc(50% - 20px); margin-bottom: 20px; padding: 20px; border: 1px solid #2f855a; border-radius: 10px; background-color: #f9f9f9;">
+    <h3 style="color: #2f855a;" class="text-center">Bagaimana mendapatkan Jurnal Litbang Kalbar Online (e-Jurnal)?</h3>
+    <p style="color: #666666; font-family: 'Poppins', sans-serif; font-size: 16px; text-align: justify; line-height: 1.5;">Penerbitan Jurnal Kelitbangan sebagai wadah pemikiran dan penggerak kegiatan Kelitbangan dan Inovasi di Lingkungan Pemerintah Provinsi Kalimantan Barat yang dapat diakses melalui link <a style="color: #ab8b64; text-decoration: none;" href="https://web.archive.org/web/20230324093633/http://jurnal-litbang.kalbarprov.go.id/indekx.php/litbang">http://jurnal-litbang.kalbarprov.go.id/indekx.php/litbang</a></p>
+  </div>
 
-<p class="MsoNormal" style="box-sizing: border-box; margin-block: 0.1em; margin: 0cm -16.5pt 0.0001pt 0cm; color: #666666; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 16px; background-color: #ffffff; text-align: justify; line-height: 1.1;"><span style="box-sizing: border-box; font-size: 10pt; font-family: arial, helvetica, sans-serif;"><span style="box-sizing: border-box; font-weight: bolder;">Bagaimana mendapatkan Jurnal Litbang Kalbar Onlione (e-Jurnal)?</span></span></p>
+  <div style="flex: 1 1 calc(50% - 20px); margin-bottom: 20px; padding: 20px; border: 1px solid #2f855a; border-radius: 10px; background-color: #f9f9f9;">
+    <h3 style="color: #2f855a;" class="text-center">Bagaimana cara menyampaikan permohonan Konsultasi/Audiensi/Bimtek (bagi individu/Instansi)?</h3>
+    <p style="color: #666666; font-family: 'Poppins', sans-serif; font-size: 16px; text-align: justify; line-height: 1.5;">Membuat surat permohonan berisi identitas tamu/instansi, jumlah peserta kunjungan, maksud dan tujuan, serta jadwal kunjungan. Dimohon untuk mencantumkan nomor kontak yang dapat dihubungi.</p>
+    <ul style="color: #666666; font-family: 'Poppins', sans-serif; font-size: 16px; text-align: justify; line-height: 1.5;">
+      <li>Jadwal Konsultasi/Penerimaan Tamu dari hari Senin s/d Jumat</li>
+      <li>pukul 08.30 - 15.30 WIB</li>
+    </ul>
+  </div>
 
-<p class="MsoNormal" style="box-sizing: border-box; margin-block: 0.1em; margin: 0cm -16.5pt 0.0001pt 0cm; color: #666666; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 16px; background-color: #ffffff; text-align: justify; line-height: 1.1;"><span style="box-sizing: border-box; font-size: 10pt; font-family: arial, helvetica, sans-serif;">Penerbitan Jurnal Kelitbangan sebagai wadah pemikiran dan penggerak kegiatan Kelitbangan dan Inovasi di Lingkungan Pemerintah Provinsi Kalimantan Barat yang dapat diakses melalui link&nbsp;<a style="box-sizing: border-box; color: #ab8b64; text-decoration-line: none; background-color: transparent; transition: all 0.3s ease 0s; outline: 0px; cursor: pointer;" href="https://web.archive.org/web/20230324093633/http://jurnal-litbang.kalbarprov.go.id/indekx.php/litbang">http://jurnal-litbang.kalbarprov.go.id/indekx.php/litbang</a></span></p>
+  <div style="flex: 1 1 calc(50% - 20px); margin-bottom: 20px; padding: 20px; border: 1px solid #2f855a; border-radius: 10px; background-color: #f9f9f9;">
+    <h3 style="color: #2f855a;" class="text-center">Apa itu Khatulistiwa One Map?</h3>
+    <ul style="color: #666666; font-family: 'Poppins', sans-serif; font-size: 16px; text-align: justify; line-height: 1.5;">
+      <li>Khatulistiwa One Map atau yang disebut KOM, adalah aplikasi Program Pelayanan Informasi Kelitbangan Berbasis Data Geospasial yang dalam proses pengembangannya merupakan hasil sinergitas Ekosistem Inovasi berbentuk “TRIPLE HELIX” yang bertujuan untuk memberikan pelayanan data dan informasi kelitbangan terkait dengan data kewilayahan adalah dengan mengembangkan program aplikasi sistem informasi geografis yang terkini dan cepat berbasis data dan informasi Geospasial Provinsi Kalimantan Barat.</li>
+      <li>KOM ini dapat diakses melalui <a style="color: #ab8b64; text-decoration: none;" href="https://kom-litbang.kalbarprov.go.id/BALITBANG-KOM/Home">https://kom-litbang.kalbarprov.go.id/BALITBANG-KOM/Home</a>.</li>
+    </ul>
+  </div>
 
-<p class="MsoNormal" style="box-sizing: border-box; margin-block: 0.1em; margin: 0cm -16.5pt 0.0001pt 0cm; color: #666666; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 16px; background-color: #ffffff; text-align: justify; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
+</div>
 
-<p class="MsoNormal" style="box-sizing: border-box; margin-block: 0.1em; margin: 0cm -16.5pt 0.0001pt 0cm; color: #666666; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 16px; background-color: #ffffff; text-align: justify; line-height: 1.1;"><span style="box-sizing: border-box; font-size: 10pt; font-family: arial, helvetica, sans-serif;"><span style="box-sizing: border-box; font-weight: bolder;">Bagaimana cara menyampaikan permohonan Konsultasi/Audiensi/Bimtek (bagi individu/Instansi)?</span></span></p>
-
-<p class="MsoNormal" style="box-sizing: border-box; margin-block: 0.1em; margin: 0cm -16.5pt 0.0001pt 0cm; color: #666666; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 16px; background-color: #ffffff; text-align: justify; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><span style="box-sizing: border-box;">Membuat surat permohonan berisi identitas tamu/instansi, jumlah peserta kunjungan,&nbsp;</span><span style="box-sizing: border-box;">maksud dan tujuan, serta jadwal kunjungan. Dimohon untuk mencantumkan nomor&nbsp;</span><span style="box-sizing: border-box;">kontak yang dapat dihubungi.</span></span></p>
-
-<ul style="box-sizing: border-box; margin-top: 0px; margin-bottom: 30px; color: #666666; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 16px; background-color: #ffffff;">
-<li class="MsoNormal" style="box-sizing: border-box; text-align: justify; line-height: normal;"><span style="box-sizing: border-box; font-size: 10pt; font-family: arial, helvetica, sans-serif;">Jadwal Konsultasi/Penerimaan Tamu dari hari Senin s/d Jumat</span></li>
-<li class="MsoNormal" style="box-sizing: border-box; text-align: justify; line-height: normal;"><span style="box-sizing: border-box; font-size: 10pt; font-family: arial, helvetica, sans-serif;">pukul 08.30 - 15.30 WIB</span></li>
-</ul>
-
-<p class="MsoNormal" style="box-sizing: border-box; margin-block: 0.1em; margin: 0cm -16.5pt 0.0001pt 0cm; color: #666666; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 16px; background-color: #ffffff; text-align: justify; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span><span style="box-sizing: border-box; font-size: 10pt; font-family: arial, helvetica, sans-serif;"><span style="box-sizing: border-box; font-weight: bolder;">Apa itu Khatulistiwa One Map?</span></span></p>
-
-<ul style="box-sizing: border-box; margin-top: 0px; margin-bottom: 30px; color: #666666; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 16px; background-color: #ffffff;">
-<li class="MsoNormal" style="box-sizing: border-box; text-align: justify; line-height: 1.1;"><span style="box-sizing: border-box; font-size: 10pt; font-family: arial, helvetica, sans-serif;">Khatulistiwa One Map atau yang disebut KOM, adalah aplikasi Program Pelayanan Informasi Kelitbangan Berbasis Data Geospasial yang dalam proses pengembangannya merupakan hasil sinergitas Ekosistem Inovasi berbentuk &ldquo;TRIPLE HELIX&rdquo; yang bertujuan untuk memberikan pelayanan data dan informasi kelitbangan terkait dengan data kewilayahan adalah dengan mengembangkan program aplikasi sistem informasi geografis yang terkini dan cepat berbasis data dan informasi Geospasial Provinsi Kalimantan Barat.</span></li>
-<li class="MsoNormal" style="box-sizing: border-box; text-align: justify; line-height: 1.1;"><span style="box-sizing: border-box; font-size: 10pt; font-family: arial, helvetica, sans-serif;">KOM ini dapat diakses melalui https://kom-litbang.kalbarprov.go.id/BALITBANG-KOM/Home.</span></li>
-</ul>
+<style>
+@media (max-width: 768px) {
+  div[style*="display: flex; flex-wrap: wrap;"] > div {
+    flex: 1 1 100%;
+    margin-bottom: 20px;
+  }
+}
+</style>
