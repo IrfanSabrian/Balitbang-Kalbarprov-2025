@@ -5,28 +5,28 @@ date: 2024-08-20 00:51:17
 ---
 <div style="display: flex; flex-wrap: wrap; gap: 30px; width: 100%; margin-top: 40px;">
 
-  <div style="flex: 1 1 calc(50% - 20px); box-sizing: border-box; padding: 20px; border: 1px solid #2f855a; background-color: #2f855a; border-radius: 15px; height: 200px; margin-bottom: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+  <div style="flex: 1 1 calc(50% - 30px); box-sizing: border-box; height: 250px; margin: 20px 0; display: flex; flex-direction: column; align-items: center; justify-content: center;" class="border-customGreen bg-customGreen rounded-2xl dark:bg-gray-700 dark:text-white">
       <i class="fas fa-file-alt text-white" style="margin-bottom: 5px; font-size: 40px;"></i>
-      <span style="font-size: 12pt; font-family: 'Poppins', sans-serif; color: #fff;">Tata Cara Permohonan Informasi</span>
-    <button onclick="window.location.href='/ms.-tata-cara/tata-cara-permohonan-informasi'" style="margin-top: 10px; padding: 5px 10px; background-color: transparent; color: #fff; border: 1px solid #fff; border-radius: 15px; font-size: 10pt; cursor: pointer;" onmouseover="this.style.backgroundColor='#fff'; this.style.color='#2f855a';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#fff';">Lihat Detail <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></button>
+      <span style="font-size: 12pt; font-family: 'Poppins', sans-serif; margin: 10px 0;" class="text-white">Tata Cara Permohonan Informasi</span>
+    <button onclick="openImgModal('/images/V64WxFQr7IsEo2v6DYBD.png')" class="px-2.5 py-1.5 bg-transparent text-white border border-white rounded-xl text-base cursor-pointer transition-colors duration-300 hover:bg-white hover:text-customGreen dark:hover:text-gray-700">Lihat Detail <i class="fas fa-arrow-right ml-1.5"></i></button>
   </div>
 
-  <div style="flex: 1 1 calc(50% - 20px); box-sizing: border-box; padding: 20px; border: 1px solid #2f855a; background-color: #2f855a; border-radius: 15px; height: 200px; margin-bottom: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+  <div style="flex: 1 1 calc(50% - 30px); box-sizing: border-box; height: 250px; margin: 20px 0; display: flex; flex-direction: column; align-items: center; justify-content: center;" class="border-customGreen bg-customGreen rounded-2xl dark:bg-gray-700 dark:text-white">
       <i class="fas fa-exclamation-circle text-white" style="margin-bottom: 5px; font-size: 40px;"></i>
-      <span style="font-size: 12pt; font-family: 'Poppins', sans-serif; color: #fff;">Tata Cara Pengajuan Keberatan Atas Informasi</span>
-    <button onclick="window.location.href='/ms.-tata-cara/tata-cara-permohonan-keberatan'" style="margin-top: 10px; padding: 5px 10px; background-color: transparent; color: #fff; border: 1px solid #fff; border-radius: 15px; font-size: 10pt; cursor: pointer;" onmouseover="this.style.backgroundColor='#fff'; this.style.color='#2f855a';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#fff';">Lihat Detail <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></button>
+      <span style="font-size: 12pt; font-family: 'Poppins', sans-serif; margin: 10px 0;" class="text-white">Tata Cara Pengajuan Keberatan Atas Informasi</span>
+    <button onclick="openImgModal('/images/SeI0hPshB14xfcdMfP1s.png')" class="px-2.5 py-1.5 bg-transparent text-white border border-white rounded-xl text-base cursor-pointer transition-colors duration-300 hover:bg-white hover:text-customGreen dark:hover:text-gray-700">Lihat Detail <i class="fas fa-arrow-right ml-1.5"></i></button>
   </div>
 
-  <div style="flex: 1 1 calc(50% - 20px); box-sizing: border-box; padding: 20px; border: 1px solid #2f855a; background-color: #2f855a; border-radius: 15px; height: 200px; margin-bottom: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+  <div style="flex: 1 1 calc(50% - 30px); box-sizing: border-box; height: 250px; margin: 20px 0; display: flex; flex-direction: column; align-items: center; justify-content: center;" class="border-customGreen bg-customGreen rounded-2xl dark:bg-gray-700 dark:text-white">
       <i class="fas fa-balance-scale text-white" style="margin-bottom: 5px; font-size: 40px;"></i>
-      <span style="font-size: 12pt; font-family: 'Poppins', sans-serif; color: #fff;">Tata Cara Penyelesaian Sengketa ke Komisi Informasi</span>
-    <button onclick="window.location.href='/ms.-tata-cara/tata-cara-penyelesaian-sengketa-ke-ki'" style="margin-top: 10px; padding: 5px 10px; background-color: transparent; color: #fff; border: 1px solid #fff; border-radius: 15px; font-size: 10pt; cursor: pointer;" onmouseover="this.style.backgroundColor='#fff'; this.style.color='#2f855a';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#fff';">Lihat Detail <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></button>
+      <span style="font-size: 12pt; font-family: 'Poppins', sans-serif; margin: 10px 0;" class="text-white text-center">Tata Cara Penyelesaian Sengketa ke Komisi Informasi</span>
+    <button onclick="openImgModal('/images/xfIxlI61KGrBXkVkGSpK.png')" class="px-2.5 py-1.5 bg-transparent text-white border border-white rounded-xl text-base cursor-pointer transition-colors duration-300 hover:bg-white hover:text-customGreen dark:hover:text-gray-700">Lihat Detail <i class="fas fa-arrow-right ml-1.5"></i></button>
   </div>
 
-  <div style="flex: 1 1 calc(50% - 20px); box-sizing: border-box; padding: 20px; border: 1px solid #2f855a; background-color: #2f855a; border-radius: 15px; height: 200px; margin-bottom: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center;">
+  <div style="flex: 1 1 calc(50% - 30px); box-sizing: border-box; height: 250px; margin: 20px 0; display: flex; flex-direction: column; align-items: center; justify-content: center;" class="border-customGreen bg-customGreen rounded-2xl dark:bg-gray-700 dark:text-white">
       <i class="fas fa-gavel text-white" style="margin-bottom: 5px; font-size: 40px;"></i>
-      <span style="font-size: 12pt; font-family: 'Poppins', sans-serif; color: #fff;">Tata Cara Penyelesaian Sengketa ke Pengadilan</span>
-    <button onclick="window.location.href='/ms.-tata-cara/tata-cara-penyelesaian-sengketa-ke-pengadian'" style="margin-top: 10px; padding: 5px 10px; background-color: transparent; color: #fff; border: 1px solid #fff; border-radius: 15px; font-size: 10pt; cursor: pointer;" onmouseover="this.style.backgroundColor='#fff'; this.style.color='#2f855a';" onmouseout="this.style.backgroundColor='transparent'; this.style.color='#fff';">Lihat Detail <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></button>
+      <span style="font-size: 12pt; font-family: 'Poppins', sans-serif; margin: 10px 0;" class="text-white">Tata Cara Penyelesaian Sengketa ke Pengadilan</span>
+    <button onclick="openImgModal('/images/s7xQKaxtMxtzIe2ZbBF1.png')" class="px-2.5 py-1.5 bg-transparent text-white border border-white rounded-xl text-base cursor-pointer transition-colors duration-300 hover:bg-white hover:text-customGreen dark:hover:text-gray-700">Lihat Detail <i class="fas fa-arrow-right ml-1.5"></i></button>
   </div>
 
 <style>
@@ -46,7 +46,7 @@ date: 2024-08-20 00:51:17
   div[style*="display: flex; flex-wrap: wrap;"] > div {
     flex: none; 
     width: calc(70% - 30px); 
-    height: 200px; 
+    height: 250px; 
     max-width: calc(70% - 30px);
     margin-bottom: 20px;
   }

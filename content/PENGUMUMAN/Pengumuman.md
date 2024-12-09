@@ -9,26 +9,29 @@ date: 2024-08-01 01:52:36
         {
             title: "Barcode Layanan",
             thumbnail: "/images/nz9zJ7nG9CYWmE2yjXWk.png",
-            date: "1 Agustus 2024"
+            date: "1 Agustus 2024",
+            images: ["/images/nz9zJ7nG9CYWmE2yjXWk.png"]
         },
         {
             title: "Call For Papers Journal",
             thumbnail: "/images/bbL4WEPMa74zvzHrq84o.png",
-            date: "1 Agustus 2024"
+            date: "1 Agustus 2024",
+            images: ["/images/bbL4WEPMa74zvzHrq84o.png"]
         },
         {
             title: "Layanan HKI",
-            thumbnail: "/images/nz9zJ7nG9CYWmE2yjXWk.png",
-            date: "1 Agustus 2024"
+            thumbnail: "/images/ZqcLt0fNwvdMV8QCyy4M.png",
+            date: "1 Agustus 2024",
+            images: ["/images/ZqcLt0fNwvdMV8QCyy4M.png", "/images/tj2W5fLx0zJhJQtv8gfh.png"]
         },
         {
             title: "Layanan Pertek Izin Penelitian/Pendataan",
             thumbnail: "/images/WCSs5BzX3HTd2QaD3po7.png",
-            date: "1 Agustus 2024"
+            date: "1 Agustus 2024",
+            images: ["/images/WCSs5BzX3HTd2QaD3po7.png"]
         }
     ];
 </script>
-
 
 <div class="container p-6 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8" id="announcement-list"></div>
 
@@ -51,6 +54,23 @@ date: 2024-08-01 01:52:36
                 <div class="text-sm">${item.date}</div>
             </div>
         `;
+        div.addEventListener('click', () => {
+            Fancybox.show(
+                item.images.map((src) => ({
+                    src: src,
+                    type: 'image',
+                    options: {
+                        Toolbar: {
+                            display: ["slideshow", "fullscreen", "close"],
+                        },
+                        Image: {
+                            zoom: false,
+                        },
+                        transitionEffect: "fade",
+                    }
+                }))
+            );
+        });
         announcementContainer.appendChild(div);
     });
 </script>

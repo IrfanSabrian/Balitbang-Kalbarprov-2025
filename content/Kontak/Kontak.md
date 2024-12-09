@@ -10,21 +10,21 @@ date: 2024-08-06 07:41:15
   </div>
 
   <div style="flex: 1;">
-    <p style="margin: 0cm; text-align: left; display: flex; align-items: center; margin-bottom: 2rem;">
+    <p style="margin: 0cm; text-align: left; display: flex; align-items: center; margin-bottom: 2rem;" class="text-black dark:text-white">
       <i class="fas fa-phone-alt" style="margin-right: 10px; font-size: 26px;"></i>
       <span style="font-family: 'Poppins', sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">(0561) 748881</span></span></span></span></span></span></span>
     </p>
-    <p style="margin: 0cm; text-align: left; display: flex; align-items: center; margin-bottom: 2rem;">
+    <p style="margin: 0cm; text-align: left; display: flex; align-items: center; margin-bottom: 2rem;" class="text-black dark:text-white">
       <i class="fas fa-fax" style="margin-right: 10px; font-size: 26px;"></i>
       <span style="vertical-align: inherit;"><span style="font-family: 'Poppins', sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">(0561) 748881</span></span></span></span></span></span></span>
     </p>
-    <p style="margin: 0cm; text-align: left; display: flex; align-items: center; margin-bottom: 2rem;">
+    <p style="margin: 0cm; text-align: left; display: flex; align-items: center; margin-bottom: 2rem;" class="text-black dark:text-white">
       <i class="fas fa-envelope" style="margin-right: 10px; font-size: 26px;"></i>
-      <span style="font-family: 'Poppins', sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"></span></span></span></span></span></span></span><span style="vertical-align: inherit;"><a href="mailto:litbang@kalbarprov.go.id" style="color: black; text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='#2F855A'" onmouseout="this.style.color='black'"><span style="font-family: 'Poppins', sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">litbang@kalbarprov.go.id</span></span></span></span></span></span></a></span>
+      <span style="font-family: 'Poppins', sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"></span></span></span></span></span></span></span><span style="vertical-align: inherit;"><a href="mailto:litbang@kalbarprov.go.id" class="text-black dark:text-white" style="text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='#2F855A'" onmouseout="this.style.color='black'"><span style="font-family: 'Poppins', sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">litbang@kalbarprov.go.id</span></span></span></span></span></span></a></span>
     </p>
-    <p style="margin: 0cm; text-align: left; display: flex; align-items: center;">
+    <p style="margin: 0cm; text-align: left; display: flex; align-items: center;" class="text-black dark:text-white">
       <i class="fas fa-globe" style="margin-right: 10px; font-size: 26px;"></i>
-      <span style="font-family: 'Poppins', sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"></span></span></span></span></span></span><span style="font-family: 'Poppins', sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;<a href="https://litbang.kalbarprov.go.id/" style="color: black; text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='#2F855A'" onmouseout="this.style.color='black'">http://litbang.kalbarprov.go.id</a></span></span></span></span></span></span>
+      <span style="font-family: 'Poppins', sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"></span></span></span></span></span></span><span style="font-family: 'Poppins', sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;<a href="https://litbang.kalbarprov.go.id/" class="text-black dark:text-white" style="text-decoration: none; transition: color 0.3s;" onmouseover="this.style.color='#2F855A'" onmouseout="this.style.color='black'">http://litbang.kalbarprov.go.id</a></span></span></span></span></span></span>
     </p>
   </div>
 </div>

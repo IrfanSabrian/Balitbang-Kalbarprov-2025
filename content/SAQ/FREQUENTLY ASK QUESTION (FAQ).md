@@ -13,7 +13,7 @@ date: 2024-08-01 04:48:56
 
   <div style="flex: 1 1 calc(50% - 20px); margin-bottom: 20px; padding: 20px; border: 1px solid #2f855a; border-radius: 10px; background-color: #f9f9f9;">
     <h3 style="color: #2f855a;" class="text-center">Bagaimana mendapatkan Jurnal Litbang Kalbar Online (e-Jurnal)?</h3>
-    <p style="color: #666666; font-family: 'Poppins', sans-serif; font-size: 16px; text-align: justify; line-height: 1.5;">Penerbitan Jurnal Kelitbangan sebagai wadah pemikiran dan penggerak kegiatan Kelitbangan dan Inovasi di Lingkungan Pemerintah Provinsi Kalimantan Barat yang dapat diakses melalui link <a style="color: #ab8b64; text-decoration: none;" href="https://web.archive.org/web/20230324093633/http://jurnal-litbang.kalbarprov.go.id/indekx.php/litbang">http://jurnal-litbang.kalbarprov.go.id/indekx.php/litbang</a></p>
+    <p style="color: #666666; font-family: 'Poppins', sans-serif; font-size: 16px; text-align: justify; line-height: 1.5;">Penerbitan Jurnal Kelitbangan sebagai wadah pemikiran dan penggerak kegiatan Kelitbangan dan Inovasi di Lingkungan Pemerintah Provinsi Kalimantan Barat yang dapat diakses melalui link <a style="color: #ab8b64; text-decoration: none;" href="https://web.archive.org/web/20230324093633/http://jurnal-litbang.kalbarprov.go.id/indekx.php/litbang">http://jurnal-litbang.kalbarprov.go.id/index.php/litbang</a></p>
   </div>
 
   <div style="flex: 1 1 calc(50% - 20px); margin-bottom: 20px; padding: 20px; border: 1px solid #2f855a; border-radius: 10px; background-color: #f9f9f9;">
