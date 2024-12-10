@@ -8,7 +8,7 @@ date: 2024-08-07 07:00:19
   <div style="flex: 1 1 calc(50% - 30px); box-sizing: border-box; height: 150px; margin-bottom: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center;" class="border-customGreen bg-customGreen rounded-2xl dark:bg-gray-700 dark:text-white">
       <i class="fas fa-sitemap text-white" style="margin-bottom: 5px; font-size: 40px;"></i>
       <span style="font-size: 12pt; font-family: 'Poppins', sans-serif;" class="text-white">Alur Mekanisme Pengaduan</span>
-    <button onclick="window.open('https://drive.google.com/file/d/1LXX3ZJHwHT8OH_O9gRThb9f_CYE6t_Ia/view?usp=sharing', '_blank')" class="px-2.5 py-1.5 bg-transparent text-white border border-white rounded-xl text-base cursor-pointer transition-colors duration-300 hover:bg-white hover:text-customGreen dark:hover:text-gray-700">Lihat Detail <i class="fas fa-arrow-right ml-1.5"></i></button>
+    <button onclick="openPdfModal('https://drive.google.com/file/d/1LXX3ZJHwHT8OH_O9gRThb9f_CYE6t_Ia/preview')" class="px-2.5 py-1.5 bg-transparent text-white border border-white rounded-xl text-base cursor-pointer transition-colors duration-300 hover:bg-white hover:text-customGreen dark:hover:text-gray-700">Lihat Detail <i class="fas fa-arrow-right ml-1.5"></i></button>
   </div>
 
   <div style="flex: 1 1 calc(50% - 30px); box-sizing: border-box; height: 150px; margin-bottom: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center;" class="border-customGreen bg-customGreen rounded-2xl dark:bg-gray-700 dark:text-white">

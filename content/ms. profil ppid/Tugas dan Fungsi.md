@@ -3,42 +3,174 @@ author: sekret.bppkb
 title: "Tugas dan Fungsi"
 date: 2024-08-01 04:42:06
 ---
-<p class="MsoNormal" style="line-height: 1.1; background: white; margin: 0cm -16.5pt 0cm 0cm; text-align: left;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><strong><span style="color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">TUGAS PPID PELAKSANA</span></span></span></strong></span></p>
 
-<p class="MsoNormal" style="line-height: 1.1; background: white; margin: 0cm -16.5pt 0cm 0cm; text-align: left;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif; color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">serupa diatur dalam Peraturan Gubernur Kalimantan Barat Nomor 22 Tahun 2016 Pasal 15, disebutkan bahwa PPID-Pelaksana mempunyai tugas :</span></span></span></p>
+<h1 class="MsoNormal" style="margin-bottom: 0cm; margin-left: 20px; margin-right: 20px;"><span style="font-size: 30pt; font-family: 'Poppins', sans-serif;"><span style="color: #03A055;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Tugas dan</br>Fungsi</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></h1>
 
-<p class="MsoNormal" style="text-indent: -18pt; line-height: 1.1; background: white; margin: 0cm 0cm 0cm 18pt; text-align: left;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><!-- [if !supportLists]--><span style="color: #666666;"><span style="mso-list: Ignore;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">1.</span></span><span style="font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"> Mengkoordinasikan dan mengkonsolidasikan pengumpulan bahan informasi dan dokumentasi;</span></span></span></span></p>
+<hr style="border: 3px solid #03A055; width: 130px; margin-top:20px; margin-bottom: 40px; margin-left: 20px; margin-right: 20px;">
 
-<p class="MsoNormal" style="text-indent: -18pt; line-height: 1.1; background: white; margin: 0cm 0cm 0cm 18pt; text-align: left;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><!-- [if !supportLists]--><span style="color: #666666;"><span style="mso-list: Ignore;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">2.</span></span><span style="font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"> menyimpan, mendokumentasikan, menyediakan dan memberikan pelayanan informasi kepada masyarakat;</span></span></span></span></p>
+<div class="p-5 border border-gray-300 rounded-lg bg-gray-100 dark:bg-gray-700 mx-5">
+<div class="flex justify-left">
+    <p class="MsoNormal dark:text-white mb-4 mr-8 mt-2">
+        <span class="text-sm font-poppins dark:text-white">
+            <span class="text-black dark:text-white">
+                <i class="fas fa-user mr-2"></i>sekret.bppkb
+            </span>
+        </span>
+    </p>
+    <p class="MsoNormal mb-4 mt-2">
+        <span class="text-sm font-poppins">
+            <span class="text-black dark:text-white">
+                <i class="fas fa-calendar-alt mr-2"></i>2024-08-01 04:42:06
+            </span>
+        </span>
+    </p>
+</div>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins">
+            <strong>
+                <span class="text-black dark:text-white">
+                    <span style="vertical-align: inherit;">
+                        <span style="vertical-align: inherit;">TUGAS PPID PELAKSANA</span>
+                    </span>
+                </span>
+            </strong>
+            <span class="text-black dark:text-white">
+                <span style="vertical-align: inherit;">
+                    <span style="vertical-align: inherit;"> serupa diatur dalam Peraturan Gubernur Kalimantan Barat Nomor 22 Tahun 2016 Pasal 15, disebutkan bahwa PPID-Pelaksana mempunyai tugas :</span>
+                </span>
+            </span>
+        </span>
+    </p>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins text-black dark:text-white">&nbsp;</span>
+    </p>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins text-black dark:text-white">
+            <span style="vertical-align: inherit;">
+                <span style="vertical-align: inherit;">1. Mengkoordinasikan dan mengkonsolidasikan pengumpulan bahan informasi dan dokumentasi;</span>
+            </span>
+        </span>
+    </p>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins text-black dark:text-white">
+            <span style="vertical-align: inherit;">
+                <span style="vertical-align: inherit;">2. menyimpan, mendokumentasikan, menyediakan dan memberikan pelayanan informasi kepada masyarakat;</span>
+            </span>
+        </span>
+    </p>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins text-black dark:text-white">
+            <span style="vertical-align: inherit;">
+                <span style="vertical-align: inherit;">3. Melakukan verifikasi bahan informasi publik;</span>
+            </span>
+        </span>
+    </p>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins text-black dark:text-white">
+            <span style="vertical-align: inherit;">
+                <span style="vertical-align: inherit;">4. Melakukan pemutahiran informasi dan dokumentasi;</span>
+            </span>
+        </span>
+    </p>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins text-black dark:text-white">
+            <span style="vertical-align: inherit;">
+                <span style="vertical-align: inherit;">5. Menyediakan informasi dan dokumentasi untuk dapat diakses oleh masyarakat;</span>
+            </span>
+        </span>
+    </p>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins text-black dark:text-white">
+            <span style="vertical-align: inherit;">
+                <span style="vertical-align: inherit;">6. Melakukan inventarisasi informasi yang jelek untuk disampaikan kepada PPID;</span>
+            </span>
+        </span>
+    </p>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins text-black dark:text-white">
+            <span style="vertical-align: inherit;">
+                <span style="vertical-align: inherit;">7. Membuat laporan dan menyampaikan kepada PPID setiap 6 (enam) bulan sekali, yang meliputi :</span>
+            </span>
+        </span>
+    </p>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins text-black dark:text-white">
+            <span style="vertical-align: inherit;">
+                <span style="vertical-align: inherit;">- Jumlah permohonan informasi publik yang diterima;</span>
+            </span>
+        </span>
+    </p>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins text-black dark:text-white">
+            <span style="vertical-align: inherit;">
+                <span style="vertical-align: inherit;">- Waktu yang diperlukan dalam memenuhi setiap permohonan informasi publik;</span>
+            </span>
+        </span>
+    </p>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins text-black dark:text-white">
+            <span style="vertical-align: inherit;">
+                <span style="vertical-align: inherit;">- Jumlah permohonan informasi publik yang dikabulkan baik sebagian atau seluruhnya dan permohonan informasi publik yang ditolak;</span>
+            </span>
+        </span>
+    </p>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins text-black dark:text-white">
+            <span style="vertical-align: inherit;">
+                <span style="vertical-align: inherit;">- Alasan persetujuan permohonan informasi publik.</span>
+            </span>
+        </span>
+    </p>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins text-black dark:text-white">&nbsp;</span>
+    </p>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins">
+            <strong>
+                <span class="text-black dark:text-white">
+                    <span style="vertical-align: inherit;">
+                        <span style="vertical-align: inherit;">FUNGSI PPID PELAKSANA</span>
+                    </span>
+                </span>
+            </strong>
+            <span class="text-black dark:text-white">
+                <span style="vertical-align: inherit;">
+                    <span style="vertical-align: inherit;"> Sedangkan PPID-Pelaksana melaksanakan fungsi :</span>
+                </span>
+            </span>
+        </span>
+    </p>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins text-black dark:text-white">&nbsp;</span>
+    </p>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins text-black dark:text-white">
+            <span style="vertical-align: inherit;">
+                <span style="vertical-align: inherit;">1. Pengelolaan Informasi;</span>
+            </span>
+        </span>
+    </p>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins text-black dark:text-white">
+            <span style="vertical-align: inherit;">
+                <span style="vertical-align: inherit;">2. Dokumentasi Arsip;</span>
+            </span>
+        </span>
+    </p>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins text-black dark:text-white">
+            <span style="vertical-align: inherit;">
+                <span style="vertical-align: inherit;">3. Layanan Informasi.</span>
+            </span>
+        </span>
+    </p>
+</div>
 
-<p class="MsoNormal" style="text-indent: -18pt; line-height: 1.1; background: white; margin: 0cm 0cm 0cm 18pt; text-align: left;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><!-- [if !supportLists]--><span style="color: #666666;"><span style="mso-list: Ignore;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">3.</span></span><span style="font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"> Melakukan verifikasi bahan informasi publik;</span></span></span></span></p>
-
-<p class="MsoNormal" style="text-indent: -18pt; line-height: 1.1; background: white; margin: 0cm 0cm 0cm 18pt; text-align: left;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><!-- [if !supportLists]--><span style="color: #666666;"><span style="mso-list: Ignore;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">4.</span></span><span style="font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"> Melakukan pemutahiran informasi dan dokumentasi;</span></span></span></span></p>
-
-<p class="MsoNormal" style="text-indent: -18pt; line-height: 1.1; background: white; margin: 0cm 0cm 0cm 18pt; text-align: left;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><!-- [if !supportLists]--><span style="color: #666666;"><span style="mso-list: Ignore;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">5.</span></span><span style="font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"> Menyediakan informasi dan dokumentasi untuk dapat diakses oleh masyarakat;</span></span></span></span></p>
-
-<p class="MsoNormal" style="text-indent: -18pt; line-height: 1.1; background: white; margin: 0cm 0cm 0cm 18pt; text-align: left;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><!-- [if !supportLists]--><span style="color: #666666;"><span style="mso-list: Ignore;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">6.</span></span><span style="font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"> Melakukan inventarisasi informasi yang jelek untuk disampaikan kepada PPID;</span></span></span></span></p>
-
-<p class="MsoNormal" style="text-indent: -18pt; line-height: 1.1; background: white; margin: 0cm 0cm 0cm 18pt; text-align: left;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><!-- [if !supportLists]--><span style="color: #666666;"><span style="mso-list: Ignore;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">7.</span></span><span style="font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"> Membuat laporan dan menyampaikan kepada PPID setiap 6 (enam) bulan sekali, yang meliputi :</span></span></span></span></p>
-
-<p class="MsoNormal" style="line-height: 1.1; background: white; margin: 0cm 0cm 0cm 18pt; text-align: left;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif; color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">- Jumlah permohonan informasi publik yang diterima;</span></span></span></p>
-
-<p class="MsoNormal" style="line-height: 1.1; background: white; margin: 0cm 0cm 0cm 18pt; text-align: left;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif; color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">- Waktu yang diperlukan dalam memenuhi setiap permohonan informasi publik;</span></span></span></p>
-
-<p class="MsoNormal" style="line-height: 1.1; background: white; margin: 0cm 0cm 0cm 18pt; text-align: left;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif; color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">- Jumlah permohonan informasi publik yang dikabulkan baik sebagian atau seluruhnya dan permohonan informasi publik yang ditolak;</span></span></span></p>
-
-<p class="MsoNormal" style="line-height: 1.1; background: white; margin: 0cm 0cm 0cm 18pt; text-align: left;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif; color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">- Alasan persetujuan permohonan informasi publik.</span></span></span></p>
-
-<p class="MsoNormal" style="line-height: 1.1; background: white; margin: 0cm -16.5pt 0cm 0cm; text-align: left;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif; color: #666666;">&nbsp;</span></p>
-
-<p class="MsoNormal" style="line-height: 1.1; background: white; margin: 0cm -16.5pt 0cm 0cm; text-align: left;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><strong><span style="color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">FUNGSI PPID PELAKSANA</span></span></span></strong></span></p>
-
-<p class="MsoNormal" style="line-height: 1.1; background: white; margin: 0cm -16.5pt 0cm 0cm; text-align: left;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif; color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Sedangkan PPID-Pelaksana melaksanakan fungsi :</span></span></span></p>
-
-<p class="MsoNormal" style="text-indent: -18pt; line-height: 1.1; background: white; margin: 0cm 0cm 0cm 18pt; text-align: left;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><!-- [if !supportLists]--><span style="color: #666666;"><span style="mso-list: Ignore;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">1.</span></span><span style="font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"> Pengelolaan Informasi;</span></span></span></span></p>
-
-<p class="MsoNormal" style="text-indent: -18pt; line-height: 1.1; background: white; margin: 0cm 0cm 0cm 18pt; text-align: left;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><!-- [if !supportLists]--><span style="color: #666666;"><span style="mso-list: Ignore;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">2.</span></span><span style="font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"> Dokumentasi Arsip;</span></span></span></span></p>
-
-<p class="MsoNormal" style="text-indent: -18pt; line-height: 1.1; background: white; margin: 0cm 0cm 0cm 18pt; text-align: left;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><!-- [if !supportLists]--><span style="color: #666666;"><span style="mso-list: Ignore;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">3.</span></span><span style="font-style: normal; font-variant: normal; font-size-adjust: none; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-weight: normal; font-stretch: normal; line-height: normal;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span></span></span><!--[endif]--><span style="color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"> Layanan Informasi.</span></span></span></span></p>
-
-<p class="MsoNormal" style="margin-bottom: 0cm; text-align: left; line-height: 1.1;"><span style="font-size: 10pt; line-height: 107%; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
+<style>
+@media screen and (max-width: 768px) {
+  div[class*="p-5 border border-gray-300 rounded-lg bg-gray-100 dark:bg-gray-700 mx-5"] {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+</style>

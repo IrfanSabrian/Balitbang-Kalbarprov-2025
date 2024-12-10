@@ -3,30 +3,126 @@ author: sekret.bppkb
 title: "Pejabat Pengelola Pengaduan"
 date: 2024-08-01 02:03:58
 ---
-<p class="MsoNormal" style="line-height: 1.1; background: white; margin: 0cm -16.5pt 0cm 0cm;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><strong><span style="color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Pengelola Pengaduan</span></span></span></strong></span></p>
 
-<p class="MsoListParagraphCxSpFirst" style="text-indent: -18pt; line-height: 1.1; background: white; margin: 0cm -16.5pt 0cm 18pt;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><!-- [if !supportLists]--><span style="color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">1. </span></span><span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal;"> &nbsp;&nbsp;</span></span><span style="color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Sekretaris Balitbang Provinsi Kalimantan Barat.</span></span></span></span></p>
+<h1 class="MsoNormal" style="margin-bottom: 0cm; margin-left: 20px; margin-right: 20px;"><span style="font-size: 30pt; font-family: 'Poppins', sans-serif;"><span style="color: #03A055;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Pejabat Pengelola</br>Pengaduan</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></h1>
 
-<p class="MsoListParagraphCxSpMiddle" style="text-indent: -18pt; line-height: 1.1; background: white; margin: 0cm -16.5pt 0cm 18pt;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><!-- [if !supportLists]--><span style="color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">2. </span></span><span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal;"> &nbsp;&nbsp;</span></span><span style="color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Kepala Sub Bagian Umum dan Aparatur pada Balitbang Provinsi Kalimantan Barat.</span></span></span></span></p>
+<hr style="border: 3px solid #03A055; width: 130px; margin-top:20px; margin-bottom: 40px; margin-left: 20px; margin-right: 20px;">
 
-<p class="MsoListParagraphCxSpLast" style="text-indent: -18pt; line-height: 1.1; background: white; margin: 0cm -16.5pt 0cm 18pt;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><!-- [if !supportLists]--><span style="color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">3. </span></span><span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal;"> &nbsp;&nbsp;</span></span><span style="color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">M. Erly Andriyadi (Pengadministrasi Umum pada Balitbang Provinsi Kalimantan Barat.</span></span></span></span></p>
+<div class="p-5 border border-gray-300 rounded-lg bg-gray-100 dark:bg-gray-700 mx-5">
+<div class="flex justify-left">
+    <p class="MsoNormal dark:text-white mb-4 mr-8 mt-2">
+        <span class="text-sm font-poppins dark:text-white">
+            <span class="text-black dark:text-white">
+                <i class="fas fa-user mr-2"></i>sekret.bppkb
+            </span>
+        </span>
+    </p>
+    <p class="MsoNormal mb-4 mt-2">
+        <span class="text-sm font-poppins">
+            <span class="text-black dark:text-white">
+                <i class="fas fa-calendar-alt mr-2"></i>2024-08-01 02:03:58
+            </span>
+        </span>
+    </p>
+</div>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins">
+            <strong>
+                <span class="text-black dark:text-white">
+                    <span style="vertical-align: inherit;">
+                        <span style="vertical-align: inherit;">Pengelola Pengaduan :</span>
+                    </span>
+                </span>
+            </strong>
+        </span>
+    </p>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins text-black dark:text-white">
+            <span style="vertical-align: inherit;">
+                <span style="vertical-align: inherit;">1. Sekretaris Balitbang Provinsi Kalimantan Barat.</span>
+            </span>
+        </span>
+    </p>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins text-black dark:text-white">
+            <span style="vertical-align: inherit;">
+                <span style="vertical-align: inherit;">2. Kepala Sub Bagian Umum dan Aparatur pada Balitbang Provinsi Kalimantan Barat.</span>
+            </span>
+        </span>
+    </p>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins text-black dark:text-white">
+            <span style="vertical-align: inherit;">
+                <span style="vertical-align: inherit;">3. M. Erly Andriyadi (Pengadministrasi Umum pada Balitbang Provinsi Kalimantan Barat).</span>
+            </span>
+        </span>
+    </p>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins text-black dark:text-white">&nbsp;</span>
+    </p>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins">
+            <strong>
+                <span class="text-black dark:text-white">
+                    <span style="vertical-align: inherit;">
+                        <span style="vertical-align: inherit;">Penelaah/Penjawab Aduan :</span>
+                    </span>
+                </span>
+            </strong>
+        </span>
+    </p>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins text-black dark:text-white">
+            <span style="vertical-align: inherit;">
+                <span style="vertical-align: inherit;">1. Drs. Suyanto, M.Si (Kepala Bidang Sosial dan Pemerintahan di Balitbang Provinsi Kalbar).</span>
+            </span>
+        </span>
+    </p>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins text-black dark:text-white">
+            <span style="vertical-align: inherit;">
+                <span style="vertical-align: inherit;">2. Dr. Abdul Haris Fakhmi, ST, MT (Kepala Bidang Ekonomi dan Pembangunan pada Balitbang Provinsi Kalbar).</span>
+            </span>
+        </span>
+    </p>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins text-black dark:text-white">
+            <span style="vertical-align: inherit;">
+                <span style="vertical-align: inherit;">3. Fatmawati, S.Pd., M.Pd. (Kepala Bidang Inovasi dan Teknologi pada Balitbang Provinsi Kalbar).</span>
+            </span>
+        </span>
+    </p>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins text-black dark:text-white">
+            <span style="vertical-align: inherit;">
+                <span style="vertical-align: inherit;">4. Mochammad Safe'i, SH, MH (Analis Kebijakan Ahli Muda pada Balitbang Provinsi Kalbar).</span>
+            </span>
+        </span>
+    </p>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins text-black dark:text-white">&nbsp;</span>
+    </p>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins text-black dark:text-white">
+            <span style="vertical-align: inherit;">
+                <span style="vertical-align: inherit;">Sumber :</span>
+            </span>
+        </span>
+    </p>
+    <p class="MsoNormal m-0 leading-6 text-justify">
+        <span class="text-base font-poppins text-black dark:text-white">
+            <span style="vertical-align: inherit;">
+                <span style="vertical-align: inherit;">SK Kepala Badan No.11 Tahun 2024</span>
+            </span>
+        </span>
+    </p>
+</div>
 
-<p class="MsoNormal" style="line-height: 1.1; background: white; margin: 0cm -16.5pt 0cm 0cm;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif; color: #666666;">&nbsp;</span></p>
-
-<p class="MsoNormal" style="line-height: 1.1; background: white; margin: 0cm -16.5pt 0cm 0cm;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><strong><span style="color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Penelaah/Penjawab Aduan</span></span></span></strong></span></p>
-
-<p class="MsoListParagraphCxSpFirst" style="text-indent: -18pt; line-height: 1.1; background: white; margin: 0cm -16.5pt 0cm 18pt;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><!-- [if !supportLists]--><span style="color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">1. </span></span><span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal;"> &nbsp;&nbsp;</span></span><span style="color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Drs. Suyanto, M.Si (Kepala Bidang Sosial dan Pemerintahan di Balitbang Provinsi Kalbar).</span></span></span></span></p>
-
-<p class="MsoListParagraphCxSpMiddle" style="text-indent: -18pt; line-height: 1.1; background: white; margin: 0cm -16.5pt 0cm 18pt;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><!-- [if !supportLists]--><span style="color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">2. </span></span><span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal;"> &nbsp;&nbsp;</span></span><span style="color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Dr. Abdul Haris Fakhmi, ST, MT (Kepala Bidang Ekonomi dan Pembangunan pada Balitbang Provinsi Kalbar).</span></span></span></span></p>
-
-<p class="MsoListParagraphCxSpMiddle" style="text-indent: -18pt; line-height: 1.1; background: white; margin: 0cm -16.5pt 0cm 18pt;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><!-- [if !supportLists]--><span style="color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">3. </span></span><span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal;"> &nbsp;&nbsp;</span></span><span style="color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Fatmawati, S.Pd., M.Pd. (Kepala Bidang Inovasi dan Teknologi pada Balitbang Provinsi Kalbar).</span></span></span></span></p>
-
-<p class="MsoListParagraphCxSpLast" style="text-indent: -18pt; line-height: 1.1; background: white; margin: 0cm -16.5pt 0cm 18pt;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><!-- [if !supportLists]--><span style="color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">4. </span></span><span style="font-variant-numeric: normal; font-variant-east-asian: normal; font-variant-alternates: normal; font-kerning: auto; font-optical-sizing: auto; font-feature-settings: normal; font-variation-settings: normal; font-variant-position: normal; font-stretch: normal; line-height: normal;"> &nbsp;&nbsp;</span></span><span style="color: #2b3e50;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Mochammad Safe'i, SH, MH (Analis Kebijakan Ahli Muda pada Balitbang Provinsi Kalbar).</span></span></span></span></p>
-
-<p class="MsoNormal" style="box-sizing: border-box; margin-block: 0.1em; margin: 0in -16.5pt 0.0001pt 0in; color: #666666; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 16px; background-color: #ffffff; line-height: 1.1; text-align: left;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"> </span></p>
-
-<p class="MsoNormal" style="margin-bottom: 0cm; line-height: 1.1;"><span style="font-size: 10pt; line-height: 107%; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
-
-<p class="MsoNormal" style="box-sizing: border-box; margin-block: 0.1em; margin: 0in -16.5pt 0.0001pt 0in; color: #666666; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 16px; background-color: #ffffff; line-height: 1.1; text-align: left;"><span style="box-sizing: border-box; color: #2b3e50; font-size: 10pt; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Sumber :</span></span></span></p>
-
-<p class="MsoNormal" style="box-sizing: border-box; margin-block: 0.1em; margin: 0in -16.5pt 0.0001pt 0in; color: #666666; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 16px; background-color: #ffffff; line-height: 1.1; text-align: left;"><span style="box-sizing: border-box; color: #2b3e50; font-size: 10pt; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">SK Kepala Badan No.11 Tahun 2024</span></span></span></p>
+<style>
+@media screen and (max-width: 768px) {
+  div[class*="p-5 border border-gray-300 rounded-lg bg-gray-100 dark:bg-gray-700 mx-5"] {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+</style>

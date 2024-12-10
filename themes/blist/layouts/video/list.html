@@ -9,7 +9,7 @@
   <div class="container p-6 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8">
     {{ range $paginator.Pages }}
     
-<a href="{{ .Params.urlVideo }}" target="_blank" class="group relative overflow-hidden rounded-lg shadow-md transition duration-500 ease-in-out cursor-pointer"
+<a href="javascript:void(0);" onclick="openVideoModal('{{ .Params.urlVideo }}')" class="group relative overflow-hidden rounded-lg shadow-md transition duration-500 ease-in-out cursor-pointer"
   style="width: auto; height: 55vh;"
   data-title="{{ .Params.title }}"
 >
@@ -29,7 +29,7 @@
       {{ .Params.title | default "Tidak Ada Judul" }}
     </div>
     <!-- link -->
-    <div class="text-base font-semibold mb-2 p-8 text-center">
+    <div class="text-base font-semibold mb-2 p-8 text-center break-all">
       {{ .Params.urlVideo | default "Tidak Ada link" }}
     </div>
     <!-- Tanggal -->

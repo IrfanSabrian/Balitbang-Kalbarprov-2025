@@ -1,6 +1,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="{{ "/icon-akcaya.png" | relURL }}">
   <link rel="icon" href='{{ if isset .Site.Params "favicon" }}{{ .Site.Params.favicon }}{{ else }}/favicon.ico{{ end }}'>
 
   <!-- Menambahkan font Marcellus dari Google Fonts -->
@@ -132,7 +133,7 @@
       Fancybox.show([{
         src: embedUrl,
         type: 'html',
-        html: `<div class="fancybox__content" style="flex: 0 1 auto; height:100%; width: 30%;">
+        html: `<div class="fancybox__content" style="flex: 0 1 auto; height:100%; width: 100vh;">
                  <iframe class="fancybox__iframe" allow="autoplay; fullscreen" scrolling="auto" src="${embedUrl}" style="height: 100%;"></iframe>
                  <button data-fancybox-close="" class="f-button is-close-btn" title="Close">
                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" tabindex="-1">
@@ -190,7 +191,7 @@
   });
 </script>
 
-<!-- Img Modal with Fancybox v5 -->
+<!-- IMG Modal -->
 <a id="imgModal" data-fancybox="gallery" href="" style="display: none;"></a>
 
 <script>
@@ -201,13 +202,33 @@
             src: file,
             type: 'image',
             options: {
-                afterClose: function() {
-                    document.body.style.overflow = ''; // Restore scrolling outside the modal
-                }
+              afterClose: function() {
+                document.body.style.overflow = ''; // Restore scrolling outside the modal
+              }
             }
-        }]);
+          }]).then(() => {
+            document.body.style.overflow = ''; // Restore scrolling outside the modal after Fancybox is closed
+        });
         document.body.style.overflow = 'hidden'; // Disable scrolling outside the modal
     }
+</script>
+
+          
+<script>
+$(document).ready(function() {
+  function openImgModal(imageSrc) {
+    $.fancybox.open({
+      src: imageSrc,
+      type: 'image',
+      opts: {
+        afterShow: function(instance, current) {
+          console.info('Fancybox modal opened');
+        }
+      }
+    });
+  }
+});
+
 </script>
 
 <!-- PDF Modal -->
@@ -222,7 +243,18 @@
     function openPdfModal(link) {
         const pdfModal = document.getElementById('pdfModal');
         const pdfViewer = document.getElementById('pdfViewer');
-        pdfViewer.src = link;
+        
+        if (link) {
+            pdfViewer.src = link;
+        } else {
+            pdfViewer.srcdoc = `
+                <div style="display: flex; align-items: center; justify-content: center; height: 100%; width: 100%; background-color: white; position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);">
+                    <div style="text-align: center;">
+                        <p style="font-size: 20pt;">Alamat Dokumen Tidak ditemukan</p>
+                    </div>
+                </div>`;
+        }
+        
         pdfModal.classList.remove('hidden');
         pdfModal.style.opacity = '0';
         setTimeout(() => {
@@ -250,23 +282,6 @@
             closePdfModal();
         }
     });
-</script>
-
-<script>
-$(document).ready(function() {
-  function openImgModal(imageSrc) {
-    $.fancybox.open({
-      src: imageSrc,
-      type: 'image',
-      opts: {
-        afterShow: function(instance, current) {
-          console.info('Fancybox modal opened');
-        }
-      }
-    });
-  }
-});
-
 </script>
 
 </head>

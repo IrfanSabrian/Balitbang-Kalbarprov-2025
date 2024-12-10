@@ -3,226 +3,231 @@ author: sekret.bppkb
 title: "Rekapitulasi Pengaduan"
 date: 2024-09-10 01:35:44
 ---
-<p class="MsoNormal" style="box-sizing: border-box; margin-block: 0.1em; margin: 0cm -16.5pt 0.0001pt 0cm; color: #666666; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 16px; background-color: #ffffff; text-align: justify; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="box-sizing: border-box; font-weight: bolder; text-align: center;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">BULAN JANUARI - DESEMBER 2023</span></span></span></span></span></span></p>
-
-<table style="margin-bottom: 30px; color: #666666; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 16px; background-color: #ffffff; width: 636px; height: 353px;" border="1">
-<tbody style="box-sizing: border-box;">
-<tr style="box-sizing: border-box; height: 63px;">
-<td style="box-sizing: border-box; width: 41.1094px; height: 90px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="box-sizing: border-box; font-weight: bolder;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">TIDAK.</span></span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 165.359px; height: 90px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="box-sizing: border-box; font-weight: bolder;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">BULAN</span></span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 162.344px; height: 90px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="box-sizing: border-box; font-weight: bolder;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">JUMLAH PENGADUAN</span></span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 194.406px; height: 90px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="box-sizing: border-box; font-weight: bolder;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">PENGADUAN YANG MASIH BERPROSES</span></span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 184.391px; height: 90px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="box-sizing: border-box; font-weight: bolder;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">PENGADUAN SELESAI DITINDAKLANJUTI</span></span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 314.703px; height: 90px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="box-sizing: border-box; font-weight: bolder;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">KETERANGAN</span></span></span></span></span></span></td>
+<h1 class="MsoNormal" style="margin-bottom: 0cm; margin-left: 5px; margin-right: 20px;"><span style="font-size: 30pt; font-family: 'Poppins', sans-serif;"><span style="color: #03A055;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Rekapitulasi</br>Pengaduan</span></span></span></span></span></span></span></span></span></span></span></span></span></span></h1>
+<hr style="border: 3px solid #03A055; width: 130px; margin-top:20px; margin-bottom: 40px; margin-left: 5px; margin-right: 20px;">
+<p class="text-gray-600 dark:text-white font-sans text-lg text-justify leading-normal"><span class="text-2xl font-bold text-center">BULAN JANUARI - DESEMBER 2023</span></p>
+<div class="overflow-x-auto">
+<table class="min-w-full bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600">
+<thead>
+<tr class="bg-gray-200 dark:bg-gray-700 text-gray-600 dark:text-gray-300 uppercase text-sm leading-normal">
+<th class="py-3 px-6 text-center">TIDAK.</th>
+<th class="py-3 px-6 text-center">BULAN</th>
+<th class="py-3 px-6 text-center">JUMLAH PENGADUAN</th>
+<th class="py-3 px-6 text-center">PENGADUAN YANG MASIH BERPROSES</th>
+<th class="py-3 px-6 text-center">PENGADUAN SELESAI DITINDAKLANJUTI</th>
+<th class="py-3 px-6 text-center">KETERANGAN</th>
 </tr>
-<tr style="box-sizing: border-box; height: 22px;">
-<td style="box-sizing: border-box; width: 41.1094px; height: 22px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">1</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 165.359px; height: 22px;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;Januari</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 162.344px; height: 22px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">angka 0</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 194.406px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 184.391px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 314.703px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
+</thead>
+<tbody class="text-gray-600 dark:text-gray-300 text-sm font-light">
+<tr class="border-b border-gray-300 dark:border-gray-600">
+<td class="py-3 px-6 text-center">1</td>
+<td class="py-3 px-6">Januari</td>
+<td class="py-3 px-6 text-center"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
 </tr>
-<tr style="box-sizing: border-box; height: 22px;">
-<td style="box-sizing: border-box; width: 41.1094px; height: 22px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">2</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 165.359px; height: 22px;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;Februari</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 162.344px; height: 22px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">angka 0</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 194.406px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 184.391px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 314.703px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
+<tr class="border-b border-gray-300 dark:border-gray-600">
+<td class="py-3 px-6 text-center">2</td>
+<td class="py-3 px-6">Februari</td>
+<td class="py-3 px-6 text-center"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
 </tr>
-<tr style="box-sizing: border-box; height: 22px;">
-<td style="box-sizing: border-box; width: 41.1094px; height: 22px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">3</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 165.359px; height: 22px;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;Maret</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 162.344px; height: 22px; text-align: center;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;angka 0</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 194.406px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 184.391px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 314.703px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
+<tr class="border-b border-gray-300 dark:border-gray-600">
+<td class="py-3 px-6 text-center">3</td>
+<td class="py-3 px-6">Maret</td>
+<td class="py-3 px-6 text-center"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
 </tr>
-<tr style="box-sizing: border-box; height: 22px;">
-<td style="box-sizing: border-box; width: 41.1094px; height: 22px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">4</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 165.359px; height: 22px;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;April</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 162.344px; height: 22px; text-align: center;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;angka 0</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 194.406px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 184.391px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 314.703px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
+<tr class="border-b border-gray-300 dark:border-gray-600">
+<td class="py-3 px-6 text-center">4</td>
+<td class="py-3 px-6">April</td>
+<td class="py-3 px-6 text-center"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
 </tr>
-<tr style="box-sizing: border-box; height: 22px;">
-<td style="box-sizing: border-box; width: 41.1094px; height: 22px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">5</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 165.359px; height: 22px;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;Mei</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 162.344px; height: 22px; text-align: center;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;angka 0</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 194.406px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 184.391px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 314.703px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
+<tr class="border-b border-gray-300 dark:border-gray-600">
+<td class="py-3 px-6 text-center">5</td>
+<td class="py-3 px-6">Mei</td>
+<td class="py-3 px-6 text-center"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
 </tr>
-<tr style="box-sizing: border-box; height: 22px;">
-<td style="box-sizing: border-box; width: 41.1094px; height: 22px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">6</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 165.359px; height: 22px;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;Juni</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 162.344px; height: 22px; text-align: center;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;angka 0</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 194.406px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 184.391px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 314.703px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
+<tr class="border-b border-gray-300 dark:border-gray-600">
+<td class="py-3 px-6 text-center">6</td>
+<td class="py-3 px-6">Juni</td>
+<td class="py-3 px-6 text-center"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
 </tr>
-<tr style="box-sizing: border-box; height: 22px;">
-<td style="box-sizing: border-box; width: 41.1094px; height: 22px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">7</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 165.359px; height: 22px;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;Juli</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 162.344px; height: 22px; text-align: center;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;angka 0</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 194.406px; height: 22px; text-align: center;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 184.391px; height: 22px; text-align: center;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 314.703px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
+<tr class="border-b border-gray-300 dark:border-gray-600">
+<td class="py-3 px-6 text-center">7</td>
+<td class="py-3 px-6">Juli</td>
+<td class="py-3 px-6 text-center"></td>
+<td class="py-3 px-6 text-center"></td>
+<td class="py-3 px-6 text-center"></td>
+<td class="py-3 px-6"></td>
 </tr>
-<tr style="box-sizing: border-box; height: 22px;">
-<td style="box-sizing: border-box; width: 41.1094px; height: 22px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">8</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 165.359px; height: 22px;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;Agustus</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 162.344px; height: 22px; text-align: center;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;angka 0</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 194.406px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 184.391px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 314.703px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
+<tr class="border-b border-gray-300 dark:border-gray-600">
+<td class="py-3 px-6 text-center">8</td>
+<td class="py-3 px-6">Agustus</td>
+<td class="py-3 px-6 text-center"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
 </tr>
-<tr style="box-sizing: border-box; height: 22px;">
-<td style="box-sizing: border-box; width: 41.1094px; height: 22px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">9</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 165.359px; height: 22px;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;September</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 162.344px; height: 22px; text-align: center;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">angka 0</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 194.406px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 184.391px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 314.703px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
+<tr class="border-b border-gray-300 dark:border-gray-600">
+<td class="py-3 px-6 text-center">9</td>
+<td class="py-3 px-6">September</td>
+<td class="py-3 px-6 text-center"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
 </tr>
-<tr style="box-sizing: border-box; height: 22px;">
-<td style="box-sizing: border-box; width: 41.1094px; height: 22px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">10</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 165.359px; height: 22px;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;Oktober</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 162.344px; height: 22px; text-align: center;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">angka 0</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 194.406px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 184.391px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 314.703px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
+<tr class="border-b border-gray-300 dark:border-gray-600">
+<td class="py-3 px-6 text-center">10</td>
+<td class="py-3 px-6">Oktober</td>
+<td class="py-3 px-6 text-center"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
 </tr>
-<tr style="box-sizing: border-box; height: 26px;">
-<td style="box-sizing: border-box; width: 41.1094px; text-align: center; height: 26px;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">11</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 165.359px; height: 26px;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;November</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 162.344px; height: 26px; text-align: center;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">angka 0</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 194.406px; height: 26px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 184.391px; height: 26px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 314.703px; height: 26px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
+<tr class="border-b border-gray-300 dark:border-gray-600">
+<td class="py-3 px-6 text-center">11</td>
+<td class="py-3 px-6">November</td>
+<td class="py-3 px-6 text-center"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
 </tr>
-<tr style="box-sizing: border-box; height: 22px;">
-<td style="box-sizing: border-box; width: 41.1094px; height: 22px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">12</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 165.359px; height: 22px;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;Desember</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 162.344px; height: 22px; text-align: center;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">angka 0</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 194.406px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 184.391px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 314.703px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-</tr>
-</tbody>
-</table>
-
-<p class="MsoNormal" style="box-sizing: border-box; margin-block: 0.1em; margin: 0cm -16.5pt 0.0001pt 0cm; color: #666666; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 16px; background-color: #ffffff; text-align: justify; line-height: 1.1;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="box-sizing: border-box; font-weight: bolder; text-align: center;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">BULAN JANUARI - DESEMBER 2024</span></span></span></span></span></span></p>
-
-<table border="1" style="margin-bottom: 30px; color: #666666; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 16px; background-color: #ffffff; width: 635px; height: 528px;">
-<tbody style="box-sizing: border-box;">
-<tr style="box-sizing: border-box; height: 63px;">
-<td style="box-sizing: border-box; width: 41.1094px; height: 90px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="box-sizing: border-box; font-weight: bolder;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">TIDAK.</span></span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 165.359px; height: 90px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="box-sizing: border-box; font-weight: bolder;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">BULAN</span></span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 162.344px; height: 90px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="box-sizing: border-box; font-weight: bolder;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">JUMLAH PENGADUAN</span></span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 194.406px; height: 90px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="box-sizing: border-box; font-weight: bolder;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">PENGADUAN YANG MASIH BERPROSES</span></span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 184.391px; height: 90px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="box-sizing: border-box; font-weight: bolder;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">PENGADUAN SELESAI DITINDAKLANJUTI</span></span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 314.703px; height: 90px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="box-sizing: border-box; font-weight: bolder;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">KETERANGAN</span></span></span></span></span></span></td>
-</tr>
-<tr style="box-sizing: border-box; height: 22px;">
-<td style="box-sizing: border-box; width: 41.1094px; height: 22px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">1</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 165.359px; height: 22px;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;Januari</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 162.344px; height: 22px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">angka 0</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 194.406px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 184.391px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 314.703px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-</tr>
-<tr style="box-sizing: border-box; height: 22px;">
-<td style="box-sizing: border-box; width: 41.1094px; height: 22px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">2</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 165.359px; height: 22px;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;Februari</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 162.344px; height: 22px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">angka 0</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 194.406px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 184.391px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 314.703px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-</tr>
-<tr style="box-sizing: border-box; height: 22px;">
-<td style="box-sizing: border-box; width: 41.1094px; height: 22px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">3</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 165.359px; height: 22px;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;Maret</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 162.344px; height: 22px; text-align: center;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;angka 0</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 194.406px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 184.391px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 314.703px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-</tr>
-<tr style="box-sizing: border-box; height: 22px;">
-<td style="box-sizing: border-box; width: 41.1094px; height: 22px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">4</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 165.359px; height: 22px;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;April</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 162.344px; height: 22px; text-align: center;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><span style="font-size: 13.3333px;">angka 0</span>&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 194.406px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 184.391px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 314.703px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-</tr>
-<tr style="box-sizing: border-box; height: 22px;">
-<td style="box-sizing: border-box; width: 41.1094px; height: 22px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">5</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 165.359px; height: 22px;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;Mei</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 162.344px; height: 22px; text-align: center;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><span style="font-size: 13.3333px;">angka 0</span>&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 194.406px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 184.391px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 314.703px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-</tr>
-<tr style="box-sizing: border-box; height: 22px;">
-<td style="box-sizing: border-box; width: 41.1094px; height: 22px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">6</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 165.359px; height: 22px;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;Juni</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 162.344px; height: 22px; text-align: center;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><span style="font-size: 13.3333px;">angka 0</span>&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 194.406px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 184.391px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 314.703px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-</tr>
-<tr style="box-sizing: border-box; height: 22px;">
-<td style="box-sizing: border-box; width: 41.1094px; height: 22px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">7</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 165.359px; height: 22px;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;Juli</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 162.344px; height: 22px; text-align: center;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;"><span style="font-size: 13.3333px;">angka 0</span>&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 194.406px; height: 22px; text-align: center;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 184.391px; height: 22px; text-align: center;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 314.703px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-</tr>
-<tr style="box-sizing: border-box; height: 22px;">
-<td style="box-sizing: border-box; width: 41.1094px; height: 22px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">8</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 165.359px; height: 22px;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;Agustus</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 162.344px; height: 22px; text-align: center;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span><span style="font-family: arial, helvetica, sans-serif; font-size: 13.3333px;">angka 0</span></td>
-<td style="box-sizing: border-box; width: 194.406px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 184.391px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 314.703px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-</tr>
-<tr style="box-sizing: border-box; height: 22px;">
-<td style="box-sizing: border-box; width: 41.1094px; height: 22px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">9</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 165.359px; height: 22px;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;September</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 162.344px; height: 22px; text-align: center;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 194.406px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 184.391px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 314.703px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-</tr>
-<tr style="box-sizing: border-box; height: 22px;">
-<td style="box-sizing: border-box; width: 41.1094px; height: 22px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">10</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 165.359px; height: 22px;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;Oktober</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 162.344px; height: 22px; text-align: center;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 194.406px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 184.391px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 314.703px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-</tr>
-<tr style="box-sizing: border-box; height: 26px;">
-<td style="box-sizing: border-box; width: 41.1094px; text-align: center; height: 26px;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">11</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 165.359px; height: 26px;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;November</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 162.344px; height: 26px; text-align: center;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 194.406px; height: 26px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 184.391px; height: 26px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 314.703px; height: 26px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-</tr>
-<tr style="box-sizing: border-box; height: 22px;">
-<td style="box-sizing: border-box; width: 41.1094px; height: 22px; text-align: center;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">12</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 165.359px; height: 22px;"><span style="box-sizing: border-box; font-size: 10pt; color: #2b3e50; font-family: arial, helvetica, sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">&nbsp;Desember</span></span></span></span></span></td>
-<td style="box-sizing: border-box; width: 162.344px; height: 22px; text-align: center;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 194.406px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 184.391px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
-<td style="box-sizing: border-box; width: 314.703px; height: 22px;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></td>
+<tr class="border-b border-gray-300 dark:border-gray-600">
+<td class="py-3 px-6 text-center">12</td>
+<td class="py-3 px-6">Desember</td>
+<td class="py-3 px-6 text-center"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
 </tr>
 </tbody>
 </table>
-
-<p style="box-sizing: border-box; margin-top: 0px; margin-block: 0.1em; margin-bottom: 30px; color: #666666; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 16px; background-color: #ffffff; line-height: 1.1;"><span style="font-size: 10pt; font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
+<p class="text-gray-600 dark:text-white font-sans text-lg text-justify leading-normal"><span class="text-2xl font-bold text-center">BULAN JANUARI - DESEMBER 2024</span></p>
+<div class="overflow-x-auto">
+<table class="min-w-full bg-white dark:bg-gray-800 border border-gray-300 dark:border-gray-600">
+<thead>
+<tr class="bg-gray-200 dark:bg-gray-700 text-gray-600 dark:text-gray-300 uppercase text-sm leading-normal">
+<th class="py-3 px-6 text-center">TIDAK.</th>
+<th class="py-3 px-6 text-center">BULAN</th>
+<th class="py-3 px-6 text-center">JUMLAH PENGADUAN</th>
+<th class="py-3 px-6 text-center">PENGADUAN YANG MASIH BERPROSES</th>
+<th class="py-3 px-6 text-center">PENGADUAN SELESAI DITINDAKLANJUTI</th>
+<th class="py-3 px-6 text-center">KETERANGAN</th>
+</tr>
+</thead>
+<tbody class="text-gray-600 dark:text-gray-300 text-sm font-light">
+<tr class="border-b border-gray-300 dark:border-gray-600">
+<td class="py-3 px-6 text-center">1</td>
+<td class="py-3 px-6">Januari</td>
+<td class="py-3 px-6 text-center"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+</tr>
+<tr class="border-b border-gray-300 dark:border-gray-600">
+<td class="py-3 px-6 text-center">2</td>
+<td class="py-3 px-6">Februari</td>
+<td class="py-3 px-6 text-center"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+</tr>
+<tr class="border-b border-gray-300 dark:border-gray-600">
+<td class="py-3 px-6 text-center">3</td>
+<td class="py-3 px-6">Maret</td>
+<td class="py-3 px-6 text-center"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+</tr>
+<tr class="border-b border-gray-300 dark:border-gray-600">
+<td class="py-3 px-6 text-center">4</td>
+<td class="py-3 px-6">April</td>
+<td class="py-3 px-6 text-center"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+</tr>
+<tr class="border-b border-gray-300 dark:border-gray-600">
+<td class="py-3 px-6 text-center">5</td>
+<td class="py-3 px-6">Mei</td>
+<td class="py-3 px-6 text-center"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+</tr>
+<tr class="border-b border-gray-300 dark:border-gray-600">
+<td class="py-3 px-6 text-center">6</td>
+<td class="py-3 px-6">Juni</td>
+<td class="py-3 px-6 text-center"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+</tr>
+<tr class="border-b border-gray-300 dark:border-gray-600">
+<td class="py-3 px-6 text-center">7</td>
+<td class="py-3 px-6">Juli</td>
+<td class="py-3 px-6 text-center"></td>
+<td class="py-3 px-6 text-center"></td>
+<td class="py-3 px-6 text-center"></td>
+<td class="py-3 px-6"></td>
+</tr>
+<tr class="border-b border-gray-300 dark:border-gray-600">
+<td class="py-3 px-6 text-center">8</td>
+<td class="py-3 px-6">Agustus</td>
+<td class="py-3 px-6 text-center"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+</tr>
+<tr class="border-b border-gray-300 dark:border-gray-600">
+<td class="py-3 px-6 text-center">9</td>
+<td class="py-3 px-6">September</td>
+<td class="py-3 px-6 text-center"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+</tr>
+<tr class="border-b border-gray-300 dark:border-gray-600">
+<td class="py-3 px-6 text-center">10</td>
+<td class="py-3 px-6">Oktober</td>
+<td class="py-3 px-6 text-center"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+</tr>
+<tr class="border-b border-gray-300 dark:border-gray-600">
+<td class="py-3 px-6 text-center">11</td>
+<td class="py-3 px-6">November</td>
+<td class="py-3 px-6 text-center"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+</tr>
+<tr class="border-b border-gray-300 dark:border-gray-600">
+<td class="py-3 px-6 text-center">12</td>
+<td class="py-3 px-6">Desember</td>
+<td class="py-3 px-6 text-center"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+<td class="py-3 px-6"></td>
+</tr>
+</tbody>
+</table>
+</div>
+<!-- <p style="box-sizing: border-box; margin-top: 0px; margin-block: 0.1em; margin-bottom: 30px; color: #666666; font-family: 'Open Sans', Arial, Helvetica, sans-serif; font-size: 16px; background-color: #ffffff;">&nbsp;</p> -->

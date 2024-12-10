@@ -19,11 +19,6 @@ date: 2024-08-01 03:53:04
             file: ""
         },
         {
-            title: "",
-            category: "Peraturan Pemerintah",
-            link: ""
-        },
-        {
             title: "Peraturan Presiden Nomor 78 Tahun 2021 tentang BRIN",
             category: "Peraturan Presiden",
             link: "https://drive.google.com/file/d/1m7NvTrLzGLtsDh4Is1C7fKbdsjYiSKd0/preview",
@@ -196,6 +191,11 @@ date: 2024-08-01 03:53:04
             category: "Keputusan Kepala Badan",
             link: "https://drive.google.com/file/d/1NXslh4uz-r6AHbqqQOJ-BnQtHpUVxeOp/preview",
             file: ""
+        },
+        {
+            title: "",
+            category: "Peraturan Pemerintah",
+            link: ""
         }
     ];
 </script>
