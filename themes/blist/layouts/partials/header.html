@@ -1,198 +1,59 @@
-<header
-  class='flex flex-wrap justify-center items-center mx-auto sticky top-0 z-40 w-full {{ default "bg-defaultColor" .Site.Params.ascentColor }} dark:bg-gray-800'
->
-  <style>
-    ul.mobile-menu li a {
-      font-size: 0.9rem;
-      padding: 8px;
-      transition: color 0.3s ease, background-color 0.3s ease, border 0.3s ease;
-    }
-
-    ul.mobile-menu li a:hover {
-      color: black;
-      border-radius: 8px;
-    }
-
-    .dark ul.mobile-menu li a:hover {
-      color: #f4ec2e;
-      border-radius: 8px;
-    }
-
-    ul.mobile-menu li .language-dropdown a {
-      padding: 11px;
-      border-radius: 8px;
-      transition: background-color 0.3s ease, color 0.3s ease, border 0.3s ease;
-    }
-
-    ul.mobile-menu li .language-dropdown a:hover {
-      color: black;
-    }
-
-    .dark ul.mobile-menu li .language-dropdown a:hover {
-      color: #fbbf24;
-    }
-
-    .language-switcher svg {
-      transition: transform 0.3s ease;
-    }
-
-    .language-switcher:hover svg {
-      transform: rotate(180deg);
-    }
-  </style>
-
-  <div class="w-full flex flex-row justify-between">
-    <a
-      href='{{ absURL "/" }}'
-      class="capitalize font-extrabold text-2xl flex flex-initial text-pretty break-words items-center"
-    >
-      {{ if .Site.Params.logo }}
-      <img
-        src='{{ absURL "/" }}akcaya-logo.png'
-        alt="{{ .Site.Title }}"
-        class="mx-5 my-2"
-        style="width: 48px"
-      />
-      {{ else }}
-      <img
-        src='{{ absURL "/" }}akcaya-logo.png'
-        alt="{{ .Site.Title }}"
-        class="mx-5 my-0"
-        style="width: 48px"
-      />
-      {{ end }}
-      <span
-        class="font-bold mr-12 text-white text-pretty break-words"
-        style="font-size: 20px"
-        >{{ .Site.Title }}</span
-      >
-    </a>
-    <button
-      id="mobile-menu-button"
-      class="mobile-menu-button md:hidden text-white hover:text-customGreen dark:hover:text-yellow-400 flex-initial"
-    >
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        width="30"
-        height="30"
-        viewBox="0 0 24 24"
-        stroke-width="1.5"
-        stroke="currentColor"
-        fill="none"
-        stroke-linecap="round"
-        stroke-linejoin="round"
-      >
-        <path stroke="none" d="M0 0h24v24H0z" fill="none" />
-        <line x1="4" y1="8" x2="20" y2="8" />
-        <line x1="4" y1="16" x2="20" y2="16" />
-      </svg>
-    </button>
-    {{ $accent := .Site.Params.ascentColor }}
-    <ul
-      id="mobile-menu"
-      class=' text-gray-600  mobile-menu  absolute z-10 pb-6 md:p-0 top-full w-full md:w-auto md:relative hidden md:flex md:flex-row flex-auto place-self-center text-pretty flex-col place-content-center md:items-center gap-4 lg:gap-2
-    {{ default "bg-defaultColor" $accent }} dark:bg-gray-800
-     mr-8 my-auto'
-    >
-      {{ range .Site.Menus.main }} {{ $menuURL := .URL }} {{ $menuName := .Name
-      }} {{ $menuHasChildren := .HasChildren }} {{ if $menuHasChildren }}
-      <li class="relative cursor-pointer my-2 px-4 md:px-1">
-        <a class="language-switcher flex items-center justify-center gap-1">
-          {{ $menuName }}
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="14"
-            height="14"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="ml-1"
-          >
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M18 15l-6 -6l-6 6h12" transform="rotate(180 12 12)"></path>
-          </svg>
-        </a>
-        <div
-          class='language-dropdown w-screen md:w-52 absolute top-full mt-4 flex-col gap-4 md:gap-2 bg-white dark:bg-gray-800 z-10 hidden'
-        >
-          {{ range .Children }}
-          <a class="px-5 py-4 md:py-2" href="{{ .URL }}">{{ .Name }}</a>
-          {{ end }}
+<header class="navbar sticky top-0 z-40">
+  <div class="container">
+    <div class="logo py-2 px-4">
+      <a href='{{ absURL "/" }}'>
+        <img src='{{ absURL "/" }}akcaya-logo.png' alt="{{ .Site.Title }}" style="width: 48px; margin-right: 10px;" />
+        {{ .Site.Title }}
+      </a>
+    </div>
+    <ul class="nav-links h-16 flex items-center gap-4">
+      {{ range .Site.Menus.main }} 
+      {{ $menuURL := .URL }} 
+      {{ $menuName := .Name }} 
+      {{ $menuHasChildren := .HasChildren }} 
+      {{ if $menuHasChildren }}
+      <li class="dropdown flex items-center">
+        <a class="dropdown-toggle menu-link">{{ $menuName }} <i class="fa-solid fa-caret-down ml-1"></i></a>
+        <div class="dropdown-menu-wrapper">
+          <ul class="dropdown-menu">
+            {{ range .Children }}
+            <li class="flex items-center" onclick="location.href='{{ .URL }}'"><a>{{ .Name }}</a></li>
+            {{ end }}
+          </ul>
         </div>
       </li>
       {{ else }}
-      <li class="my-4 px-4 md:px-1">
-        <a href="{{ $menuURL }}">{{ $menuName }}</a>
-      </li>
-      {{ end }} {{ end }} {{ if hugo.IsMultilingual }} {{ if ge (len
-      .Site.Languages) 3 }}
-      <li class="relative cursor-pointer my-2">
-        <a class="language-switcher flex items-center gap-1">
-          {{ i18n "languageSwitcherLabel" }}
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            width="14"
-            height="14"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-            class="ml-1"
-          >
-            <path stroke="none" d="M0 0h24h24H0z" fill="none" />
-            <path d="M18 15l-6 -6l-6 6h12" transform="rotate(180 12 12)" />
-          </svg>
-        </a>
-        <div
-          class='language-dropdown absolute top-full mt-4 left-0 flex-col gap-2 bg-white dark:bg-gray-800 dark:text-white z-10 hidden'
-        >
-          {{ range .Site.Languages }} {{ if not (eq .Lang $.Site.Language.Lang)
-          }}
-          <a
-            class="px-3 py-2 hover:bg-gray-200 dark:hover:bg-gray-700"
-            href="/{{ .Lang }}"
-            lang="{{ .Lang }}"
-            >{{ default .Lang .LanguageName }}</a
-          >
-          {{ end }} {{ end }}
+      <li class="flex items-center"><a href="{{ $menuURL }}" class="menu-link">{{ $menuName }}</a></li>
+      {{ end }} 
+      {{ end }} 
+      {{ if hugo.IsMultilingual }} 
+      {{ if ge (len .Site.Languages) 3 }}
+      <li class="dropdown flex items-center">
+        <a class="dropdown-toggle menu-link">{{ i18n "languageSwitcherLabel" }} <i class="fa-solid fa-caret-down ml-1"></i></a>
+        <div class="dropdown-menu-wrapper">
+          <ul class="dropdown-menu">
+            {{ range .Site.Languages }} 
+            {{ if not (eq .Lang $.Site.Language.Lang) }}
+            <li class="flex items-center" onclick="location.href='/{{ .Lang }}'" lang="{{ .Lang }}"><a>{{ default .Lang .LanguageName }}</a></li>
+            {{ end }} 
+            {{ end }}
+          </ul>
         </div>
       </li>
       {{ else }}
-      <li class="flex items-center my-2">
-        {{ range .Site.Languages }} {{ if not (eq .Lang $.Site.Language.Lang) }}
-        <a href="/{{ .Lang }}" lang="{{ .Lang }}">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="mr-2"
-            width="16"
-            height="16"
-            viewBox="0 0 24 24"
-            stroke-width="1.5"
-            stroke="currentColor"
-            fill="none"
-            stroke-linecap="round"
-            stroke-linejoin="round"
-          >
-            <path stroke="none" d="M0 0h24h24H0z" fill="none" />
-            <circle cx="12" cy="12" r="9" />
-            <line x1="3.6" y1="9" x2="20.4" y2="9" />
-            <line x1="3.6" y1="15" x2="20.4" y2="15" />
-            <path d="M11.5 3a17 17 0 0 0 0 18" />
-            <path d="M12.5 3a17 17 0 0 1 0 18" />
-          </svg>
-          {{ default .Lang .LanguageName }}
-        </a>
-        {{ end }} {{ end }}
+      <li class="flex items-center">
+        {{ range .Site.Languages }} 
+        {{ if not (eq .Lang $.Site.Language.Lang) }}
+        <a href="/{{ .Lang }}" lang="{{ .Lang }}" class="menu-link">{{ default .Lang .LanguageName }}</a>
+        {{ end }} 
+        {{ end }}
       </li>
-      {{ end }} {{ end }} {{ if .Site.Params.darkModeToggle }}
-      <li class="grid place-items-center my-2 ml-4">
+      {{ end }} 
+      {{ end }} 
+      {{ if .Site.Params.darkModeToggle }}
+      <li class="flex items-center">
         <span class="toggle-dark-mode inline-block cursor-pointer">
-          <i class="fas" id="dark-mode-icon"></i>
+          <i class="fas fa-moon text-white dark-mode-icon" id="dark-mode-icon" style="font-size: 18px;"></i>
         </span>
       </li>
       {{ end }}
@@ -200,29 +61,263 @@
   </div>
 </header>
 
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+
+  .navbar {
+    background-color: #03a055;
+    color: white;
+  }
+
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .logo a {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px; /* Menambah jarak antar menu */
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    flex: 1;
+  }
+
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    padding: 5px 0;
+    transition: color 0.3s ease;
+  }
+
+  .menu-link::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: -2px;
+    left: 0;
+    background-color: white;
+    transition: width 0.3s ease;
+  }
+
+  .menu-link:hover::after {
+    width: 100%;
+  }
+
+  .menu-link:hover {
+    color: #e6e6e6;
+  }
+
+  .nav-links li {
+    padding: 0 5px;
+    height: 100%;
+  }
+
+  .dropdown {
+    position: relative;
+  }
+
+  .dropdown-toggle {
+    cursor: pointer;
+  }
+
+  .dropdown-menu-wrapper {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+  }
+
+  .dropdown:hover .dropdown-menu-wrapper {
+    display: block;
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+  .dropdown-menu {
+    position: relative;
+    background-color: white;
+    color: black;
+    list-style: none;
+    margin: 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    min-width: 200px;
+    width: auto;
+    animation: fadeInUp 0.3s ease forwards;
+    padding-bottom: 5px;
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .dropdown-menu li {
+    display: flex;
+    align-items: center;
+    padding: 12px 25px;
+    position: relative;
+    border-bottom: 2px solid #ccc;
+    transition: background-color 0.3s;
+    cursor: pointer;
+  }
+
+  .dropdown-menu li:last-child {
+    border-bottom: none;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+
+  .dropdown-menu li::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background-color: #ccc;
+    border-radius: 50%;
+    margin-right: 10px;
+    flex-shrink: 0; 
+    transition: background-color 0.3s;
+  }
+
+  .dropdown-menu li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    height: 2px;
+    width: 0;
+    background-color: #03a055;
+    transition: width 0.3s ease;
+  }
+
+  .dropdown-menu li:hover::before {
+    background-color: #03a055;
+  }
+
+  .dropdown-menu li:hover::after {
+    width: 25px;
+  }
+
+  .dropdown-menu li a {
+    color: black;
+    text-decoration: none;
+    font-size: 14px;
+    flex-grow: 1;
+    transition: color 0.3s;
+  }
+
+  .dropdown-menu li:hover {
+    background-color: rgba(3, 160, 85, 0.1);
+    border-bottom: 2px solid #03a055;
+  }
+
+  .dropdown-menu li:hover a {
+    color: #03a055;
+  }
+
+  .dropdown-menu li a.active {
+    color: #03a055;
+  }
+
+  .dark .navbar {
+    background-color: #1a202c;
+  }
+
+  .dark .nav-links a {
+    color: white;
+  }
+
+  .dark .dropdown-menu {
+    background-color: #2d3748;
+    color: white;
+  }
+
+  /* Animasi untuk icon dark mode */
+  .dark-mode-icon {
+    transition: transform 0.5s ease;
+  }
+
+  .toggle-dark-mode:hover .dark-mode-icon {
+    transform: rotate(45deg);
+  }
+
+  .dark-mode-icon.rotating {
+    animation: rotate360 0.8s ease;
+  }
+
+  @keyframes rotate360 {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+</style>
+
 <script>
   document.addEventListener("DOMContentLoaded", function () {
+    const darkModeIcon = document.getElementById("dark-mode-icon");
+    const toggleButton = document.querySelector(".toggle-dark-mode");
+
     // Set initial dark mode icon
     if (localStorage.getItem("dark-mode") === "true") {
       document.body.classList.add("dark");
-      document.getElementById("dark-mode-icon").classList.add("fa-sun");
+      darkModeIcon.classList.add("fa-sun");
     } else {
       document.body.classList.remove("dark");
-      document.getElementById("dark-mode-icon").classList.add("fa-moon");
+      darkModeIcon.classList.add("fa-moon");
     }
 
-    // Toggle dark mode
-    document.querySelector(".toggle-dark-mode").addEventListener("click", function () {
-      document.body.classList.toggle("dark");
-      if (document.body.classList.contains("dark")) {
-        document.getElementById("dark-mode-icon").classList.remove("fa-moon");
-        document.getElementById("dark-mode-icon").classList.add("fa-sun");
-        localStorage.setItem("dark-mode", "true");
-      } else {
-        document.getElementById("dark-mode-icon").classList.remove("fa-sun");
-        document.getElementById("dark-mode-icon").classList.add("fa-moon");
-        localStorage.setItem("dark-mode", "false");
-      }
+    // Toggle dark mode with animation
+    toggleButton.addEventListener("click", function () {
+      darkModeIcon.classList.add("rotating");
+      
+      setTimeout(() => {
+        document.body.classList.toggle("dark");
+        if (document.body.classList.contains("dark")) {
+          darkModeIcon.classList.remove("fa-moon");
+          darkModeIcon.classList.add("fa-sun");
+          localStorage.setItem("dark-mode", "true");
+        } else {
+          darkModeIcon.classList.remove("fa-sun");
+          darkModeIcon.classList.add("fa-moon");
+          localStorage.setItem("dark-mode", "false");
+        }
+      }, 400);
+
+      setTimeout(() => {
+        darkModeIcon.classList.remove("rotating");
+      }, 800);
     });
   });
 </script>

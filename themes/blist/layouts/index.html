@@ -937,62 +937,61 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 <div class="fade-in" id="animateMe">
   <!-- Aplikasi Section -->
-  <div class="grid grid-cols-1 gap-6 justify-center items-center max-w-screen-xl mx-auto"> <!-- Mengubah grid menjadi satu kolom -->
-    <div class="text-center">
-      <h2 class="text-xl font-bold py-3 text-customGreen">Aplikasi Balitbang</h2> <!-- Memperkecil font -->
-      <hr class="border-t-4 border-customGreen w-2/3 mt-1 mx-auto"> <!-- Memperpendek hr -->
-      <div class="aplikasi my-3 p-6 rounded-xl w-full mx-auto relative"> 
-        {{ $frontBundle6 := .Site.Params.frontBundle6 | default "Aplikasi-Balitbang" | lower }}
-        <!-- Swiper Aplikasi Balitbang Section -->
-        <div class="swiper swiper-aplikasi h-60 mx-auto"> <!-- Mengurangi tinggi swiper -->
-          <div class="swiper-wrapper pb-4">
-            {{ range (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle6) }}
-              <div class="swiper-slide h-auto">
-                {{- partial "blog-card-home-aplikasi.html" . -}}
-              </div>
-            {{ end }}
-          </div>
-          <!-- Swiper pagination -->
-          <div class="swiper-pagination-aplikasi absolute top-0 right-0"></div> <!-- Memindahkan pagination ke kanan -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center items-center max-w-full mx-auto px-4 md:px-8 lg:px-12"> <!-- Menambahkan grid responsif -->
+  <div class="text-center">
+    <h2 class="text-xl font-bold py-3 text-customGreen">Aplikasi Balitbang</h2> <!-- Memperkecil font -->
+    <hr class="border-t-4 border-customGreen w-2/3 mt-1 mx-auto"> <!-- Memperpendek hr -->
+    <div class="aplikasi my-3 p-6 rounded-xl w-full mx-auto relative"> 
+      {{ $frontBundle6 := .Site.Params.frontBundle6 | default "Aplikasi-Balitbang" | lower }}
+      <!-- Swiper Aplikasi Balitbang Section -->
+      <div class="swiper swiper-aplikasi h-60 mx-auto"> <!-- Mengurangi tinggi swiper -->
+        <div class="swiper-wrapper pb-4">
+          {{ range (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle6) }}
+            <div class="swiper-slide h-auto">
+              {{- partial "blog-card-home-aplikasi.html" . -}}
+            </div>
+          {{ end }}
         </div>
+        <!-- Swiper pagination -->
+        <div class="swiper-pagination-aplikasi absolute top-0 right-0"></div> <!-- Memindahkan pagination ke kanan -->
       </div>
     </div>
-    <div class="text-center">
-      <h2 class="text-xl font-bold py-3 text-customGreen">Aplikasi SPBE</h2> <!-- Memperkecil font -->
-      <hr class="border-t-4 border-customGreen w-2/3 mt-1 mx-auto"> <!-- Memperpendek hr -->
-      <div class="aplikasi my-3 p-6 rounded-xl w-full mx-auto relative"> <!-- Menghapus kotak biru -->
-        {{ $frontBundle7 := .Site.Params.frontBundle7 | default "Aplikasi-SPBE" | lower }}
-        <!-- Swiper Aplikasi SPBE Section -->
-        <div class="swiper swiper-aplikasi h-60 mx-auto"> <!-- Mengurangi tinggi swiper -->
-          <div class="swiper-wrapper pb-4">
-            {{ range (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle7) }}
-              <div class="swiper-slide h-auto">
-                {{- partial "blog-card-home-aplikasi.html" . -}}
-              </div>
-            {{ end }}
-          </div>
-          <!-- Swiper pagination -->
-          <div class="swiper-pagination-aplikasi absolute top-0 right-0"></div> <!-- Memindahkan pagination ke kanan -->
+  </div>
+  <div class="text-center">
+    <h2 class="text-xl font-bold py-3 text-customGreen">Aplikasi SPBE</h2> <!-- Memperkecil font -->
+    <hr class="border-t-4 border-customGreen w-2/3 mt-1 mx-auto"> <!-- Memperpendek hr -->
+    <div class="aplikasi my-3 p-6 rounded-xl w-full mx-auto relative"> <!-- Menghapus kotak biru -->
+      {{ $frontBundle7 := .Site.Params.frontBundle7 | default "Aplikasi-SPBE" | lower }}
+      <!-- Swiper Aplikasi SPBE Section -->
+      <div class="swiper swiper-aplikasi h-60 mx-auto"> <!-- Mengurangi tinggi swiper -->
+        <div class="swiper-wrapper pb-4">
+          {{ range (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle7) }}
+            <div class="swiper-slide h-auto">
+              {{- partial "blog-card-home-aplikasi.html" . -}}
+            </div>
+          {{ end }}
         </div>
+        <!-- Swiper pagination -->
+        <div class="swiper-pagination-aplikasi absolute top-0 right-0"></div> <!-- Memindahkan pagination ke kanan -->
       </div>
     </div>
-    <div class="text-center">
-      <h2 class="text-xl font-bold py-3 text-customGreen">Aplikasi Data Kalbar</h2> <!-- Memperkecil font -->
-      <hr class="border-t-4 border-customGreen w-2/3 mt-1 mx-auto"> <!-- Memperpendek hr -->
-      <div class="aplikasi my-3 p-6 rounded-xl w-full mx-auto relative"> <!-- Menghapus kotak biru -->
-        {{ $frontBundle8 := .Site.Params.frontBundle8 | default "Aplikasi-Data-Kalbar" | lower }}
-        <!-- Swiper Aplikasi Data Kalbar Section -->
-        <div class="swiper swiper-aplikasi h-60 mx-auto"> <!-- Mengurangi tinggi swiper -->
-          <div class="swiper-wrapper pb-4">
-            {{ range (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle8) }}
-              <div class="swiper-slide h-auto">
-                {{- partial "blog-card-home-aplikasi.html" . -}}
-              </div>
-            {{ end }}
-          </div>
-          <!-- Swiper pagination -->
-          <div class="swiper-pagination-aplikasi absolute top-0 right-0"></div> <!-- Memindahkan pagination ke kanan -->
+  </div>
+  <div class="text-center">
+    <h2 class="text-xl font-bold py-3 text-customGreen">Aplikasi Data Kalbar</h2> <!-- Memperkecil font -->
+    <hr class="border-t-4 border-customGreen w-2/3 mt-1 mx-auto"> <!-- Memperpendek hr -->
+    <div class="aplikasi my-3 p-6 rounded-xl w-full mx-auto relative"> <!-- Menghapus kotak biru -->
+      {{ $frontBundle8 := .Site.Params.frontBundle8 | default "Aplikasi-Data-Kalbar" | lower }}
+      <!-- Swiper Aplikasi Data Kalbar Section -->
+      <div class="swiper swiper-aplikasi h-60 mx-auto"> <!-- Mengurangi tinggi swiper -->
+        <div class="swiper-wrapper pb-4">
+          {{ range (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle8) }}
+            <div class="swiper-slide h-auto">
+              {{- partial "blog-card-home-aplikasi.html" . -}}
+            </div>
+          {{ end }}
         </div>
+        <!-- Swiper pagination -->
+        <div class="swiper-pagination-aplikasi absolute top-0 right-0"></div> <!-- Memindahkan pagination ke kanan -->
       </div>
     </div>
   </div>
