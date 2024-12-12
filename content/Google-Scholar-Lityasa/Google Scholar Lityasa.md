@@ -4,6 +4,36 @@ title: "Google Scholar Lityasa"
 date: 2024-08-01 01:41:35
 ---
 
+<script>
+    // Data nama dan link profil
+  const profiles = [
+    {
+      name: "Pramushinta Arum Pynanjung",
+      link: "https://scholar.google.co.id/citations?user=FQ9H5oAAAAAJ&hl=id"
+    },
+    {
+      name: "Giska Hediyanti",
+      link: "https://scholar.google.com/citations?user=FJ-SNbIAAAAJ&hl=id"
+    },
+    {
+      name: "Dwi Septiyarini",
+      link: "https://scholar.google.co.id/citations?user=bUr4FcUAAAAJ&hl=id"
+    },
+    {
+      name: "Edy Agustinus",
+      link: "https://scholar.google.com/citations?user=G04TTjYAAAAJ&hl=en"
+    },
+    {
+      name: "Reny Rianti",
+      link: "https://scholar.google.co.id/citations?user=lAwacPkAAAAJ&hl=en"
+    },
+    {
+      name: "Resky Nanda Pranaka",
+      link: "https://scholar.google.com/citations?user=yvASHTcAAAAJ&hl=en"
+    }
+  ];
+</script>
+
 <style>
     .profile-container {
     background-color: #03A055;
@@ -73,74 +103,24 @@ date: 2024-08-01 01:41:35
   }
 </style>
 
-<div class="flex flex-wrap justify-around gap-12">
-  <div class="w-full sm:w-1/4 p-1 profile-container"> <!-- Mengurangi lebar padding -->
-    <div class="profile-content">
-      <img id="profile-pic-1" alt="Pramushinta Arum Pynanjung" class="profile-pic">
-      <span class="profile-name">Pramushinta Arum Pynanjung</span>
-      <button id="profile-link-1" onclick="window.location.href='https://scholar.google.co.id/citations?user=FQ9H5oAAAAAJ&amp;hl=id'" class="profile-button">Lihat Detail <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></button>
-    </div>
-  </div>
-
-  <div class="w-full sm:w-1/4 p-1 profile-container"> <!-- Mengurangi lebar padding -->
-    <div class="profile-content">
-      <img id="profile-pic-2" alt="Giska Hediyanti" class="profile-pic">
-      <span class="profile-name">Giska Hediyanti</span>
-      <button id="profile-link-2" onclick="window.location.href='https://scholar.google.com/citations?user=FJ-SNbIAAAAJ&amp;hl=id'" class="profile-button">Lihat Detail <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></button>
-    </div>
-  </div>
-
-  <div class="w-full sm:w-1/4 p-1 profile-container"> <!-- Mengurangi lebar padding -->
-    <div class="profile-content">
-      <img id="profile-pic-3" alt="Dwi Septiyarini" class="profile-pic">
-      <span class="profile-name">Dwi Septiyarini</span>
-      <button id="profile-link-3" onclick="window.location.href='https://scholar.google.co.id/citations?user=bUr4FcUAAAAJ&amp;hl=id'" class="profile-button">Lihat Detail <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></button>
-    </div>
-  </div>
-</div>
-
-<div class="flex flex-wrap justify-around gap-12">
-  <div class="w-full sm:w-1/4 p-1 profile-container"> <!-- Mengurangi lebar padding -->
-    <div class="profile-content">
-      <img id="profile-pic-4" alt="Edy Agustinus" class="profile-pic">
-      <span class="profile-name">Edy Agustinus</span>
-      <button id="profile-link-4" onclick="window.location.href='https://scholar.google.com/citations?user=G04TTjYAAAAJ&amp;hl=en'" class="profile-button">Lihat Detail <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></button>
-    </div>
-  </div>
-
-  <div class="w-full sm:w-1/4 p-1 profile-container"> <!-- Mengurangi lebar padding -->
-    <div class="profile-content">
-      <img id="profile-pic-5" alt="Reny Rianti" class="profile-pic">
-      <span class="profile-name">Reny Rianti</span>
-      <button id="profile-link-5" onclick="window.location.href='https://scholar.google.co.id/citations?user=lAwacPkAAAAJ&amp;hl=en'" class="profile-button">Lihat Detail <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></button>
-    </div>
-  </div>
-
-  <div class="w-full sm:w-1/4 p-1 profile-container"> <!-- Mengurangi lebar padding -->
-    <div class="profile-content">
-      <img id="profile-pic-6" alt="Resky Nanda Pranaka" class="profile-pic">
-      <span class="profile-name">Resky Nanda Pranaka</span>
-      <button id="profile-link-6" onclick="window.location.href='https://scholar.google.com/citations?user=yvASHTcAAAAJ&amp;hl=en'" class="profile-button">Lihat Detail <i class="fas fa-arrow-right" style="margin-left: 5px;"></i></button>
-    </div>
-  </div>
-</div>
-
-<p class="MsoNormal" style="margin-bottom: 0cm; line-height: 1.1;">
-  <span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">&nbsp;</span>
-</p>
+<div class="flex flex-wrap justify-around gap-12" id="profile-container"></div>
 
 <script>
-  function setProfilePicture(linkId, imgId) {
-    const link = document.getElementById(linkId).getAttribute('onclick').split("'")[1];
-    const userId = new URL(link).searchParams.get("user");
-    const imgSrc = `https://scholar.google.com/citations?view_op=medium_photo&user=${userId}`;
-    document.getElementById(imgId).src = imgSrc;
-  }
+  // Generate elemen HTML secara dinamis
+  const profileContainer = document.getElementById('profile-container');
 
-  setProfilePicture("profile-link-1", "profile-pic-1");
-  setProfilePicture("profile-link-2", "profile-pic-2");
-  setProfilePicture("profile-link-3", "profile-pic-3");
-  setProfilePicture("profile-link-4", "profile-pic-4");
-  setProfilePicture("profile-link-5", "profile-pic-5");
-  setProfilePicture("profile-link-6", "profile-pic-6");
+  profiles.forEach((profile, index) => {
+    const userId = new URL(profile.link).searchParams.get("user");
+    const profileHtml = `
+      <div class="w-full sm:w-1/4 p-1 profile-container">
+        <div class="profile-content">
+          <img src="https://scholar.google.com/citations?view_op=medium_photo&user=${userId}" alt="${profile.name}" class="profile-pic">
+          <span class="profile-name">${profile.name}</span>
+          <button onclick="window.location.href='${profile.link}'" target="_blank" class="profile-button">
+            Lihat Detail <i class="fas fa-arrow-right" style="margin-left: 5px;"></i>
+          </button>
+        </div>
+      </div>`;
+    profileContainer.innerHTML += profileHtml;
+  });
 </script>

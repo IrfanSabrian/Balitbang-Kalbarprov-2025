@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="{{ .Lang }}" itemscope itemtype="http://schema.org/WebPage">
   {{- partial "head.html" . -}}
-  <body class="dark:text-black transition-colors duration-500">
+  <body class="dark:text-black transition-colors duration-500 dark:bg-gray-900">
     <script src="https://code.responsivevoice.org/responsivevoice.js?key=przYp5x6"></script>
     <style type="text/css">
       .dark .main-content {
@@ -314,6 +314,7 @@
         .toolbar-disabilitas {
           top: 20%;
           left: 0;
+          z-index: 40;
           height: auto;
           width: 70%;
           text-align: center;
@@ -387,7 +388,7 @@
         justify-content: center;
         align-items: center;
         cursor: pointer;
-        z-index: 50;
+        z-index: 15;
         transition: background-color 0.3s, transform 0.3s;
       }
 
@@ -414,7 +415,7 @@
         pointer-events: none;
         visibility: hidden;
         opacity: 0;
-        z-index: 40;
+        z-index: 10;
       }
 
       .social-icons.show {
