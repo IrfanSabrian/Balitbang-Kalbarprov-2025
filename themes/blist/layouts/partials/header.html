@@ -13,6 +13,7 @@
     </button>
 
     <ul class="nav-links h-16 hidden md:flex items-center gap-4">
+      <li class="flex items-center"><a href="{{ absURL "/" }}" class="menu-link">Beranda</a></li>
       {{ range .Site.Menus.main }} 
       {{ $menuURL := .URL }} 
       {{ $menuName := .Name }} 
@@ -85,6 +86,9 @@
     <!-- Main Menu -->
     <div id="main-menu" class="block">
       <ul class="py-4">
+        <li>
+          <a href="{{ absURL "/" }}" class="text-gray-800 dark:text-white block py-2 px-4 border-b border-gray-200 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-gray-700">Beranda</a>
+        </li>
         {{ range .Site.Menus.main }}
         {{ $menuURL := .URL }}
         {{ $menuName := .Name }}
