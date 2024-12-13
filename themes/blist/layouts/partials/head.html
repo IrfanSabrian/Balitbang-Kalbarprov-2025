@@ -239,6 +239,20 @@ $(document).ready(function() {
     <iframe id="pdfViewer" class="w-6/12 h-full" frameborder="0" style="overflow: auto;"></iframe>
 </div>
 
+<style>
+  @media (max-width: 768px) {
+    #pdfViewer {
+      width: 90%;
+      height: 80%;
+    }
+    #closeModal {
+      top: 2rem;
+      right: 2rem;
+      font-size: 2rem;
+    }
+  }
+</style>
+
 <script>
     function openPdfModal(link) {
         const pdfModal = document.getElementById('pdfModal');
