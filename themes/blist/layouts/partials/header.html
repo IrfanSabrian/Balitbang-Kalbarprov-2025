@@ -359,6 +359,13 @@
       transform: rotate(360deg);
     }
   }
+
+  /* Ensure caret icon stays to the right of the text */
+  .dropdown-toggle {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
 </style>
 
 <script>
@@ -392,7 +399,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
   // Menambahkan event listener untuk window resize
   window.addEventListener('resize', function() {
-    if (window.innerWidth >= 768) { // 768px adalah breakpoint untuk md:
+    if (window.innerWidth >= 800) {
       mobileMenu.classList.remove("active");
       mobileMenuOverlay.classList.remove("active");
       document.body.classList.remove("overflow-hidden");
