@@ -88,6 +88,7 @@ date: 2024-08-01 05:22:45
   div[style*="display: flex; flex-wrap: wrap;"] > div {
     flex: 1 1 100%; 
     margin-bottom: 20px;
+    padding: 30px 0;
   }
 }
 
@@ -103,6 +104,7 @@ date: 2024-08-01 05:22:45
     height: 150px; 
     max-width: calc(70% - 30px);
     margin-bottom: 20px;
+    padding: 30px 0;
   }
 }
 </style>

@@ -34,6 +34,12 @@ date: 2024-09-10 06:24:31
   div[style*="display: flex; flex-wrap: wrap;"] > div {
     flex: 1 1 100%; 
     margin-bottom: 20px;
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  div[style*="display: flex; flex-wrap: wrap;"] > div span {
+    padding: 0 20px;
   }
 }
 
@@ -49,6 +55,12 @@ date: 2024-09-10 06:24:31
     height: 150px; 
     max-width: calc(70% - 30px);
     margin-bottom: 20px;
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  div[style*="display: flex; flex-wrap: wrap;"] > div span {
+    padding: 0 20px;
   }
 }
 </style>

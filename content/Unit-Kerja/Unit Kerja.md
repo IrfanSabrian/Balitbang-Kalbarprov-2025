@@ -40,6 +40,8 @@ date: 2024-09-19 00:43:59
   div[style*="display: flex; flex-wrap: wrap;"] > div {
     flex: 1 1 100%; 
     margin-bottom: 20px;
+    padding: 20px 0;
+    text-align: center;
   }
 }
 
@@ -55,6 +57,7 @@ date: 2024-09-19 00:43:59
     height: 150px; 
     max-width: calc(70% - 30px);
     margin-bottom: 20px;
+    padding: 20px 0;
   }
 }
 </style>

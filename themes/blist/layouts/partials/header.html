@@ -19,7 +19,7 @@
       {{ $menuHasChildren := .HasChildren }} 
       {{ if $menuHasChildren }}
       <li class="dropdown flex items-center">
-        <a class="dropdown-toggle menu-link">{{ $menuName }}<i class="fa-solid fa-caret-down ml-1 pl-1"></i></a>
+        <a class="dropdown-toggle menu-link">{{ $menuName }} <i class="fa-solid fa-caret-down ml-1"></i></a>
         <div class="dropdown-menu-wrapper">
           <ul class="dropdown-menu">
             {{ range .Children }}
@@ -35,7 +35,7 @@
       {{ if hugo.IsMultilingual }} 
       {{ if ge (len .Site.Languages) 3 }}
       <li class="dropdown flex items-center">
-        <a class="dropdown-toggle menu-link">{{ i18n "languageSwitcherLabel" }}<i class="fa-solid fa-caret-down ml-1 pl-1"></i></a>
+        <a class="dropdown-toggle menu-link">{{ i18n "languageSwitcherLabel" }} <i class="fa-solid fa-caret-down ml-1"></i></a>
         <div class="dropdown-menu-wrapper">
           <ul class="dropdown-menu">
             {{ range .Site.Languages }} 
@@ -137,7 +137,6 @@
 
   .navbar {
     background-color: #03a055;
-    border-radius: 0 0 10px 10px;
     color: white;
   }
 
@@ -187,11 +186,13 @@
     transition: width 0.3s ease;
   }
 
-  .menu-link:hover::after {
+  .menu-link:hover::after,
+  .dropdown:hover .menu-link::after {
     width: 100%;
   }
 
-  .menu-link:hover {
+  .menu-link:hover,
+  .dropdown:hover .menu-link {
     color: #e6e6e6;
   }
 
@@ -334,17 +335,15 @@
     color: white;
   }
 
-  .dark-mode-icon, .dark-mode-icon-mobile {
+  .dark-mode-icon {
     transition: transform 0.5s ease;
   }
 
-  .toggle-dark-mode:hover .dark-mode-icon,
-  .toggle-dark-mode-mobile:hover .dark-mode-icon-mobile {
+  .toggle-dark-mode:hover .dark-mode-icon {
     transform: rotate(45deg);
   }
 
-  .dark-mode-icon.rotating,
-  .dark-mode-icon-mobile.rotating {
+  .dark-mode-icon.rotating {
     animation: rotate360 0.8s ease;
   }
 
@@ -354,37 +353,6 @@
     }
     to {
       transform: rotate(360deg);
-    }
-  }
-
-  /* Mobile submenu styles */
-  .submenu {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: white;
-    z-index: 1;
-  }
-
-  .dark .submenu {
-    background: #1a202c;
-  }
-
-  .submenu.active {
-    display: block;
-  }
-
-  /* Media query untuk menyembunyikan menu mobile saat desktop */
-  @media (min-width: 768px) {
-    .mobile-menu.active {
-      transform: translateX(100%);
-    }
-    .mobile-menu-overlay.active {
-      opacity: 0;
-      pointer-events: none;
     }
   }
 </style>
