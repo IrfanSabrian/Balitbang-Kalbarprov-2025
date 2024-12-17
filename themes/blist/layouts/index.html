@@ -1,4 +1,5 @@
 {{ define "main" }}
+
 <style>
   .marquee {
       overflow: hidden;
@@ -22,12 +23,11 @@
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Atur agar gambar memenuhi container */
-    border-radius: 20px; /* Berikan sudut tidak tajam pada gambar */
+    object-fit: cover;
   }
 
-  /* Style the pagination bullets to make them rectangular */
-  .swiper-background-pagination .swiper-pagination-bullet {
+      /* Style the pagination bullets to make them rectangular */
+  .swiper-pagination-bullet {
     width: 40px; /* Set width of the rectangular bullets */
     height: 5px; /* Set height of the rectangular bullets */
     background-color: #e4e4e4; /* Set background color to black (adjust as needed) */
@@ -35,11 +35,11 @@
     margin: 0 5px; /* Optional: Adds space between the bullets */
   }
 
-  .swiper-background-pagination .swiper-pagination-bullet-active {
+  .swiper-pagination-bullet-active {
     background-color: #fff; /* Color of the active bullet */
   }
 
-  /* Mengubah ukuran dan warna tombol next dan prev */
+    /* Mengubah ukuran dan warna tombol next dan prev */
   .swiper-button-next,
   .swiper-button-prev {
     width: 40px; /* Menentukan lebar tombol */
@@ -73,18 +73,12 @@
   }
   }
 
+
 .swiper-slide {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative; /* Tambahkan posisi relatif */
-  border-radius: 20px; /* Berikan sudut tidak tajam pada container */
-}
-
-.swiper-background-slide {
-  width: 80%; /* Atur ukuran kontainer agar sama dengan gambar */
-  height: 80%; /* Atur ukuran kontainer agar sama dengan gambar */
-  border-radius: 20px; /* Berikan sudut tidak tajam pada container */
+  position: relative; /* Tambahkan posisi relatif untuk overlay */
 }
 
 .swiper-slide .overlay {
@@ -99,34 +93,34 @@
   display: block; /* Overlay aktif di awal */
 }
 
-.animated-text {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  font-size: 3vw;
-  font-family: 'Marcellus', serif;
-  z-index: 2; /* Pastikan teks berada di atas overlay */
-  text-align: center;
-  width: 80%;
-  color: white;
-  animation: fadeInMove 2s ease-in-out; /* Memperkenalkan animasi */
-  opacity: 0; /* Memastikan teks tidak terlihat sebelum animasi dimulai */
-  animation-fill-mode: forwards; /* Memastikan animasi tetap di akhir posisi */
-  display: block; /* Running teks aktif di awal */
-}
+  .animated-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3vw;
+    font-family: 'Marcellus', serif;
+    z-index: 2; /* Pastikan teks berada di atas overlay */
+    text-align: center;
+    width: 80%;
+    color: white;
+    animation: fadeInMove 2s ease-in-out; /* Memperkenalkan animasi */
+    opacity: 0; /* Memastikan teks tidak terlihat sebelum animasi dimulai */
+    animation-fill-mode: forwards; /* Memastikan animasi tetap di akhir posisi */
+    display: block; /* Running teks aktif di awal */
+  }
 
-.container {
-  white-space: nowrap;
-}
+  .container {
+    white-space: nowrap;
+  }
 
-.zoom-in {
-  transition: transform 0.3s ease;
-}
+  .zoom-in {
+    transition: transform 0.3s ease;
+  }
 
-.zoom-in:hover {
-  transform: scale(1.1);
-}
+  .zoom-in:hover {
+    transform: scale(1.1);
+  }
 
 /* Styles for Swiper Pagination */
 
@@ -251,19 +245,6 @@
   display: inline; /* Ikon ban aktif di awal */
 }
 
-.swiper-background-thumbs .swiper-slide {
-  cursor: pointer;
-  background-color: black; /* Warna background hitam untuk thumbs */
-}
-
-.swiper-background-thumbs .swiper-slide img {
-  opacity: 0.5; /* Warna agak gelap untuk thumbs yang tidak aktif */
-}
-
-.swiper-background-thumbs .swiper-slide-thumb-active img {
-  opacity: 1; /* Warna normal untuk thumbs yang aktif */
-}
-
 </style>
 <!-- Swiper Background -->
 
@@ -273,84 +254,56 @@
 {{ $sliderImages := .Site.Params.sliders.images }}
 
 {{ if len $sliderImages }}
-<div class="swiper swiper-background" style="width: 100%; height: auto; padding-left: 20px; padding-right: 20px;">
+<div class="swiper mySwiper" style="height: 42.5vw;">
   <div class="swiper-wrapper">
     {{ range $sliderImages }}
-    <div class="swiper-slide swiper-background-slide">
+    <div class="swiper-slide">
       <div class="overlay"></div> <!-- Tambahkan overlay hitam -->
       <img
         src="sliders/{{ .url }}"
         alt="Slider Image"
         style="
           width: 100%;
-          height: 100%;
           z-index: -1;
         "
       />
-      <p class="font-semibold animated-text">
-        {{ range $runningText }}{{ .text }} {{ end }}
-      </p>
     </div>
+    {{ end }}
+    <p class="font-semibold animated-text">
+      {{ range $runningText }}{{ .text }} {{ end }}
+    </p>
     {{ end }}
   </div>
   <div class="swiper-button-next"></div>
   <div class="swiper-button-prev"></div>
-  <div class="swiper-background-pagination"></div>
-  <div class="swiper swiper-background-thumbs" style="width: 100%; height: 100px;">
-    <div class="swiper-wrapper">
-      {{ range $sliderImages }}
-      <div class="swiper-slide">
-        <img
-          src="sliders/{{ .url }}"
-          alt="Thumbnail Image"
-          style="
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
-          "
-        />
-      </div>
-      {{ end }}
-    </div>
-  </div>
+  <div class="swiper-pagination"></div>
   <button class="toggle-button" onclick="toggleOverlay()">
     <i class="fas fa-font"></i>
     <i class="fas fa-ban"></i>
   </button>
 </div>
-{{ end }}
+
+
 {{ end }}
   <!-- Background Swiper -->
 <script>
   document.addEventListener('DOMContentLoaded', (event) => {
-    var swiperThumbs = new Swiper(".swiper-background-thumbs", {
-      spaceBetween: 10,
-      slidesPerView: 4,
-      freeMode: true,
-      watchSlidesVisibility: true,
-      watchSlidesProgress: true,
-      loop: true,
-    });
-
-    var swiper = new Swiper(".swiper-background", {
+    var swiper = new Swiper(".mySwiper", {
       spaceBetween: 30,
       centeredSlides: true,
       autoplay: {
         delay: 4000, // Delay between slides
         disableOnInteraction: false,
       },
-      effect: 'coverflow', // Menggunakan efek coverflow
-      coverflowEffect: {
-        rotate: 50,
-        stretch: 0,
-        depth: 100,
-        modifier: 1,
-        slideShadows: true,
+      effect: 'fade',
+      fadeEffect: {
+        crossFade: true, // Enables cross-fading between slides
       },
       speed: 2500, // Animation duration (in ms)
       loop: true,
-      thumbs: {
-        swiper: swiperThumbs,
+      pagination: {
+        el: ".swiper-pagination",
+        clickable: true,
       },
       navigation: {
         nextEl: ".swiper-button-next",
@@ -364,14 +317,7 @@
             text.style.animation = 'none'; // Reset animation
             // Trigger reflow/restart of animation
             void text.offsetWidth;
-            text.style.animation = 'none'; // Hentikan animasi
-          });
-        },
-        slideChangeTransitionEnd: function () {
-          // Start animation
-          const animatedTexts = document.querySelectorAll('.animated-text');
-          animatedTexts.forEach((text) => {
-            text.style.animation = 'fadeInMove 2s ease-in-out forwards'; // Mulai animasi
+            text.style.animation = 'fadeInMove 2s ease-in-out forwards'; // Restart animation
           });
         },
       },
@@ -1096,4 +1042,3 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 {{- partial "intro.html" . -}}
 {{ end }}
-

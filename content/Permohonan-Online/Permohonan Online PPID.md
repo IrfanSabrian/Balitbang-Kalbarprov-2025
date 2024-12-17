@@ -8,13 +8,13 @@ date: 2024-09-10 06:24:31
   <div style="flex: 1 1 calc(50% - 30px); box-sizing: border-box; height: 150px; margin-bottom: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center;" class="border-customGreen bg-customGreen rounded-2xl dark:bg-gray-700 dark:text-white">
       <i class="fas fa-file-alt text-white" style="margin-bottom: 10px; font-size: 40px;"></i>
       <span style="font-size: 12pt; font-family: 'Poppins', sans-serif; margin-bottom: 10px;" class="text-white">Permohonan Informasi PPID Utama</span>
-    <button onclick="window.open('https://layanan-diskominfo.kalbarprov.go.id/PPIDKALBAR-PERMOHONAN/register', '_blank')" class="px-2.5 py-1.5 bg-transparent text-white border border-white rounded-xl text-base cursor-pointer transition-colors duration-300 hover:bg-white hover:text-customGreen dark:hover:text-gray-700">Lihat Detail <i class="fas fa-arrow-right ml-1.5"></i></button>
+    <button onclick="openLinkModal('https://layanan-diskominfo.kalbarprov.go.id/PPIDKALBAR-PERMOHONAN/register')" class="px-2.5 py-1.5 bg-transparent text-white border border-white rounded-xl text-base cursor-pointer transition-colors duration-300 hover:bg-white hover:text-customGreen dark:hover:text-gray-700">Lihat Detail <i class="fas fa-arrow-right ml-1.5"></i></button>
   </div>
 
   <div style="flex: 1 1 calc(50% - 30px); box-sizing: border-box; height: 150px; margin-bottom: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center;" class="border-customGreen bg-customGreen rounded-2xl dark:bg-gray-700 dark:text-white">
       <i class="fas fa-exclamation-circle text-white" style="margin-bottom: 5px; font-size: 40px;"></i>
       <span style="font-size: 12pt; font-family: 'Poppins', sans-serif;" class="text-white">Permohonan Keberatan Informasi PPID Utama</span>
-    <button onclick="window.open('https://layanan-diskominfo.kalbarprov.go.id/PPIDKALBAR-KEBERATAN/register', '_blank')" class="px-2.5 py-1.5 bg-transparent text-white border border-white rounded-xl text-base cursor-pointer transition-colors duration-300 hover:bg-white hover:text-customGreen dark:hover:text-gray-700">Lihat Detail <i class="fas fa-arrow-right ml-1.5"></i></button>
+    <button onclick="openLinkModal('https://layanan-diskominfo.kalbarprov.go.id/PPIDKALBAR-KEBERATAN/register')" class="px-2.5 py-1.5 bg-transparent text-white border border-white rounded-xl text-base cursor-pointer transition-colors duration-300 hover:bg-white hover:text-customGreen dark:hover:text-gray-700">Lihat Detail <i class="fas fa-arrow-right ml-1.5"></i></button>
   </div>
 
   <div style="flex: 1 1 calc(50% - 30px); box-sizing: border-box; height: 150px; margin-bottom: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center;" class="border-customGreen bg-customGreen rounded-2xl dark:bg-gray-700 dark:text-white">

@@ -20,7 +20,7 @@ date: 2024-08-07 07:00:19
   <div style="flex: 1 1 calc(50% - 30px); box-sizing: border-box; height: 150px; margin-bottom: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center;" class="border-customGreen bg-customGreen rounded-2xl dark:bg-gray-700 dark:text-white">
       <i class="fas fa-edit text-white" style="margin-bottom: 5px; font-size: 40px;"></i>
       <span style="font-size: 12pt; font-family: 'Poppins', sans-serif;" class="text-white">Pengaduan Online</span>
-    <button onclick="window.location.href='https://docs.google.com/forms/d/1fa-wNkLbkmdtC-VUa23765_Ra68I8OZZe-i0B2sKkm0/'" class="px-2.5 py-1.5 bg-transparent text-white border border-white rounded-xl text-base cursor-pointer transition-colors duration-300 hover:bg-white hover:text-customGreen dark:hover:text-gray-700">Lihat Detail <i class="fas fa-arrow-right ml-1.5"></i></button>
+    <button onclick="window.open('https://docs.google.com/forms/d/1fa-wNkLbkmdtC-VUa23765_Ra68I8OZZe-i0B2sKkm0/', '_blank')" class="px-2.5 py-1.5 bg-transparent text-white border border-white rounded-xl text-base cursor-pointer transition-colors duration-300 hover:bg-white hover:text-customGreen dark:hover:text-gray-700">Lihat Detail <i class="fas fa-arrow-right ml-1.5"></i></button>
   </div>
 
   <div style="flex: 1 1 calc(50% - 30px); box-sizing: border-box; height: 150px; margin-bottom: 20px; display: flex; flex-direction: column; align-items: center; justify-content: center;" class="border-customGreen bg-customGreen rounded-2xl dark:bg-gray-700 dark:text-white">
