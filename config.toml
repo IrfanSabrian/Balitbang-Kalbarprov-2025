@@ -1,4 +1,3 @@
-
 baseurl = ""
 metaDataFormat = "yaml"
 title = "Balitbang Provinsi Kalbar"
@@ -64,57 +63,39 @@ style = "dracula"
 [markup.goldmark.renderer]
 unsafe = true
 
-
-
-
-
-
-
-
-
+[[languages.id.menu.main]]
+identifier = 'beranda'
+name = "Beranda"
+url = "/"
+weight = 1
 [[languages.id.menu.main]]
 identifier = 'profil'
 name = "Profil"
-url = ""
-weight = 1
-
-
-
+weight = 2
 [[languages.id.menu.main]]
 identifier = 'riset'
 name = "Riset"
-url = "/Riset"
-weight = 2
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+weight = 3
+[[languages.id.menu.main]]
+identifier = 'informasi'
+name = "Informasi"
+weight = 4
+[[languages.id.menu.main]]
+identifier = 'dokumen'
+name = "Dokumen"
+weight = 5
+[[languages.id.menu.main]]
+identifier = 'publikasi'
+name = "Publikasi"
+weight = 6
+[[languages.id.menu.main]]
+identifier = 'pelayanan'
+name = "Pelayanan"
+weight = 7
+[[languages.id.menu.main]]
+identifier = 'ppid'
+name = "PPID"
+weight = 8
 
 [[languages.id.menu.main]]
 identifier = 'sejarah'
@@ -122,844 +103,297 @@ name = "Sejarah"
 parent = "profil badan"
 url = "/page/sejarah"
 weight = 1
-
-
-
-
-
-
-
-
-
 [[languages.id.menu.main]]
 identifier = 'hki'
 name = "HKI"
 parent = "pengumuman"
 url = "/hki"
 weight = 2
-
-
-
-
-
-
-
-
-
 [[languages.id.menu.main]]
 identifier = 'info jurnal'
 name = "Info Jurnal"
 parent = "pengumuman"
 url = "/info jurnal"
 weight = 4
-
-
-
 [[languages.id.menu.main]]
 identifier = 'lomba inovasi'
 name = "Lomba Inovasi"
 parent = "pengumuman"
 url = "/lomba inovasi"
 weight = 5
-
-
-
 [[languages.id.menu.main]]
 identifier = 'pertek penelitian'
 name = "Pertek Penelitian"
 parent = "pengumuman"
 url = "/pertek penelitian"
 weight = 6
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[[languages.id.menu.main]]
-identifier = 'dokumen'
-name = "Dokumen"
-url = "/dokumen"
-weight = 4
-
-
-
-
-
-
-
-[[languages.id.menu.main]]
-identifier = 'informasi'
-name = "Informasi"
-url = "/informasi"
-weight = 3
-
-
-
-[[languages.id.menu.main]]
-identifier = 'pelayanan'
-name = "Pelayanan"
-url = "/pelayanan"
-weight = 6
-
-
-
-[[languages.id.menu.main]]
-identifier = 'ppid'
-name = "PPID"
-url = "/ppid"
-weight = 7
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 [[languages.id.menu.main]]
 identifier = 'survey sekam padi'
 name = "Survey Sekam Padi"
 parent = "pelayanan"
 url = "https://sekampadi.kalbarprov.go.id/"
 weight = 5
-
-
-
 [[languages.id.menu.main]]
 identifier = 'pengaduan online'
 name = "Pengaduan Online"
 parent = "pelayanan"
 url = "https://forms.gle/pQXED5m5zpJ9ZabE6"
 weight = 6
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 [[languages.id.menu.main]]
 identifier = 'saq'
 name = "SAQ"
 parent = "informasi"
 url = "/saq/frequently-ask-question-faq/"
 weight = 3
-
-
-
-
-
 [[languages.id.menu.main]]
 identifier = 'jalur evakuasi'
 name = "Jalur Evakuasi"
 parent = "informasi"
 url = "/jalur-evakuasi/denah-dan-jalur-evakausi"
 weight = 6
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-[[languages.id.menu.main]]
-identifier = 'publikasi'
-name = "Publikasi"
-url = ""
-weight = 5
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 [[languages.id.menu.main]]
 identifier = 'jurnal'
 name = "Jurnal"
 parent = "publikasi"
 url = "/jurnal/jurnal-borneo-akcaya"
 weight = 3
-
-
-
 [[languages.id.menu.main]]
 identifier = 'flyers'
 name = "Flyers"
 parent = "publikasi"
 url = "/flyers"
 weight = 5
-
-
-
 [[languages.id.menu.main]]
 identifier = 'berita'
 name = "Berita"
 parent = "publikasi"
 url = "/berita"
 weight = 1
-
-
-
 [[languages.id.menu.main]]
 identifier = 'artikel'
 name = "Artikel"
 parent = "publikasi"
 url = "/artikel"
 weight = 2
-
-
-
-
-
 [[languages.id.menu.main]]
 identifier = 'gallery kegiatan'
 name = "Gallery Kegiatan"
 parent = "publikasi"
 url = "/gallery kegiatan"
 weight = 6
-
-
-
-
-
 [[languages.id.menu.main]]
 identifier = 'template'
 name = "Template"
 parent = "publikasi"
 url = "/template/template"
 weight = 5
-
-
-
-
-
 [[languages.id.menu.main]]
 identifier = 'permohonan online'
 name = "Permohonan Online"
 parent = "ppid"
 url = "/permohonan-online/permohonan-online-ppid/"
 weight = 6
-
-
-
 [[languages.id.menu.main]]
 identifier = 'formulir ppid'
 name = "Formulir PPID"
 parent = "ppid"
 url = "/formulir-ppid/formulir-ppid/"
 weight = 8
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 [[languages.id.menu.main]]
 identifier = 'laporan ppid'
 name = "Laporan PPID"
 parent = "ppid"
 url = "/laporan-ppid/laporan-ppid/"
 weight = 7
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 [[languages.id.menu.main]]
 identifier = 'daftar informasi'
 name = "Daftar Informasi"
 parent = "ppid"
 url = "/daftar-informasi/daftar-informasi/"
 weight = 5
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 [[languages.id.menu.main]]
 identifier = 'sop ppid'
 name = "SOP PPID"
 parent = "ppid"
 url = "/sop-ppid/sop-ppid"
 weight = 3
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 [[languages.id.menu.main]]
 identifier = 'standar pelayanan'
 name = "Standar Pelayanan"
 parent = "pelayanan"
 url = "/standar-pelayanan/standar-pelayanan"
 weight = 2
-
-
-
 [[languages.id.menu.main]]
 identifier = 'program kerja'
 name = "Program Kerja"
 parent = "profil"
 url = "/program-kerja/program-kerja-balitbang"
 weight = 3
-
-
-
 [[languages.id.menu.main]]
 identifier = 'profil pegawai'
 name = "Profil Pegawai"
 parent = "profil"
 url = "/profil-pegawai/profil-pegawai-balitbang"
 weight = 4
-
-
-
 [[languages.id.menu.main]]
 identifier = 'matrik kegiatan'
 name = "Matrik Kegiatan"
 parent = "informasi"
 url = "/matrik-kegiatan/matrik-kegiatan"
 weight = 4
-
-
-
 [[languages.id.menu.main]]
 identifier = 'program riset'
 name = "Program Riset"
 parent = "riset"
 url = "/program-riset/program-riset"
 weight = 1
-
-
-
-
-
-
-
-
-
 [[languages.id.menu.main]]
 identifier = 'hasil kelitbangan'
 name = "Hasil Kelitbangan"
 parent = "riset"
 url = "/hasil-kelitbangan/hasil-kelitbangan"
 weight = 3
-
-
-
 [[languages.id.menu.main]]
 identifier = 'litbangjirap'
 name = "Litbangjirap"
 parent = "riset"
 url = "/litbangjirap/litbangjirap"
 weight = 2
-
-
-
 [[languages.id.menu.main]]
 identifier = 'pengumuman'
 name = "Pengumuman"
 parent = "informasi"
 url = "/pengumuman/pengumuman"
 weight = 2
-
-
-
 [[languages.id.menu.main]]
 identifier = 'kerjasama kelitbangan'
 name = "Kerjasama Kelitbangan"
 parent = "dokumen"
 url = "/kerjasama-kelitbangan/kerjasama-kelitbangan"
 weight = 6
-
-
-
 [[languages.id.menu.main]]
 identifier = 'unit kerja'
 name = "Unit Kerja"
 parent = "profil"
 url = "/unit-kerja/unit-kerja"
 weight = 2
-
-
-
 [[languages.id.menu.main]]
 identifier = 'profil badan'
 name = "Profil Badan"
 parent = "profil"
 url = "/profil-badan/profil-badan"
 weight = 1
-
-
-
 [[languages.id.menu.main]]
 identifier = 'penghargaan'
 name = "Penghargaan"
 parent = "informasi"
 url = "/penghargaan/penghargaan"
 weight = 5
-
-
-
 [[languages.id.menu.main]]
 identifier = 'renja monev'
 name = "Renja Monev"
 parent = "dokumen"
 url = "/renja-monev/renja-monev"
 weight = 1
-
-
-
 [[languages.id.menu.main]]
 identifier = 'sop kelembagaan'
 name = "SOP Kelembagaan"
 parent = "dokumen"
 url = "/sop-kelembagaan/sop-kelembagaan"
 weight = 2
-
-
-
 [[languages.id.menu.main]]
 identifier = 'peraturan kelitbangan'
 name = "Peraturan Kelitbangan"
 parent = "dokumen"
 url = "/peraturan-kelitbangan/peraturan-kelitbangan"
 weight = 3
-
-
-
-
-
 [[languages.id.menu.main]]
 identifier = 'aparatur'
 name = "Aparatur"
 parent = "dokumen"
 url = "/aparatur/aparatur"
 weight = 5
-
-
-
 [[languages.id.menu.main]]
 identifier = 'profil layanan'
 name = "Profil Layanan"
 parent = "pelayanan"
 url = "/profil-layanan/profil-layanan"
 weight = 1
-
-
-
 [[languages.id.menu.main]]
 identifier = 'pengelolaan pengaduan'
 name = "Pengelolaan Pengaduan"
 parent = "pelayanan"
 url = "/pengelolaan-pengaduan/pengelolaan-pengaduan"
 weight = 4
-
-
-
 [[languages.id.menu.main]]
 identifier = 'laporan skm'
 name = "Laporan SKM"
 parent = "pelayanan"
 url = "/laporan-skm/laporan-skm"
 weight = 7
-
-
-
 [[languages.id.menu.main]]
 identifier = 'profil ppid'
 name = "Profil PPID"
 parent = "ppid"
 url = "/profil-ppid/profil-ppid"
 weight = 1
-
-
-
 [[languages.id.menu.main]]
 identifier = 'regulasi ppid'
 name = "Regulasi PPID"
 parent = "ppid"
 url = "/regulasi-ppid/regulasi-ppid"
 weight = 2
-
-
-
 [[languages.id.menu.main]]
 identifier = 'tata cara'
 name = "Tata Cara"
 parent = "ppid"
 url = "/tata-cara/tata-cara"
 weight = 4
-
-
-
-
-
-
-
-
-
-
-
-
-
 [[languages.id.menu.main]]
 identifier = 'jumlah permohonan informasi'
 name = "Jumlah Permohonan Informasi"
 parent = "ppid"
 url = "/jumlah-permohonan-informasi/jumlah-permohonan-informasi"
 weight = 9
-
-
-
 [[languages.id.menu.main]]
 identifier = 'keuangan dan aset'
 name = "Keuangan dan Aset"
 parent = "dokumen"
 url = "/keuangan-dan-aset/keuangan-dan-aset"
 weight = 4
-
-
-
-
-
-
-
 [[languages.id.menu.main]]
 identifier = 'video'
 name = "Video"
 parent = "publikasi"
 url = "/video"
 weight = 8
-
-
-
-
-
 [[languages.id.menu.main]]
 identifier = 'google scholar lityasa'
 name = "Google Scholar Lityasa"
 parent = "publikasi"
 url = "/google-scholar-lityasa/google-scholar-lityasa"
 weight = 7
-
-
-
-
-
-
-
 [[languages.id.menu.main]]
 identifier = 'kontak'
 name = "Kontak"
 parent = "informasi"
 url = "/kontak/kontak"
 weight = 1
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 [[params.homepage.social.icons]]
 website = "twitter"
 url = "https://x.com/Umparlitbang?t=XRUF21w1Gaqdxp0TmpgRbA&s=09"
-
 [[params.homepage.social.icons]]
 website = "tiktok"
 url = "https://www.tiktok.com/@balitbang_kalbar"
-
 [[params.homepage.social.icons]]
 website = "youtube"
 url = "https://www.youtube.com/@balitbangkalbar"
-
 [[params.homepage.social.icons]]
 website = "instagram"
 url = "https://www.instagram.com/balitbang_kalbar/"
-
 [[params.homepage.social.icons]]
 website = "facebook"
 url = "https://www.facebook.com/litbangkalbar"
-
-
 [[params.agenda]]
 lokasi = "Ruang rapat Bappeda Provinsi Kalbar Lantai 3 Gedung Pelayanan Terpadu"
 jamMulai = "08:30"
@@ -967,7 +401,6 @@ jamSelesai = "13:00"
 judul = "Rapat Tindak Lanjut Cetak Biru PPM pada Kegiatan Usaha Pertambangan"
 tanggal = "15/10/2024"
 hari = "Selasa"
-
 [[params.agenda]]
 lokasi = "Ruang Rapat Balitbang Provnsi Kalbar"
 jamMulai = "11:00"
@@ -975,7 +408,6 @@ jamSelesai = "12:00"
 judul = "Visitasi Keterbukaan Informasi Publik"
 tanggal = "29/10/2024"
 hari = "Selasa"
-
 [[params.agenda]]
 lokasi = "Ruang rapat Bappeda Provinsi Kalbar Lantai 3 Gedung Pelayanan Terpadu"
 jamMulai = "08:00"
@@ -983,7 +415,6 @@ jamSelesai = "12:00"
 judul = "Rapat Koordinasi Majelis Pertimbangan Balitbang Provinsi Kalimantan Barat"
 tanggal = "05/11/2024"
 hari = "Selasa"
-
 [[params.agenda]]
 lokasi = "Ruang Rapat Balitbang Provnsi Kalbar"
 jamMulai = "09:00"
@@ -991,43 +422,26 @@ jamSelesai = "13:00"
 judul = "Pengidentifikasian Inovasi Tingkat SMA, SMK, dan SLB Dalam Rangka Peningkatan Indeks Inovasi Daerah di Provinsi Kalimantan Barat"
 tanggal = "31/10/2024"
 hari = "Kamis"
-
-
 [[params.running_text]]
 text = "Selamat Datang di Website Resmi Badan Penelitian dan Pengembangan Provinsi Kalimantan Barat"
-
-
 [[params.sliders.images]]
 url = "jembatan kapuas.png"
 extension = "png"
-
-
 [[params.sliders.images]]
 url = "rumah melayu.png"
 extension = "png"
-
-
 [[params.sliders.images]]
 url = "Slide Web Utama Balitbang.png"
 extension = "png"
-
-
 [[params.sliders.images]]
 url = "Slider HKI 2024.png"
 extension = "png"
-
-
 [[params.sliders.images]]
 url = "Slider HUT Kota Pontianak 2024.png"
 extension = "png"
-
-
-
 [[params.sliders.images]]
 url = "rumah radang.png"
 extension = "png"
-
-
 [[params.sliders.images]]
 url = "tugu katulistiwa.png"
 extension = "png"

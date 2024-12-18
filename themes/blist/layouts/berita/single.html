@@ -30,10 +30,10 @@
         <article class="prose prose-sm lg:prose-lg mx-auto text-black">
           {{ if .Params.images }}
           <div class="relative mx-auto mb-8">
-            <div class="owl-carousel owl-theme">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               {{ range $index, $imageUrl := .Params.images }}
-              <div class="item">
-                <img src="{{ $imageUrl }}" class="rounded-lg shadow-sm w-full object-cover" style="height: 200px; lg:height: 300px;" alt="Image {{ add $index 1 }}" />
+              <div class="mb-4">
+                <img src="{{ $imageUrl }}" class="rounded-lg shadow-sm w-full object-cover" style="height: 200px;" alt="Image {{ add $index 1 }}" />
               </div>
               {{ end }}
             </div>
@@ -62,7 +62,7 @@
               <i class="fab fa-whatsapp mr-2"></i>WhatsApp
             </a>
             <a href="https://telegram.me/share/url?url={{ .Permalink | absURL }}&text={{ .Title }}" target="_blank" class="text-sm lg:text-base bg-customGreen text-white px-3 py-1 lg:px-4 lg:py-2 rounded-lg hover:bg-customDarkGreen transition-colors">
-              <i class="fab fa-telegram mr-2"></i>Telegram
+              <i class="fab fa-telegram-plane mr-2"></i>Telegram
             </a>
           </div>
         </div>
@@ -100,37 +100,4 @@
 
   {{- partial "comments.html" . -}}
   {{- partial "intro.html" . -}}
-
-  {{ if .Params.images }}
-  <script>
-    document.addEventListener("DOMContentLoaded", function() {
-      if(typeof $ !== 'undefined' && $.fn.owlCarousel) {
-        $(".owl-carousel").owlCarousel({
-          items: 1,
-          loop: true,
-          nav: true,
-          dots: false,
-          autoplay: true,
-          autoplayTimeout: 3000,
-          responsiveClass: true,
-          autoHeight: true,
-          responsive: {
-            0: {
-              items: 1,
-              nav: false
-            },
-            600: {
-              items: 1,
-              nav: true
-            },
-            1000: {
-              items: 1,
-              nav: true
-            }
-          }
-        });
-      }
-    });
-  </script>
-  {{ end }}
 {{ end }}

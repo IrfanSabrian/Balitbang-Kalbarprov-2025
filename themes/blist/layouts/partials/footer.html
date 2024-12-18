@@ -30,6 +30,7 @@
       </h2>
       <!-- GMaps Iframe -->
       <iframe
+        title="Peta Lokasi Gedung Pelayanan Terpadu Prov. Kalbar"
         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3975.9999999999995!2d109.352462!3d-0.0615711!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e1d59a102965473%3A0x9ef363f0cf41c6b2!2sGedung%20Pelayanan%20Terpadu%20Prov.%20Kalbar!5e0!3m2!1sen!2sid!4v1690000000000!5m2!1sen!2sid"
         width="100%"
         height="200"
@@ -75,7 +76,7 @@
         <!-- Address -->
         <div class="flex items-center gap-2">
           <i
-            class="fas fa-map-marker-alt w-6 h-6 flex justify-center items-center"
+            class="fas fa-map-marker-alt w-6 h-6 flex justify-center items-center flex-shrink-0"
             style="font-size: 1.25rem"
           ></i>
           <span class="flex-1">{{ .Site.Params.address }}</span>
@@ -207,23 +208,6 @@
 
   // Sembunyikan loading screen dan tambahkan efek fade-in setelah 2 detik (2000 milidetik)
   setTimeout(hideLoadingScreen, 300);
-</script>
-<script>
-  document
-    .getElementById("mobile-menu-button")
-    .addEventListener("click", function () {
-      var menu = document.getElementById("mobile-menu");
-      menu.classList.toggle("hidden");
-    });
-  //const mobileMenuButton = document.querySelector('.mobile-menu-button')
-  //const mobileMenu = document.querySelector('.mobile-menu')
-  //function toggleMenu() {
-  //mobileMenu.classList.toggle('hidden');
-  //mobileMenu.classList.toggle('flex');
-  //}
-  //if(mobileMenu && mobileMenuButton){
-  //mobileMenuButton.addEventListener('click', toggleMenu)
-  //}
 </script>
 
 <script>

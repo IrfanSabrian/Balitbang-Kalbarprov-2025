@@ -11,10 +11,12 @@
 
     <!-- Background dengan thumbnail, logo, dan overlay gelap -->
     <div class="thumbnail-container-link" 
-         style="background-image: url('{{ .Params.thumbnail }}'); padding: 20px; background-size: cover; background-repeat: no-repeat; background-position: center;">
+         style="background-image: url('{{ .Params.thumbnail }}'); padding: 20px; background-size: cover; background-repeat: no-repeat; background-position: center;"
+         loading="lazy">
          <div class="dark-overlay-link"></div>
       <div class="logo-overlay-link" 
-           style="background-image: url('{{ .Params.logo }}'); background-size: 60% auto; background-repeat: no-repeat; background-position: center;">
+           style="background-image: url('{{ .Params.logo }}'); background-size: 60% auto; background-repeat: no-repeat; background-position: center;"
+           loading="lazy">
       </div>
       <div class="eurl-overlay-link" style="padding: 10px;"> <!-- Tambahkan padding pada eurl -->
         <span class="eurl-text-link">{{ .Params.eurl }}</span> <!-- Tampilkan eurl saat hover -->

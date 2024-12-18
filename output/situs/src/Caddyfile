@@ -1,4 +1,0 @@
-localhost:5644 {
-	root * /home/masu/Developmens/MyAdminApp/src/storage/hugo-base/output/situs
-	file_server
-}

@@ -18,7 +18,6 @@ noResults.classList.add('hidden');
 // ==========================================
 // The main keyboard event listener running the show
 //
-document.querySelector('.open-search').addEventListener('click', openSearch);
 document.querySelector('.close-search').addEventListener('click', closeSearch);
 
 function closeSearch() {

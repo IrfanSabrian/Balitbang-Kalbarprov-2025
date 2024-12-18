@@ -63,40 +63,15 @@
     {{ end }}  */}}
 
     {{ .Content }}
-    <div class="relative mx-auto">
-      <div class="owl-carousel owl-theme">
-        {{ range $index, $imageUrl := .Params.images }}
-        <div class="item">
-          <img src="{{ $imageUrl }}" class="rounded-lg shadow-sm w-full object-cover" style="height: 300px;" />
-        </div>
-        {{ end }}
+    {{ if .Params.images }}
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+      {{ range $index, $imageUrl := .Params.images }}
+      <div class="mb-4">
+        <img src="{{ $imageUrl }}" class="rounded-lg shadow-sm w-full object-cover" style="height: 300px;" />
       </div>
+      {{ end }}
     </div>
-    <script>
-      $(document).ready(function(){
-        $(".owl-carousel").owlCarousel({
-          items: 1, // Jumlah gambar yang ditampilkan dalam satu waktu
-          loop: true, // Untuk membuat tampilan melingkar
-          nav: true, // Menampilkan tombol navigasi
-          dots: false, // Menampilkan titik navigasi
-          autoplay: true, // Otomatis memutar slider
-          autoplayTimeout: 3000, // Interval waktu antara slide
-          responsiveClass:true,
-          autoHeight: true, // Menyesuaikan tinggi slider dengan konten
-          responsive:{
-            0:{
-              items:1
-            },
-            600:{
-              items:1
-            },
-            1000:{
-              items:2
-            }
-          }
-        });
-      });
-      </script>
+    {{ end }}
   </article>
 
   {{- partial "comments.html" . -}}

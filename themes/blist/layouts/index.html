@@ -1,5 +1,11 @@
 {{ define "main" }}
 
+<!-- Preload images -->
+{{ $sliderImages := .Site.Params.sliders.images }}
+{{ range $sliderImages }}
+<link rel="preload" as="image" href="sliders/{{ .url }}">
+{{ end }}
+
 <style>
   .marquee {
       overflow: hidden;
@@ -17,7 +23,6 @@
       100% { transform: translateX(-100%); }
   }
 
-  /* CSS styling for Swiper */
   .swiper-slide img {
     margin: 0;
     display: block;
@@ -26,59 +31,54 @@
     object-fit: cover;
   }
 
-      /* Style the pagination bullets to make them rectangular */
   .swiper-pagination-bullet {
-    width: 40px; /* Set width of the rectangular bullets */
-    height: 5px; /* Set height of the rectangular bullets */
-    background-color: #e4e4e4; /* Set background color to black (adjust as needed) */
-    border-radius: 5px; /* Optional: Rounds the corners, remove if you want sharp edges */
-    margin: 0 5px; /* Optional: Adds space between the bullets */
+    width: 40px;
+    height: 5px;
+    background-color: #e4e4e4;
+    border-radius: 5px;
+    margin: 0 5px;
   }
 
   .swiper-pagination-bullet-active {
-    background-color: #fff; /* Color of the active bullet */
+    background-color: #fff;
   }
 
-    /* Mengubah ukuran dan warna tombol next dan prev */
   .swiper-button-next,
   .swiper-button-prev {
-    width: 40px; /* Menentukan lebar tombol */
-    height: 40px; /* Menentukan tinggi tombol */
-    color: gray; /* Mengubah warna ikon di dalam tombol */
+    width: 40px;
+    height: 40px;
+    color: gray;
     justify-content: center;
     align-items: center;
-    font-size: 20px; /* Mengubah ukuran ikon */
+    font-size: 20px;
   }
 
-  /* Mengubah warna tombol saat dihover */
   .swiper-button-next:hover,
   .swiper-button-prev:hover {
     color: white;
   }
 
-  /* Menyesuaikan ukuran ikon dalam tombol */
   .swiper-button-next::after,
   .swiper-button-prev::after {
-    font-size: 30px; /* Mengubah ukuran ikon panah */
+    font-size: 30px;
   }
 
   @keyframes fadeInMove {
   from {
     opacity: 0;
-    transform: translate(-50%, -100%); /* Bergerak dari atas */
+    transform: translate(-50%, -100%);
   }
   to {
     opacity: 1;
-    transform: translate(-50%, -50%); /* Posisi akhir (pusat) */
+    transform: translate(-50%, -50%);
   }
   }
-
 
 .swiper-slide {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative; /* Tambahkan posisi relatif untuk overlay */
+  position: relative;
 }
 
 .swiper-slide .overlay {
@@ -88,9 +88,9 @@
   width: 100%;
   height: 100%;
   filter: blur(10px);
-  background-color: rgba(0, 0, 0, 0.6); /* Overlay hitam dengan opacity 40% */
-  z-index: 1; /* Pastikan overlay berada di atas gambar slider */
-  display: block; /* Overlay aktif di awal */
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+  display: block;
 }
 
   .animated-text {
@@ -100,14 +100,14 @@
     transform: translate(-50%, -50%);
     font-size: 3vw;
     font-family: 'Marcellus', serif;
-    z-index: 2; /* Pastikan teks berada di atas overlay */
+    z-index: 2;
     text-align: center;
     width: 80%;
     color: white;
-    animation: fadeInMove 2s ease-in-out; /* Memperkenalkan animasi */
-    opacity: 0; /* Memastikan teks tidak terlihat sebelum animasi dimulai */
-    animation-fill-mode: forwards; /* Memastikan animasi tetap di akhir posisi */
-    display: block; /* Running teks aktif di awal */
+    animation: fadeInMove 2s ease-in-out;
+    opacity: 0;
+    animation-fill-mode: forwards;
+    display: block;
   }
 
   .container {
@@ -122,26 +122,25 @@
     transform: scale(1.1);
   }
 
-/* Styles for Swiper Pagination */
-
 .swiper-berita-pagination {
   display: flex;
-  justify-content: center; /* Center pagination bullets */
-  padding-top: 10px; /* Space between slides and pagination */
+  justify-content: center;
+  padding-top: 10px;
 }
 
 .swiper-berita-pagination-bullet {
-  width: 12px;
+  width: 15px;
   aspect-ratio: 1/1; 
-  border: 2px solid #16A34A; /* Border hijau */
-  border-radius: 50%; /* Make bullets circular */
-  margin: 0 5px; /* Space between bullets */
-  cursor: pointer; /* Pointer cursor on hover */
-  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  border: 2px solid #16A34A; 
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s; 
+  flex-shrink: 0;
 }
 
 .swiper-berita-pagination-bullet-active {
-  background-color: #16A34A; 
+  background-color: #16A34A;
 }
 
 .swiper-berita-pagination-bullet:hover {
@@ -152,12 +151,12 @@
 .swiper-flyers-button-next,
 .swiper-flyers-button-prev {
   position: absolute;
-  top: 50%; /* Posisikan di tengah vertikal */
-  transform: translateY(-50%); /* Pastikan tombol berada tepat di tengah */
-  z-index: 10; /* Pastikan tombol berada di atas konten lain */
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
   cursor: pointer;
   color: #00b812;
-  height: 110%; /* Tinggi tombol */
+  height: 110%;
   width: 80px;
   display: flex;
   align-items: center;
@@ -166,25 +165,25 @@
 
 .swiper-flyers-button-next span,
 .swiper-flyers-button-prev span {
-  font-size: 5em; /* Ukuran ikon chevron */
+  font-size: 5em;
 }
 
 .swiper-flyers-button-next {
-  background: linear-gradient(to left, white, rgba(255, 255, 255, 0));  
-  right: 0px; 
+  background: linear-gradient(to left, white, rgba(255, 255, 255, 0));
+  right: 0px;
 }
 
-.swiper-flyers-button-prev {  
-  background: linear-gradient(to right, white, rgba(255, 255, 255, 0));  
-  left: 0px; 
+.swiper-flyers-button-prev {
+  background: linear-gradient(to right, white, rgba(255, 255, 255, 0));
+  left: 0px;
 }
 
 .dark .swiper-flyers-button-next {
-  background: linear-gradient(to left, #374151, rgba(55, 65, 81, 0)); /* Warna abu-abu untuk dark mode */
+  background: linear-gradient(to left, #374151, rgba(55, 65, 81, 0));
 }
 
 .dark .swiper-flyers-button-prev {
-  background: linear-gradient(to right, #374151, rgba(55, 65, 81, 0)); /* Warna abu-abu untuk dark mode */
+  background: linear-gradient(to right, #374151, rgba(55, 65, 81, 0));
 }
 
 .swiper-flyers-button-next:hover,
@@ -196,7 +195,7 @@
   position: absolute;
   bottom: 10px;
   right: 10px;
-  z-index: 11; /* Pastikan tombol berada di atas pagination */
+  z-index: 11;
   background-color: #16A34A;
   color: white;
   border: none;
@@ -206,17 +205,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 1em; /* Ukuran ikon font */
+  font-size: 1em;
 }
 
 .toggle-button .fa-ban {
   position: absolute;
-  font-size: 1.5em; /* Perbesar ukuran ikon ban */
-  display: inline; /* Ikon ban aktif di awal */
+  font-size: 1.5em;
+  display: inline;
 }
 
 </style>
-<!-- Swiper Background -->
 
 {{ $runningText := .Site.Params.running_text }}
 {{ if $runningText }}
@@ -247,7 +245,7 @@
   <div class="swiper-button-next"></div>
   <div class="swiper-button-prev"></div>
   <div class="swiper-pagination"></div>
-  <button class="toggle-button" onclick="toggleOverlay()">
+  <button class="toggle-button" onclick="toggleOverlay()" aria-label="Toggle Text Visibility">
     <i class="fas fa-font"></i>
     <i class="fas fa-ban"></i>
   </button>
@@ -262,14 +260,14 @@
       spaceBetween: 30,
       centeredSlides: true,
       autoplay: {
-        delay: 4000, // Delay between slides
+        delay: 4000,
         disableOnInteraction: false,
       },
       effect: 'fade',
       fadeEffect: {
-        crossFade: true, // Enables cross-fading between slides
+        crossFade: true,
       },
-      speed: 2500, // Animation duration (in ms)
+      speed: 2500,
       loop: true,
       pagination: {
         el: ".swiper-pagination",
@@ -284,10 +282,9 @@
           // Reset animation
           const animatedTexts = document.querySelectorAll('.animated-text');
           animatedTexts.forEach((text) => {
-            text.style.animation = 'none'; // Reset animation
-            // Trigger reflow/restart of animation
+            text.style.animation = 'none';
             void text.offsetWidth;
-            text.style.animation = 'fadeInMove 2s ease-in-out forwards'; // Restart animation
+            text.style.animation = 'fadeInMove 2s ease-in-out forwards';
           });
         },
       },
@@ -321,35 +318,12 @@
   }
 </script>
 
-<script>
-  function scrollRight() {
-    const container = document.querySelector('.scroll-content');
-    const scrollAmount = 100;
-    container.scrollBy({ left: scrollAmount, behavior: 'smooth' });
-
-
-    if (container.scrollLeft + container.clientWidth >= container.scrollWidth) {
-      container.scrollTo({ left: 0, behavior: 'auto' });
-    }
-  }
-
-  function startAutoScroll() {
-    scrollRight();
-    setInterval(scrollRight, 1000);
-  }
-
-  window.onload = function() {
-    startAutoScroll();
-  };
-</script>
-
 <div class="wrapper fade-in" id="animateMe" data-aos="fade-up" data-aos-duration="1500">
   <!-- Berita Section -->
   <div class="berita bg-customGreen bg-opacity-10 my-3 mx-2 rounded-xl dark:bg-gray-700">
     {{ $frontBundle := .Site.Params.frontBundle | default "berita" | lower }}
     <h2 class="text-2xl font-bold py-5 text-center text-customGreen">{{ $frontBundle | title }}</h2>
     
-    <!-- Swiper Berita Section -->
     <div class="swiper swiper-berita min-h-72 mx-auto">
       <div class="swiper-wrapper pb-4">
         {{ range first 10 (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle) }}
@@ -372,13 +346,12 @@
     {{ end }}
   </div>
 
-<!-- Initialize Swiper for Berita Section -->
 <script>
 document.addEventListener('DOMContentLoaded', (event) => {
     var beritaSwiper = new Swiper(".swiper-berita", {
-        slidesPerView: 1.2, // Pastikan hanya slide di tengah terlihat penuh, sisanya sebagian
-        spaceBetween: 30, // Jarak antar slide
-        centeredSlides: true, // Slide di tengah akan menjadi fokus
+        slidesPerView: 1.2,
+        spaceBetween: 30,
+        centeredSlides: true,
         loop: true,
         autoplay: {
             delay: 3000,
@@ -393,14 +366,14 @@ document.addEventListener('DOMContentLoaded', (event) => {
         },
         breakpoints: {
             640: {
-                slidesPerView: 1.1, // Slide lebih besar di layar kecil
+                slidesPerView: 1.1,
             },
             768: {
-                slidesPerView: 1.2, // Slide lebih besar di tablet
+                slidesPerView: 1.2,
                 spaceBetween: 25,
             },
             1024: {
-                slidesPerView: 1.5, // Slide lebih besar di layar desktop
+                slidesPerView: 1.5,
                 spaceBetween: 30,
             },
         }
@@ -415,29 +388,27 @@ document.addEventListener('DOMContentLoaded', (event) => {
 .swiper-agenda-pagination {
     position: absolute;
     top: 50%;
-    right: 10px; /* Letakkan di sebelah kanan */
+    right: 10px;
     transform: translateY(-50%);
     display: flex;
     flex-direction: column;
-    gap: 5px; /* Jarak antar bullet */
+    gap: 5px;
 }
 
-/* Gaya bullet pagination */
 .swiper-agenda-pagination .swiper-pagination-bullet {
     width: 12px;
     height: 12px;
-    border: 2px solid #16A34A; /* Border hijau */
-    background-color: transparent; /* Hapus warna background default */
-    opacity: 1; /* Pastikan bullet terlihat sepenuhnya */
+    border: 2px solid #16A34A;
+    background-color: transparent;
+    opacity: 1;
     border-radius: 50%;
-    transition: background-color 0.3s, transform 0.3s; /* Tambahkan animasi opsional */
+    transition: background-color 0.3s, transform 0.3s;
 }
 
-/* Gaya saat bullet aktif */
 .swiper-agenda-pagination .swiper-pagination-bullet-active {
-    background-color: #16A34A; /* Isi warna hijau */
-    transform: scale(1.2); /* Sedikit membesarkan bullet aktif */
-    opacity: 1; /* Pastikan tidak ada transparansi */
+    background-color: #16A34A;
+    transform: scale(1.2);
+    opacity: 1;
 }
 
 </style>
@@ -448,7 +419,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
 <div class="agenda w-full max-w-full my-3 mx-2 shadow rounded-xl bg-customGreen bg-opacity-10 dark:bg-gray-700">
   <h2 class="text-2xl font-bold pt-6 text-center text-customGreen mb-4" id="animateMe">Agenda</h2>
   <div class="swiper-container pl-2" style="display: flex; align-items: center; position: relative;">
-  <!-- Swiper Agenda Section -->
   <div class="swiper swiper-agenda p-5" style="height: 480px; width: 90%; margin-left: 1px; overflow: hidden; pointer-events: none;">
     <div class="swiper-wrapper">
       {{ range $agenda }}
@@ -463,10 +433,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             <hr style="border-top: 1px solid black; margin: 8px 0;">
             <div class="flex items-center mt-2 mb-2">
               <div class="flex-none w-3 h-3 mr-2">
-                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="w-full h-full">
-                  <path d="M21 10c0 6-9 13-9 13S3 16 3 10a9 9 0 1 1 18 0z"></path>
-                  <circle cx="12" cy="10" r="3"></circle>
-                </svg>
+                <i class="fas fa-map-marker-alt w-full h-full"></i>
               </div>
               <p style="font-size: 0.85em;">{{ .lokasi }}</p>
             </div>
@@ -482,21 +449,20 @@ document.addEventListener('DOMContentLoaded', (event) => {
 </div>
 {{ end }}
 
-
 <script>
 document.addEventListener('DOMContentLoaded', () => {
     var agendaSwiper = new Swiper(".swiper-agenda", {
-        direction: 'vertical', // Geser vertikal
-        slidesPerView: 2, 
-        spaceBetween: 20, // Jarak antar slide
+        direction: 'vertical',
+        slidesPerView: 2,
+        spaceBetween: 20,
         loop: false,
         autoplay: {
-            delay: 4000, // Waktu antar pergeseran slide
+            delay: 4000,
             disableOnInteraction: false,
         },
-        speed: 1000, // Kecepatan transisi
+        speed: 1000,
         pagination: {
-            el: ".swiper-agenda-pagination", // Element untuk pagination
+            el: ".swiper-agenda-pagination",
             clickable: true,
         },
     });
@@ -508,10 +474,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 <style>
 .agenda-item {
-  height: 150px; /* Tinggi masing-masing item */
+  height: 150px;
 }
 
-/* Wrapper untuk Berita dan Agenda */
 .wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -531,11 +496,15 @@ document.addEventListener('DOMContentLoaded', () => {
 .gallery {
   flex: 0 0 45%; 
   max-width: 45%;
+  padding-right: 6px;
+  padding-left: 6px;
 }
 
 .video {
   flex: 0 0 45%; 
   max-width: 45%;
+  padding-right: 6px;
+  padding-left: 6px;
 }
 
 
@@ -560,22 +529,21 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 }
 
-
 @media screen and (max-width: 800px) {
   .berita {
-    flex: 0 0 95%; /* Ambil seluruh lebar */
+    flex: 0 0 95%;
     padding-right: 12px;
     max-width: 95%;
   }
   .agenda {
-    flex: 0 0 95%; /* Ambil seluruh lebar */
+    flex: 0 0 95%;
     padding-right: 12px;
     padding-bottom: 24px;
     max-width: 95%;
     justify-content: center;
   }
   .gallery {
-    flex: 0 0 90%; /* Ambil seluruh lebar */
+    flex: 0 0 90%;
     padding-right: 12px;
     padding-left: 12px;
     padding-bottom: 24px;
@@ -583,7 +551,7 @@ document.addEventListener('DOMContentLoaded', () => {
     justify-content: center;
   }
   .video {
-    flex: 0 0 90%; /* Ambil seluruh lebar */
+    flex: 0 0 90%;
     padding-right: 12px;
     padding-left: 12px;
     padding-bottom: 24px;
@@ -609,20 +577,17 @@ document.addEventListener('DOMContentLoaded', () => {
 }
 </style>
 
-
 <script>
   function getCurrentDate(day) {
     const today = new Date();
     const dayIndex = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"].indexOf(day);
     const currentDayIndex = today.getDay();
 
-    // Menghitung awal minggu (hari Minggu di minggu ini)
     const startOfWeek = today.getDate() - currentDayIndex;
     
     // Tentukan offset: jika hari yang diinginkan sudah lewat, tambahkan 7 hari untuk minggu depan
     const dayOffset = (dayIndex < currentDayIndex) ? 7 : 0;
 
-    // Hitung tanggal untuk hari yang diinginkan, mungkin minggu depan jika hari sudah lewat
     const dateForDay = new Date(today.setDate(startOfWeek + dayIndex + dayOffset));
     
     return dateForDay.getDate();
@@ -642,7 +607,6 @@ document.addEventListener('DOMContentLoaded', () => {
     {{ $frontBundle2 := .Site.Params.frontBundle2 | default "Flyers" | lower }}
     <h2 class="text-2xl font-bold py-5 text-center text-customGreen">{{ $frontBundle2 | title }}</h2>
 
-    <!-- Swiper Flyers Section -->
       <div class="swiper swiper-flyers min-h-72 mx-auto">
         <div class="swiper-wrapper pb-4">
         {{ range (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle2) }}
@@ -651,11 +615,9 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
           {{ end }}
         </div>
-        <!-- Swiper next button with chevron-right -->
         <div class="swiper-flyers-button-next">
           <span class="material-icons">chevron_right</span>
         </div>
-        <!-- Swiper previous button with chevron-left -->
         <div class="swiper-flyers-button-prev">
           <span class="material-icons">chevron_left</span>
         </div>
@@ -734,7 +696,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
   {{ $frontBundle3 := .Site.Params.frontBundle3 | default "gallery kegiatan" | lower }}
   <h2 class="text-2xl font-bold py-5 text-center text-white">Gallery Kegiatan</h2>
 
-  <!-- Swiper Gallery Section -->
   <div class="swiper swiper-gallery min-h-72 mx-auto">
     <div class="swiper-wrapper pb-4">
       {{ range (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle3) }}
@@ -752,7 +713,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
     {{ $frontBundle4 := .Site.Params.frontBundle4 | default "Video" | lower }}
     <h2 class="text-2xl font-bold py-5 text-center text-white">{{ $frontBundle4 | title }}</h2>
 
-    <!-- Swiper Video Section -->
     <div class="swiper swiper-video min-h-72 mx-auto">
       <div class="swiper-wrapper pb-4">
         {{ range (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle4) }}
@@ -767,35 +727,33 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 <script>
   document.addEventListener("DOMContentLoaded", function () {
-    // Swiper for Gallery Section
     new Swiper(".swiper-gallery", {
-      slidesPerView: 2, // Tampilkan 2 slide per baris
+      slidesPerView: 2,
       spaceBetween: 10,
       grid: {
-        rows: 2, // 2 baris
-        fill: "row", // Urutan pengisian baris
+        rows: 2,
+        fill: "row",
       },
       breakpoints: {
         640: {
-          slidesPerView: 2, // Pada layar kecil, 1 slide per baris
+          slidesPerView: 2,
           grid: {
-            rows: 2, // 1 baris saja
+            rows: 2,
           },
         },
         1024: {
           slidesPerView: 2,
           grid: {
-            rows: 2, // 2 baris pada layar besar
+            rows: 2,
           },
         },
       },
       autoplay: {
-        delay: 6000, // Set auto slide every 6 seconds
-        disableOnInteraction: false, // Keep autoplay working even when user interacts
+        delay: 6000,
+        disableOnInteraction: false,
       },
     });
 
-    // Swiper for Video Section (jika diperlukan)
     new Swiper(".swiper-video", {
       slidesPerView: 2,
       spaceBetween: 10,
@@ -818,8 +776,8 @@ document.addEventListener('DOMContentLoaded', (event) => {
         },
       },
       autoplay: {
-        delay: 6000, // Set auto slide every 6 seconds
-        disableOnInteraction: false, // Keep autoplay working even when user interacts
+        delay: 6000,
+        disableOnInteraction: false,
       },
     });
   });
@@ -832,7 +790,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
   <div class="link-terkait bg-customGreen bg-opacity-20 my-3 dark:bg-gray-700 p-6 rounded-xl w-full">
     {{ $frontBundle5 := .Site.Params.frontBundle5 | default "Link Terkait" | lower }}
 
-    <!-- Swiper Link Terkait Section -->
     <div class="swiper swiper-link-terkait min-h-72 mx-auto">
       <div class="swiper-wrapper pb-4">
         {{ range (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle5) }}
@@ -841,7 +798,6 @@ document.addEventListener('DOMContentLoaded', (event) => {
           </div>
         {{ end }}
       </div>
-      <!-- Swiper pagination -->
       <div class="swiper-pagination-link-terkait"></div>
     </div>
   </div>
@@ -851,23 +807,23 @@ document.addEventListener('DOMContentLoaded', (event) => {
   .swiper-pagination-link-terkait {
     display: flex;
     justify-content: center;
-    gap: 20px; /* Menambahkan jarak antar pagination */
+    gap: 20px;
   }
   .swiper-pagination-link-terkait .swiper-pagination-bullet {
     width: 20px;
     height: 20px;
     opacity: 1;
-    border: 2px solid white; /* Mengubah warna border menjadi putih */
+    border: 2px solid white;
     border-radius: 50%;
-    background-color: transparent; /* Mengubah warna background menjadi transparan */
+    background-color: transparent;
   }
   .swiper-pagination-link-terkait .swiper-pagination-bullet-active {
-    background-color: white; /* Warna putih untuk yang aktif */
+    background-color: white;
   }
 
   @media (max-width: 768px) {
     .swiper-pagination-link-terkait {
-      gap: 10px; /* Kurangi jarak antar pagination untuk layar kecil */
+      gap: 10px;
     }
     .swiper-pagination-link-terkait .swiper-pagination-bullet {
       width: 15px;
@@ -877,7 +833,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
   @media (max-width: 480px) {
     .swiper-pagination-link-terkait {
-      gap: 5px; /* Kurangi jarak antar pagination lebih lanjut untuk layar sangat kecil */
+      gap: 5px;
     }
     .swiper-pagination-link-terkait .swiper-pagination-bullet {
       width: 10px;
@@ -940,14 +896,13 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 <div class="fade-in" id="animateMe" data-aos="fade-up" data-aos-duration="1500">
   <!-- Aplikasi Section -->
-<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center items-center max-w-full mx-auto px-4 md:px-8 lg:px-12"> <!-- Menambahkan grid responsif -->
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 justify-center items-center max-w-full mx-auto px-4 md:px-8 lg:px-12">
   <div class="text-center">
-    <h2 class="text-xl font-bold py-3 text-customGreen">Aplikasi Balitbang</h2> <!-- Memperkecil font -->
-    <hr class="border-t-4 border-customGreen w-2/3 mt-1 mx-auto"> <!-- Memperpendek hr -->
+    <h2 class="text-xl font-bold py-3 text-customGreen">Aplikasi Balitbang</h2>
+    <hr class="border-t-4 border-customGreen w-2/3 mt-1 mx-auto">
     <div class="aplikasi my-3 p-6 rounded-xl w-full mx-auto relative"> 
       {{ $frontBundle6 := .Site.Params.frontBundle6 | default "Aplikasi-Balitbang" | lower }}
-      <!-- Swiper Aplikasi Balitbang Section -->
-      <div class="swiper swiper-aplikasi h-60 mx-auto"> <!-- Mengurangi tinggi swiper -->
+      <div class="swiper swiper-aplikasi h-60 mx-auto">
         <div class="swiper-wrapper pb-4">
           {{ range (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle6) }}
             <div class="swiper-slide h-auto">
@@ -955,18 +910,16 @@ document.addEventListener('DOMContentLoaded', (event) => {
             </div>
           {{ end }}
         </div>
-        <!-- Swiper pagination -->
-        <div class="swiper-pagination-aplikasi absolute top-0 right-0"></div> <!-- Memindahkan pagination ke kanan -->
+        <div class="swiper-pagination-aplikasi absolute top-0 right-0"></div>
       </div>
     </div>
   </div>
   <div class="text-center">
-    <h2 class="text-xl font-bold py-3 text-customGreen">Aplikasi SPBE</h2> <!-- Memperkecil font -->
-    <hr class="border-t-4 border-customGreen w-2/3 mt-1 mx-auto"> <!-- Memperpendek hr -->
-    <div class="aplikasi my-3 p-6 rounded-xl w-full mx-auto relative"> <!-- Menghapus kotak biru -->
+    <h2 class="text-xl font-bold py-3 text-customGreen">Aplikasi SPBE</h2>
+    <hr class="border-t-4 border-customGreen w-2/3 mt-1 mx-auto">
+    <div class="aplikasi my-3 p-6 rounded-xl w-full mx-auto relative">
       {{ $frontBundle7 := .Site.Params.frontBundle7 | default "Aplikasi-SPBE" | lower }}
-      <!-- Swiper Aplikasi SPBE Section -->
-      <div class="swiper swiper-aplikasi h-60 mx-auto"> <!-- Mengurangi tinggi swiper -->
+      <div class="swiper swiper-aplikasi h-60 mx-auto">
         <div class="swiper-wrapper pb-4">
           {{ range (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle7) }}
             <div class="swiper-slide h-auto">
@@ -974,18 +927,16 @@ document.addEventListener('DOMContentLoaded', (event) => {
             </div>
           {{ end }}
         </div>
-        <!-- Swiper pagination -->
-        <div class="swiper-pagination-aplikasi absolute top-0 right-0"></div> <!-- Memindahkan pagination ke kanan -->
+        <div class="swiper-pagination-aplikasi absolute top-0 right-0"></div>
       </div>
     </div>
   </div>
   <div class="text-center">
-    <h2 class="text-xl font-bold py-3 text-customGreen">Aplikasi Data Kalbar</h2> <!-- Memperkecil font -->
-    <hr class="border-t-4 border-customGreen w-2/3 mt-1 mx-auto"> <!-- Memperpendek hr -->
-    <div class="aplikasi my-3 p-6 rounded-xl w-full mx-auto relative"> <!-- Menghapus kotak biru -->
+    <h2 class="text-xl font-bold py-3 text-customGreen">Aplikasi Data Kalbar</h2>
+    <hr class="border-t-4 border-customGreen w-2/3 mt-1 mx-auto">
+    <div class="aplikasi my-3 p-6 rounded-xl w-full mx-auto relative">
       {{ $frontBundle8 := .Site.Params.frontBundle8 | default "Aplikasi-Data-Kalbar" | lower }}
-      <!-- Swiper Aplikasi Data Kalbar Section -->
-      <div class="swiper swiper-aplikasi h-60 mx-auto"> <!-- Mengurangi tinggi swiper -->
+      <div class="swiper swiper-aplikasi h-60 mx-auto">
         <div class="swiper-wrapper pb-4">
           {{ range (where .Site.RegularPages.ByDate.Reverse "Type" $frontBundle8) }}
             <div class="swiper-slide h-auto">
@@ -993,8 +944,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
             </div>
           {{ end }}
         </div>
-        <!-- Swiper pagination -->
-        <div class="swiper-pagination-aplikasi absolute top-0 right-0"></div> <!-- Memindahkan pagination ke kanan -->
+        <div class="swiper-pagination-aplikasi absolute top-0 right-0"></div>
       </div>
     </div>
   </div>
@@ -1003,29 +953,29 @@ document.addEventListener('DOMContentLoaded', (event) => {
 <style>
   .swiper-pagination-aplikasi {
     display: flex;
-    flex-direction: column; /* Mengatur pagination menjadi vertikal */
+    flex-direction: column;
     justify-content: center;
-    gap: 5px; /* Mengurangi jarak antar pagination */
-    z-index: 10; /* Menempatkan pagination di atas blog card */
-    right: 0px; /* Menambahkan jarak ke kanan dari swiper */
+    gap: 5px;
+    z-index: 10;
+    right: 0px;
   }
   .swiper-pagination-aplikasi .swiper-pagination-bullet {
-    width: 15px; /* Memperbesar sedikit ukuran pagination */
-    height: 15px; /* Memperbesar sedikit ukuran pagination */
+    width: 15px;
+    height: 15px;
     opacity: 1;
-    border: 2px solid #2f855a; /* Mengubah warna border menjadi customGreen */
+    border: 2px solid #2f855a;
     border-radius: 50%;
-    background-color: transparent; /* Mengubah warna background menjadi transparan */
+    background-color: transparent;
   }
   .swiper-pagination-aplikasi .swiper-pagination-bullet-active {
-    background-color: #2f855a; /* Warna customGreen untuk yang aktif */
+    background-color: #2f855a;
   }
 </style>
 
 <script>
 document.addEventListener('DOMContentLoaded', (event) => {
     var aplikasiSwiper = new Swiper(".swiper-aplikasi", {
-    direction: 'vertical', // Mengubah arah slide menjadi vertikal
+    direction: 'vertical',
     slidesPerView: 1,
     spaceBetween: 10,
     slidesPerGroup: 1,
