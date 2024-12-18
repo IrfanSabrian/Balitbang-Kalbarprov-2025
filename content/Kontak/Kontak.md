@@ -2,6 +2,7 @@
 author: sekret.bppkb
 title: "Kontak"
 date: 2024-08-06 07:41:15
+layout: "non-dokumen/single"
 ---
 
 <div style="display: flex; gap: 2rem; font-family: 'Poppins', sans-serif; flex-direction: column; padding: 0 1rem;">

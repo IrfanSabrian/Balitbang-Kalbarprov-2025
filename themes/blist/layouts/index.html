@@ -149,36 +149,6 @@
   opacity: 0.2;
 }
 
-/* Posisi pagination di kanan dan vertikal */
-.swiper-agenda-pagination {
-    position: absolute;
-    top: 50%;
-    right: 10px; /* Letakkan di sebelah kanan */
-    transform: translateY(-50%);
-    display: flex;
-    flex-direction: column;
-    gap: 5px; /* Jarak antar bullet */
-}
-
-/* Gaya bullet pagination */
-.swiper-agenda-pagination .swiper-pagination-bullet {
-    width: 12px;
-    height: 12px;
-    border: 2px solid #16A34A; /* Border hijau */
-    background-color: transparent; /* Hapus warna background default */
-    opacity: 1; /* Pastikan bullet terlihat sepenuhnya */
-    border-radius: 50%;
-    transition: background-color 0.3s, transform 0.3s; /* Tambahkan animasi opsional */
-}
-
-/* Gaya saat bullet aktif */
-.swiper-agenda-pagination .swiper-pagination-bullet-active {
-    background-color: #16A34A; /* Isi warna hijau */
-    transform: scale(1.2); /* Sedikit membesarkan bullet aktif */
-    opacity: 1; /* Pastikan tidak ada transparansi */
-}
-
-
 .swiper-flyers-button-next,
 .swiper-flyers-button-prev {
   position: absolute;
@@ -439,6 +409,39 @@ document.addEventListener('DOMContentLoaded', (event) => {
 
 </script>
 
+<style>
+  
+/* Posisi pagination di kanan dan vertikal */
+.swiper-agenda-pagination {
+    position: absolute;
+    top: 50%;
+    right: 10px; /* Letakkan di sebelah kanan */
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Jarak antar bullet */
+}
+
+/* Gaya bullet pagination */
+.swiper-agenda-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    border: 2px solid #16A34A; /* Border hijau */
+    background-color: transparent; /* Hapus warna background default */
+    opacity: 1; /* Pastikan bullet terlihat sepenuhnya */
+    border-radius: 50%;
+    transition: background-color 0.3s, transform 0.3s; /* Tambahkan animasi opsional */
+}
+
+/* Gaya saat bullet aktif */
+.swiper-agenda-pagination .swiper-pagination-bullet-active {
+    background-color: #16A34A; /* Isi warna hijau */
+    transform: scale(1.2); /* Sedikit membesarkan bullet aktif */
+    opacity: 1; /* Pastikan tidak ada transparansi */
+}
+
+</style>
+
 <!-- Agenda Section -->
 {{ $agenda := .Site.Params.agenda }}
 {{ if $agenda }}
@@ -565,10 +568,10 @@ document.addEventListener('DOMContentLoaded', () => {
     max-width: 95%;
   }
   .agenda {
-    flex: 0 0 80%; /* Ambil seluruh lebar */
+    flex: 0 0 95%; /* Ambil seluruh lebar */
     padding-right: 12px;
     padding-bottom: 24px;
-    max-width: 80%;
+    max-width: 95%;
     justify-content: center;
   }
   .gallery {

@@ -24,9 +24,9 @@ date: 2024-08-01 04:48:56
     <div>
       <div class="text-center text-customGreen dark:text-customGreenDark font-bold text-3xl">Bagaimana cara menyampaikan permohonan</br>Konsultasi/Audiensi/Bimtek (bagi individu/Instansi)?</div>
       <p style="font-family: 'Poppins', sans-serif; font-size: 16px; text-align: justify; line-height: 1.5;" class="text-center text-gray-600 dark:text-gray-300">Membuat surat permohonan berisi identitas tamu/instansi, jumlah peserta kunjungan, maksud dan tujuan, serta jadwal kunjungan. Dimohon untuk mencantumkan nomor kontak yang dapat dihubungi.</p>
-      <ul style="color: #666666; font-family: 'Poppins', sans-serif; font-size: 16px; text-align: justify; line-height: 1.5;">
-        <li>Jadwal Konsultasi/Penerimaan Tamu dari hari Senin s/d Jumat</li>
-        <li>pukul 08.30 - 15.30 WIB</li>
+      <ul style="font-family: 'Poppins', sans-serif; font-size: 16px; text-align: justify; line-height: 1.5;">
+        <li class="text-gray-600 dark:text-gray-300">Jadwal Konsultasi/Penerimaan Tamu dari hari Senin s/d Jumat</li>
+        <li class="text-gray-600 dark:text-gray-300">pukul 08.30 - 15.30 WIB</li>
       </ul>
     </div>
   </div>
@@ -34,9 +34,9 @@ date: 2024-08-01 04:48:56
   <div style="flex: 1 1 calc(50% - 20px); margin-bottom: 20px; padding: 20px; border: 1px solid #2f855a; border-radius: 10px; display: flex; justify-content: center; align-items: center;" class="bg-gray-100 dark:bg-gray-800">
     <div>
       <div class="text-center text-customGreen dark:text-customGreenDark font-bold text-3xl">Apa itu Khatulistiwa One Map?</div>
-      <ul style="color: #666666; font-family: 'Poppins', sans-serif; font-size: 16px; text-align: justify; line-height: 1.5;">
-        <li>Khatulistiwa One Map atau yang disebut KOM, adalah aplikasi Program Pelayanan Informasi Kelitbangan Berbasis Data Geospasial yang dalam proses pengembangannya merupakan hasil sinergitas Ekosistem Inovasi berbentuk "TRIPLE HELIX" yang bertujuan untuk memberikan pelayanan data dan informasi kelitbangan terkait dengan data kewilayahan adalah dengan mengembangkan program aplikasi sistem informasi geografis yang terkini dan cepat berbasis data dan informasi Geospasial Provinsi Kalimantan Barat.</li>
-        <li>KOM ini dapat diakses melalui <a style="color: #ab8b64; text-decoration: none;" href="https://kom-litbang.kalbarprov.go.id/BALITBANG-KOM/Home">https://kom-litbang.kalbarprov.go.id/BALITBANG-KOM/Home</a>.</li>
+      <ul style="font-family: 'Poppins', sans-serif; font-size: 16px; text-align: justify; line-height: 1.5;">
+        <li class="text-gray-600 dark:text-gray-300">Khatulistiwa One Map atau yang disebut KOM, adalah aplikasi Program Pelayanan Informasi Kelitbangan Berbasis Data Geospasial yang dalam proses pengembangannya merupakan hasil sinergitas Ekosistem Inovasi berbentuk "TRIPLE HELIX" yang bertujuan untuk memberikan pelayanan data dan informasi kelitbangan terkait dengan data kewilayahan adalah dengan mengembangkan program aplikasi sistem informasi geografis yang terkini dan cepat berbasis data dan informasi Geospasial Provinsi Kalimantan Barat.</li>
+        <li class="text-gray-600 dark:text-gray-300">KOM ini dapat diakses melalui <a style="color: #ab8b64; text-decoration: none;" href="https://kom-litbang.kalbarprov.go.id/BALITBANG-KOM/Home">https://kom-litbang.kalbarprov.go.id/BALITBANG-KOM/Home</a>.</li>
       </ul>
     </div>
   </div>

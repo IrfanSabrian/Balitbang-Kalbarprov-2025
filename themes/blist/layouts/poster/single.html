@@ -1,0 +1,158 @@
+{{ define "main" }}
+  {{ $lastmodstr := (partial "date.html" (dict "date" .Lastmod "language" $.Page.Language "format" "long")) }}
+  {{ $datestr := (partial "date.html" (dict "date" .Date "language" $.Page.Language "format" "long")) }}
+
+  {{ if or (not .Params.thumbnail) (and (not .Site.Params.hidePageThumbnail) (not .Params.hidePageThumbnail)) }}
+  {{/*  <h1 class="text-3xl font-bold mb-4 mt-2 text-center">{{ .Title }}</h1>  */}}
+ 
+  {{ else }}
+  <div class="relative max-w-7xl mx-auto px-4">
+    <img src="{{ .Params.thumbnail }}" class="rounded-lg shadow-sm w-full object-contain" />
+  </div>  
+  {{ end }}
+
+  <article class="prose lg:prose-lg mx-auto py-8 px-4 text-black max-w-7xl">
+    {{ if not .Params.images }}
+    <div class="text-2xl font-bold text-center text-customGreen">{{ .Title }}</div>
+    <div class="container mx-auto px-6">
+      <div class="w-1/4 h-1 bg-customGreen mx-auto mt-4 mb-12"></div>
+    </div>
+    {{ end }}
+
+    <div class="container p-6 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8" id="announcement-list"></div>
+    <script>
+        const announcementContainer = document.getElementById('announcement-list');
+        const items = JSON.parse('{{ .Params.items | jsonify }}');
+        
+        items.forEach(item => {
+            const div = document.createElement('div');
+            div.className = 'group relative overflow-hidden rounded-lg shadow-md transition duration-500 ease-in-out cursor-pointer';
+            div.style.width = 'auto';
+            div.style.height = '55vh';
+            div.style.padding = '0';
+            div.style.margin = '0';
+            div.innerHTML = `
+                <img src="${item.thumbnail}" alt="${item.title}" class="rounded-lg shadow-sm object-cover transform group-hover:scale-105 transition duration-500 ease-in-out h-full" style="width: 100%; height: 100%; margin: 0; padding: 0;"/>
+                <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out flex flex-col justify-center items-center text-white">
+                    <div class="text-base font-semibold mb-2 p-8 text-center">${item.title}</div>
+                    <div class="text-sm">${item.date}</div>
+                </div>
+            `;
+            div.addEventListener('click', () => {
+                Fancybox.show(
+                    item.images.map((src) => ({
+                        src: src,
+                        type: 'image',
+                        options: {
+                            Toolbar: {
+                                display: ["slideshow", "fullscreen", "close"],
+                            },
+                            Image: {
+                                zoom: false,
+                            },
+                            transitionEffect: "fade",
+                        }
+                    }))
+                );
+            });
+            announcementContainer.appendChild(div);
+        });
+    </script>
+
+    <div class="flex justify-center mt-4" id="pagination"></div>
+    <style>
+    @media (max-width: 768px) {
+        #announcement-list {
+            justify-content: space-around;
+        }
+    }
+    .pagination-button {
+        margin: 0 5px;
+        padding: 8px 12px;
+        border: 1px solid #2F855A;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s, color 0.3s;
+        color: #2F855A;
+    }
+    .pagination-button:hover {
+        background-color: #2F855A;
+        color: white;
+    }
+    .pagination-button.active {
+        background-color: #2F855A;
+        color: white;
+    }
+    .pagination-ellipsis {
+        margin: 0 5px;
+        padding: 8px 12px;
+        color: #2F855A;
+    }
+    </style>
+
+    <script>
+        const paginationContainer = document.getElementById('pagination');
+        const itemsPerPage = 12;
+        let currentPage = 1;
+
+        function renderPagination(totalItems) {
+            paginationContainer.innerHTML = '';
+            const totalPages = Math.ceil(totalItems / itemsPerPage);
+            const maxPagesToShow = 6;
+            const halfMaxPagesToShow = Math.floor(maxPagesToShow / 2);
+
+            let startPage = Math.max(1, currentPage - halfMaxPagesToShow);
+            let endPage = Math.min(totalPages, currentPage + halfMaxPagesToShow);
+
+            if (currentPage <= halfMaxPagesToShow) {
+                endPage = Math.min(totalPages, maxPagesToShow);
+            } else if (currentPage + halfMaxPagesToShow >= totalPages) {
+                startPage = Math.max(1, totalPages - maxPagesToShow + 1);
+            }
+
+            if (startPage > 1) {
+                paginationContainer.appendChild(createPaginationButton(1));
+                if (startPage > 2) {
+                    paginationContainer.appendChild(createEllipsis());
+                }
+            }
+
+            for (let i = startPage; i <= endPage; i++) {
+                paginationContainer.appendChild(createPaginationButton(i));
+            }
+
+            if (endPage < totalPages) {
+                if (endPage < totalPages - 1) {
+                    paginationContainer.appendChild(createEllipsis());
+                }
+                paginationContainer.appendChild(createPaginationButton(totalPages));
+            }
+        }
+
+        function createPaginationButton(page) {
+            const button = document.createElement('button');
+            button.className = `pagination-button ${page === currentPage ? 'active' : ''}`;
+            button.textContent = page;
+            button.addEventListener('click', () => {
+                currentPage = page;
+                renderItems(items);
+                window.scrollTo(0, 0);
+            });
+            return button;
+        }
+
+        function createEllipsis() {
+            const ellipsis = document.createElement('span');
+            ellipsis.className = 'pagination-ellipsis';
+            ellipsis.textContent = '...';
+            return ellipsis;
+        }
+
+        renderPagination(items.length);
+    </script>
+  </article>
+
+  {{- partial "comments.html" . -}}
+
+  {{- partial "intro.html" . -}}
+{{ end }}

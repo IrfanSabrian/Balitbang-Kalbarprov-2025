@@ -2,6 +2,7 @@
 author: sekret.bppkb
 title: "Rekap Pelayanan"
 date: 2024-03-07 01:17:45
+type: blank
 ---
 
 <h1 class="MsoNormal" style="margin-bottom: 0cm; margin-left: 5px; margin-right: 20px;"><span style="font-size: 30pt; font-family: 'Poppins', sans-serif;"><span style="color: #03A055;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Rekap</br>Pelayanan</span></span></span></span></span></span></span></span></span></span></span></span></span></span></h1>

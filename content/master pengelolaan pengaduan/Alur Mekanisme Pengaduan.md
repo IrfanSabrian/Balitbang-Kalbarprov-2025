@@ -2,6 +2,7 @@
 author: sekret.bppkb
 title: "Alur Mekanisme Pengaduan"
 date: 2024-08-27 01:49:15
+type: blank
 ---
 <p style="line-height: 1.1;"><img src="/images/HSPNnB2otzMqZjQZap39.png" width="594" height="641" alt="" /></p>
 

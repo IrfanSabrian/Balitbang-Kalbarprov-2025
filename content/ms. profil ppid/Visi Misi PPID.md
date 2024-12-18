@@ -2,7 +2,7 @@
 author: sekret.bppkb
 title: "Visi Misi PPID"
 date: 2024-08-01 04:39:03
-layout: master-profil-badan/single
+type: blank
 ---
 <h1 class="MsoNormal" style="margin-bottom: 0cm;"><span style="font-size: 25pt; font-family: 'Poppins', sans-serif;"><span style="color: #03A055;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Visi PPID</span></span></span></span></span></span></span></span></span></span></span></span></span></h1>
 

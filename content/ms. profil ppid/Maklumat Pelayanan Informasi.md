@@ -2,6 +2,7 @@
 author: sekret.bppkb
 title: "Maklumat Pelayanan Informasi"
 date: 2024-09-06 01:58:44
+type: blank
 ---
 <div style="display: flex; flex-wrap: wrap; gap: 30px; width: 100%; margin-top: 40px;">
 

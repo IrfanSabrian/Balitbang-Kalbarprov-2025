@@ -2,6 +2,7 @@
 author: sekret.bppkb
 title: "Unit Kerja"
 date: 2024-09-19 00:43:59
+layout: "unit-kerja/single"
 ---
 <div style="display: flex; flex-wrap: wrap; gap: 30px; width: 100%; margin-top: 40px;">
 

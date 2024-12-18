@@ -17,7 +17,7 @@
       
       <div class="mb-2">
         <span class="text-base font-bold block">
-          {{ .Params.title }}
+          {{ .Params.title | truncate 100 "..." }}
         </span>
       </div>
 

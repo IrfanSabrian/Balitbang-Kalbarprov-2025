@@ -2,6 +2,7 @@
 author: sekret.bppkb
 title: "Pejabat Pengelola Pengaduan"
 date: 2024-08-01 02:03:58
+type: blank
 ---
 
 <h1 class="MsoNormal" style="margin-bottom: 0cm; margin-left: 20px; margin-right: 20px;"><span style="font-size: 30pt; font-family: 'Poppins', sans-serif;"><span style="color: #03A055;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Pejabat Pengelola</br>Pengaduan</span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></h1>

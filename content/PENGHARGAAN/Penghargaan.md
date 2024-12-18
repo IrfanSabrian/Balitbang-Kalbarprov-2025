@@ -2,69 +2,18 @@
 author: sekret.bppkb
 title: "Penghargaan"
 date: 2024-08-01 02:20:30
+type: poster
+items:
+  - title: "Penghargaan Keterbukaan Informasi"
+    thumbnail: "/images/wAAWy9HpXPSqJAMZWiRy.png"
+    date: "1 Agustus 2024"
+    images: ["/images/wAAWy9HpXPSqJAMZWiRy.png"]
+  - title: "Penghargaan Kerjasama"
+    thumbnail: "/images/jzQEFA6M7PVfxz28rkqF.png"
+    date: "1 Agustus 2024"
+    images: ["/images/jzQEFA6M7PVfxz28rkqF.png"]
+  - title: "Penghargaan Barang dan Jasa"
+    thumbnail: "/images/wW0VGcjJjTtQaTS3TL2B.png"
+    date: "1 Agustus 2024"
+    images: ["/images/wW0VGcjJjTtQaTS3TL2B.png"]
 ---
-
-<script>
-    const items = [
-        {
-            title: "Penghargaan Keterbukaan Informasi",
-            thumbnail: "/images/wAAWy9HpXPSqJAMZWiRy.png",
-            date: "1 Agustus 2024",
-            images: ["/images/wAAWy9HpXPSqJAMZWiRy.png"]
-        },
-        {
-            title: "Penghargaan Kerjasama",
-            thumbnail: "/images/jzQEFA6M7PVfxz28rkqF.png",
-            date: "1 Agustus 2024",
-            images: ["/images/jzQEFA6M7PVfxz28rkqF.png"]
-        },
-        {
-            title: "Penghargaan Barang dan Jasa",
-            thumbnail: "/images/wW0VGcjJjTtQaTS3TL2B.png",
-            date: "1 Agustus 2024",
-            images: ["/images/wW0VGcjJjTtQaTS3TL2B.png"]
-        }
-    ];
-</script>
-
-<div class="container p-6 mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-8" id="announcement-list"></div>
-
-<script>
-    const announcementContainer = document.getElementById('announcement-list');
-
-    items.forEach(item => {
-        const div = document.createElement('div');
-        div.className = 'group relative overflow-hidden rounded-lg shadow-md transition duration-500 ease-in-out cursor-pointer';
-        div.style.width = 'auto';
-        div.style.height = '55vh';
-        div.style.padding = '0'; 
-        div.style.margin = '0';  
-        div.innerHTML = `
-            <img src="${item.thumbnail}" alt="${item.title}" 
-                class="rounded-lg shadow-sm object-cover transform group-hover:scale-105 transition duration-500 ease-in-out h-full" 
-                style="width: 100%; height: 100%; margin: 0; padding: 0;"/>
-            <div class="absolute inset-0 bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition duration-500 ease-in-out flex flex-col justify-center items-center text-white">
-                <div class="text-base font-semibold mb-2 p-8 text-center">${item.title}</div>
-                <div class="text-sm">${item.date}</div>
-            </div>
-        `;
-        div.addEventListener('click', () => {
-            Fancybox.show(
-                item.images.map((src) => ({
-                    src: src,
-                    type: 'image',
-                    options: {
-                        Toolbar: {
-                            display: ["slideshow", "fullscreen", "close"],
-                        },
-                        Image: {
-                            zoom: false,
-                        },
-                        transitionEffect: "fade",
-                    }
-                }))
-            );
-        });
-        announcementContainer.appendChild(div);
-    });
-</script>

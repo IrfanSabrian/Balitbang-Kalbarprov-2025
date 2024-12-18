@@ -2,6 +2,7 @@
 author: sekret.bppkb
 title: "Tugas dan Fungsi"
 date: 2024-08-01 05:20:18
+type: blank
 ---
 <h1 class="MsoNormal" style="margin-bottom: 0cm; color: #03A055;"><span style="font-size: 25pt; font-family: 'Poppins', sans-serif;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;"><span style="vertical-align: inherit;">Tugas</br>Balitbang</span></span></span></span></span></span></span></span></span></span></span></span></span></span></h1>
 

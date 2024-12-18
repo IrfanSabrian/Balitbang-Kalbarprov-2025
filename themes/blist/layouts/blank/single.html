@@ -3,6 +3,7 @@
   {{ $datestr := (partial "date.html" (dict "date" .Date "language" $.Page.Language "format" "long")) }}
 
   {{ if or (not .Params.thumbnail) (and (not .Site.Params.hidePageThumbnail) (not .Params.hidePageThumbnail)) }}
+  {{/*  <h1 class="text-3xl font-bold mb-4 mt-2 text-center">{{ .Title }}</h1>  */}}
  
   {{ else }}
   <div class="relative max-w-7xl mx-auto px-4">
